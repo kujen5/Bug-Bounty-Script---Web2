@@ -31,15 +31,44 @@ else
     fi
 fi
 
-# 2. Installing recon tools
+#Installing recon tools
 echo "Checking / installing core recon tools..."
 
 # Define tools list
+
+# 3. Check/Download Wordlist
+#if [ ! -f "$WORDLIST" ]; then
+#    echo "[+] Downloading wordlist ($WORDLIST)..."
+#    wget -q "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/DNS/subdomains-top1million-110000.txt" -O "$WORDLIST"
+#fi
+
+# 4. Check/Download Resolvers
+#if [ ! -f "$RESOLVERS" ]; then
+#    echo "[+] Downloading resolvers..."
+#    wget -q https://raw.githubusercontent.com/trickest/resolvers/main/resolvers.txt -O resolvers.txt
+#fi
+
+#Installing MASSDNS
+if ! command -v massdns &> /dev/null; then
+    echo "[+] MassDNS not found. Installing..."
+    if [ -d "massdns" ]; then rm -rf massdns; fi
+    git clone https://github.com/blechschmidt/massdns.git
+    cd massdns
+    make
+    sudo make install
+    cd ..
+    rm -rf massdns
+    echo "[+] MassDNS installed."
+fi
+
 for tool in \
     "subfinder github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest" \
     "httpx     github.com/projectdiscovery/httpx/cmd/httpx@latest" \
     "nuclei    github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest" \
-    "ffuf      github.com/ffuf/ffuf/v2@latest"; do
+    "ffuf      github.com/ffuf/ffuf/v2@latest" \
+    "puredns github.com/d3mondev/puredns/v2@latest" \
+    "alterx github.com/projectdiscovery/alterx/cmd/alterx@latest" \
+    "anew github.com/tomnomnom/anew@latest"; do
 
     name=$(echo $tool | awk '{print $1}')
     repo=$(echo $tool | awk '{print $2}')
@@ -67,3 +96,84 @@ if command -v nuclei >/dev/null; then
     echo "Updating Nuclei templates..."
     nuclei -update-templates 2>/dev/null
 fi
+echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.bashrc
+source ~/.bashrc
+
+
+
+# Target scanning
+if [[ -z "$1" ]]; then
+  echo "No subdomain provided. Exiting"
+  exit 1
+fi
+
+
+#!/bin/bash
+
+# Usage: ./recon.sh example.com
+DOMAIN=$1
+WORDLIST="subdomains-top1million-110000.txt"
+RESOLVERS="resolvers.txt"
+
+if [ -z "$DOMAIN" ]; then
+    echo "Usage: ./recon.sh <domain>"
+    exit 1
+fi
+
+# 0. setup
+if [ ! -f "$RESOLVERS" ]; then
+    echo "[+] Downloading resolvers..."
+    wget -q https://raw.githubusercontent.com/trickest/resolvers/main/resolvers.txt -O resolvers.txt
+fi
+
+echo "=========================================="
+echo " RUNNING RECON ON: $DOMAIN"
+echo "=========================================="
+
+# --- Phase 1: Passive Recon ---
+echo "[+] 1. Starting Passive Discovery (Subfinder)..."
+subfinder -d "$DOMAIN" -all -silent -o "${DOMAIN}_passive.txt"
+
+# --- Phase 2: Filter Alive (Resolution) ---
+echo "[+] 2. Filtering alive subdomains (PureDNS)..."
+puredns resolve "${DOMAIN}_passive.txt" -r "$RESOLVERS" --write "${DOMAIN}_passive_resolved.txt" --quiet
+
+# --- Phase 3a: Bruteforce ---
+echo "[+] 3a. Bruteforcing hidden subdomains..."
+puredns bruteforce "$WORDLIST" "$DOMAIN" -r "$RESOLVERS" --write "${DOMAIN}_bruteforce.txt" --quiet
+
+# --- Phase 3b: Permutations (Alterx) ---
+echo "[+] 3b. Generating Permutations..."
+# Combine results so far to feed Alterx
+cat "${DOMAIN}_passive_resolved.txt" "${DOMAIN}_bruteforce.txt" | sort -u > "${DOMAIN}_known_alive.txt"
+# Run Alterx and resolve immediately
+cat "${DOMAIN}_known_alive.txt" | alterx -silent | puredns resolve -r "$RESOLVERS" --write "${DOMAIN}_permutations.txt" --quiet
+
+# --- Merge All Subdomains ---
+echo "[+] Merging all subdomain lists..."
+cat "${DOMAIN}_passive_resolved.txt" "${DOMAIN}_bruteforce.txt" "${DOMAIN}_permutations.txt" | sort -u > "${DOMAIN}_final_all.txt"
+COUNT=$(wc -l < "${DOMAIN}_final_all.txt")
+echo "    -> Found $COUNT live subdomains."
+
+# --- Phase 5: Public Exposure Probing (HTTPX) ---
+echo "[+] 5. Probing for Web Servers (HTTPX)..."
+# We use -random-agent to avoid blocking and -follow-redirects to see final destinations
+httpx -l "${DOMAIN}_final_all.txt" \
+      -title -status-code -ip -cname -tech-detect -web-server \
+      -random-agent \
+      -follow-redirects \
+      -threads 50 \
+      -o "${DOMAIN}_web_assets.txt"
+
+echo "    -> HTTP assets saved to: ${DOMAIN}_web_assets.txt"
+
+# --- Phase 5b: Port Scanning (Optional but recommended) ---
+# Note: Nmap on a large list is slow. 
+# If you have 'naabu' installed, uncomment the lines below for faster scanning:
+# echo "[+] Scanning for non-web ports..."
+# naabu -list "${DOMAIN}_final_all.txt" -top-ports 1000 -exclude-ports 80,443 -o "${DOMAIN}_open_ports.txt"
+
+echo "=========================================="
+echo " RECON FINISHED."
+echo " Data saved to ${DOMAIN}_web_assets.txt"
+echo "=========================================="
