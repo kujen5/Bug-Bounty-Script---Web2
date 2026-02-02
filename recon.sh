@@ -277,6 +277,12 @@ phase0_setup() {
     fi
     log INFO "Go: $(go version 2>/dev/null | awk '{print $3}')"
 
+    # --- Check/Install libpcap-dev (needed by naabu) ---
+    if ! dpkg -s libpcap-dev &>/dev/null && require_cmd apt-get; then
+        log INFO "Installing libpcap-dev (required by naabu)..."
+        sudo apt-get install -y -qq libpcap-dev 2>/dev/null || true
+    fi
+
     # --- Check/Install MassDNS ---
     if ! require_cmd massdns; then
         log INFO "Installing MassDNS..."
@@ -520,7 +526,7 @@ phase3_dns() {
     log INFO "Resolved: $(count_lines "${dir}/resolved.txt") alive subdomains"
     log INFO "Wildcards: $(count_lines "${dir}/wildcards.txt")"
 
-    # DNSX for detailed records
+    # DNSX for detailed records (two separate runs: text + JSON)
     if require_cmd dnsx && [[ -s "${dir}/resolved.txt" ]]; then
         log INFO "Collecting DNS records with dnsx..."
         dnsx -l "${dir}/resolved.txt" \
@@ -528,7 +534,12 @@ phase3_dns() {
             -resp -silent \
             -threads "$THREADS" \
             -o "${dir}/dns_records.txt" \
-            -json -resp-only \
+            2>/dev/null || true
+
+        dnsx -l "${dir}/resolved.txt" \
+            -a -aaaa -cname -mx -ns -txt \
+            -resp -silent -json \
+            -threads "$THREADS" \
             -o "${dir}/dns_records.json" \
             2>/dev/null || true
 
@@ -727,7 +738,7 @@ phase6_web() {
     probe_count=$(count_lines "$probe_input")
     log INFO "Probing ${probe_count} targets with httpx..."
 
-    # HTTPX with comprehensive output
+    # HTTPX JSON run (primary output - all data)
     httpx -l "$probe_input" \
         -title -status-code -ip -cname -tech-detect -web-server \
         -content-length -content-type \
@@ -737,8 +748,8 @@ phase6_web() {
         -random-agent \
         -threads "$THREADS" \
         -silent \
-        -o "${dir}/httpx_output.txt" \
-        -json -o "${dir}/httpx_output.json" \
+        -json \
+        -o "${dir}/httpx_output.json" \
         2>"${dir}/httpx.log" || true
 
     # Clean up temp file
@@ -746,24 +757,27 @@ phase6_web() {
         rm -f "$combined"
     fi
 
-    log INFO "Web assets found: $(count_lines "${dir}/httpx_output.txt")"
-
-    # Categorize by status code
-    if [[ -s "${dir}/httpx_output.txt" ]]; then
-        for code in 200 301 302 403 404 500; do
-            grep -w "$code" "${dir}/httpx_output.txt" > "${dir}/by_status/${code}.txt" 2>/dev/null || true
-        done
-
-        local ok_count
-        ok_count=$(count_lines "${dir}/by_status/200.txt")
-        log INFO "  200 OK: ${ok_count}"
-        log INFO "  403 Forbidden: $(count_lines "${dir}/by_status/403.txt")"
-        log INFO "  Other status codes also categorized in by_status/"
-
-        # Extract just the URLs for downstream tools
-        if [[ -s "${dir}/httpx_output.json" ]]; then
-            python3 -c "
+    # Derive text output and live URLs from JSON
+    if [[ -s "${dir}/httpx_output.json" ]]; then
+        python3 -c "
 import json, sys
+for line in open('${dir}/httpx_output.json'):
+    try:
+        obj = json.loads(line)
+        url = obj.get('url', '')
+        status = obj.get('status_code', '')
+        title = obj.get('title', '')
+        ip = obj.get('host', '')
+        tech = ','.join(obj.get('tech', []) or [])
+        server = obj.get('webserver', '')
+        parts = [url, str(status), title, ip, server, tech]
+        print(' | '.join(p for p in parts if p))
+    except:
+        pass
+" > "${dir}/httpx_output.txt" 2>/dev/null || true
+
+        python3 -c "
+import json
 for line in open('${dir}/httpx_output.json'):
     try:
         obj = json.loads(line)
@@ -773,7 +787,28 @@ for line in open('${dir}/httpx_output.json'):
     except:
         pass
 " > "${dir}/live_urls.txt" 2>/dev/null || true
-        fi
+    fi
+
+    log INFO "Web assets found: $(count_lines "${dir}/httpx_output.txt")"
+
+    # Categorize by status code
+    if [[ -s "${dir}/httpx_output.json" ]]; then
+        for code in 200 301 302 403 404 500; do
+            python3 -c "
+import json
+for line in open('${dir}/httpx_output.json'):
+    try:
+        obj = json.loads(line)
+        if obj.get('status_code') == ${code}:
+            print(obj.get('url', ''))
+    except:
+        pass
+" > "${dir}/by_status/${code}.txt" 2>/dev/null || true
+        done
+
+        log INFO "  200 OK: $(count_lines "${dir}/by_status/200.txt")"
+        log INFO "  403 Forbidden: $(count_lines "${dir}/by_status/403.txt")"
+        log INFO "  Other status codes also categorized in by_status/"
     fi
 
     phase_end 6 "OK"
@@ -890,14 +925,30 @@ phase8_vulns() {
     url_count=$(count_lines "$live_urls")
     log INFO "Running nuclei on ${url_count} live URLs..."
 
-    # Run nuclei with all severities, output to JSON
+    # Run nuclei with all severities, JSON output
     nuclei -l "$live_urls" \
         -severity info,low,medium,high,critical \
         -silent \
         -concurrency "$THREADS" \
-        -json -o "${dir}/nuclei_all.json" \
-        -o "${dir}/nuclei_all.txt" \
+        -json \
+        -o "${dir}/nuclei_all.json" \
         2>"${dir}/nuclei.log" || true
+
+    # Derive text summary from JSON
+    if [[ -s "${dir}/nuclei_all.json" ]]; then
+        python3 -c "
+import json
+for line in open('${dir}/nuclei_all.json'):
+    try:
+        obj = json.loads(line)
+        tid = obj.get('template-id', '')
+        sev = obj.get('info', {}).get('severity', '')
+        matched = obj.get('matched-at', '')
+        print(f'[{sev}] [{tid}] {matched}')
+    except:
+        pass
+" > "${dir}/nuclei_all.txt" 2>/dev/null || true
+    fi
 
     log INFO "Total findings: $(count_lines "${dir}/nuclei_all.txt")"
 
@@ -995,6 +1046,9 @@ phase10_reporting() {
             sort -u "$master" -o "$master"
         fi
     fi
+
+    # Mark Phase 10 status before generating the summary table
+    PHASE_STATUS[10]="OK"
 
     # Build summary
     local summary="${report_dir}/summary.txt"
@@ -1118,7 +1172,6 @@ main() {
     if [[ "$ONLY_PASSIVE" == true ]]; then
         # Still merge and report
         merge_master
-        PHASE_STATUS[10]="OK"
         phase10_reporting
         log INFO "Passive-only mode complete."
         exit 0
