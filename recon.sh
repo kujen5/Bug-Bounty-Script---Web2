@@ -2,10 +2,13 @@
 # ============================================================================
 # Beast Mode Recon - Modular 10-Phase Subdomain Enumeration Pipeline
 # ============================================================================
-# Usage: ./recon.sh -d <domain> [options]
+# Usage: ./recon.sh --program <program_name> -d <domain> [options]
+#        ./recon.sh --program <program_name> --domains-file <file> [options]
 #
 # A comprehensive recon pipeline with parallel passive sources, ASN enum,
 # certificate transparency, port scanning, content discovery, and vuln scanning.
+#
+# Output structure: <script_dir>/<program>/<domain>/<timestamp>/
 # ============================================================================
 
 set -o pipefail
@@ -17,7 +20,9 @@ VERSION="2.0.0"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 HELPERS_DIR="${SCRIPT_DIR}/helpers"
 
+PROGRAM=""
 DOMAIN=""
+DOMAINS_FILE=""
 THREADS=50
 RATE_LIMIT=300
 GITHUB_TOKEN=""
@@ -151,13 +156,16 @@ require_cmd() {
 # ============================================================================
 
 usage() {
-    echo -e "${BOLD}Usage:${NC} $0 -d <domain> [options]"
+    echo -e "${BOLD}Usage:${NC} $0 --program <program_name> -d <domain> [options]"
+    echo -e "       $0 --program <program_name> --domains-file <file> [options]"
     echo ""
     echo "Options:"
-    echo "  -d, --domain <domain>       Target domain (required)"
+    echo "  --program, -p <name>        Program/bounty name (required)"
+    echo "  -d, --domain <domain>       Target domain (use with --program)"
+    echo "  --domains-file, -l <file>   File with list of domains (one per line)"
     echo "  -t, --threads <n>           Thread count (default: 50)"
     echo "  --rate-limit <n>            DNS rate limit (default: 300)"
-    echo "  --skip-phase <n,n,...>       Skip specific phases (e.g., 5,8)"
+    echo "  --skip-phase <n,n,...>      Skip specific phases (e.g., 5,8)"
     echo "  --only-passive              Run phases 0-3 only"
     echo "  --resume                    Resume using latest output dir"
     echo "  --github-token <token>      GitHub token for code dorking"
@@ -165,20 +173,28 @@ usage() {
     echo "  --resolvers <path>          Custom resolvers file path"
     echo "  -h, --help                  Show this help"
     echo ""
+    echo "Output Structure:"
+    echo "  Results are saved to: <script_dir>/<program>/<domain>/<timestamp>/"
+    echo ""
     echo "Examples:"
-    echo "  $0 -d example.com"
-    echo "  $0 -d example.com --skip-phase 5,8"
-    echo "  $0 -d example.com --only-passive"
-    echo "  $0 -d example.com -t 100 --rate-limit 1000"
-    echo "  $0 -d example.com --github-token ghp_xxx"
+    echo "  $0 --program hackerone -d example.com"
+    echo "  $0 -p bugcrowd -d target.com --skip-phase 5,8"
+    echo "  $0 -p yahoo --domains-file domains.txt"
+    echo "  $0 -p google -d corp.google.com --only-passive"
+    echo "  $0 -p meta -d facebook.com -t 100 --rate-limit 1000"
+    echo "  $0 -p github -d github.com --github-token ghp_xxx"
     exit 0
 }
 
 parse_args() {
     while [[ $# -gt 0 ]]; do
         case "$1" in
+            -p|--program)
+                PROGRAM="$2"; shift 2 ;;
             -d|--domain)
                 DOMAIN="$2"; shift 2 ;;
+            -l|--domains-file)
+                DOMAINS_FILE="$2"; shift 2 ;;
             -t|--threads)
                 THREADS="$2"; shift 2 ;;
             --rate-limit)
@@ -198,20 +214,31 @@ parse_args() {
             -h|--help)
                 usage ;;
             *)
-                # Support legacy positional: ./recon.sh example.com
-                if [[ -z "$DOMAIN" && ! "$1" =~ ^- ]]; then
-                    DOMAIN="$1"; shift
-                else
-                    echo "Unknown option: $1"
-                    usage
-                fi
+                echo "Unknown option: $1"
+                usage
                 ;;
         esac
     done
 
-    if [[ -z "$DOMAIN" ]]; then
-        echo -e "${RED}Error: Domain is required.${NC}"
+    # Validate required arguments
+    if [[ -z "$PROGRAM" ]]; then
+        echo -e "${RED}Error: --program is required.${NC}"
         usage
+    fi
+
+    if [[ -z "$DOMAIN" && -z "$DOMAINS_FILE" ]]; then
+        echo -e "${RED}Error: Either -d <domain> or --domains-file <file> is required.${NC}"
+        usage
+    fi
+
+    if [[ -n "$DOMAIN" && -n "$DOMAINS_FILE" ]]; then
+        echo -e "${RED}Error: Cannot use both -d and --domains-file at the same time.${NC}"
+        usage
+    fi
+
+    if [[ -n "$DOMAINS_FILE" && ! -f "$DOMAINS_FILE" ]]; then
+        echo -e "${RED}Error: Domains file not found: ${DOMAINS_FILE}${NC}"
+        exit 1
     fi
 }
 
@@ -227,10 +254,11 @@ phase0_setup() {
     export PATH="${GOPATH}/bin:/usr/local/go/bin:${PATH}"
 
     # --- Output directory ---
+    # Structure: SCRIPT_DIR/PROGRAM/DOMAIN/TIMESTAMP
     if [[ "$RESUME" == true ]]; then
-        # Find latest output dir for this domain
+        # Find latest output dir for this domain under the program
         local latest
-        latest=$(ls -dt "${SCRIPT_DIR}/${DOMAIN}/"*/ 2>/dev/null | head -1)
+        latest=$(ls -dt "${SCRIPT_DIR}/${PROGRAM}/${DOMAIN}/"*/ 2>/dev/null | head -1)
         if [[ -n "$latest" ]]; then
             OUTDIR="${latest%/}"
             log INFO "Resuming from: ${OUTDIR}"
@@ -239,12 +267,13 @@ phase0_setup() {
 
     if [[ -z "$OUTDIR" ]]; then
         TIMESTAMP="$(date '+%Y-%m-%d_%H%M%S')"
-        OUTDIR="${SCRIPT_DIR}/${DOMAIN}/${TIMESTAMP}"
+        OUTDIR="${SCRIPT_DIR}/${PROGRAM}/${DOMAIN}/${TIMESTAMP}"
     fi
 
     mkdir -p "${OUTDIR}"/{phase1_rootdomain,phase2_passive,phase3_dns,phase4_active,phase5_ports,phase6_web/screenshots,phase6_web/by_status,phase7_content,phase8_vulns,report}
     LOGFILE="${OUTDIR}/recon.log"
 
+    log INFO "Program: ${BOLD}${PROGRAM}${NC}"
     log INFO "Target: ${BOLD}${DOMAIN}${NC}"
     log INFO "Output: ${OUTDIR}"
     log INFO "Threads: ${THREADS} | Rate Limit: ${RATE_LIMIT}"
@@ -1067,6 +1096,7 @@ phase10_reporting() {
         echo "  BEAST MODE RECON - SUMMARY REPORT"
         echo "=============================================="
         echo ""
+        echo "Program:    ${PROGRAM}"
         echo "Target:     ${DOMAIN}"
         echo "Date:       $(date '+%Y-%m-%d %H:%M:%S')"
         echo "Output Dir: ${OUTDIR}"
@@ -1127,6 +1157,7 @@ phase10_reporting() {
 import json, os, sys
 
 stats = {
+    'program': '${PROGRAM}',
     'domain': '${DOMAIN}',
     'output_dir': '${OUTDIR}',
     'counts': {}
@@ -1162,12 +1193,19 @@ with open('${report_dir}/stats.json', 'w') as f:
 # MAIN PIPELINE
 # ============================================================================
 
-main() {
-    parse_args "$@"
-    banner
+# Run the full recon pipeline for a single domain
+run_recon_pipeline() {
+    # Reset OUTDIR for each domain run
+    OUTDIR=""
+
+    # Reset phase tracking for each domain
+    unset PHASE_START
+    unset PHASE_STATUS
+    declare -gA PHASE_START
+    declare -gA PHASE_STATUS
 
     # Phase 0: Setup
-    phase0_setup || { log ERROR "Setup failed. Aborting."; exit 1; }
+    phase0_setup || { log ERROR "Setup failed for ${DOMAIN}. Skipping."; return 1; }
 
     # Phase 1: Root Domain Intelligence
     phase1_root_domain || true
@@ -1183,8 +1221,8 @@ main() {
         # Still merge and report
         merge_master
         phase10_reporting
-        log INFO "Passive-only mode complete."
-        exit 0
+        log INFO "Passive-only mode complete for ${DOMAIN}."
+        return 0
     fi
 
     # Phase 4: Active Discovery
@@ -1212,7 +1250,45 @@ main() {
     phase10_reporting
 
     echo ""
-    log INFO "All phases complete. Results in: ${BOLD}${OUTDIR}${NC}"
+    log INFO "All phases complete for ${DOMAIN}. Results in: ${BOLD}${OUTDIR}${NC}"
+}
+
+main() {
+    parse_args "$@"
+    banner
+
+    log INFO "Program: ${BOLD}${PROGRAM}${NC}"
+
+    if [[ -n "$DOMAINS_FILE" ]]; then
+        # Multi-domain mode: read domains from file
+        local domain_count
+        domain_count=$(grep -cve '^\s*$' "$DOMAINS_FILE" 2>/dev/null || echo "0")
+        log INFO "Processing ${domain_count} domains from: ${DOMAINS_FILE}"
+        echo ""
+
+        local current=0
+        while IFS= read -r line || [[ -n "$line" ]]; do
+            # Skip empty lines and comments
+            line=$(echo "$line" | sed 's/#.*//' | xargs)
+            [[ -z "$line" ]] && continue
+
+            ((current++))
+            DOMAIN="$line"
+
+            echo ""
+            log PHASE "Domain ${current}/${domain_count}: ${DOMAIN}"
+            echo ""
+
+            run_recon_pipeline
+
+        done < "$DOMAINS_FILE"
+
+        echo ""
+        log INFO "All domains processed. Results in: ${BOLD}${SCRIPT_DIR}/${PROGRAM}/${NC}"
+    else
+        # Single domain mode
+        run_recon_pipeline
+    fi
 }
 
 main "$@"

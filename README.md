@@ -51,8 +51,9 @@ A modular 10-phase subdomain enumeration and reconnaissance pipeline for bug bou
 - **Content discovery**: katana JS-aware crawl + gau historical URLs + JS file extraction
 - **Vulnerability scanning**: nuclei with all severity levels, results split into per-severity JSON files
 - **Structured output**: timestamped directories with per-phase folders, a master subdomain list, and a final summary report (text + JSON)
-- **Argument parsing**: `--skip-phase`, `--only-passive`, `--resume`, `--threads`, `--rate-limit`, `--github-token`, custom wordlists and resolvers
-- **Backward compatible**: `./recon.sh example.com` (positional argument) still works
+- **Argument parsing**: `--program` (required), `-d` or `--domains-file`, `--skip-phase`, `--only-passive`, `--resume`, `--threads`, `--rate-limit`, `--github-token`, custom wordlists and resolvers
+- **Multi-domain support**: Process multiple domains from a file with `--domains-file`, each getting the full pipeline treatment
+- **Program-based organization**: Output organized by program/bounty name for easy management of multiple targets
 - **Auto-installs dependencies**: Go, MassDNS, all Go tools, Python packages, wordlists, resolvers, and nuclei templates are installed automatically on first run
 
 ---
@@ -60,28 +61,35 @@ A modular 10-phase subdomain enumeration and reconnaissance pipeline for bug bou
 ## Architecture
 
 ```
-recon.sh (orchestrator, ~1150 lines bash)
+recon.sh (orchestrator, ~1300 lines bash)
   |
-  |-- Phase 0: Setup (auto-install Go, tools, wordlists, resolvers)
-  |-- Phase 1: Root Domain Intelligence
-  |     \-- helpers/asn_enum.py      (HackerTarget + BGPView APIs)
-  |-- Phase 2: Passive Enumeration (6+ sources in parallel)
-  |     |-- subfinder
-  |     |-- amass (passive)
-  |     |-- helpers/crtsh_enum.py    (crt.sh JSON API)
-  |     |-- helpers/webarchive_enum.py (Wayback CDX API)
-  |     |-- helpers/passive_enum.py  (RapidDNS, AlienVault, HackerTarget, URLScan)
-  |     \-- helpers/github_dorking.py (GitHub code search, optional)
-  |-- Phase 3: DNS Resolution (puredns + dnsx)
-  |-- Phase 4: Active Discovery (puredns bruteforce + alterx permutations)
-  |-- Master Merge (deduplicated union of phases 3+4)
-  |-- Phase 5: Port Scanning (naabu)
-  |-- Phase 6: Web Probing (httpx)
-  |-- Phase 7: Content Discovery (katana + gau)
-  |-- Phase 8: Vulnerability Scanning (nuclei)
-  |-- Phase 9: Certstream Monitor (background WebSocket daemon)
-  |     \-- helpers/certstream_monitor.py
-  \-- Phase 10: Reporting (summary.txt + stats.json)
+  |-- Argument Parsing (--program required, -d or --domains-file)
+  |-- Multi-Domain Loop (when --domains-file is used)
+  |     \-- Runs full pipeline for each domain
+  |
+  |-- Per-Domain Pipeline:
+  |     |-- Phase 0: Setup (auto-install Go, tools, wordlists, resolvers)
+  |     |-- Phase 1: Root Domain Intelligence
+  |     |     \-- helpers/asn_enum.py      (HackerTarget + BGPView APIs)
+  |     |-- Phase 2: Passive Enumeration (6+ sources in parallel)
+  |     |     |-- subfinder
+  |     |     |-- amass (passive)
+  |     |     |-- helpers/crtsh_enum.py    (crt.sh JSON API)
+  |     |     |-- helpers/webarchive_enum.py (Wayback CDX API)
+  |     |     |-- helpers/passive_enum.py  (RapidDNS, AlienVault, HackerTarget, URLScan)
+  |     |     \-- helpers/github_dorking.py (GitHub code search, optional)
+  |     |-- Phase 3: DNS Resolution (puredns + dnsx)
+  |     |-- Phase 4: Active Discovery (puredns bruteforce + alterx permutations)
+  |     |-- Master Merge (deduplicated union of phases 3+4)
+  |     |-- Phase 5: Port Scanning (naabu)
+  |     |-- Phase 6: Web Probing (httpx)
+  |     |-- Phase 7: Content Discovery (katana + gau)
+  |     |-- Phase 8: Vulnerability Scanning (nuclei)
+  |     |-- Phase 9: Certstream Monitor (background WebSocket daemon)
+  |     |     \-- helpers/certstream_monitor.py
+  |     \-- Phase 10: Reporting (summary.txt + stats.json)
+  |
+  \-- Output: <script_dir>/<program>/<domain>/<timestamp>/
 ```
 
 ---
@@ -144,26 +152,32 @@ cd massdns && make && sudo make install && cd .. && rm -rf massdns
 ## Quick Start
 
 ```bash
-# Full pipeline on a target
-./recon.sh -d example.com
+# Full pipeline on a target (--program is required)
+./recon.sh --program hackerone -d example.com
+
+# Short form with -p
+./recon.sh -p bugcrowd -d target.com
 
 # Passive-only recon (no bruteforce, no port scan, no active probing)
-./recon.sh -d example.com --only-passive
+./recon.sh -p hackerone -d example.com --only-passive
 
 # Skip port scanning and vulnerability scanning
-./recon.sh -d example.com --skip-phase 5,8
+./recon.sh -p hackerone -d example.com --skip-phase 5,8
 
 # Full pipeline with GitHub dorking enabled
-./recon.sh -d example.com --github-token ghp_your_token_here
+./recon.sh -p hackerone -d example.com --github-token ghp_your_token_here
 
 # Faster scan with higher thread count and rate limit
-./recon.sh -d example.com -t 100 --rate-limit 1000
+./recon.sh -p hackerone -d example.com -t 100 --rate-limit 1000
 
 # Resume the most recent scan for a domain
-./recon.sh -d example.com --resume
+./recon.sh -p hackerone -d example.com --resume
 
-# Legacy syntax (backward compatible)
-./recon.sh example.com
+# Process multiple domains from a file
+./recon.sh -p yahoo --domains-file domains.txt
+
+# Multi-domain with options
+./recon.sh -p meta -l targets.txt --only-passive --github-token ghp_xxx
 ```
 
 ---
@@ -171,10 +185,13 @@ cd massdns && make && sudo make install && cd .. && rm -rf massdns
 ## Usage
 
 ```
-Usage: ./recon.sh -d <domain> [options]
+Usage: ./recon.sh --program <program_name> -d <domain> [options]
+       ./recon.sh --program <program_name> --domains-file <file> [options]
 
 Options:
-  -d, --domain <domain>       Target domain (required)
+  --program, -p <name>        Program/bounty name (required)
+  -d, --domain <domain>       Target domain (use with --program)
+  --domains-file, -l <file>   File with list of domains (one per line)
   -t, --threads <n>           Thread count for tools (default: 50)
   --rate-limit <n>            DNS query rate limit per second (default: 300)
   --skip-phase <n,n,...>      Skip specific phases by number (e.g., 5,8)
@@ -184,13 +201,18 @@ Options:
   --wordlist <path>           Custom wordlist file path
   --resolvers <path>          Custom DNS resolvers file path
   -h, --help                  Show help message
+
+Output Structure:
+  Results are saved to: <script_dir>/<program>/<domain>/<timestamp>/
 ```
 
 ### CLI Options
 
 | Option | Default | Description |
 |--------|---------|-------------|
-| `-d, --domain` | *(required)* | Target root domain to enumerate |
+| `--program, -p` | *(required)* | Program/bounty name for organizing output |
+| `-d, --domain` | *(required*)* | Target root domain to enumerate |
+| `--domains-file, -l` | *(none)* | File containing domains to enumerate (one per line) |
 | `-t, --threads` | `50` | Concurrent threads for httpx, dnsx, nuclei, katana, naabu |
 | `--rate-limit` | `300` | DNS queries per second for puredns and naabu |
 | `--skip-phase` | *(none)* | Comma-separated phase numbers to skip (0-10) |
@@ -200,26 +222,45 @@ Options:
 | `--wordlist` | `subdomains-top1million-110000.txt` | Subdomain bruteforce wordlist |
 | `--resolvers` | `resolvers.txt` | DNS resolver list for puredns |
 
+\* Either `-d` or `--domains-file` is required, but not both.
+
 ### Common Workflows
 
 **Bug bounty quick passive recon** - gather subdomains without touching the target:
 ```bash
-./recon.sh -d target.com --only-passive
+./recon.sh -p hackerone -d target.com --only-passive
 ```
 
 **Full recon without vuln scanning** - useful when you want to run nuclei separately with custom templates:
 ```bash
-./recon.sh -d target.com --skip-phase 8
+./recon.sh -p bugcrowd -d target.com --skip-phase 8
 ```
 
 **Maximum coverage** - all sources including GitHub:
 ```bash
-./recon.sh -d target.com --github-token ghp_xxx -t 100 --rate-limit 1000
+./recon.sh -p hackerone -d target.com --github-token ghp_xxx -t 100 --rate-limit 1000
 ```
 
 **Resume an interrupted scan**:
 ```bash
-./recon.sh -d target.com --resume
+./recon.sh -p hackerone -d target.com --resume
+```
+
+**Process multiple domains from a file**:
+```bash
+# domains.txt contains one domain per line (comments with # supported)
+./recon.sh -p yahoo --domains-file domains.txt
+
+# With additional options
+./recon.sh -p meta -l targets.txt --only-passive -t 100
+```
+
+**Multi-program organization** - run recon on different bounty programs:
+```bash
+./recon.sh -p hackerone -d program1.com
+./recon.sh -p bugcrowd -d program2.com
+./recon.sh -p intigriti -d program3.com
+# Results organized in separate program folders
 ```
 
 ---
@@ -471,77 +512,90 @@ Generates a final summary report and JSON statistics.
 
 ## Output Structure
 
-Each run creates a timestamped directory under the target domain:
+Each run creates a timestamped directory organized by program and domain:
 
 ```
-example.com/
-  2026-02-02_143000/
-    recon.log                        # Full pipeline log (color-stripped)
-    master_subdomains.txt            # Final deduplicated alive subdomains
-    certstream.log                   # Certstream monitor stderr
-    phase1_rootdomain/
-      whois.txt                      # WHOIS output
-      asn_info.json                  # ASN details, IP, prefixes
-      ip_ranges.txt                  # CIDR ranges
-      reverse_dns.txt                # rDNS hostnames
-      asn_subdomains.txt             # Matching subdomains from rDNS
-      asn_enum.log                   # Helper stderr log
-    phase2_passive/
-      subfinder.txt
-      amass.txt
-      crtsh.txt
-      wayback.txt
-      passive_apis.txt
-      github.txt                     # Only if --github-token provided
-      certstream.txt                 # From Phase 9 background monitor
-      merged_passive.txt             # Union of all sources
-      *.log                          # Per-source stderr logs
-    phase3_dns/
-      resolved.txt                   # Alive subdomains
-      wildcards.txt                  # Detected wildcard domains
-      dns_records.txt                # Human-readable DNS records
-      dns_records.json               # JSON DNS records
-      cnames.txt                     # CNAME records
-      puredns_resolve.log
-    phase4_active/
-      bruteforce.txt
-      permutations.txt
-      *.log
-    phase5_ports/
-      naabu_scan.txt                 # host:port pairs
-      hosts_with_ports.txt           # Unique hosts
-      naabu.log
-    phase6_web/
-      httpx_output.txt               # Human-readable web assets
-      httpx_output.json              # JSON web assets
-      live_urls.txt                  # Extracted URLs
-      httpx.log
-      by_status/
-        200.txt
-        301.txt
-        302.txt
-        403.txt
-        404.txt
-        500.txt
-      screenshots/                   # Reserved for future use
-    phase7_content/
-      katana_urls.txt
-      gau_urls.txt
-      all_urls.txt                   # Merged + deduplicated
-      js_files.txt                   # JavaScript URLs
-      *.log
-    phase8_vulns/
-      nuclei_all.txt
-      nuclei_all.json
-      nuclei_critical.json
-      nuclei_high.json
-      nuclei_medium.json
-      nuclei_low.json
-      nuclei_info.json
-      nuclei.log
-    report/
-      summary.txt                    # Text summary
-      stats.json                     # JSON statistics
+<script_dir>/
+├── hackerone/                         # Program folder
+│   ├── example.com/                   # Domain folder
+│   │   └── 2026-02-02_143000/         # Timestamped run
+│   │       ├── recon.log              # Full pipeline log (color-stripped)
+│   │       ├── master_subdomains.txt  # Final deduplicated alive subdomains
+│   │       ├── certstream.log         # Certstream monitor stderr
+│   │       ├── phase1_rootdomain/
+│   │       │   ├── whois.txt
+│   │       │   ├── asn_info.json
+│   │       │   ├── ip_ranges.txt
+│   │       │   ├── reverse_dns.txt
+│   │       │   └── asn_subdomains.txt
+│   │       ├── phase2_passive/
+│   │       │   ├── subfinder.txt
+│   │       │   ├── amass.txt
+│   │       │   ├── crtsh.txt
+│   │       │   ├── wayback.txt
+│   │       │   ├── passive_apis.txt
+│   │       │   ├── github.txt         # Only if --github-token provided
+│   │       │   ├── certstream.txt     # From Phase 9 background monitor
+│   │       │   └── merged_passive.txt
+│   │       ├── phase3_dns/
+│   │       │   ├── resolved.txt
+│   │       │   ├── wildcards.txt
+│   │       │   ├── dns_records.txt
+│   │       │   ├── dns_records.json
+│   │       │   └── cnames.txt
+│   │       ├── phase4_active/
+│   │       │   ├── bruteforce.txt
+│   │       │   └── permutations.txt
+│   │       ├── phase5_ports/
+│   │       │   ├── naabu_scan.txt
+│   │       │   └── hosts_with_ports.txt
+│   │       ├── phase6_web/
+│   │       │   ├── httpx_output.txt
+│   │       │   ├── httpx_output.json
+│   │       │   ├── live_urls.txt
+│   │       │   ├── by_status/
+│   │       │   │   ├── 200.txt
+│   │       │   │   ├── 301.txt
+│   │       │   │   ├── 403.txt
+│   │       │   │   └── ...
+│   │       │   └── screenshots/       # Reserved for future use
+│   │       ├── phase7_content/
+│   │       │   ├── katana_urls.txt
+│   │       │   ├── gau_urls.txt
+│   │       │   ├── all_urls.txt
+│   │       │   └── js_files.txt
+│   │       ├── phase8_vulns/
+│   │       │   ├── nuclei_all.txt
+│   │       │   ├── nuclei_all.json
+│   │       │   ├── nuclei_critical.json
+│   │       │   ├── nuclei_high.json
+│   │       │   ├── nuclei_medium.json
+│   │       │   ├── nuclei_low.json
+│   │       │   └── nuclei_info.json
+│   │       └── report/
+│   │           ├── summary.txt
+│   │           └── stats.json
+│   └── another-target.com/            # Multiple domains per program
+│       └── 2026-02-02_150000/
+│           └── ...
+├── bugcrowd/                          # Different program
+│   └── target.com/
+│       └── ...
+└── intigriti/                         # Another program
+    └── ...
+```
+
+### domains.txt File Format
+
+When using `--domains-file`, the file should contain one domain per line:
+
+```
+# This is a comment (ignored)
+example.com
+sub.example.org
+
+# Empty lines are also ignored
+another-target.com
 ```
 
 ---
@@ -740,19 +794,19 @@ nuclei -update-templates
 To use custom templates, run nuclei separately on the `live_urls.txt` output:
 
 ```bash
-nuclei -l example.com/2026-02-02_143000/phase6_web/live_urls.txt -t /path/to/custom-templates/
+nuclei -l hackerone/example.com/2026-02-02_143000/phase6_web/live_urls.txt -t /path/to/custom-templates/
 ```
 
 ### Custom Wordlists
 
 ```bash
-./recon.sh -d example.com --wordlist /path/to/custom-wordlist.txt
+./recon.sh -p hackerone -d example.com --wordlist /path/to/custom-wordlist.txt
 ```
 
 ### Custom Resolvers
 
 ```bash
-./recon.sh -d example.com --resolvers /path/to/custom-resolvers.txt
+./recon.sh -p hackerone -d example.com --resolvers /path/to/custom-resolvers.txt
 ```
 
 ---
@@ -785,8 +839,8 @@ cd massdns && make && sudo make install
 This is by design. Each phase is wrapped with `|| true` so a single failure doesn't kill the entire pipeline. Check the phase-specific log files for details:
 
 ```bash
-cat example.com/2026-02-02_143000/phase3_dns/puredns_resolve.log
-cat example.com/2026-02-02_143000/recon.log
+cat hackerone/example.com/2026-02-02_143000/phase3_dns/puredns_resolve.log
+cat hackerone/example.com/2026-02-02_143000/recon.log
 ```
 
 ### certstream_monitor.py won't start
