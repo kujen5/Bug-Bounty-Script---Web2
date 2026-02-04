@@ -1,5 +1,0 @@
-development.dropxl.com
-staging.dropxl.com
-www.dropxl.com
-e.dropxl.com
-b2b.dropxl.com
