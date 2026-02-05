@@ -1,0 +1,35 @@
+http://dns-public.antbank.hk:80 | 410 | 47.238.24.32 | Tengine | Tengine
+http://mail.service.antbank.hk:80 | 200 | 邮箱用户登录-阿里邮箱提供技术支持 | 47.246.110.147 | Tengine | Alibaba Cloud CDN,Tengine
+http://icsmada.antbank.hk:80 | 404 | 47.238.24.33 | HSTS
+http://mail.executive.antbank.hk:80 | 200 | 邮箱用户登录-阿里邮箱提供技术支持 | 47.246.110.147 | Tengine | Alibaba Cloud CDN,Tengine
+http://mgw.antcloud.antbank.hk:80 | 404 | 47.238.24.32 | HSTS
+http://render.antbank.hk:1935 | 400 | 400 The plain HTTP request was sent to HTTPS port | 47.246.6.173 | Tengine | Tengine
+http://business.antbank.hk:80 | 200 | 47.238.24.32 | Alibaba Cloud CDN,HSTS,Node.js,UmiJs,jQuery
+https://icsmada.antbank.hk | 404 | 47.238.24.33 | HSTS
+https://icsmada.antbank.hk:443 | 404 | 47.238.24.33 | HSTS
+https://dns-public.antbank.hk | 410 | 47.238.24.32 | Tengine | Tengine
+https://dns-public.antbank.hk:443 | 410 | 47.238.24.32 | Tengine | Tengine
+https://mgw.antcloud.antbank.hk | 404 | 47.238.24.32 | HSTS
+https://mgw.antcloud.antbank.hk:443 | 404 | 47.238.24.32 | HSTS
+https://raccoon.antbank.hk | 404 | 47.238.24.32 | HSTS
+http://developer.antbank.hk:80 | 200 | Ant Bank (HK) - Open Banking | Ant Bank(HK) | 47.238.24.32 | Alibaba Cloud CDN,HSTS,Moment.js,React,jQuery
+https://raccoon.antbank.hk:443 | 404 | 47.238.24.32 | HSTS
+http://raccoon.antbank.hk:80 | 404 | 47.238.24.32 | HSTS
+https://mail.service.antbank.hk:443 | 200 | 邮箱用户登录-阿里邮箱提供技术支持 | 47.246.110.147 | Tengine | Alibaba Cloud CDN,Tengine
+https://mail.executive.antbank.hk | 200 | 邮箱用户登录-阿里邮箱提供技术支持 | 47.246.110.147 | Tengine | Alibaba Cloud CDN,Tengine
+https://mail.antbank.hk | 200 | 蚂蚁邮箱 | 47.246.110.147 | Tengine | Alibaba Cloud CDN,Tengine
+https://mail.service.antbank.hk | 200 | 邮箱用户登录-阿里邮箱提供技术支持 | 47.246.110.147 | Tengine | Alibaba Cloud CDN,Tengine
+https://mail.executive.antbank.hk:443 | 200 | 邮箱用户登录-阿里邮箱提供技术支持 | 47.246.110.147 | Tengine | Alibaba Cloud CDN,Tengine
+http://h5.antbank.hk:80 | 404 | 出错了-404 | 163.181.253.223 | Tengine | HSTS,Tengine
+https://business.antbank.hk | 200 | 47.238.24.32 | Alibaba Cloud CDN,HSTS,Node.js,UmiJs,jQuery
+https://business.antbank.hk:443 | 200 | 47.238.24.32 | Alibaba Cloud CDN,HSTS,Node.js,UmiJs,jQuery
+https://developer.antbank.hk:443 | 200 | Ant Bank (HK) - Open Banking | Ant Bank(HK) | 47.238.24.32 | Alibaba Cloud CDN,HSTS,Moment.js,React,jQuery
+https://developer.antbank.hk | 200 | Ant Bank (HK) - Open Banking | Ant Bank(HK) | 47.238.24.32 | Alibaba Cloud CDN,HSTS,Moment.js,React,jQuery
+http://www.antbank.hk:1935 | 400 | 400 The plain HTTP request was sent to HTTPS port | 47.246.49.190 | Tengine | Tengine
+http://www.antbank.hk:80 | 200 | 螞蟻銀行(香港) | 47.246.49.190 | Tengine | Google Tag Manager,Node.js,Tengine,UmiJs
+https://h5.antbank.hk:443 | 404 | 出错了-404 | 163.181.253.223 | Tengine | HSTS,Tengine
+https://h5.antbank.hk | 404 | 出错了-404 | 163.181.253.223 | Tengine | HSTS,Tengine
+https://www.antbank.hk:443 | 200 | 螞蟻銀行(香港) | 47.246.49.190 | Tengine | Google Tag Manager,Node.js,Tengine,UmiJs
+https://www.antbank.hk | 200 | 螞蟻銀行(香港) | 47.246.49.190 | Tengine | Google Tag Manager,Node.js,Tengine,UmiJs
+https://render.antbank.hk | 200 | 47.246.6.173 | Tengine | Tengine
+http://render.antbank.hk:443 | 400 | 400 The plain HTTP request was sent to HTTPS port | 47.246.6.173 | Tengine | Tengine

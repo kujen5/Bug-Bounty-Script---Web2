@@ -1,0 +1,16 @@
+cdn.anext.com.sg:80
+cdn.anext.com.sg:443
+cdn.anext.com.sg:843
+cdn.anext.com.sg:1935
+go.anext.com.sg:443
+secure.anext.com.sg:443
+redirect.anext.com.sg:443
+ib.anext.com.sg:443
+zhubsgbank.anext.com.sg:443
+ics.anext.com.sg:443
+www.anext.com.sg:80
+www.anext.com.sg:443
+bkwordpress-public.anext.com.sg:443
+bkwordpress-public.anext.com.sg:80
+anext.com.sg:443
+anext.com.sg:80

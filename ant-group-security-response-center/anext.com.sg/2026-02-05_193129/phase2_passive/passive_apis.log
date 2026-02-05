@@ -1,0 +1,7 @@
+[passive] Querying 4 passive sources for anext.com.sg...
+[passive] AlienVault: 0 subdomains
+[passive] URLScan: 9 subdomains
+[passive] HackerTarget: 5 subdomains
+[passive] RapidDNS: 23 subdomains
+[passive] Total unique subdomains from all sources: 25
+[passive] Results written to /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/anext.com.sg/2026-02-05_193129/phase2_passive/passive_apis.txt

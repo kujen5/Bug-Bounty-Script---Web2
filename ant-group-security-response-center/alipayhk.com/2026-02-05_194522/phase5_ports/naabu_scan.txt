@@ -1,0 +1,4 @@
+alipayhk.com:80
+alipayhk.com:443
+www.alipayhk.com:80
+www.alipayhk.com:443

@@ -1,0 +1,16 @@
+{
+  "program": "ant-group-security-response-center",
+  "domain": "alipayhk.com",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/alipayhk.com/2026-02-05_194522",
+  "counts": {
+    "passive_merged": 3,
+    "resolved": 2,
+    "bruteforce": 1,
+    "permutations": 0,
+    "master": 2,
+    "ports": 4,
+    "web_assets": 6,
+    "urls": 2090,
+    "nuclei": 0
+  }
+}

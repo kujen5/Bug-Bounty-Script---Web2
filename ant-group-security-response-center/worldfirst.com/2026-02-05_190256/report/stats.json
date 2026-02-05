@@ -1,0 +1,16 @@
+{
+  "program": "ant-group-security-response-center",
+  "domain": "worldfirst.com",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/worldfirst.com/2026-02-05_190256",
+  "counts": {
+    "passive_merged": 124,
+    "resolved": 0,
+    "bruteforce": 23,
+    "permutations": 10,
+    "master": 26,
+    "ports": 68,
+    "web_assets": 84,
+    "urls": 49119,
+    "nuclei": 0
+  }
+}

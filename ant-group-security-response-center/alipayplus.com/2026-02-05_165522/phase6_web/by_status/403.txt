@@ -1,0 +1,13 @@
+http://canary.alipayplus.com:80
+https://canary.alipayplus.com:443
+https://canary.alipayplus.com
+https://easypoint.alipayplus.com
+https://easypoint.alipayplus.com:443
+http://open-sea-iot-pre.alipayplus.com:80
+https://open-sea-iot-pre.alipayplus.com:443
+https://open-sea-iot-pre.alipayplus.com
+http://open-sea-iot.alipayplus.com:80
+https://open-sea-iot.alipayplus.com
+https://open-sea-iot.alipayplus.com:443
+http://tngd-bot.alipayplus.com:80
+https://tngd-bot.alipayplus.com:443

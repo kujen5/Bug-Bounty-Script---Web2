@@ -1,0 +1,7 @@
+http://render.bettrfinancing.com:80
+https://render.bettrfinancing.com
+https://render.bettrfinancing.com:443
+https://www.bettrfinancing.com/
+http://www.bettrfinancing.com:80
+https://www.bettrfinancing.com
+https://www.bettrfinancing.com:443

@@ -1,0 +1,17 @@
+http://mail.service.antbank.hk:80
+http://mail.executive.antbank.hk:80
+http://business.antbank.hk:80
+http://developer.antbank.hk:80
+https://mail.service.antbank.hk:443
+https://mail.executive.antbank.hk
+https://mail.antbank.hk
+https://mail.service.antbank.hk
+https://mail.executive.antbank.hk:443
+https://business.antbank.hk
+https://business.antbank.hk:443
+https://developer.antbank.hk:443
+https://developer.antbank.hk
+http://www.antbank.hk:80
+https://www.antbank.hk:443
+https://www.antbank.hk
+https://render.antbank.hk

@@ -1,0 +1,56 @@
+==============================================
+  BEAST MODE RECON - SUMMARY REPORT
+==============================================
+
+Program:    ant-group-security-response-center
+Target:     anext.com.sg
+Date:       2026-02-05 19:45:22
+Output Dir: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/anext.com.sg/2026-02-05_193129
+
+----------------------------------------------
+  SUBDOMAIN COUNTS
+----------------------------------------------
+Passive sources:
+  subfinder:           27
+  amass:               28
+  crtsh:               5
+  wayback:             5
+  passive_apis:        25
+  github:              7
+
+Merged passive:      28
+Resolved (alive):    26
+Bruteforce:          4
+Permutations:        4
+MASTER TOTAL:        29
+
+----------------------------------------------
+  INFRASTRUCTURE
+----------------------------------------------
+IP ranges (ASN):     0
+Open ports (naabu):  16
+Web assets (httpx):  25
+
+----------------------------------------------
+  CONTENT & VULNS
+----------------------------------------------
+URLs discovered:     768
+JS files:            35
+Nuclei findings:     0
+
+----------------------------------------------
+  PHASE STATUS
+----------------------------------------------
+  Phase 0 : OK
+  Phase 1 : OK
+  Phase 2 : OK
+  Phase 3 : OK
+  Phase 4 : OK
+  Phase 5 : OK
+  Phase 6 : OK
+  Phase 7 : OK
+  Phase 8 : OK
+  Phase 9 : OK
+  Phase 10: OK
+
+==============================================

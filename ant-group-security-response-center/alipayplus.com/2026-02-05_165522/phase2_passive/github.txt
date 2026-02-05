@@ -1,0 +1,8 @@
+docs.alipayplus.com
+ilog-sea-aliyun.alipayplus.com
+mgs-region-tngd.alipayplus.com
+open-sea-global.alipayplus.com
+open-sea.alipayplus.com
+payment-tech.alipayplus.com
+tngd.alipayplus.com
+www.alipayplus.com

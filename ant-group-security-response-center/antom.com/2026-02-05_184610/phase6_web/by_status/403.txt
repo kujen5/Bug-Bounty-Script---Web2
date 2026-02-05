@@ -1,0 +1,2 @@
+http://knowledge.antom.com:8080
+https://knowledge.antom.com:8443

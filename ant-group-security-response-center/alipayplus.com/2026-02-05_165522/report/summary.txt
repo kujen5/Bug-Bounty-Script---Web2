@@ -1,0 +1,56 @@
+==============================================
+  BEAST MODE RECON - SUMMARY REPORT
+==============================================
+
+Program:    ant-group-security-response-center
+Target:     alipayplus.com
+Date:       2026-02-05 17:42:09
+Output Dir: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/alipayplus.com/2026-02-05_165522
+
+----------------------------------------------
+  SUBDOMAIN COUNTS
+----------------------------------------------
+Passive sources:
+  subfinder:           178
+  amass:               123
+  crtsh:               26
+  wayback:             38
+  passive_apis:        84
+  github:              8
+
+Merged passive:      183
+Resolved (alive):    157
+Bruteforce:          24
+Permutations:        0
+MASTER TOTAL:        160
+
+----------------------------------------------
+  INFRASTRUCTURE
+----------------------------------------------
+IP ranges (ASN):     0
+Open ports (naabu):  48612
+Web assets (httpx):  692
+
+----------------------------------------------
+  CONTENT & VULNS
+----------------------------------------------
+URLs discovered:     4146
+JS files:            885
+Nuclei findings:     0
+
+----------------------------------------------
+  PHASE STATUS
+----------------------------------------------
+  Phase 0 : OK
+  Phase 1 : OK
+  Phase 2 : OK
+  Phase 3 : OK
+  Phase 4 : OK
+  Phase 5 : OK
+  Phase 6 : OK
+  Phase 7 : OK
+  Phase 8 : OK
+  Phase 9 : OK
+  Phase 10: OK
+
+==============================================

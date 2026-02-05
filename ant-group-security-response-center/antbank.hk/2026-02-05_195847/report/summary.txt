@@ -1,0 +1,56 @@
+==============================================
+  BEAST MODE RECON - SUMMARY REPORT
+==============================================
+
+Program:    ant-group-security-response-center
+Target:     antbank.hk
+Date:       2026-02-05 20:14:11
+Output Dir: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/antbank.hk/2026-02-05_195847
+
+----------------------------------------------
+  SUBDOMAIN COUNTS
+----------------------------------------------
+Passive sources:
+  subfinder:           25
+  amass:               27
+  crtsh:               6
+  wayback:             4
+  passive_apis:        54
+  github:              9
+
+Merged passive:      60
+Resolved (alive):    28
+Bruteforce:          7
+Permutations:        8
+MASTER TOTAL:        35
+
+----------------------------------------------
+  INFRASTRUCTURE
+----------------------------------------------
+IP ranges (ASN):     0
+Open ports (naabu):  30
+Web assets (httpx):  35
+
+----------------------------------------------
+  CONTENT & VULNS
+----------------------------------------------
+URLs discovered:     353
+JS files:            58
+Nuclei findings:     0
+
+----------------------------------------------
+  PHASE STATUS
+----------------------------------------------
+  Phase 0 : OK
+  Phase 1 : OK
+  Phase 2 : OK
+  Phase 3 : OK
+  Phase 4 : OK
+  Phase 5 : OK
+  Phase 6 : OK
+  Phase 7 : OK
+  Phase 8 : OK
+  Phase 9 : OK
+  Phase 10: OK
+
+==============================================

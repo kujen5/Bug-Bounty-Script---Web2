@@ -1,0 +1,8 @@
+[github] [1/6] Searching: "worldfirst.com"
+[github] [2/6] Searching: "*.worldfirst.com"
+[github] [3/6] Searching: "api.worldfirst.com"
+[github] [4/6] Searching: "dev.worldfirst.com"
+[github] [5/6] Searching: "staging.worldfirst.com"
+[github] [6/6] Searching: "internal.worldfirst.com"
+[github] Found 8 unique subdomains
+[github] Results written to /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/worldfirst.com/2026-02-05_190256/phase2_passive/github.txt

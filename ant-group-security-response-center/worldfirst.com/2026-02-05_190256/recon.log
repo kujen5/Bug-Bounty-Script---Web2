@@ -1,0 +1,77 @@
+[19:02:56] [INFO] Program: \033[1mant-group-security-response-center\033[0m
+[19:02:56] [INFO] Target: \033[1mworldfirst.com\033[0m
+[19:02:56] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/worldfirst.com/2026-02-05_190256
+[19:02:56] [INFO] Threads: 50 | Rate Limit: 300
+[19:02:56] [INFO] Go: go1.24.0
+[19:02:56] [INFO] Phase 0 completed (0s)
+[19:02:56] [PHASE] Phase 1: Root Domain Intelligence
+[19:02:56] [INFO] Running WHOIS lookup...
+[19:02:56] [INFO] Running ASN enumeration...
+[19:02:58] [INFO] ASN subdomains: 0
+[19:02:58] [INFO] IP ranges discovered: 0
+[19:02:58] [INFO] Phase 1 completed (2s)
+[19:02:58] [PHASE] Phase 2: Passive Subdomain Enumeration
+[19:02:58] [INFO] Starting subfinder...
+[19:02:58] [INFO] Starting amass passive...
+[19:02:58] [INFO] Starting crt.sh lookup...
+[19:02:58] [INFO] Starting Wayback Machine lookup...
+[19:02:58] [INFO] Starting passive API queries...
+[19:02:58] [INFO] Starting GitHub dorking...
+[19:02:58] [INFO] Waiting for 6 passive sources to complete...
+[19:03:52] [INFO]   amass: 92 subdomains
+[19:03:52] [INFO]   crtsh: 46 subdomains
+[19:03:52] [INFO]   github: 8 subdomains
+[19:03:52] [INFO]   passive_apis: 66 subdomains
+[19:03:52] [INFO]   subfinder: 120 subdomains
+[19:03:52] [INFO]   wayback: 44 subdomains
+[19:03:52] [INFO] Total unique passive subdomains: \033[1m124\033[0m
+[19:03:52] [INFO] Phase 2 completed (54s)
+[19:03:52] [PHASE] Phase 3: DNS Resolution & Filtering
+[19:03:52] [INFO] Resolving 124 subdomains with puredns...
+[19:04:18] [INFO] Resolved: 0 alive subdomains
+[19:04:18] [INFO] Wildcards: 0
+[19:04:18] [INFO] Phase 3 completed (26s)
+[19:04:18] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[19:04:18] [INFO] Bruteforcing subdomains with puredns...
+[19:11:02] [INFO] Bruteforce found: 23 subdomains
+[19:11:02] [INFO] Generating permutations with alterx...
+[19:11:03] [INFO] Resolving 13707 permutation candidates...
+[19:11:51] [INFO] Permutations resolved: 10
+[19:11:51] [INFO] Phase 4 completed (453s)
+[19:11:51] [PHASE] Merging Master Subdomain List
+[19:11:51] [INFO] Master subdomain list: \033[1m26\033[0m unique live subdomains
+[19:11:51] [PHASE] Phase 5: Port Scanning
+[19:11:51] [INFO] Scanning ports on 26 hosts with naabu...
+[19:16:25] [INFO] Open ports found: 68 host:port entries
+[19:16:25] [INFO] Hosts with open ports: 24
+[19:16:25] [INFO] Phase 5 completed (274s)
+[19:16:25] [PHASE] Phase 6: Web Probing
+[19:16:25] [INFO] Probing 94 targets with httpx...
+[19:16:49] [INFO] Web assets found: 84
+[19:16:49] [INFO]   200 OK: 43
+[19:16:49] [INFO]   403 Forbidden: 15
+[19:16:49] [INFO]   Other status codes also categorized in by_status/
+[19:16:49] [INFO] Phase 6 completed (24s)
+[19:16:49] [PHASE] Phase 7: Content Discovery
+[19:16:49] [INFO] Starting katana crawl...
+[19:16:49] [INFO] Starting gau historical URL fetch...
+[19:18:33] [INFO] Katana URLs: 1062
+[19:18:33] [INFO] GAU URLs: 48285
+[19:18:33] [INFO] Total unique URLs: 49119
+[19:18:33] [INFO] JavaScript files: 6280
+[19:18:33] [INFO] Phase 7 completed (104s)
+[19:18:33] [PHASE] Phase 8: Vulnerability Scanning
+[19:18:33] [INFO] Running nuclei on 84 live URLs...
+[19:18:35] [INFO] Total findings: 0
+[19:18:35] [INFO] Phase 8 completed (2s)
+[19:18:35] [PHASE] Phase 9: Certstream Monitor (Background)
+[19:18:35] [INFO] Starting certstream monitor in background (60s sample)...
+[19:18:35] [INFO] Certstream PID: 29865 (output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/worldfirst.com/2026-02-05_190256/phase2_passive/certstream.txt)
+[19:18:35] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains worldfirst.com -o certs.txt
+[19:18:35] [INFO] Phase 9 completed (0s)
+[19:18:35] [PHASE] Phase 10: Reporting & Summary
+[19:18:35] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[19:19:35] [INFO] Phase 10 completed (60s)
+[19:19:35] [INFO] All phases complete for worldfirst.com. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/worldfirst.com/2026-02-05_190256\033[0m
+[19:19:35] [PHASE] Domain 3/6: bettrfinancing.com
+[19:19:35] [PHASE] Phase 0: Setup & Dependencies

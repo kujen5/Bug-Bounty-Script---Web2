@@ -1,0 +1,9 @@
+antcloud.antbank.hk
+bkfrontendbff-uat.antbank.hk
+bt-connection.antbank.hk
+business.antbank.hk
+com.alipay.antbank.hk
+developer.antbank.hk
+ext.antbank.hk
+pre.antbank.hk
+www.antbank.hk

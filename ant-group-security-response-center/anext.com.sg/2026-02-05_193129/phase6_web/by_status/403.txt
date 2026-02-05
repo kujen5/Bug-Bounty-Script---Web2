@@ -1,0 +1,3 @@
+http://cdn.anext.com.sg:80
+https://cdn.anext.com.sg:443
+https://cdn.anext.com.sg

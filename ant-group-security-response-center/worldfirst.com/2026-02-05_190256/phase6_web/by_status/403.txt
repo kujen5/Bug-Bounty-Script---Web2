@@ -1,0 +1,15 @@
+https://communications.worldfirst.com:8443
+http://page.worldfirst.com:8080
+https://page.worldfirst.com:8443
+http://campaign.worldfirst.com:8080
+http://oia.worldfirst.com:80
+http://communications.worldfirst.com:8080
+http://office365.worldfirst.com:80
+https://campaign.worldfirst.com:8443
+https://office365.worldfirst.com
+https://office365.worldfirst.com:443
+https://oia.worldfirst.com
+http://www-cdn.worldfirst.com:8080
+https://oia.worldfirst.com:443
+http://www.treasure.worldfirst.com:8080
+https://www-cdn.worldfirst.com:8443

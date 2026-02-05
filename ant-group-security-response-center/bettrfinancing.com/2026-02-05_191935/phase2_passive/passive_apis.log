@@ -1,0 +1,7 @@
+[passive] Querying 4 passive sources for bettrfinancing.com...
+[passive] AlienVault: 0 subdomains
+[passive] URLScan: 5 subdomains
+[passive] HackerTarget: 2 subdomains
+[passive] RapidDNS: 4 subdomains
+[passive] Total unique subdomains from all sources: 6
+[passive] Results written to /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/bettrfinancing.com/2026-02-05_191935/phase2_passive/passive_apis.txt

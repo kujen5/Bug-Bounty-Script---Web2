@@ -1,0 +1,5 @@
+apus.bettrfinancing.com
+grafana.bettrfinancing.com
+prism.bettrfinancing.com
+render.bettrfinancing.com
+www.bettrfinancing.com

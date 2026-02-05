@@ -1,0 +1,11 @@
+https://ib.anext.com.sg:443
+https://ib.anext.com.sg
+http://www.anext.com.sg:80
+http://anext.com.sg:80
+http://bkwordpress-public.anext.com.sg:80
+https://anext.com.sg:443
+https://anext.com.sg
+https://bkwordpress-public.anext.com.sg
+https://www.anext.com.sg
+https://www.anext.com.sg:443
+https://bkwordpress-public.anext.com.sg:443

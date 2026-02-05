@@ -1,0 +1,16 @@
+{
+  "program": "ant-group-security-response-center",
+  "domain": "antbank.hk",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/antbank.hk/2026-02-05_195847",
+  "counts": {
+    "passive_merged": 60,
+    "resolved": 28,
+    "bruteforce": 7,
+    "permutations": 8,
+    "master": 35,
+    "ports": 30,
+    "web_assets": 35,
+    "urls": 353,
+    "nuclei": 0
+  }
+}

@@ -1,0 +1,79 @@
+[18:46:10] [INFO] Program: \033[1mant-group-security-response-center\033[0m
+[18:46:10] [INFO] Target: \033[1mantom.com\033[0m
+[18:46:10] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/antom.com/2026-02-05_184610
+[18:46:10] [INFO] Threads: 50 | Rate Limit: 300
+[18:46:10] [INFO] Go: go1.24.0
+[18:46:11] [INFO] Phase 0 completed (1s)
+[18:46:11] [PHASE] Phase 1: Root Domain Intelligence
+[18:46:11] [INFO] Running WHOIS lookup...
+[18:46:11] [INFO] Running ASN enumeration...
+[18:46:14] [INFO] ASN subdomains: 0
+[18:46:14] [INFO] IP ranges discovered: 0
+[18:46:14] [INFO] Phase 1 completed (3s)
+[18:46:14] [PHASE] Phase 2: Passive Subdomain Enumeration
+[18:46:14] [INFO] Starting subfinder...
+[18:46:14] [INFO] Starting amass passive...
+[18:46:14] [INFO] Starting crt.sh lookup...
+[18:46:14] [INFO] Starting Wayback Machine lookup...
+[18:46:14] [INFO] Starting passive API queries...
+[18:46:14] [INFO] Starting GitHub dorking...
+[18:46:14] [INFO] Waiting for 6 passive sources to complete...
+[18:47:05] [INFO]   amass: 66 subdomains
+[18:47:05] [INFO]   crtsh: 57 subdomains
+[18:47:05] [INFO]   github: 2 subdomains
+[18:47:05] [INFO]   passive_apis: 23 subdomains
+[18:47:05] [INFO]   subfinder: 64 subdomains
+[18:47:05] [INFO]   wayback: 24 subdomains
+[18:47:05] [INFO] Total unique passive subdomains: \033[1m66\033[0m
+[18:47:06] [INFO] Phase 2 completed (52s)
+[18:47:06] [PHASE] Phase 3: DNS Resolution & Filtering
+[18:47:06] [INFO] Resolving 66 subdomains with puredns...
+[18:47:11] [INFO] Resolved: 23 alive subdomains
+[18:47:11] [INFO] Wildcards: 0
+[18:47:11] [INFO] Collecting DNS records with dnsx...
+[18:47:32] [INFO] CNAME records: 39
+[18:47:32] [INFO] Phase 3 completed (26s)
+[18:47:32] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[18:47:32] [INFO] Bruteforcing subdomains with puredns...
+[18:55:45] [INFO] Bruteforce found: 1 subdomains
+[18:55:45] [INFO] Generating permutations with alterx...
+[18:55:47] [INFO] Resolving 12935 permutation candidates...
+[18:56:34] [INFO] Permutations resolved: 8
+[18:56:34] [INFO] Phase 4 completed (542s)
+[18:56:34] [PHASE] Merging Master Subdomain List
+[18:56:34] [INFO] Master subdomain list: \033[1m23\033[0m unique live subdomains
+[18:56:34] [PHASE] Phase 5: Port Scanning
+[18:56:34] [INFO] Scanning ports on 23 hosts with naabu...
+[19:00:00] [INFO] Open ports found: 62 host:port entries
+[19:00:00] [INFO] Hosts with open ports: 20
+[19:00:00] [INFO] Phase 5 completed (206s)
+[19:00:00] [PHASE] Phase 6: Web Probing
+[19:00:00] [INFO] Probing 85 targets with httpx...
+[19:00:21] [INFO] Web assets found: 72
+[19:00:21] [INFO]   200 OK: 44
+[19:00:21] [INFO]   403 Forbidden: 2
+[19:00:21] [INFO]   Other status codes also categorized in by_status/
+[19:00:21] [INFO] Phase 6 completed (21s)
+[19:00:21] [PHASE] Phase 7: Content Discovery
+[19:00:21] [INFO] Starting katana crawl...
+[19:00:21] [INFO] Starting gau historical URL fetch...
+[19:01:55] [INFO] Katana URLs: 3130
+[19:01:55] [INFO] GAU URLs: 1780
+[19:01:55] [INFO] Total unique URLs: 4639
+[19:01:55] [INFO] JavaScript files: 1171
+[19:01:55] [INFO] Phase 7 completed (94s)
+[19:01:55] [PHASE] Phase 8: Vulnerability Scanning
+[19:01:55] [INFO] Running nuclei on 72 live URLs...
+[19:01:55] [INFO] Total findings: 0
+[19:01:55] [INFO] Phase 8 completed (0s)
+[19:01:55] [PHASE] Phase 9: Certstream Monitor (Background)
+[19:01:56] [INFO] Starting certstream monitor in background (60s sample)...
+[19:01:56] [INFO] Certstream PID: 26136 (output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/antom.com/2026-02-05_184610/phase2_passive/certstream.txt)
+[19:01:56] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains antom.com -o certs.txt
+[19:01:56] [INFO] Phase 9 completed (1s)
+[19:01:56] [PHASE] Phase 10: Reporting & Summary
+[19:01:56] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[19:02:56] [INFO] Phase 10 completed (60s)
+[19:02:56] [INFO] All phases complete for antom.com. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/antom.com/2026-02-05_184610\033[0m
+[19:02:56] [PHASE] Domain 2/6: worldfirst.com
+[19:02:56] [PHASE] Phase 0: Setup & Dependencies

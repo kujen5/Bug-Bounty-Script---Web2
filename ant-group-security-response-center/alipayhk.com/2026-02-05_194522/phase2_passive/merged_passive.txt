@@ -1,0 +1,3 @@
+alipayhk.com
+staging.alipayhk.com
+www.alipayhk.com

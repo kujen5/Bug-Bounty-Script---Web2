@@ -1,0 +1,6 @@
+https://render.bettrfinancing.com:443 | 200 | 92.122.5.211
+https://render.bettrfinancing.com | 200 | 92.122.5.211
+http://www.bettrfinancing.com:80 | 200 | Inclusive and Embedded Finance | Bettr | 47.84.221.5 | Elementor:3.31.2,Google Tag Manager,HSTS,MySQL,PHP,Swiper,WordPress:6.8.2,Yoast SEO:25.5,imagesLoaded:5.0.0,jQuery,jQuery Migrate:3.4.1,jsDelivr
+https://www.bettrfinancing.com | 200 | Inclusive and Embedded Finance | Bettr | 47.84.221.5 | Elementor:3.31.2,Google Tag Manager,HSTS,MySQL,PHP,Swiper,WordPress:6.8.2,Yoast SEO:25.5,imagesLoaded:5.0.0,jQuery,jQuery Migrate:3.4.1,jsDelivr
+https://www.bettrfinancing.com:443 | 200 | Inclusive and Embedded Finance | Bettr | 47.84.221.5 | Elementor:3.31.2,Google Tag Manager,HSTS,MySQL,PHP,Swiper,WordPress:6.8.2,Yoast SEO:25.5,imagesLoaded:5.0.0,jQuery,jQuery Migrate:3.4.1,jsDelivr
+http://render.bettrfinancing.com:80 | 200 | 92.122.5.211

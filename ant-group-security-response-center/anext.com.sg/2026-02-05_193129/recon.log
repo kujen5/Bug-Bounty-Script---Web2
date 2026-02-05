@@ -1,0 +1,79 @@
+[19:31:29] [INFO] Program: \033[1mant-group-security-response-center\033[0m
+[19:31:29] [INFO] Target: \033[1manext.com.sg\033[0m
+[19:31:29] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/anext.com.sg/2026-02-05_193129
+[19:31:29] [INFO] Threads: 50 | Rate Limit: 300
+[19:31:29] [INFO] Go: go1.24.0
+[19:31:30] [INFO] Phase 0 completed (1s)
+[19:31:30] [PHASE] Phase 1: Root Domain Intelligence
+[19:31:30] [INFO] Running WHOIS lookup...
+[19:31:30] [INFO] Running ASN enumeration...
+[19:31:32] [INFO] ASN subdomains: 0
+[19:31:32] [INFO] IP ranges discovered: 0
+[19:31:32] [INFO] Phase 1 completed (2s)
+[19:31:32] [PHASE] Phase 2: Passive Subdomain Enumeration
+[19:31:32] [INFO] Starting subfinder...
+[19:31:32] [INFO] Starting amass passive...
+[19:31:32] [INFO] Starting crt.sh lookup...
+[19:31:32] [INFO] Starting Wayback Machine lookup...
+[19:31:32] [INFO] Starting passive API queries...
+[19:31:32] [INFO] Starting GitHub dorking...
+[19:31:32] [INFO] Waiting for 6 passive sources to complete...
+[19:32:20] [INFO]   amass: 28 subdomains
+[19:32:20] [INFO]   crtsh: 5 subdomains
+[19:32:20] [INFO]   github: 7 subdomains
+[19:32:20] [INFO]   passive_apis: 25 subdomains
+[19:32:20] [INFO]   subfinder: 27 subdomains
+[19:32:20] [INFO]   wayback: 5 subdomains
+[19:32:20] [INFO] Total unique passive subdomains: \033[1m28\033[0m
+[19:32:20] [INFO] Phase 2 completed (48s)
+[19:32:20] [PHASE] Phase 3: DNS Resolution & Filtering
+[19:32:20] [INFO] Resolving 28 subdomains with puredns...
+[19:32:25] [INFO] Resolved: 26 alive subdomains
+[19:32:25] [INFO] Wildcards: 0
+[19:32:25] [INFO] Collecting DNS records with dnsx...
+[19:33:03] [INFO] CNAME records: 16
+[19:33:03] [INFO] Phase 3 completed (43s)
+[19:33:03] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[19:33:03] [INFO] Bruteforcing subdomains with puredns...
+[19:40:38] [INFO] Bruteforce found: 4 subdomains
+[19:40:38] [INFO] Generating permutations with alterx...
+[19:40:39] [INFO] Resolving 15989 permutation candidates...
+[19:41:38] [INFO] Permutations resolved: 4
+[19:41:38] [INFO] Phase 4 completed (515s)
+[19:41:38] [PHASE] Merging Master Subdomain List
+[19:41:38] [INFO] Master subdomain list: \033[1m29\033[0m unique live subdomains
+[19:41:38] [PHASE] Phase 5: Port Scanning
+[19:41:38] [INFO] Scanning ports on 29 hosts with naabu...
+[19:43:26] [INFO] Open ports found: 16 host:port entries
+[19:43:26] [INFO] Hosts with open ports: 10
+[19:43:26] [INFO] Phase 5 completed (108s)
+[19:43:26] [PHASE] Phase 6: Web Probing
+[19:43:26] [INFO] Probing 45 targets with httpx...
+[19:43:47] [INFO] Web assets found: 25
+[19:43:47] [INFO]   200 OK: 11
+[19:43:47] [INFO]   403 Forbidden: 3
+[19:43:47] [INFO]   Other status codes also categorized in by_status/
+[19:43:47] [INFO] Phase 6 completed (21s)
+[19:43:47] [PHASE] Phase 7: Content Discovery
+[19:43:47] [INFO] Starting katana crawl...
+[19:43:47] [INFO] Starting gau historical URL fetch...
+[19:44:21] [INFO] Katana URLs: 703
+[19:44:21] [INFO] GAU URLs: 172
+[19:44:21] [INFO] Total unique URLs: 768
+[19:44:21] [INFO] JavaScript files: 35
+[19:44:21] [INFO] Phase 7 completed (34s)
+[19:44:21] [PHASE] Phase 8: Vulnerability Scanning
+[19:44:21] [INFO] Running nuclei on 25 live URLs...
+[19:44:22] [INFO] Total findings: 0
+[19:44:22] [INFO] Phase 8 completed (1s)
+[19:44:22] [PHASE] Phase 9: Certstream Monitor (Background)
+[19:44:22] [INFO] Starting certstream monitor in background (60s sample)...
+[19:44:22] [INFO] Certstream PID: 35944 (output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/anext.com.sg/2026-02-05_193129/phase2_passive/certstream.txt)
+[19:44:22] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains anext.com.sg -o certs.txt
+[19:44:22] [INFO] Phase 9 completed (0s)
+[19:44:22] [PHASE] Phase 10: Reporting & Summary
+[19:44:22] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[19:45:22] [INFO] Phase 10 completed (60s)
+[19:45:22] [INFO] All phases complete for anext.com.sg. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/anext.com.sg/2026-02-05_193129\033[0m
+[19:45:22] [PHASE] Domain 5/6: alipayhk.com
+[19:45:22] [PHASE] Phase 0: Setup & Dependencies

@@ -1,0 +1,12 @@
+https://2c2p-checkout.antom.com
+https://2c2p-checkout.antom.com:443
+http://imgs-sea.antom.com:80
+http://checkout.antom.com:80
+http://2c2p-checkout.antom.com:80
+https://imgs-sea.antom.com
+https://imgs-sea.antom.com:443
+https://checkout.antom.com
+https://checkout.antom.com:443
+http://simpler.antom.com:80
+https://simpler.antom.com
+https://simpler.antom.com:443

@@ -1,0 +1,1 @@
+time="2026-02-05T19:00:21+03:00" level=warning msg="error reading config: Config file /home/kujen/.gau.toml not found, using default config"

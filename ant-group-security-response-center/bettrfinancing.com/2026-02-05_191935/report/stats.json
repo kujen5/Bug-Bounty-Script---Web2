@@ -1,0 +1,16 @@
+{
+  "program": "ant-group-security-response-center",
+  "domain": "bettrfinancing.com",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/bettrfinancing.com/2026-02-05_191935",
+  "counts": {
+    "passive_merged": 15,
+    "resolved": 0,
+    "bruteforce": 3,
+    "permutations": 2,
+    "master": 5,
+    "ports": 4,
+    "web_assets": 6,
+    "urls": 22,
+    "nuclei": 0
+  }
+}

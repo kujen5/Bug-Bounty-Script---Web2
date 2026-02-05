@@ -1,0 +1,8 @@
+alipayhk.com [[35mA[0m] [[32m170.33.12.224[0m] 
+alipayhk.com [[35mNS[0m] [[32mns3.alipay.com[0m] 
+alipayhk.com [[35mNS[0m] [[32mns4.alipay.com[0m] 
+alipayhk.com [[35mNS[0m] [[32mns1.alipay.com[0m] 
+alipayhk.com [[35mNS[0m] [[32mns2.alipay.com[0m] 
+alipayhk.com [[35mTXT[0m] [[32mv=spf1 include:spf1.staff.mail.aliyun.com -all[0m] 
+www.alipayhk.com [[35mA[0m] [[32m170.33.12.224[0m] 
+www.alipayhk.com [[35mCNAME[0m] [[32m54ny3c59097e7xmt.aliyunddos0009.com[0m] 

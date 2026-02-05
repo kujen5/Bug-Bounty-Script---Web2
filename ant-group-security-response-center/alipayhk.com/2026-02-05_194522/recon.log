@@ -1,0 +1,79 @@
+[19:45:22] [INFO] Program: \033[1mant-group-security-response-center\033[0m
+[19:45:22] [INFO] Target: \033[1malipayhk.com\033[0m
+[19:45:22] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/alipayhk.com/2026-02-05_194522
+[19:45:22] [INFO] Threads: 50 | Rate Limit: 300
+[19:45:22] [INFO] Go: go1.24.0
+[19:45:23] [INFO] Phase 0 completed (1s)
+[19:45:23] [PHASE] Phase 1: Root Domain Intelligence
+[19:45:23] [INFO] Running WHOIS lookup...
+[19:45:23] [INFO] Running ASN enumeration...
+[19:45:24] [INFO] ASN subdomains: 0
+[19:45:24] [INFO] IP ranges discovered: 0
+[19:45:24] [INFO] Phase 1 completed (1s)
+[19:45:24] [PHASE] Phase 2: Passive Subdomain Enumeration
+[19:45:24] [INFO] Starting subfinder...
+[19:45:24] [INFO] Starting amass passive...
+[19:45:24] [INFO] Starting crt.sh lookup...
+[19:45:24] [INFO] Starting Wayback Machine lookup...
+[19:45:24] [INFO] Starting passive API queries...
+[19:45:24] [INFO] Starting GitHub dorking...
+[19:45:24] [INFO] Waiting for 6 passive sources to complete...
+[19:46:00] [INFO]   amass: 2 subdomains
+[19:46:00] [INFO]   crtsh: 2 subdomains
+[19:46:00] [INFO]   github: 1 subdomains
+[19:46:00] [INFO]   passive_apis: 1 subdomains
+[19:46:00] [INFO]   subfinder: 2 subdomains
+[19:46:00] [INFO]   wayback: 3 subdomains
+[19:46:00] [INFO] Total unique passive subdomains: \033[1m3\033[0m
+[19:46:00] [INFO] Phase 2 completed (36s)
+[19:46:00] [PHASE] Phase 3: DNS Resolution & Filtering
+[19:46:00] [INFO] Resolving 3 subdomains with puredns...
+[19:46:05] [INFO] Resolved: 2 alive subdomains
+[19:46:05] [INFO] Wildcards: 0
+[19:46:05] [INFO] Collecting DNS records with dnsx...
+[19:46:13] [INFO] CNAME records: 1
+[19:46:13] [INFO] Phase 3 completed (13s)
+[19:46:13] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[19:46:13] [INFO] Bruteforcing subdomains with puredns...
+[19:55:29] [INFO] Bruteforce found: 1 subdomains
+[19:55:29] [INFO] Generating permutations with alterx...
+[19:55:30] [INFO] Resolving 690 permutation candidates...
+[19:56:40] [INFO] Permutations resolved: 0
+[19:56:40] [INFO] Phase 4 completed (627s)
+[19:56:40] [PHASE] Merging Master Subdomain List
+[19:56:40] [INFO] Master subdomain list: \033[1m2\033[0m unique live subdomains
+[19:56:40] [PHASE] Phase 5: Port Scanning
+[19:56:40] [INFO] Scanning ports on 2 hosts with naabu...
+[19:57:00] [INFO] Open ports found: 4 host:port entries
+[19:57:00] [INFO] Hosts with open ports: 2
+[19:57:00] [INFO] Phase 5 completed (20s)
+[19:57:00] [PHASE] Phase 6: Web Probing
+[19:57:00] [INFO] Probing 6 targets with httpx...
+[19:57:08] [INFO] Web assets found: 6
+[19:57:08] [INFO]   200 OK: 4
+[19:57:08] [INFO]   403 Forbidden: 0
+[19:57:08] [INFO]   Other status codes also categorized in by_status/
+[19:57:08] [INFO] Phase 6 completed (8s)
+[19:57:08] [PHASE] Phase 7: Content Discovery
+[19:57:08] [INFO] Starting katana crawl...
+[19:57:08] [INFO] Starting gau historical URL fetch...
+[19:57:46] [INFO] Katana URLs: 320
+[19:57:46] [INFO] GAU URLs: 1884
+[19:57:46] [INFO] Total unique URLs: 2090
+[19:57:46] [INFO] JavaScript files: 198
+[19:57:46] [INFO] Phase 7 completed (38s)
+[19:57:46] [PHASE] Phase 8: Vulnerability Scanning
+[19:57:46] [INFO] Running nuclei on 6 live URLs...
+[19:57:47] [INFO] Total findings: 0
+[19:57:47] [INFO] Phase 8 completed (1s)
+[19:57:47] [PHASE] Phase 9: Certstream Monitor (Background)
+[19:57:47] [INFO] Starting certstream monitor in background (60s sample)...
+[19:57:47] [INFO] Certstream PID: 39096 (output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/alipayhk.com/2026-02-05_194522/phase2_passive/certstream.txt)
+[19:57:47] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains alipayhk.com -o certs.txt
+[19:57:47] [INFO] Phase 9 completed (0s)
+[19:57:47] [PHASE] Phase 10: Reporting & Summary
+[19:57:47] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[19:58:47] [INFO] Phase 10 completed (60s)
+[19:58:47] [INFO] All phases complete for alipayhk.com. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/alipayhk.com/2026-02-05_194522\033[0m
+[19:58:47] [PHASE] Domain 6/6: antbank.hk
+[19:58:47] [PHASE] Phase 0: Setup & Dependencies

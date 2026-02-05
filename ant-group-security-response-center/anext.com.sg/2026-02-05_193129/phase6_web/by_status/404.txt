@@ -1,0 +1,10 @@
+https://ics.anext.com.sg
+https://ics.anext.com.sg:443
+https://redirect.anext.com.sg:443
+https://redirect.anext.com.sg
+https://zhubsgbank.anext.com.sg:443
+https://zhubsgbank.anext.com.sg
+https://secure.anext.com.sg:443
+https://secure.anext.com.sg
+https://go.anext.com.sg:443
+https://go.anext.com.sg

@@ -1,0 +1,8 @@
+[github] [1/6] Searching: "antbank.hk"
+[github] [2/6] Searching: "*.antbank.hk"
+[github] [3/6] Searching: "api.antbank.hk"
+[github] [4/6] Searching: "dev.antbank.hk"
+[github] [5/6] Searching: "staging.antbank.hk"
+[github] [6/6] Searching: "internal.antbank.hk"
+[github] Found 9 unique subdomains
+[github] Results written to /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/antbank.hk/2026-02-05_195847/phase2_passive/github.txt

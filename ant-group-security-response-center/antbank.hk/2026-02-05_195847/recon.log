@@ -1,0 +1,78 @@
+[19:58:47] [INFO] Program: \033[1mant-group-security-response-center\033[0m
+[19:58:47] [INFO] Target: \033[1mantbank.hk\033[0m
+[19:58:47] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/antbank.hk/2026-02-05_195847
+[19:58:47] [INFO] Threads: 50 | Rate Limit: 300
+[19:58:47] [INFO] Go: go1.24.0
+[19:58:48] [INFO] Phase 0 completed (1s)
+[19:58:48] [PHASE] Phase 1: Root Domain Intelligence
+[19:58:48] [INFO] Running WHOIS lookup...
+[19:58:48] [INFO] Running ASN enumeration...
+[19:58:48] [INFO] ASN subdomains: 0
+[19:58:48] [INFO] IP ranges discovered: 0
+[19:58:48] [INFO] Phase 1 completed (0s)
+[19:58:48] [PHASE] Phase 2: Passive Subdomain Enumeration
+[19:58:48] [INFO] Starting subfinder...
+[19:58:48] [INFO] Starting amass passive...
+[19:58:48] [INFO] Starting crt.sh lookup...
+[19:58:48] [INFO] Starting Wayback Machine lookup...
+[19:58:48] [INFO] Starting passive API queries...
+[19:58:48] [INFO] Starting GitHub dorking...
+[19:58:48] [INFO] Waiting for 6 passive sources to complete...
+[19:59:41] [INFO]   amass: 27 subdomains
+[19:59:41] [INFO]   crtsh: 6 subdomains
+[19:59:41] [INFO]   github: 9 subdomains
+[19:59:41] [INFO]   passive_apis: 54 subdomains
+[19:59:41] [INFO]   subfinder: 25 subdomains
+[19:59:41] [INFO]   wayback: 4 subdomains
+[19:59:41] [INFO] Total unique passive subdomains: \033[1m60\033[0m
+[19:59:41] [INFO] Phase 2 completed (53s)
+[19:59:41] [PHASE] Phase 3: DNS Resolution & Filtering
+[19:59:41] [INFO] Resolving 60 subdomains with puredns...
+[19:59:47] [INFO] Resolved: 28 alive subdomains
+[19:59:47] [INFO] Wildcards: 0
+[19:59:47] [INFO] Collecting DNS records with dnsx...
+[20:00:11] [INFO] CNAME records: 28
+[20:00:11] [INFO] Phase 3 completed (30s)
+[20:00:11] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[20:00:11] [INFO] Bruteforcing subdomains with puredns...
+[20:07:59] [INFO] Bruteforce found: 7 subdomains
+[20:07:59] [INFO] Generating permutations with alterx...
+[20:08:00] [INFO] Resolving 18542 permutation candidates...
+[20:09:09] [INFO] Permutations resolved: 8
+[20:09:09] [INFO] Phase 4 completed (538s)
+[20:09:09] [PHASE] Merging Master Subdomain List
+[20:09:09] [INFO] Master subdomain list: \033[1m35\033[0m unique live subdomains
+[20:09:09] [PHASE] Phase 5: Port Scanning
+[20:09:09] [INFO] Scanning ports on 35 hosts with naabu...
+[20:11:59] [INFO] Open ports found: 30 host:port entries
+[20:11:59] [INFO] Hosts with open ports: 13
+[20:11:59] [INFO] Phase 5 completed (170s)
+[20:11:59] [PHASE] Phase 6: Web Probing
+[20:11:59] [INFO] Probing 65 targets with httpx...
+[20:12:23] [INFO] Web assets found: 35
+[20:12:23] [INFO]   200 OK: 17
+[20:12:23] [INFO]   403 Forbidden: 0
+[20:12:23] [INFO]   Other status codes also categorized in by_status/
+[20:12:23] [INFO] Phase 6 completed (24s)
+[20:12:23] [PHASE] Phase 7: Content Discovery
+[20:12:23] [INFO] Starting katana crawl...
+[20:12:23] [INFO] Starting gau historical URL fetch...
+[20:13:10] [INFO] Katana URLs: 193
+[20:13:10] [INFO] GAU URLs: 162
+[20:13:10] [INFO] Total unique URLs: 353
+[20:13:10] [INFO] JavaScript files: 58
+[20:13:10] [INFO] Phase 7 completed (47s)
+[20:13:10] [PHASE] Phase 8: Vulnerability Scanning
+[20:13:10] [INFO] Running nuclei on 35 live URLs...
+[20:13:11] [INFO] Total findings: 0
+[20:13:11] [INFO] Phase 8 completed (1s)
+[20:13:11] [PHASE] Phase 9: Certstream Monitor (Background)
+[20:13:11] [INFO] Starting certstream monitor in background (60s sample)...
+[20:13:11] [INFO] Certstream PID: 42620 (output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/antbank.hk/2026-02-05_195847/phase2_passive/certstream.txt)
+[20:13:11] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains antbank.hk -o certs.txt
+[20:13:11] [INFO] Phase 9 completed (0s)
+[20:13:11] [PHASE] Phase 10: Reporting & Summary
+[20:13:11] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[20:14:11] [INFO] Phase 10 completed (60s)
+[20:14:11] [INFO] All phases complete for antbank.hk. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/antbank.hk/2026-02-05_195847\033[0m
+[20:14:11] [INFO] All domains processed. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/\033[0m

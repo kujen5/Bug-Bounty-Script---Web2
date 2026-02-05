@@ -1,0 +1,56 @@
+==============================================
+  BEAST MODE RECON - SUMMARY REPORT
+==============================================
+
+Program:    ant-group-security-response-center
+Target:     antom.com
+Date:       2026-02-05 19:02:56
+Output Dir: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/antom.com/2026-02-05_184610
+
+----------------------------------------------
+  SUBDOMAIN COUNTS
+----------------------------------------------
+Passive sources:
+  subfinder:           64
+  amass:               66
+  crtsh:               57
+  wayback:             24
+  passive_apis:        23
+  github:              2
+
+Merged passive:      66
+Resolved (alive):    23
+Bruteforce:          1
+Permutations:        8
+MASTER TOTAL:        23
+
+----------------------------------------------
+  INFRASTRUCTURE
+----------------------------------------------
+IP ranges (ASN):     0
+Open ports (naabu):  62
+Web assets (httpx):  72
+
+----------------------------------------------
+  CONTENT & VULNS
+----------------------------------------------
+URLs discovered:     4639
+JS files:            1171
+Nuclei findings:     0
+
+----------------------------------------------
+  PHASE STATUS
+----------------------------------------------
+  Phase 0 : OK
+  Phase 1 : OK
+  Phase 2 : OK
+  Phase 3 : OK
+  Phase 4 : OK
+  Phase 5 : OK
+  Phase 6 : OK
+  Phase 7 : OK
+  Phase 8 : OK
+  Phase 9 : OK
+  Phase 10: OK
+
+==============================================

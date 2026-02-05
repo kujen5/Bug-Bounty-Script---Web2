@@ -1,0 +1,16 @@
+{
+  "program": "ant-group-security-response-center",
+  "domain": "alipayplus.com",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/alipayplus.com/2026-02-05_165522",
+  "counts": {
+    "passive_merged": 183,
+    "resolved": 157,
+    "bruteforce": 24,
+    "permutations": 0,
+    "master": 160,
+    "ports": 48612,
+    "web_assets": 692,
+    "urls": 4146,
+    "nuclei": 0
+  }
+}

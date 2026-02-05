@@ -1,0 +1,9 @@
+http://campaign.worldfirst.com:80
+http://portal-api.worldfirst.com:80
+https://campaign.worldfirst.com:443
+https://campaign.worldfirst.com
+https://portal-api.worldfirst.com
+https://portal-api.worldfirst.com:443
+http://imgs.worldfirst.com:80
+https://imgs.worldfirst.com
+https://imgs.worldfirst.com:443

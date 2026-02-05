@@ -1,0 +1,6 @@
+https://www.alipayhk.com:80 | 410 | 410 Gone | 170.33.12.224 | Tengine | Tengine
+https://alipayhk.com:80 | 410 | 410 Gone | 170.33.12.224 | Tengine | Tengine
+https://alipayhk.com:443 | 200 | AlipayHK - 點指支付咁簡單｜生活+消費，一指搞掂！ | 170.33.12.224 | Bootstrap:4.5.3,Google Analytics,Google Tag Manager,HSTS,MySQL,PHP,Popper,Unpkg,WPML:4.6.4,WPMU DEV Smush:3.13.1,WordPress Super Cache,WordPress:6.8.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1,jsDelivr
+https://www.alipayhk.com:443 | 200 | AlipayHK - 點指支付咁簡單｜生活+消費，一指搞掂！ | 170.33.12.224 | Bootstrap:4.5.3,Google Analytics,Google Tag Manager,HSTS,MySQL,PHP,Popper,Unpkg,WPML:4.6.4,WPMU DEV Smush:3.13.1,WordPress Super Cache,WordPress:6.8.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1,jsDelivr
+https://www.alipayhk.com | 200 | AlipayHK - 點指支付咁簡單｜生活+消費，一指搞掂！ | 170.33.12.224 | Bootstrap:4.5.3,Google Analytics,Google Tag Manager,HSTS,MySQL,PHP,Popper,Unpkg,WPML:4.6.4,WPMU DEV Smush:3.13.1,WordPress Super Cache,WordPress:6.8.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1,jsDelivr
+https://alipayhk.com | 200 | AlipayHK - 點指支付咁簡單｜生活+消費，一指搞掂！ | 170.33.12.224 | Bootstrap:4.5.3,Google Analytics,Google Tag Manager,HSTS,MySQL,PHP,Popper,Unpkg,WPML:4.6.4,WPMU DEV Smush:3.13.1,WordPress Super Cache,WordPress:6.8.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1,jsDelivr

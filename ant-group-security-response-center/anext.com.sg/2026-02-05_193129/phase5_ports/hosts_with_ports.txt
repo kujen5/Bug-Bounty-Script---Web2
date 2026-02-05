@@ -1,0 +1,10 @@
+anext.com.sg
+bkwordpress-public.anext.com.sg
+cdn.anext.com.sg
+go.anext.com.sg
+ib.anext.com.sg
+ics.anext.com.sg
+redirect.anext.com.sg
+secure.anext.com.sg
+www.anext.com.sg
+zhubsgbank.anext.com.sg

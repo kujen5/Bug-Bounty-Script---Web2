@@ -1,0 +1,9 @@
+[github] [1/6] Searching: "anext.com.sg"
+[github] [2/6] Searching: "*.anext.com.sg"
+[github] Search error: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /search/code?q=%22%2A.anext.com.sg%22&per_page=100 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7aec318a0dc0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[github] [3/6] Searching: "api.anext.com.sg"
+[github] [4/6] Searching: "dev.anext.com.sg"
+[github] [5/6] Searching: "staging.anext.com.sg"
+[github] [6/6] Searching: "internal.anext.com.sg"
+[github] Found 7 unique subdomains
+[github] Results written to /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/anext.com.sg/2026-02-05_193129/phase2_passive/github.txt

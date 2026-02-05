@@ -1,0 +1,84 @@
+http://m.worldfirst.com:1935 | 400 | 400 The plain HTTP request was sent to HTTPS port | 47.246.6.175 | Tengine | Tengine
+https://communications.worldfirst.com:8443 | 403 | Attention Required! | Cloudflare | 104.17.143.168 | cloudflare | Cloudflare,HSTS
+http://page.worldfirst.com:8080 | 403 | Attention Required! | Cloudflare | 104.17.143.168 | cloudflare | Cloudflare
+http://office365.worldfirst.com:1935 | 400 | 400 The plain HTTP request was sent to HTTPS port | 47.246.6.174 | Tengine | Tengine
+https://page.worldfirst.com:8443 | 403 | Attention Required! | Cloudflare | 104.17.143.168 | cloudflare | Cloudflare,HSTS
+http://image.worldfirst.com | 400 | Invalid URL | 82.148.119.228 | AkamaiGHost
+http://campaign.worldfirst.com:8080 | 403 | Attention Required! | Cloudflare | 199.60.103.28 | cloudflare | Cloudflare,Cloudflare Bot Management,HTTP/3
+http://m.worldfirst.com:80 | 200 | 47.246.6.175 | Tengine | Alibaba Cloud Object Storage Service,Tengine
+http://oia.worldfirst.com:80 | 403 | 47.79.49.203 | AliyunOSS | Alibaba Cloud Object Storage Service
+https://m.worldfirst.com:443 | 200 | 47.246.6.175 | Tengine | Alibaba Cloud Object Storage Service,Tengine
+http://communications.worldfirst.com:8080 | 403 | Attention Required! | Cloudflare | 104.17.143.168 | cloudflare | Cloudflare
+https://m.worldfirst.com | 200 | 47.246.6.175 | Tengine | Alibaba Cloud Object Storage Service,Tengine
+http://autodiscover.service.worldfirst.com:80 | 200 | Outlook | 40.99.26.184 | Microsoft-HTTPAPI/2.0 | HSTS,Microsoft HTTPAPI:2.0
+http://autodiscover.service.worldfirst.com | 200 | Outlook | 40.99.26.184 | Microsoft-HTTPAPI/2.0 | HSTS,Microsoft HTTPAPI:2.0
+http://autodiscover.mail.worldfirst.com | 200 | Outlook | 40.99.27.24 | Microsoft-HTTPAPI/2.0 | HSTS,Microsoft HTTPAPI:2.0
+http://autodiscover.worldfirst.com | 200 | Outlook | 40.99.26.216 | Microsoft-HTTPAPI/2.0 | HSTS,Microsoft HTTPAPI:2.0
+http://autodiscover.worldfirst.com:80 | 200 | Outlook | 40.99.26.216 | Microsoft-HTTPAPI/2.0 | HSTS,Microsoft HTTPAPI:2.0
+http://autodiscover.mail.worldfirst.com:80 | 200 | Outlook | 40.99.27.24 | Microsoft-HTTPAPI/2.0 | HSTS,Microsoft HTTPAPI:2.0
+http://explore.worldfirst.com:80 | 200 | Tailored Payment for e-commerce growth | 52.223.52.2 | Framer/09aad95 | Framer Sites,Google Tag Manager,HSTS,HTTP/3,React
+http://communications.worldfirst.com:80 | 200 | FormAssembly: Team | WorldFirst : Users | 104.17.143.168 | cloudflare | CakePHP,Cloudflare,HSTS,PHP,jQuery
+https://explore.worldfirst.com:443 | 200 | Tailored Payment for e-commerce growth | 52.223.52.2 | Framer/09aad95 | Framer Sites,Google Tag Manager,HSTS,HTTP/3,React
+https://explore.worldfirst.com | 200 | Tailored Payment for e-commerce growth | 52.223.52.2 | Framer/09aad95 | Framer Sites,Google Tag Manager,HSTS,HTTP/3,React
+https://handbook.worldfirst.com | 200 | WorldFirst Product Handbook | 52.223.52.2 | Framer/09aad95 | Framer Sites,Google Tag Manager,HSTS,HTTP/3,React
+http://handbook.worldfirst.com:80 | 200 | WorldFirst Product Handbook | 52.223.52.2 | Framer/09aad95 | Framer Sites,Google Tag Manager,HSTS,HTTP/3,React
+https://communications.worldfirst.com:443 | 200 | FormAssembly: Team | WorldFirst : Users | 104.17.143.168 | cloudflare | CakePHP,Cloudflare,HSTS,PHP,jQuery
+https://communications.worldfirst.com | 200 | FormAssembly: Team | WorldFirst : Users | 104.17.143.168 | cloudflare | CakePHP,Cloudflare,HSTS,PHP,jQuery
+https://handbook.worldfirst.com:443 | 200 | WorldFirst Product Handbook | 52.223.52.2 | Framer/09aad95 | Framer Sites,Google Tag Manager,HSTS,HTTP/3,React
+https://render.worldfirst.com | 200 | 92.122.5.211
+https://render.worldfirst.com:443 | 200 | 92.122.5.211
+http://office365.worldfirst.com:80 | 403 | 403 Forbidden | 47.246.6.174 | Tengine | Tengine
+https://campaign.worldfirst.com:8443 | 403 | Attention Required! | Cloudflare | 199.60.103.28 | cloudflare | Cloudflare,Cloudflare Bot Management,HTTP/3
+http://web.worldfirst.com:1935 | 400 | 400 The plain HTTP request was sent to HTTPS port | 47.246.6.171 | Tengine | Tengine
+https://office365.worldfirst.com | 403 | 403 Forbidden | 47.246.6.176 | Tengine | Tengine
+https://office365.worldfirst.com:443 | 403 | 403 Forbidden | 47.246.6.174 | Tengine | Tengine
+https://oia.worldfirst.com | 403 | 47.79.49.203 | AliyunOSS | Alibaba Cloud Object Storage Service
+http://campaign.worldfirst.com:80 | 404 | Error 404 | Page not found | 199.60.103.28 | cloudflare | Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3,HubSpot,HubSpot CMS Hub
+http://www-cdn.worldfirst.com:8080 | 403 | Attention Required! | Cloudflare | 104.17.143.168 | cloudflare | Cloudflare
+https://oia.worldfirst.com:443 | 403 | 47.79.49.203 | AliyunOSS | Alibaba Cloud Object Storage Service
+http://www.treasure.worldfirst.com:8443 | 400 | 400 The plain HTTP request was sent to HTTPS port | 104.17.143.168 | cloudflare | Cloudflare
+http://www.treasure.worldfirst.com:8080 | 403 | Attention Required! | Cloudflare | 104.17.143.168 | cloudflare | Cloudflare
+https://www-cdn.worldfirst.com:8443 | 403 | Attention Required! | Cloudflare | 104.17.143.168 | cloudflare | Cloudflare,HSTS
+http://www.treasure.worldfirst.com:443 | 400 | 400 The plain HTTP request was sent to HTTPS port | 104.17.143.168 | cloudflare | Cloudflare
+https://treasure.worldfirst.com | 530 | 104.19.160.222 | cloudflare | Cloudflare,HSTS
+http://portal-api.worldfirst.com:80 | 404 | 47.235.24.199 | Tengine/2.1.0 | HSTS,Tengine
+https://campaign.worldfirst.com:443 | 404 | Error 404 | Page not found | 199.60.103.28 | cloudflare | Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3,HubSpot,HubSpot CMS Hub
+https://campaign.worldfirst.com | 404 | Error 404 | Page not found | 199.60.103.28 | cloudflare | Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3,HubSpot,HubSpot CMS Hub
+http://developers.worldfirst.com:80 | 200 | 47.235.24.195
+http://fs.worldfirst.com:80 | 200 | WorldFirst | 47.235.24.199 | Tengine/2.1.0 | Alibaba Cloud CDN,Lodash,Node.js,Tengine,UmiJs
+https://developers.worldfirst.com:443 | 200 | 47.235.24.195
+https://developers.worldfirst.com | 200 | 47.235.24.195
+https://portal-api.worldfirst.com | 404 | 47.235.24.199 | Tengine/2.1.0 | HSTS,Tengine
+https://portal-api.worldfirst.com:443 | 404 | 47.235.24.199 | Tengine/2.1.0 | HSTS,Tengine
+http://web.worldfirst.com:80 | 200 | 47.246.6.171 | Tengine | Alibaba Cloud Object Storage Service,Tengine
+https://web.worldfirst.com:443 | 200 | 47.246.6.171 | Tengine | Alibaba Cloud Object Storage Service,Tengine
+https://web.worldfirst.com | 200 | 47.246.6.171 | Tengine | Alibaba Cloud Object Storage Service,Tengine
+http://trading.worldfirst.com:80 | 200 | WorldFirst | 104.17.143.168 | Tengine/2.1.0 | Alibaba Cloud CDN,Lodash,Node.js,Tengine,UmiJs
+http://trading.worldfirst.com:8080 | 200 | WorldFirst | 104.17.143.168 | Tengine/2.1.0 | Alibaba Cloud CDN,Lodash,Node.js,Tengine,UmiJs
+https://trading.worldfirst.com:443 | 200 | WorldFirst | 104.17.143.168 | Tengine/2.1.0 | Alibaba Cloud CDN,Lodash,Node.js,Tengine,UmiJs
+https://trading.worldfirst.com | 200 | WorldFirst | 104.17.143.168 | Tengine/2.1.0 | Alibaba Cloud CDN,Lodash,Node.js,Tengine,UmiJs
+https://trading.worldfirst.com:8443 | 200 | WorldFirst | 104.17.143.168 | Tengine/2.1.0 | Alibaba Cloud CDN,Lodash,Node.js,Tengine,UmiJs
+http://s.worldfirst.com:80 | 204 | 155.102.209.250 | ESA
+http://s.worldfirst.com:8080 | 204 | 155.102.209.250 | ESA
+https://fs.worldfirst.com | 200 | WorldFirst | 47.235.24.199 | Tengine/2.1.0 | Alibaba Cloud CDN,Lodash,Node.js,Tengine,UmiJs
+http://portal.worldfirst.com:80 | 200 | WorldFirst | 47.235.21.62 | Tengine/2.1.0 | Alibaba Cloud CDN,Lodash,Node.js,Tengine,UmiJs
+https://page.worldfirst.com:443 | 520 | 104.17.143.168 | cloudflare | Cloudflare,HSTS
+https://portal.worldfirst.com:443 | 200 | WorldFirst | 47.235.21.62 | Tengine/2.1.0 | Alibaba Cloud CDN,Lodash,Node.js,Tengine,UmiJs
+https://portal.worldfirst.com | 200 | WorldFirst | 47.235.21.62 | Tengine/2.1.0 | Alibaba Cloud CDN,Lodash,Node.js,Tengine,UmiJs
+https://fs.worldfirst.com:443 | 200 | WorldFirst | 47.235.24.199 | Tengine/2.1.0 | Alibaba Cloud CDN,Lodash,Node.js,Tengine,UmiJs
+https://s.worldfirst.com:443 | 204 | 155.102.209.250 | ESA
+https://s.worldfirst.com | 204 | 155.102.209.250 | ESA
+http://imgs.worldfirst.com:80 | 404 | 404 Not Found | 47.235.16.109 | Tengine/2.1.0 | Tengine
+http://page.worldfirst.com:80 | 520 | 104.17.143.168 | cloudflare | Cloudflare,HSTS
+https://imgs.worldfirst.com | 404 | 404 Not Found | 47.235.16.109 | Tengine/2.1.0 | Tengine
+https://imgs.worldfirst.com:443 | 404 | 404 Not Found | 47.235.16.109 | Tengine/2.1.0 | Tengine
+https://s.worldfirst.com:8443 | 522 | 155.102.209.250 | ESA
+http://image.worldfirst.com:80 | 400 | Invalid URL | 82.148.119.228 | AkamaiGHost
+https://page.worldfirst.com | 520 | 104.17.143.168 | cloudflare | Cloudflare,HSTS
+http://render.worldfirst.com:80 | 200 | 92.122.5.211
+http://www-cdn.worldfirst.com:443 | 400 | 400 The plain HTTP request was sent to HTTPS port | 104.17.143.168 | cloudflare | Cloudflare
+https://www.worldfirst.com | 200 | Your World of Business in One Account | WorldFirst Global | 104.19.160.222 | cloudflare | Bootstrap,Cloudflare,Elementor:3.23.1,Google Tag Manager,HSTS,MySQL,PHP,WP Rocket,WordPress:6.5.5,Yoast SEO Premium:24.2,Yoast SEO:24.3
+https://www.worldfirst.com:443 | 200 | Your World of Business in One Account | WorldFirst Global | 104.19.160.222 | cloudflare | Bootstrap,Cloudflare,Elementor:3.23.1,Google Tag Manager,HSTS,MySQL,PHP,WP Rocket,WordPress:6.5.5,Yoast SEO Premium:24.2,Yoast SEO:24.3
+http://www.worldfirst.com:8080 | 200 | Your World of Business in One Account | WorldFirst Global | 104.19.160.222 | cloudflare | Bootstrap,Cloudflare,Elementor:3.23.1,Google Tag Manager,HSTS,MySQL,PHP,WP Rocket,WordPress:6.5.5,Yoast SEO Premium:24.2,Yoast SEO:24.3
+https://www.worldfirst.com:8443 | 200 | Your World of Business in One Account | WorldFirst Global | 104.19.160.222 | cloudflare | Bootstrap,Cloudflare,Elementor:3.23.1,Google Tag Manager,HSTS,MySQL,PHP,WP Rocket,WordPress:6.5.5,Yoast SEO Premium:24.2,Yoast SEO:24.3
+http://www.worldfirst.com:80 | 200 | Your World of Business in One Account | WorldFirst Global | 104.19.160.222 | cloudflare | Bootstrap,Cloudflare,Elementor:3.23.1,Google Tag Manager,HSTS,MySQL,PHP,WP Rocket,WordPress:6.5.5,Yoast SEO Premium:24.2,Yoast SEO:24.3

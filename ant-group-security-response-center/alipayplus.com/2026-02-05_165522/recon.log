@@ -1,0 +1,76 @@
+[16:55:22] [INFO] Program: \033[1mant-group-security-response-center\033[0m
+[16:55:22] [INFO] Target: \033[1malipayplus.com\033[0m
+[16:55:22] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/alipayplus.com/2026-02-05_165522
+[16:55:22] [INFO] Threads: 50 | Rate Limit: 300
+[16:55:22] [INFO] Go: go1.24.0
+[16:55:22] [INFO] Phase 0 completed (0s)
+[16:55:22] [PHASE] Phase 1: Root Domain Intelligence
+[16:55:22] [INFO] Running WHOIS lookup...
+[16:55:22] [INFO] Running ASN enumeration...
+[16:55:26] [INFO] ASN subdomains: 0
+[16:55:26] [INFO] IP ranges discovered: 0
+[16:55:26] [INFO] Phase 1 completed (4s)
+[16:55:26] [PHASE] Phase 2: Passive Subdomain Enumeration
+[16:55:26] [INFO] Starting subfinder...
+[16:55:26] [INFO] Starting amass passive...
+[16:55:26] [INFO] Starting crt.sh lookup...
+[16:55:26] [INFO] Starting Wayback Machine lookup...
+[16:55:26] [INFO] Starting passive API queries...
+[16:55:26] [INFO] Starting GitHub dorking...
+[16:55:26] [INFO] Waiting for 6 passive sources to complete...
+[16:56:21] [INFO]   amass: 123 subdomains
+[16:56:21] [INFO]   crtsh: 26 subdomains
+[16:56:21] [INFO]   github: 8 subdomains
+[16:56:21] [INFO]   passive_apis: 84 subdomains
+[16:56:21] [INFO]   subfinder: 178 subdomains
+[16:56:21] [INFO]   wayback: 38 subdomains
+[16:56:21] [INFO] Total unique passive subdomains: \033[1m183\033[0m
+[16:56:21] [INFO] Phase 2 completed (55s)
+[16:56:21] [PHASE] Phase 3: DNS Resolution & Filtering
+[16:56:21] [INFO] Resolving 183 subdomains with puredns...
+[16:56:30] [INFO] Resolved: 157 alive subdomains
+[16:56:30] [INFO] Wildcards: 0
+[16:56:30] [INFO] Collecting DNS records with dnsx...
+[16:57:39] [INFO] CNAME records: 168
+[16:57:39] [INFO] Phase 3 completed (78s)
+[16:57:39] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[16:57:39] [INFO] Bruteforcing subdomains with puredns...
+[17:04:29] [INFO] Bruteforce found: 24 subdomains
+[17:04:29] [INFO] Generating permutations with alterx...
+[17:04:30] [INFO] Phase 4 completed (411s)
+[17:04:30] [PHASE] Merging Master Subdomain List
+[17:04:30] [INFO] Master subdomain list: \033[1m160\033[0m unique live subdomains
+[17:04:30] [PHASE] Phase 5: Port Scanning
+[17:04:30] [INFO] Scanning ports on 160 hosts with naabu...
+[17:14:35] [INFO] Open ports found: 48612 host:port entries
+[17:14:35] [INFO] Hosts with open ports: 140
+[17:14:35] [INFO] Phase 5 completed (605s)
+[17:14:35] [PHASE] Phase 6: Web Probing
+[17:14:35] [INFO] Probing 48772 targets with httpx...
+[17:27:37] [INFO] Web assets found: 692
+[17:27:37] [INFO]   200 OK: 274
+[17:27:37] [INFO]   403 Forbidden: 13
+[17:27:37] [INFO]   Other status codes also categorized in by_status/
+[17:27:37] [INFO] Phase 6 completed (782s)
+[17:27:37] [PHASE] Phase 7: Content Discovery
+[17:27:37] [INFO] Starting katana crawl...
+[17:27:37] [INFO] Starting gau historical URL fetch...
+[17:41:07] [INFO] Katana URLs: 3814
+[17:41:07] [INFO] GAU URLs: 583
+[17:41:07] [INFO] Total unique URLs: 4146
+[17:41:07] [INFO] JavaScript files: 885
+[17:41:07] [INFO] Phase 7 completed (810s)
+[17:41:07] [PHASE] Phase 8: Vulnerability Scanning
+[17:41:07] [INFO] Running nuclei on 692 live URLs...
+[17:41:07] [INFO] Total findings: 0
+[17:41:07] [INFO] Phase 8 completed (0s)
+[17:41:07] [PHASE] Phase 9: Certstream Monitor (Background)
+[17:41:07] [INFO] Starting certstream monitor in background (60s sample)...
+[17:41:07] [INFO] Certstream PID: 10629 (output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/alipayplus.com/2026-02-05_165522/phase2_passive/certstream.txt)
+[17:41:07] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains alipayplus.com -o certs.txt
+[17:41:07] [INFO] Phase 9 completed (0s)
+[17:41:07] [PHASE] Phase 10: Reporting & Summary
+[17:41:07] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[17:42:09] [INFO] Phase 10 completed (62s)
+[17:42:09] [INFO] All phases complete for alipayplus.com. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/alipayplus.com/2026-02-05_165522\033[0m
+[17:42:09] [INFO] All domains processed. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/\033[0m

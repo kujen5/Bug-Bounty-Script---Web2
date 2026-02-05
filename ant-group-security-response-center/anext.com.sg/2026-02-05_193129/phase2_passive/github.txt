@@ -1,0 +1,7 @@
+cdn.anext.com.sg
+dsig.superlink.anext.com.sg
+ib.anext.com.sg
+opengw.anext.com.sg
+pre.anext.com.sg
+www.anext.com.sg
+zhubsgbank.anext.com.sg

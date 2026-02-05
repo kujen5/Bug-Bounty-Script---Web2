@@ -1,0 +1,77 @@
+[19:19:35] [INFO] Program: \033[1mant-group-security-response-center\033[0m
+[19:19:35] [INFO] Target: \033[1mbettrfinancing.com\033[0m
+[19:19:35] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/bettrfinancing.com/2026-02-05_191935
+[19:19:35] [INFO] Threads: 50 | Rate Limit: 300
+[19:19:35] [INFO] Go: go1.24.0
+[19:19:36] [INFO] Phase 0 completed (1s)
+[19:19:36] [PHASE] Phase 1: Root Domain Intelligence
+[19:19:36] [INFO] Running WHOIS lookup...
+[19:19:36] [INFO] Running ASN enumeration...
+[19:19:37] [INFO] ASN subdomains: 0
+[19:19:37] [INFO] IP ranges discovered: 0
+[19:19:37] [INFO] Phase 1 completed (1s)
+[19:19:37] [PHASE] Phase 2: Passive Subdomain Enumeration
+[19:19:37] [INFO] Starting subfinder...
+[19:19:37] [INFO] Starting amass passive...
+[19:19:37] [INFO] Starting crt.sh lookup...
+[19:19:37] [INFO] Starting Wayback Machine lookup...
+[19:19:37] [INFO] Starting passive API queries...
+[19:19:37] [INFO] Starting GitHub dorking...
+[19:19:37] [INFO] Waiting for 6 passive sources to complete...
+[19:20:18] [INFO]   amass: 13 subdomains
+[19:20:18] [INFO]   crtsh: 10 subdomains
+[19:20:18] [INFO]   github: 0 subdomains
+[19:20:18] [INFO]   passive_apis: 6 subdomains
+[19:20:18] [INFO]   subfinder: 12 subdomains
+[19:20:18] [INFO]   wayback: 3 subdomains
+[19:20:18] [INFO] Total unique passive subdomains: \033[1m15\033[0m
+[19:20:18] [INFO] Phase 2 completed (41s)
+[19:20:18] [PHASE] Phase 3: DNS Resolution & Filtering
+[19:20:18] [INFO] Resolving 15 subdomains with puredns...
+[19:20:52] [INFO] Resolved: 0 alive subdomains
+[19:20:52] [INFO] Wildcards: 0
+[19:20:52] [INFO] Phase 3 completed (34s)
+[19:20:52] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[19:20:52] [INFO] Bruteforcing subdomains with puredns...
+[19:28:37] [INFO] Bruteforce found: 3 subdomains
+[19:28:37] [INFO] Generating permutations with alterx...
+[19:28:37] [INFO] Resolving 1866 permutation candidates...
+[19:28:47] [INFO] Permutations resolved: 2
+[19:28:47] [INFO] Phase 4 completed (475s)
+[19:28:47] [PHASE] Merging Master Subdomain List
+[19:28:47] [INFO] Master subdomain list: \033[1m5\033[0m unique live subdomains
+[19:28:47] [PHASE] Phase 5: Port Scanning
+[19:28:47] [INFO] Scanning ports on 5 hosts with naabu...
+[19:29:43] [INFO] Open ports found: 4 host:port entries
+[19:29:43] [INFO] Hosts with open ports: 2
+[19:29:43] [INFO] Phase 5 completed (56s)
+[19:29:43] [PHASE] Phase 6: Web Probing
+[19:29:43] [INFO] Probing 9 targets with httpx...
+[19:30:04] [INFO] Web assets found: 6
+[19:30:04] [INFO]   200 OK: 6
+[19:30:04] [INFO]   403 Forbidden: 0
+[19:30:04] [INFO]   Other status codes also categorized in by_status/
+[19:30:04] [INFO] Phase 6 completed (21s)
+[19:30:04] [PHASE] Phase 7: Content Discovery
+[19:30:04] [INFO] Starting katana crawl...
+[19:30:04] [INFO] Starting gau historical URL fetch...
+[19:30:29] [INFO] Katana URLs: 7
+[19:30:29] [INFO] GAU URLs: 16
+[19:30:29] [INFO] Total unique URLs: 22
+[19:30:29] [INFO] JavaScript files: 0
+[19:30:29] [INFO] Phase 7 completed (25s)
+[19:30:29] [PHASE] Phase 8: Vulnerability Scanning
+[19:30:29] [INFO] Running nuclei on 6 live URLs...
+[19:30:29] [INFO] Total findings: 0
+[19:30:29] [INFO] Phase 8 completed (0s)
+[19:30:29] [PHASE] Phase 9: Certstream Monitor (Background)
+[19:30:29] [INFO] Starting certstream monitor in background (60s sample)...
+[19:30:29] [INFO] Certstream PID: 32696 (output: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/bettrfinancing.com/2026-02-05_191935/phase2_passive/certstream.txt)
+[19:30:29] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains bettrfinancing.com -o certs.txt
+[19:30:29] [INFO] Phase 9 completed (0s)
+[19:30:29] [PHASE] Phase 10: Reporting & Summary
+[19:30:29] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[19:31:29] [INFO] Phase 10 completed (60s)
+[19:31:29] [INFO] All phases complete for bettrfinancing.com. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/bettrfinancing.com/2026-02-05_191935\033[0m
+[19:31:29] [PHASE] Domain 4/6: anext.com.sg
+[19:31:29] [PHASE] Phase 0: Setup & Dependencies

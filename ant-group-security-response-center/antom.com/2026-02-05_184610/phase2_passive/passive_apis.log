@@ -1,0 +1,7 @@
+[passive] Querying 4 passive sources for antom.com...
+[passive] AlienVault: 0 subdomains
+[passive] HackerTarget: 10 subdomains
+[passive] URLScan: 4 subdomains
+[passive] RapidDNS: 20 subdomains
+[passive] Total unique subdomains from all sources: 23
+[passive] Results written to /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/antom.com/2026-02-05_184610/phase2_passive/passive_apis.txt

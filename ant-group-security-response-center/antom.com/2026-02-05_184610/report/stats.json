@@ -1,0 +1,16 @@
+{
+  "program": "ant-group-security-response-center",
+  "domain": "antom.com",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/antom.com/2026-02-05_184610",
+  "counts": {
+    "passive_merged": 66,
+    "resolved": 23,
+    "bruteforce": 1,
+    "permutations": 8,
+    "master": 23,
+    "ports": 62,
+    "web_assets": 72,
+    "urls": 4639,
+    "nuclei": 0
+  }
+}

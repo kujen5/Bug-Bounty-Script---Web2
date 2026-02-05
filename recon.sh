@@ -1267,7 +1267,7 @@ main() {
         echo ""
 
         local current=0
-        while IFS= read -r line || [[ -n "$line" ]]; do
+        while IFS= read -r line <&3 || [[ -n "$line" ]]; do
             # Skip empty lines and comments
             line=$(echo "$line" | sed 's/#.*//' | xargs)
             [[ -z "$line" ]] && continue
@@ -1281,7 +1281,7 @@ main() {
 
             run_recon_pipeline
 
-        done < "$DOMAINS_FILE"
+        done 3< "$DOMAINS_FILE"
 
         echo ""
         log INFO "All domains processed. Results in: ${BOLD}${SCRIPT_DIR}/${PROGRAM}/${NC}"

@@ -1,0 +1,25 @@
+http://cdn.anext.com.sg:1935 | 400 | 400 The plain HTTP request was sent to HTTPS port | 163.181.58.172 | Tengine | Tengine
+https://ics.anext.com.sg | 404 | 8.214.160.15 | HSTS
+https://ics.anext.com.sg:443 | 404 | 8.214.160.15 | HSTS
+https://redirect.anext.com.sg:443 | 404 | 8.214.160.6 | HSTS
+https://redirect.anext.com.sg | 404 | 8.214.160.6 | HSTS
+https://zhubsgbank.anext.com.sg:443 | 404 | 8.214.160.7 | HSTS
+https://zhubsgbank.anext.com.sg | 404 | 8.214.160.7 | HSTS
+https://secure.anext.com.sg:443 | 404 | 8.214.160.6 | HSTS
+https://secure.anext.com.sg | 404 | 8.214.160.6 | HSTS
+https://go.anext.com.sg:443 | 404 | 8.214.160.7 | HSTS
+https://go.anext.com.sg | 404 | 8.214.160.7 | HSTS
+https://ib.anext.com.sg:443 | 200 | 8.214.160.6 | Alibaba Cloud CDN,HSTS,Node.js,UmiJs,dc.js,jQuery
+https://ib.anext.com.sg | 200 | 8.214.160.6 | Alibaba Cloud CDN,HSTS,Node.js,UmiJs,dc.js,jQuery
+http://cdn.anext.com.sg:80 | 403 | 403 Forbidden | 163.181.58.172 | Tengine | Tengine
+http://www.anext.com.sg:80 | 200 | ANEXT Bank | Singapore's digital bank for MSMEs | 8.214.160.9 | Apache/2.4.65 (Debian) | Alibaba Cloud CDN,Apache HTTP Server:2.4.65,Debian,Elementor:3.34.2,HSTS,MySQL,PHP,Slick,WordPress,Yoast SEO Premium:26.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1
+http://anext.com.sg:80 | 200 | ANEXT Bank | Singapore's digital bank for MSMEs | 8.214.160.8 | Apache/2.4.65 (Debian) | Alibaba Cloud CDN,Apache HTTP Server:2.4.65,Debian,Elementor:3.34.2,HSTS,MySQL,PHP,Slick,WordPress,Yoast SEO Premium:26.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1
+http://bkwordpress-public.anext.com.sg:80 | 200 | ANEXT Bank | Singapore's digital bank for MSMEs | 8.214.160.8 | Apache/2.4.65 (Debian) | Alibaba Cloud CDN,Apache HTTP Server:2.4.65,Debian,Elementor:3.34.2,HSTS,MySQL,PHP,Slick,WordPress,Yoast SEO Premium:26.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1
+https://cdn.anext.com.sg:443 | 403 | 403 Forbidden | 163.181.58.172 | Tengine | Tengine
+https://cdn.anext.com.sg | 403 | 403 Forbidden | 163.181.58.172 | Tengine | Tengine
+https://anext.com.sg:443 | 200 | ANEXT Bank | Singapore's digital bank for MSMEs | 8.214.160.8 | Apache/2.4.65 (Debian) | Alibaba Cloud CDN,Apache HTTP Server:2.4.65,Debian,Elementor:3.34.2,HSTS,MySQL,PHP,Slick,WordPress,Yoast SEO Premium:26.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1
+https://anext.com.sg | 200 | ANEXT Bank | Singapore's digital bank for MSMEs | 8.214.160.8 | Apache/2.4.65 (Debian) | Alibaba Cloud CDN,Apache HTTP Server:2.4.65,Debian,Elementor:3.34.2,HSTS,MySQL,PHP,Slick,WordPress,Yoast SEO Premium:26.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1
+https://bkwordpress-public.anext.com.sg | 200 | ANEXT Bank | Singapore's digital bank for MSMEs | 8.214.160.8 | Apache/2.4.65 (Debian) | Alibaba Cloud CDN,Apache HTTP Server:2.4.65,Debian,Elementor:3.34.2,HSTS,MySQL,PHP,Slick,WordPress,Yoast SEO Premium:26.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1
+https://www.anext.com.sg | 200 | ANEXT Bank | Singapore's digital bank for MSMEs | 8.214.160.9 | Apache/2.4.65 (Debian) | Alibaba Cloud CDN,Apache HTTP Server:2.4.65,Debian,Elementor:3.34.2,HSTS,MySQL,PHP,Slick,WordPress,Yoast SEO Premium:26.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1
+https://www.anext.com.sg:443 | 200 | ANEXT Bank | Singapore's digital bank for MSMEs | 8.214.160.9 | Apache/2.4.65 (Debian) | Alibaba Cloud CDN,Apache HTTP Server:2.4.65,Debian,Elementor:3.34.2,HSTS,MySQL,PHP,Slick,WordPress,Yoast SEO Premium:26.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1
+https://bkwordpress-public.anext.com.sg:443 | 200 | ANEXT Bank | Singapore's digital bank for MSMEs | 8.214.160.8 | Apache/2.4.65 (Debian) | Alibaba Cloud CDN,Apache HTTP Server:2.4.65,Debian,Elementor:3.34.2,HSTS,MySQL,PHP,Slick,WordPress,Yoast SEO Premium:26.3,Yoast SEO:26.3,jQuery,jQuery Migrate:3.4.1

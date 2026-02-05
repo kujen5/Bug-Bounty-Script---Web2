@@ -1,0 +1,10 @@
+developers.worldfirst.com
+www.worldfirst.com
+dev.worldfirst.com
+www.treasure.worldfirst.com
+www-cdn.worldfirst.com
+autodiscover.service.worldfirst.com
+image.worldfirst.com
+portal-api.worldfirst.com
+autodiscover.mail.worldfirst.com
+web.worldfirst.com

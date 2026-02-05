@@ -1,0 +1,8 @@
+api.sandbox.worldfirst.com
+api.worldfirst.com
+developer.worldfirst.com
+developers.worldfirst.com
+images.communication.worldfirst.com
+portal.worldfirst.com
+trading.worldfirst.com
+www.worldfirst.com

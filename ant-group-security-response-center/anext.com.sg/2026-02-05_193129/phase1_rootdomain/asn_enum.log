@@ -1,0 +1,4 @@
+[asn] anext.com.sg -> 8.214.160.9
+[asn] ASN info: [{'ip': '"8.214.160.9"', 'asn': '"134963"', 'org': '"8.214.160.0/24"'}]
+[asn] Prefix lookup error for "134963": HTTPSConnectionPool(host='api.bgpview.io', port=443): Max retries exceeded with url: /asn/%22134963%22/prefixes (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7c10f3510490>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[asn] "134963" announces 0 prefixes

@@ -1,0 +1,56 @@
+==============================================
+  BEAST MODE RECON - SUMMARY REPORT
+==============================================
+
+Program:    ant-group-security-response-center
+Target:     bettrfinancing.com
+Date:       2026-02-05 19:31:29
+Output Dir: /home/kujen/Bug-Bounty-Script---Web2/ant-group-security-response-center/bettrfinancing.com/2026-02-05_191935
+
+----------------------------------------------
+  SUBDOMAIN COUNTS
+----------------------------------------------
+Passive sources:
+  subfinder:           12
+  amass:               13
+  crtsh:               10
+  wayback:             3
+  passive_apis:        6
+  github:              0
+
+Merged passive:      15
+Resolved (alive):    0
+Bruteforce:          3
+Permutations:        2
+MASTER TOTAL:        5
+
+----------------------------------------------
+  INFRASTRUCTURE
+----------------------------------------------
+IP ranges (ASN):     0
+Open ports (naabu):  4
+Web assets (httpx):  6
+
+----------------------------------------------
+  CONTENT & VULNS
+----------------------------------------------
+URLs discovered:     22
+JS files:            0
+Nuclei findings:     0
+
+----------------------------------------------
+  PHASE STATUS
+----------------------------------------------
+  Phase 0 : OK
+  Phase 1 : OK
+  Phase 2 : OK
+  Phase 3 : OK
+  Phase 4 : OK
+  Phase 5 : OK
+  Phase 6 : OK
+  Phase 7 : OK
+  Phase 8 : OK
+  Phase 9 : OK
+  Phase 10: OK
+
+==============================================
