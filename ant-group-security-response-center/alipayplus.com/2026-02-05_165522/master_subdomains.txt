@@ -1,3 +1,4 @@
+ifcidentitycloudqk.alipay.com
 aboss.cloud.sgp.alipayplus.com
 acceptance-mark.alipayplus.com
 acis-testa.alipayplus.com
