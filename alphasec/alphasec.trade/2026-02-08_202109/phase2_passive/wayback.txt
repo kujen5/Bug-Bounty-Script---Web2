@@ -1,0 +1,3 @@
+alphasec.trade
+api-testnet.alphasec.trade
+app-testnet.alphasec.trade

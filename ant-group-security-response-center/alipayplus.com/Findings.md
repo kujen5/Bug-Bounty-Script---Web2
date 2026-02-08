@@ -103,3 +103,45 @@ this is particularly impactful because:
 3. implement rate limiting on checkEmail.json - limit requests per IP/session to prevent bulk enumeration even if the captcha is somehow bypassed again.
 4. for the account lockout, consider using progressive delays (1min, 5min, 15min) instead of a hard 3-hour lock after just 3 attempts. alternatively, use
 captcha challenges after failed attempts instead of full lockout, or require additional verification (like email confirmation) to unlock.
+
+
+# Finding 2
+
+## title
+
+[YWH] OTP bypass leading to full Account Takeover (ATO)
+
+## Vulnerability type
+
+web_application_vulnerability/Unauthorized Access / Bypassed
+
+## Vulnerability URL
+
+https://global.alipay.com/merchant/portal/account/forget?_route=QK
+
+## Vulnerability proof
+
+First of all, we will start a forgot password request with the victim email address:
+
+Then we will be prompted to enter the OTP code:
+
+Now, we will enter a random OTP code such as `123456` and capture the request:
+
+On Burp Suite, we right click on the request -> Do Intercept -> Response to this request:
+
+We can see that the response returns that the OTP is not correct and could not be verified. We will modify the response to the following:
+
+
+And we can forward it now.
+We can see below that we have been redirected directly to the page that asks us to input the new password and password confirmation while we should have been blocked due to the wrong OTP code.
+Now we will input the new password for the victim, and once again intercept the request and right click on the request -> Do Intercept -> Response to this request:
+
+Now looking at the response, we can see that it was not successful due to the identity not being fully verified. So we will modify the response to the following:
+
+And now we forward the request:
+
+
+## Vulnerability impact
+
+## mitigation
+

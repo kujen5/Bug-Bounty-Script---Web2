@@ -1,0 +1,62 @@
+[20:21:09] [INFO] Program: \033[1malphasec\033[0m
+[20:21:09] [INFO] Target: \033[1malphasec.trade\033[0m
+[20:21:09] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/alphasec/alphasec.trade/2026-02-08_202109
+[20:21:09] [INFO] Threads: 50 | Rate Limit: 300
+[20:21:09] [INFO] Go: go1.24.0
+[20:21:10] [INFO] Phase 0 completed (1s)
+[20:21:10] [PHASE] Phase 1: Root Domain Intelligence
+[20:21:10] [INFO] Running WHOIS lookup...
+[20:21:10] [INFO] Running ASN enumeration...
+[20:21:11] [INFO] ASN subdomains: 0
+[20:21:11] [INFO] IP ranges discovered: 0
+[20:21:11] [INFO] Phase 1 completed (1s)
+[20:21:11] [PHASE] Phase 2: Passive Subdomain Enumeration
+[20:21:12] [INFO] Starting subfinder...
+[20:21:12] [INFO] Starting amass passive...
+[20:21:12] [INFO] Starting crt.sh lookup...
+[20:21:12] [INFO] Starting Wayback Machine lookup...
+[20:21:12] [INFO] Starting passive API queries...
+[20:21:12] [INFO] No GitHub token provided, skipping GitHub dorking.
+[20:21:12] [INFO] Waiting for 5 passive sources to complete...
+[20:22:07] [INFO]   amass: 23 subdomains
+[20:22:07] [INFO]   crtsh: 22 subdomains
+[20:22:07] [INFO]   passive_apis: 18 subdomains
+[20:22:07] [INFO]   subfinder: 21 subdomains
+[20:22:07] [INFO]   wayback: 3 subdomains
+[20:22:07] [INFO] Total unique passive subdomains: \033[1m23\033[0m
+[20:22:07] [INFO] Phase 2 completed (56s)
+[20:22:07] [PHASE] Phase 3: DNS Resolution & Filtering
+[20:22:07] [INFO] Resolving 23 subdomains with puredns...
+[20:22:33] [INFO] Resolved: 0 alive subdomains
+[20:22:33] [INFO] Wildcards: 0
+[20:22:33] [INFO] Phase 3 completed (26s)
+[20:22:33] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[20:22:33] [INFO] Bruteforcing subdomains with puredns...
+[20:30:32] [INFO] Bruteforce found: 0 subdomains
+[20:30:32] [INFO] Phase 4 completed (479s)
+[20:30:32] [PHASE] Merging Master Subdomain List
+[20:30:32] [INFO] Master subdomain list: \033[1m0\033[0m unique live subdomains
+[20:30:32] [PHASE] Phase 5: Port Scanning
+[20:30:32] [WARN] No subdomains to port scan.
+[20:30:32] [WARN] Phase 5 finished with issues (0s)
+[20:30:32] [PHASE] Phase 6: Web Probing
+[20:30:32] [WARN] No subdomains to probe.
+[20:30:32] [WARN] Phase 6 finished with issues (0s)
+[20:30:32] [PHASE] Phase 7: Content Discovery
+[20:30:32] [WARN] No live URLs for content discovery.
+[20:30:32] [WARN] Phase 7 finished with issues (0s)
+[20:30:32] [PHASE] Phase 8: Vulnerability Scanning
+[20:30:32] [WARN] No live URLs for vulnerability scanning.
+[20:30:32] [WARN] Phase 8 finished with issues (0s)
+[20:30:32] [PHASE] Phase 9: Certstream Monitor (Background)
+[20:30:33] [INFO] Starting certstream monitor in background (60s sample)...
+[20:30:33] [INFO] Certstream PID: 48588 (output: /home/kujen/Bug-Bounty-Script---Web2/alphasec/alphasec.trade/2026-02-08_202109/phase2_passive/certstream.txt)
+[20:30:33] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains alphasec.trade -o certs.txt
+[20:30:33] [INFO] Phase 9 completed (1s)
+[20:30:33] [PHASE] Phase 10: Reporting & Summary
+[20:30:33] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[20:31:33] [INFO] Generating consolidated domain report...
+[20:31:33] [INFO] Consolidated report saved: \033[1malphasec.trade_consolidated_report.txt\033[0m
+[20:31:33] [INFO] Full path: /home/kujen/Bug-Bounty-Script---Web2/alphasec/alphasec.trade/2026-02-08_202109/alphasec.trade_consolidated_report.txt
+[20:31:33] [INFO] Phase 10 completed (60s)
+[20:31:33] [INFO] All phases complete for alphasec.trade. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/alphasec/alphasec.trade/2026-02-08_202109\033[0m

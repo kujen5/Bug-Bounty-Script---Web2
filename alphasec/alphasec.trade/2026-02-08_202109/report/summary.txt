@@ -1,0 +1,55 @@
+==============================================
+  BEAST MODE RECON - SUMMARY REPORT
+==============================================
+
+Program:    alphasec
+Target:     alphasec.trade
+Date:       2026-02-08 20:31:33
+Output Dir: /home/kujen/Bug-Bounty-Script---Web2/alphasec/alphasec.trade/2026-02-08_202109
+
+----------------------------------------------
+  SUBDOMAIN COUNTS
+----------------------------------------------
+Passive sources:
+  subfinder:           21
+  amass:               23
+  crtsh:               22
+  wayback:             3
+  passive_apis:        18
+
+Merged passive:      23
+Resolved (alive):    0
+Bruteforce:          0
+Permutations:        0
+MASTER TOTAL:        0
+
+----------------------------------------------
+  INFRASTRUCTURE
+----------------------------------------------
+IP ranges (ASN):     0
+Open ports (naabu):  0
+Web assets (httpx):  0
+
+----------------------------------------------
+  CONTENT & VULNS
+----------------------------------------------
+URLs discovered:     0
+JS files:            0
+Nuclei findings:     0
+
+----------------------------------------------
+  PHASE STATUS
+----------------------------------------------
+  Phase 0 : OK
+  Phase 1 : OK
+  Phase 2 : OK
+  Phase 3 : OK
+  Phase 4 : OK
+  Phase 5 : FAIL
+  Phase 6 : FAIL
+  Phase 7 : FAIL
+  Phase 8 : FAIL
+  Phase 9 : OK
+  Phase 10: OK
+
+==============================================

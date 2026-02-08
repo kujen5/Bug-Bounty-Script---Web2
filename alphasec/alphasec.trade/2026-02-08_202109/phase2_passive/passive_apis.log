@@ -1,0 +1,7 @@
+[passive] Querying 4 passive sources for alphasec.trade...
+[passive] URLScan: 7 subdomains
+[passive] AlienVault: 0 subdomains
+[passive] HackerTarget: 16 subdomains
+[passive] RapidDNS: 0 subdomains
+[passive] Total unique subdomains from all sources: 18
+[passive] Results written to /home/kujen/Bug-Bounty-Script---Web2/alphasec/alphasec.trade/2026-02-08_202109/phase2_passive/passive_apis.txt

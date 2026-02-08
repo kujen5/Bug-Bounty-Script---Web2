@@ -1,0 +1,4 @@
+[asn] alphasec.trade -> 34.50.154.35
+[asn] ASN info: [{'ip': '"34.50.154.35"', 'asn': '"396982"', 'org': '"34.32.0.0/11"'}]
+[asn] Prefix lookup error for "396982": HTTPSConnectionPool(host='api.bgpview.io', port=443): Max retries exceeded with url: /asn/%22396982%22/prefixes (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x750527c452a0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[asn] "396982" announces 0 prefixes
