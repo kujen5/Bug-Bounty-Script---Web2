@@ -1,0 +1,16 @@
+{
+  "program": "YWH-KIWA\u00cf",
+  "domain": "kiwai-normandie.fr",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-KIWA\u00cf/kiwai-normandie.fr/2026-02-09_124028",
+  "counts": {
+    "passive_merged": 23,
+    "resolved": 12,
+    "bruteforce": 3,
+    "permutations": 10,
+    "master": 13,
+    "ports": 22,
+    "web_assets": 0,
+    "urls": 0,
+    "nuclei": 0
+  }
+}

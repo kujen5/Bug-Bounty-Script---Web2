@@ -1,0 +1,23 @@
+[92mkiwai-normandie.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx0.mail.ovh.net[0m[94m (FQDN)[0m
+[92mkiwai-normandie.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx1.mail.ovh.net[0m[94m (FQDN)[0m
+[92mkiwai-normandie.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx2.mail.ovh.net[0m[94m (FQDN)[0m
+[92mkiwai-normandie.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx3.mail.ovh.net[0m[94m (FQDN)[0m
+[92mvertdemain.kiwai-normandie.fr[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mwebacc2.sd6.ghst.net[0m[94m (FQDN)[0m
+.kiwai-normandie.fr
+api.hpr.kiwai-normandie.fr
+api.kiwai-normandie.fr
+api.seed-ppr.kiwai-normandie.fr
+blog.kiwai-normandie.fr
+hpr.kiwai-normandie.fr
+kiwai-normandie.fr
+seed-ppr.kiwai-normandie.fr
+vertdemain.kiwai-normandie.fr
+webhookproxy-ppr.kiwai-normandie.fr
+www.api.hpr.kiwai-normandie.fr
+www.api.kiwai-normandie.fr
+www.api.seed-ppr.kiwai-normandie.fr
+www.hpr.kiwai-normandie.fr
+www.kiwai-normandie.fr
+www.seed-ppr.kiwai-normandie.fr
+www.vertdemain.kiwai-normandie.fr
+www.webhookproxy-ppr.kiwai-normandie.fr

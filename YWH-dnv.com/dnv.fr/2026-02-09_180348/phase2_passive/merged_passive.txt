@@ -1,0 +1,4 @@
+[92mdnv.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92m156.132.212.193.static.cust.telenor.com[0m[94m (FQDN)[0m
+afrique.dnv.fr
+dnv.fr
+www.dnv.fr

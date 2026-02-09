@@ -1,0 +1,6 @@
+www.kiwai-enr.fr:80
+www.kiwai-enr.fr:443
+www.seed-ppr.kiwai-enr.fr:80
+www.seed-ppr.kiwai-enr.fr:443
+www.ppr.kiwai-enr.fr:80
+www.ppr.kiwai-enr.fr:443

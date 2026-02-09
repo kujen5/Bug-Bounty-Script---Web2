@@ -1,0 +1,7 @@
+[passive] Querying 4 passive sources for kiwai-normandie.fr...
+[passive] URLScan: 3 subdomains
+[passive] AlienVault: 0 subdomains
+[passive] RapidDNS: 8 subdomains
+[passive] HackerTarget: 10 subdomains
+[passive] Total unique subdomains from all sources: 11
+[passive] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-KIWAÏ/kiwai-normandie.fr/2026-02-09_124028/phase2_passive/passive_apis.txt

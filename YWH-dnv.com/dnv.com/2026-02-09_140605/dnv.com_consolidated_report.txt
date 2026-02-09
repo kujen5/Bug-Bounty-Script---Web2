@@ -1,0 +1,279 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                    CONSOLIDATED RECONNAISSANCE REPORT                     ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════════════════
+  BASIC INFORMATION
+═══════════════════════════════════════════════════════════════════════════
+Program:          YWH-dnv.com
+Target Domain:    dnv.com
+Scan Date:        2026-02-09 15:01:40
+Output Directory: /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.com/2026-02-09_140605
+
+═══════════════════════════════════════════════════════════════════════════
+  DISCOVERY SUMMARY
+═══════════════════════════════════════════════════════════════════════════
+Total Subdomains:     282
+Live Web Assets:      0
+Open Ports:           2557
+URLs Discovered:      0
+JS Files Analyzed:    0
+Vulnerabilities:      0
+
+═══════════════════════════════════════════════════════════════════════════
+  ASN INFORMATION
+═══════════════════════════════════════════════════════════════════════════
+ASN Number:       N/A
+ASN Name:         N/A
+ASN Description:  N/A
+IP Ranges:        0 CIDR blocks
+
+═══════════════════════════════════════════════════════════════════════════
+  ALL DISCOVERED SUBDOMAINS (282)
+═══════════════════════════════════════════════════════════════════════════
+365.dnv.com
+abatementinsight.dnv.com
+acesftp.dnv.com
+activator-staging.dnv.com
+activator.dnv.com
+active.we.nonprod.kubeit.dnv.com
+active.we.prod.kubeit.dnv.com
+adfs-shipmanager.dnv.com
+afi.dnv.com
+africa.dnv.com
+ai.dnv.com
+aidit.dnv.com
+akerbp-wellspot.dnv.com
+akersolutions.synergilife.dnv.com
+akersolutionstest.synergilife.dnv.com
+ancris.dnv.com
+ancristoc.dnv.com
+annualreport.dnv.com
+anti-roll.dnv.com
+anyconnect.dnv.com
+api.dnv.com
+api.shipmanager.dnv.com
+api.src-dev.dnv.com
+api.src.dnv.com
+api.stc.dnv.com
+apicity-prod.dnv.com
+apitopo.dnv.com
+apnomacanonwebtest.synergilife.dnv.com
+app.e.dnv.com
+appcity.dnv.com
+approvalfinder-staging.dnv.com
+approvalfinder.dnv.com
+apps.cadent.dnv.com
+appsuat.cadent.dnv.com
+assurance.dnv.com
+atmos.dimp.synergipipeline.dnv.com
+atp.dnv.com
+auditorapp-installer.dnv.com
+auditorapp-test-installer.dnv.com
+autodiscover.dnv.com
+autodiscover.library.dnv.com
+autodiscover.survey.dnv.com
+awstest.dnv.com
+batteryai.dnv.com
+batteryaitest.dnv.com
+bespokesoftwaredistribution.dnv.com
+beta.summit.dnv.com
+boostmyaudit-dev.dnv.com
+boostmyaudit-uat.dnv.com
+boostmyaudit.dnv.com
+brandcentral.dnv.com
+bumiarmadaschedulertest.synergilife.dnv.com
+ccv-staging.dnv.com
+ccv-training.dnv.com
+ccv.dnv.com
+cdb.dnv.com
+certificatechecker-dev.dnv.com
+certificatechecker.dnv.com
+certmark-dev.dnv.com
+certmark-test.dnv.com
+certmark.dnv.com
+classsuspensions.dnv.com
+cloudqra.bp.dnv.com
+cloudqra.dnv.com
+cluster-healthcheck.green.we.prod.kubeit.dnv.com
+cluster-healthcheck.we.nonprod.kubeit.dnv.com
+cmcservices-staging.dnv.com
+cmcservices.dnv.com
+community.dnv.com
+coslanonweb.synergilife.dnv.com
+coslanonwebtest.synergilife.dnv.com
+cp.dnv.com
+css.dnv.com
+customersupport.dnv.com
+danfossslastest.synergilife.dnv.com
+data-connect-codetables-adminapi-sql.syndev.dnv.com
+data-connect-codetables-services-sql.syndev.dnv.com
+data.dnv.com
+dcm.dnv.com
+dcmdev.dnv.com
+demo.navigator.dnv.com
+demo.synergilife.dnv.com
+dev-sesam.dnv.com
+devcms.dnv.com
+develop.onecompute.dnv.com
+digitalclass-staging.dnv.com
+dmzhoupexip01.vc.dnv.com
+dmzoslpexip01.vc.dnv.com
+dmzpexipclusterosl.vc.dnv.com
+dmzpexipclustersng.vc.dnv.com
+dns02.dnv.com
+dnv.com
+dnvmobile.dnv.com
+docs.vista.dnv.com
+download.dnv.com
+e.dnv.com
+easyrisk.dnv.com
+em8888.dnv.com
+ems.dnv.com
+energydemo-slas.syndev.dnv.com
+
+... and 182 more subdomains
+(See master_subdomains.txt for full list)
+
+═══════════════════════════════════════════════════════════════════════════
+  LIVE WEB URLS (0)
+═══════════════════════════════════════════════════════════════════════════
+No live URLs found
+
+═══════════════════════════════════════════════════════════════════════════
+  STATUS CODE BREAKDOWN
+═══════════════════════════════════════════════════════════════════════════
+
+═══════════════════════════════════════════════════════════════════════════
+  OPEN PORTS (Top 20)
+═══════════════════════════════════════════════════════════════════════════
+learn.dnv.com:80
+learn.dnv.com:443
+dmzoslpexip01.vc.dnv.com:443
+dmzoslpexip01.vc.dnv.com:5060
+dmzoslpexip01.vc.dnv.com:5061
+dmzoslpexip01.vc.dnv.com:80
+dmzpexipclusterosl.vc.dnv.com:443
+dmzpexipclusterosl.vc.dnv.com:5060
+dmzpexipclusterosl.vc.dnv.com:5061
+dmzpexipclusterosl.vc.dnv.com:80
+join.vc.dnv.com:443
+join.vc.dnv.com:5060
+join.vc.dnv.com:5061
+join.vc.dnv.com:80
+video.dnv.com:443
+video.dnv.com:5060
+video.dnv.com:5061
+video.dnv.com:80
+ems.dnv.com:443
+ems.dnv.com:80
+... and 2537 more open ports
+(See phase5_ports/naabu_scan.txt for full list)
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - API ENDPOINTS
+═══════════════════════════════════════════════════════════════════════════
+No endpoints found in JavaScript files
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - URLS
+═══════════════════════════════════════════════════════════════════════════
+No URLs found in JavaScript files
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - SECRETS & API KEYS (*** HIGH PRIORITY ***)
+═══════════════════════════════════════════════════════════════════════════
+✓ No secrets found in JavaScript files
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - EMAIL ADDRESSES
+═══════════════════════════════════════════════════════════════════════════
+No email addresses found
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - INTERESTING FILES
+═══════════════════════════════════════════════════════════════════════════
+No interesting file paths found
+
+═══════════════════════════════════════════════════════════════════════════
+  CNAME RECORDS (Potential Subdomain Takeover)
+═══════════════════════════════════════════════════════════════════════════
+Total CNAMEs: 281
+
+akerbp-wellspot.dnv.com [[35mCNAME[0m] [[32mf5xc-we.dnv.com[0m] 
+ai.dnv.com [[35mCNAME[0m] [[32mf5xc-we.dnv.com[0m] 
+apicity-prod.dnv.com [[35mCNAME[0m] [[32mmlfactory-prod.trafficmanager.net[0m] 
+apicity-prod.dnv.com [[35mCNAME[0m] [[32mmlfactory-prod-14.westeurope.cloudapp.azure.com[0m] 
+cluster-healthcheck.we.nonprod.kubeit.dnv.com [[35mCNAME[0m] [[32mactive.we.nonprod.kubeit.dnv.com[0m] 
+cluster-healthcheck.we.nonprod.kubeit.dnv.com [[35mCNAME[0m] [[32mgreen.we.nonprod.kubeit.dnv.com[0m] 
+cluster-healthcheck.we.nonprod.kubeit.dnv.com [[35mCNAME[0m] [[32mpip.nonprod004.kubeit.dnv.com[0m] 
+auditorapp-installer.dnv.com [[35mCNAME[0m] [[32mauditorapp-installer-endpoint.azureedge.net[0m] 
+auditorapp-installer.dnv.com [[35mCNAME[0m] [[32mauditorapp-installer-endpoint.afd.azureedge.net[0m] 
+auditorapp-installer.dnv.com [[35mCNAME[0m] [[32mmr-afd-azuredge.tm-azurefd.net[0m] 
+auditorapp-installer.dnv.com [[35mCNAME[0m] [[32mshed.dual-low.part-0034.t-0009.t-msedge.net[0m] 
+auditorapp-installer.dnv.com [[35mCNAME[0m] [[32mpart-0034.t-0009.t-msedge.net[0m] 
+autodiscover.dnv.com [[35mCNAME[0m] [[32mautodiscover.outlook.com[0m] 
+autodiscover.dnv.com [[35mCNAME[0m] [[32matod-g2.tm-4.office.com[0m] 
+autodiscover.dnv.com [[35mCNAME[0m] [[32mautod.ms-acdc-autod.office.com[0m] 
+active.we.nonprod.kubeit.dnv.com [[35mCNAME[0m] [[32mgreen.we.nonprod.kubeit.dnv.com[0m] 
+active.we.nonprod.kubeit.dnv.com [[35mCNAME[0m] [[32mpip.nonprod004.kubeit.dnv.com[0m] 
+brandcentral.dnv.com [[35mCNAME[0m] [[32mbrandcentraldnvgl.brandmaster.com[0m] 
+brandcentral.dnv.com [[35mCNAME[0m] [[32mbrandcentral_dnvgl_com.prod.brandmaster.cloud[0m] 
+brandcentral.dnv.com [[35mCNAME[0m] [[32md206qcvn93jutg.cloudfront.net[0m] 
+batteryaitest.dnv.com [[35mCNAME[0m] [[32mbatteryaiwebtesting.azurewebsites.net[0m] 
+batteryaitest.dnv.com [[35mCNAME[0m] [[32mwaws-prod-am2-369.sip.azurewebsites.windows.net[0m] 
+batteryaitest.dnv.com [[35mCNAME[0m] [[32mwaws-prod-am2-369-murr.westeurope.cloudapp.azure.com[0m] 
+digitalclass-staging.dnv.com [[35mCNAME[0m] [[32mmlfactory-prod.trafficmanager.net[0m] 
+digitalclass-staging.dnv.com [[35mCNAME[0m] [[32mmlfactory-prod-14.westeurope.cloudapp.azure.com[0m] 
+active.we.prod.kubeit.dnv.com [[35mCNAME[0m] [[32mgreen.we.prod.kubeit.dnv.com[0m] 
+active.we.prod.kubeit.dnv.com [[35mCNAME[0m] [[32mpip.prod004.kubeit.dnv.com[0m] 
+bumiarmadaschedulertest.synergilife.dnv.com [[35mCNAME[0m] [[32mtst10032525wap01scheduler.azurewebsites.net[0m] 
+bumiarmadaschedulertest.synergilife.dnv.com [[35mCNAME[0m] [[32mwaws-prod-am2-095.sip.azurewebsites.windows.net[0m] 
+bumiarmadaschedulertest.synergilife.dnv.com [[35mCNAME[0m] [[32mwaws-prod-am2-095.westeurope.cloudapp.azure.com[0m] 
+... and 251 more CNAMEs
+(See phase3_dns/cnames.txt for full list)
+
+═══════════════════════════════════════════════════════════════════════════
+  CRITICAL VULNERABILITIES (*** IMMEDIATE ACTION REQUIRED ***)
+═══════════════════════════════════════════════════════════════════════════
+✓ No critical vulnerabilities found
+
+═══════════════════════════════════════════════════════════════════════════
+  HIGH SEVERITY VULNERABILITIES
+═══════════════════════════════════════════════════════════════════════════
+✓ No high severity vulnerabilities found
+
+═══════════════════════════════════════════════════════════════════════════
+  VULNERABILITY SUMMARY (All Severities)
+═══════════════════════════════════════════════════════════════════════════
+
+See phase8_vulns/ for detailed vulnerability reports
+
+═══════════════════════════════════════════════════════════════════════════
+  RECOMMENDED NEXT STEPS
+═══════════════════════════════════════════════════════════════════════════
+1. Review and validate all CRITICAL and HIGH severity vulnerabilities
+2. Check for exposed secrets in phase7_content/js_secrets.txt
+3. Test CNAME records for subdomain takeover vulnerabilities
+4. Manually verify interesting API endpoints from JavaScript analysis
+5. Review open ports for unnecessary services
+6. Test discovered admin/debug/internal endpoints
+7. Analyze URLs for potential injection points
+8. Check for outdated software versions in httpx output
+
+═══════════════════════════════════════════════════════════════════════════
+  DETAILED OUTPUT LOCATIONS
+═══════════════════════════════════════════════════════════════════════════
+Master Subdomains:    master_subdomains.txt
+Live URLs:            phase6_web/live_urls.txt
+Open Ports:           phase5_ports/naabu_scan.txt
+JS Endpoints:         phase7_content/js_endpoints.txt
+JS Secrets:           phase7_content/js_secrets.txt
+Critical Vulns:       phase8_vulns/nuclei_critical.json
+High Vulns:           phase8_vulns/nuclei_high.json
+Full Summary:         report/summary.txt
+Statistics (JSON):    report/stats.json
+
+╔══════════════════════════════════════════════════════════════════════════╗
+║                         END OF CONSOLIDATED REPORT                        ║
+╚══════════════════════════════════════════════════════════════════════════╝

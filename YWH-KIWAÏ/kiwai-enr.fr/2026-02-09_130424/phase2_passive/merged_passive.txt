@@ -1,0 +1,49 @@
+[92mkiwai-enr.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx0.mail.ovh.net[0m[94m (FQDN)[0m
+[92mkiwai-enr.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx1.mail.ovh.net[0m[94m (FQDN)[0m
+[92mkiwai-enr.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx2.mail.ovh.net[0m[94m (FQDN)[0m
+[92mkiwai-enr.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx3.mail.ovh.net[0m[94m (FQDN)[0m
+[92mkiwai-enr.fr[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mns10.gcetech.net[0m[94m (FQDN)[0m
+[92mkiwai-enr.fr[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mns11.gcetech.net[0m[94m (FQDN)[0m
+antwerp-innovation-forum.kiwai-enr.fr
+api.nbecker.kiwai-enr.fr
+auvid.kiwai-enr.fr
+balbinka.kiwai-enr.fr
+bodc.kiwai-enr.fr
+bsdc.kiwai-enr.fr
+chef12.bodc.kiwai-enr.fr
+com.kiwai-enr.fr
+com.sg.kiwai-enr.fr
+cornea.cs.kiwai-enr.fr
+cs.kiwai-enr.fr
+data.pollster25.kiwai-enr.fr
+dr.poise.com.sg.kiwai-enr.fr
+employee.kiwai-enr.fr
+fsspxlt.kiwai-enr.fr
+fuoridiexpo.kiwai-enr.fr
+greenfield1.online.kiwai-enr.fr
+h22-42.kiwai-enr.fr
+imap.balbinka.kiwai-enr.fr
+ip42.nodns-yet.kiwai-enr.fr
+jordans-pong-perf2.kdc.kiwai-enr.fr
+kdc.kiwai-enr.fr
+kiwai-enr.fr
+linuxweb.kiwai-enr.fr
+login.employee.kiwai-enr.fr
+nadalpoolext.kiwai-enr.fr
+negociacao.kiwai-enr.fr
+netafritun.kiwai-enr.fr
+nodns-yet.kiwai-enr.fr
+online.kiwai-enr.fr
+palyx.kiwai-enr.fr
+payex02.kiwai-enr.fr
+poise.com.sg.kiwai-enr.fr
+ppr.kiwai-enr.fr
+purestoneproducts.kiwai-enr.fr
+qa2.dr.poise.com.sg.kiwai-enr.fr
+secure-dafjer1swi.kiwai-enr.fr
+seed-ppr.kiwai-enr.fr
+sni00.sni.kiwai-enr.fr
+trunkiconnect.kiwai-enr.fr
+www.kiwai-enr.fr
+www.ppr.kiwai-enr.fr
+www.seed-ppr.kiwai-enr.fr

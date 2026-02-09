@@ -366,6 +366,7 @@ phase0_setup() {
     # --- Check/Install Go Tools ---
     local -A go_tools=(
         ["subfinder"]="github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest"
+        ["amass"]="github.com/owasp-amass/amass/v4/...@master"
         ["httpx"]="github.com/projectdiscovery/httpx/cmd/httpx@latest"
         ["nuclei"]="github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest"
         ["puredns"]="github.com/d3mondev/puredns/v2@latest"

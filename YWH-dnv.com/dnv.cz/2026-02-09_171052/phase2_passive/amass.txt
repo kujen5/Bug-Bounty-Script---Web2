@@ -1,0 +1,10 @@
+[92mdnv.cz[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mzita.ns.cloudflare.com[0m[94m (FQDN)[0m
+[92mdnv.cz[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mweston.ns.cloudflare.com[0m[94m (FQDN)[0m
+[92mdnv.cz[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m217.114.94.2[0m[94m (IPAddress)[0m
+[92mdnv.cz[0m[94m (FQDN)[0m [97m-->[0m [95maaaa_record[0m [97m-->[0m [92m2a00:1c50:94::2[0m[94m (IPAddress)[0m
+[92m217.114.80.0/20[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m217.114.94.2[0m[94m (IPAddress)[0m
+[92m30811[0m[94m (ASN)[0m [97m-->[0m [95mmanaged_by[0m [97m-->[0m [92mEPISERVER_AS[0m[94m (RIROrganization)[0m
+[92m30811[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m217.114.80.0/20[0m[94m (Netblock)[0m
+[92m2a00:1c50:94::/48[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m2a00:1c50:94::2[0m[94m (IPAddress)[0m
+[92m30811[0m[94m (ASN)[0m [97m-->[0m [95mmanaged_by[0m [97m-->[0m [92mEPISERVER_AS, SE[0m[94m (RIROrganization)[0m
+[92m30811[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m2a00:1c50:94::/48[0m[94m (Netblock)[0m

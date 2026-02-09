@@ -1,0 +1,2 @@
+[92mdnv.dk[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mweston.ns.cloudflare.com[0m[94m (FQDN)[0m
+[92mdnv.dk[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mzita.ns.cloudflare.com[0m[94m (FQDN)[0m

@@ -1,0 +1,3 @@
+[crtsh] Error querying crt.sh: 503 Server Error: Service Unavailable for url: https://crt.sh/?q=%25.kiwai-enr.fr&output=json
+[crtsh] Found 0 unique subdomains for kiwai-enr.fr
+[crtsh] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-KIWAÏ/kiwai-enr.fr/2026-02-09_130424/phase2_passive/crtsh.txt

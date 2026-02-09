@@ -1,0 +1,55 @@
+==============================================
+  BEAST MODE RECON - SUMMARY REPORT
+==============================================
+
+Program:    YWH-dnv.com
+Target:     dnv.com
+Date:       2026-02-09 15:01:40
+Output Dir: /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.com/2026-02-09_140605
+
+----------------------------------------------
+  SUBDOMAIN COUNTS
+----------------------------------------------
+Passive sources:
+  subfinder:           111
+  amass:               57
+  crtsh:               0
+  wayback:             3
+  passive_apis:        120
+
+Merged passive:      283
+Resolved (alive):    174
+Bruteforce:          86
+Permutations:        73
+MASTER TOTAL:        282
+
+----------------------------------------------
+  INFRASTRUCTURE
+----------------------------------------------
+IP ranges (ASN):     0
+Open ports (naabu):  2557
+Web assets (httpx):  0
+
+----------------------------------------------
+  CONTENT & VULNS
+----------------------------------------------
+URLs discovered:     0
+JS files:            0
+Nuclei findings:     0
+
+----------------------------------------------
+  PHASE STATUS
+----------------------------------------------
+  Phase 0 : OK
+  Phase 1 : OK
+  Phase 2 : OK
+  Phase 3 : OK
+  Phase 4 : OK
+  Phase 5 : OK
+  Phase 6 : OK
+  Phase 7 : FAIL
+  Phase 8 : FAIL
+  Phase 9 : FAIL
+  Phase 10: OK
+
+==============================================

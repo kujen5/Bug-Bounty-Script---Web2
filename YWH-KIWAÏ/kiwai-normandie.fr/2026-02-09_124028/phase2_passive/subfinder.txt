@@ -1,0 +1,17 @@
+hpr.kiwai-normandie.fr
+seed-ppr.kiwai-normandie.fr
+www.vertdemain.kiwai-normandie.fr
+.kiwai-normandie.fr
+www.hpr.kiwai-normandie.fr
+www.api.hpr.kiwai-normandie.fr
+www.seed-ppr.kiwai-normandie.fr
+vertdemain.kiwai-normandie.fr
+blog.kiwai-normandie.fr
+www.kiwai-normandie.fr
+api.kiwai-normandie.fr
+api.hpr.kiwai-normandie.fr
+www.api.seed-ppr.kiwai-normandie.fr
+www.api.kiwai-normandie.fr
+www.webhookproxy-ppr.kiwai-normandie.fr
+api.seed-ppr.kiwai-normandie.fr
+webhookproxy-ppr.kiwai-normandie.fr

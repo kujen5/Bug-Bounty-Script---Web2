@@ -1,0 +1,16 @@
+{
+  "program": "YWH-KIWA\u00cf",
+  "domain": "ppr.kiwai-enr.fr",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-KIWA\u00cf/ppr.kiwai-enr.fr/2026-02-09_125420",
+  "counts": {
+    "passive_merged": 2,
+    "resolved": 1,
+    "bruteforce": 1,
+    "permutations": 1,
+    "master": 1,
+    "ports": 2,
+    "web_assets": 0,
+    "urls": 0,
+    "nuclei": 0
+  }
+}

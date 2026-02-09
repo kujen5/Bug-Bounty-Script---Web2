@@ -1,0 +1,4 @@
+[asn] api.kiwai-normandie.fr -> 91.135.181.238
+[asn] ASN info: [{'ip': '"91.135.181.238"', 'asn': '"43342"', 'org': '"91.135.181.0/24"'}]
+[asn] Prefix lookup error for "43342": HTTPSConnectionPool(host='api.bgpview.io', port=443): Max retries exceeded with url: /asn/%2243342%22/prefixes (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x750884944290>: Failed to resolve 'api.bgpview.io' ([Errno -2] Name or service not known)"))
+[asn] "43342" announces 0 prefixes

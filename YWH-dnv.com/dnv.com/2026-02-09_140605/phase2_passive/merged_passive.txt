@@ -1,0 +1,283 @@
+[92m51.124.0.0/16[0m[94m (Netblock)[0m [97m-->[0m [95mcontains[0m [97m-->[0m [92m51.124.73.17[0m[94m (IPAddress)[0m
+[92m8075[0m[94m (ASN)[0m [97m-->[0m [95mannounces[0m [97m-->[0m [92m51.124.0.0/16[0m[94m (Netblock)[0m
+[92m8075[0m[94m (ASN)[0m [97m-->[0m [95mmanaged_by[0m [97m-->[0m [92mMICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation[0m[94m (RIROrganization)[0m
+[92mai.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mf5xc-we.dnv.com[0m[94m (FQDN)[0m
+[92makersolutions.synergilife.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mprd111613wap01synlife.azurewebsites.net[0m[94m (FQDN)[0m
+[92mdata-connect-manualtest-slas.syndev.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mdev88013wap01slas.azurewebsites.net[0m[94m (FQDN)[0m
+[92mdev88025wap01notify.azurewebsites.net[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mwaws-prod-am2-685.sip.azurewebsites.windows.net[0m[94m (FQDN)[0m
+[92mdigisale-t1-web-sql.syndev.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mdev88833wap01synlife.azurewebsites.net[0m[94m (FQDN)[0m
+[92mdnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mweston.ns.cloudflare.com[0m[94m (FQDN)[0m
+[92mdnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mzita.ns.cloudflare.com[0m[94m (FQDN)[0m
+[92mdownload.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92ms861531437.hs.eloqua.com[0m[94m (FQDN)[0m
+[92menergydemo-scheduler-sql.syndev.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mdev88875wap01scheduler.azurewebsites.net[0m[94m (FQDN)[0m
+[92menergydemo-services-sql.syndev.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mdev88875wap01services.azurewebsites.net[0m[94m (FQDN)[0m
+[92mexplenergy.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mexplenergy.azurewebsites.net[0m[94m (FQDN)[0m
+[92mflytogetintegrationtest.synergilife.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mtst142047wap01bespoke.azurewebsites.net[0m[94m (FQDN)[0m
+[92mgcas.gastoolbox.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mgcasprod.azurewebsites.net[0m[94m (FQDN)[0m
+[92mharbourenergy.synergilife.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mprd10449557wap01synlife.azurewebsites.net[0m[94m (FQDN)[0m
+[92mheatrec.gastoolbox.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mheatrec-prod.azurewebsites.net[0m[94m (FQDN)[0m
+[92mhist16360-notifications-service-sql.syndev.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mdev88025wap01notify.azurewebsites.net[0m[94m (FQDN)[0m
+[92mids.ngn.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m51.124.73.17[0m[94m (IPAddress)[0m
+[92midsuat.cadent.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mf5xc-we.dnv.com[0m[94m (FQDN)[0m
+[92minsightapidevtest.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mfde-vap-devtest-hahwd6cxbfb5c6bj.a02.azurefd.net[0m[94m (FQDN)[0m
+[92minsightdevtest.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mfde-vap-devtest-hahwd6cxbfb5c6bj.a02.azurefd.net[0m[94m (FQDN)[0m
+[92minsightstag.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mfde-vap-prod-a0d6ahdcatbcgyez.a02.azurefd.net[0m[94m (FQDN)[0m
+[92minsighttest.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mfde-vap-test-e8a6fjf2d5ejfeh4.a02.azurefd.net[0m[94m (FQDN)[0m
+[92mintegrationsteamtest2-slas.syndev.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mdev88012wap01slas.azurewebsites.net[0m[94m (FQDN)[0m
+[92mkcadeutag.synergilife.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mprd108036wap01synlife.azurewebsites.net[0m[94m (FQDN)[0m
+[92mkcadeutagadminapi.synergilife.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mprd108036wap01adminapi.azurewebsites.net[0m[94m (FQDN)[0m
+[92mkcadeutagservicestest.synergilife.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mtst108036wap01services.azurewebsites.net[0m[94m (FQDN)[0m
+[92mmysoftware.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mecosystem-prd.trafficmanager.net[0m[94m (FQDN)[0m
+[92mnatgridusa.synergipipeline.uat.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92muatpusewap01spi10506818.azurewebsites.net[0m[94m (FQDN)[0m
+[92mnavigator.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mngnsprodprjwebwe.azurewebsites.net[0m[94m (FQDN)[0m
+[92mneoenergyservices.synergilife.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mprd10654538wap01services.azurewebsites.net[0m[94m (FQDN)[0m
+[92mngp-she-assurance-portal-prod.azurewebsites.net[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mwaws-prod-ln1-029.sip.azurewebsites.windows.net[0m[94m (FQDN)[0m
+[92mnisource.dimp.ars.synergipipeline.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mprdpuscwap02spiars10471100.azurewebsites.net[0m[94m (FQDN)[0m
+[92mpoe.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mmlfactory-prod.trafficmanager.net[0m[94m (FQDN)[0m
+[92mprd108036wap01synlife.azurewebsites.net[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mwaws-prod-am2-587.sip.azurewebsites.windows.net[0m[94m (FQDN)[0m
+[92mprdpuscwap02spiars10471100.azurewebsites.net[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mwaws-prod-dm1-205.sip.azurewebsites.windows.net[0m[94m (FQDN)[0m
+[92mprdpuswwap02spi10471513.azurewebsites.net[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mwaws-prod-bay-237.sip.azurewebsites.windows.net[0m[94m (FQDN)[0m
+[92mrc-16-53-energydemo-services-sql.syndev.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mdev88138wap01services.azurewebsites.net[0m[94m (FQDN)[0m
+[92ms.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92ms-dnv.msappproxy.net[0m[94m (FQDN)[0m
+[92mscecp-auth-uat.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95ma_record[0m [97m-->[0m [92m51.124.73.17[0m[94m (IPAddress)[0m
+[92msgtm.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92msgtm-bagpdtapf8abapbw.a01.azurefd.net[0m[94m (FQDN)[0m
+[92mshe-assurance.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mngp-she-assurance-portal-prod.azurewebsites.net[0m[94m (FQDN)[0m
+[92msm-qhse-sts.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mfs-sm-qhse.northeurope.cloudapp.azure.com[0m[94m (FQDN)[0m
+[92mstaging.navigator.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mngnsprodprjwebwe-staging.azurewebsites.net[0m[94m (FQDN)[0m
+[92mstenadrillingservices.synergilife.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mprd181579wap01services.azurewebsites.net[0m[94m (FQDN)[0m
+[92msurfload.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92msurfload-prod.azurewebsites.net[0m[94m (FQDN)[0m
+[92msurvey.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mers-primary.vanitydomains.qualtrics.com[0m[94m (FQDN)[0m
+[92mswg.synergipipeline.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mprdpuswwap02spi10471513.azurewebsites.net[0m[94m (FQDN)[0m
+[92mtc-portal.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mf5xc-eus2.dnv.com[0m[94m (FQDN)[0m
+[92mtimeandexpense.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mtimeexpprodfronendtrafficmanager.trafficmanager.net[0m[94m (FQDN)[0m
+[92mtimeandexpensedesktop-stag.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mtimeexpstagfrontenddesktoptrafficmanager.trafficmanager.net[0m[94m (FQDN)[0m
+[92mtimeandexpensedesktop.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mtimeexpprodfrontenddesktoptrafficmanager.trafficmanager.net[0m[94m (FQDN)[0m
+[92mtimeexpstagfrontenddesktoptrafficmanager.trafficmanager.net[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mtestagfedwebappwesteurope.azurewebsites.net[0m[94m (FQDN)[0m
+[92mvapapi.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mfde-vap-pd-dzasbeengzgxazgd.a02.azurefd.net[0m[94m (FQDN)[0m
+[92mvista.dnv.com[0m[94m (FQDN)[0m [97m-->[0m [95mcname_record[0m [97m-->[0m [92mmlfactory-prod.trafficmanager.net[0m[94m (FQDN)[0m
+RASS.dnv.com
+Srp-test.cadent.dnv.com
+Srp.cadent.dnv.com
+Standards.dnv.com
+Trust.dnv.com
+WebApps.dnv.com
+abatementinsight.dnv.com
+acesftp.dnv.com
+acmetest.dnv.com
+acmetest2.dnv.com
+activator.dnv.com
+active.we.nonprod.kubeit.dnv.com
+active.we.prod.kubeit.dnv.com
+adfs-shipmanager.dnv.com
+afi.dnv.com
+africa.dnv.com
+ai-and-safety.dnv.com
+ai.dnv.com
+aidit.dnv.com
+akerbp-wellspot.dnv.com
+akersolutions.synergilife.dnv.com
+ancris.dnv.com
+ancrisstoc-dev.dnv.com
+ancristoc.dnv.com
+annualreport.dnv.com
+anti-roll.dnv.com
+anyconnect.dnv.com
+api-portal.dnv.com
+api.dnv.com
+apicity-dev.dnv.com
+apicity-prod.dnv.com
+apicity-staging.dnv.com
+apitopo.dnv.com
+apnomac1id.synergilife.dnv.com
+apnomacanonwebtest.synergilife.dnv.com
+app-simplecontainers.dnv.com
+app.e.dnv.com
+appcity.dnv.com
+approvalfinder.dnv.com
+apps.cadent.dnv.com
+appsuat.cadent.dnv.com
+assurance.dnv.com
+atmos.dimp.synergipipeline.dnv.com
+atp.dnv.com
+auditorapp-installer.dnv.com
+auditorapp-test-installer.dnv.com
+autodiscover.dnv.com
+autoreport.dnv.com
+awstest.dnv.com
+batteryai.dnv.com
+batteryaitest.dnv.com
+bespokesoftwaredistribution.dnv.com
+bladednextgen.dnv.com
+boostmyaudit-dev.dnv.com
+boostmyaudit-uat.dnv.com
+boostmyaudit.dnv.com
+brandcentral.dnv.com
+broadcast-7.dnv.com
+bumiarmadaschedulertest.synergilife.dnv.com
+ccv-training.dnv.com
+ccv.dnv.com
+certificatechecker.dnv.com
+certmark.dnv.com
+classsuspensions.dnv.com
+cloudqra.bp.dnv.com
+cloudqra.dnv.com
+cluster-healthcheck.green.we.prod.kubeit.dnv.com
+cluster-healthcheck.we.nonprod.kubeit.dnv.com
+cmcservices.dnv.com
+coslanonweb.synergilife.dnv.com
+danfossslastest.synergilife.dnv.com
+data-connect-codetables-adminapi-sql.syndev.dnv.com
+data-connect-codetables-services-sql.syndev.dnv.com
+data.dnv.com
+demo.navigator.dnv.com
+demo.synergilife.dnv.com
+develop.onecompute.dnv.com
+digitalclass-staging.dnv.com
+dmzhoupexip01.vc.dnv.com
+dmzoslpexip01.vc.dnv.com
+dmzpexipclusterosl.vc.dnv.com
+dmzpexipclustersng.vc.dnv.com
+dnv.com
+dnvmobile.dnv.com
+easyrisk.dnv.com
+energydemo-slas.syndev.dnv.com
+energyinstall-adminapi-sql.syndev.dnv.com
+energyinstall-slas.syndev.dnv.com
+esbslas.synergilife.dnv.com
+eto.dnv.com
+events.dnv.com
+exchange.dnv.com
+explenergy.dnv.com
+f5xc-osl.dnv.com
+fsext1.dnv.com
+fsext1stag.dnv.com
+fsext1test.dnv.com
+fsint1.dnv.com
+fsint1test.dnv.com
+ftp.dnv.com
+gis.dnv.com
+green.we.nonprod.kubeit.dnv.com
+green.we.prod.kubeit.dnv.com
+grenlandschedulertest.synergilife.dnv.com
+ham.shipmanager.dnv.com
+harbourenergyslas.synergilife.dnv.com
+heroapi.dnv.com
+hipo.isrs.dnv.com
+hist16530-web-sql.syndev.dnv.com
+hist16570-anonymous-gateway.syndev.dnv.com
+ids.cadent.dnv.com
+idsuat.cadent.dnv.com
+impleniaanongtwtest.synergilife.dnv.com
+insightapi.dnv.com
+insightapidevtest.dnv.com
+insightapitest.dnv.com
+insightdevtest.dnv.com
+insightstag.dnv.com
+insighttest.dnv.com
+interface.apac.dnv.com
+join.vc.dnv.com
+learn.dnv.com
+mia-api233.apac.dnv.com
+miauat-veracity.apac.dnv.com
+miauatapi-veracity.apac.dnv.com
+mvhealthanongtwtest.synergilife.dnv.com
+mvhealthanonweb.synergilife.dnv.com
+mvhealthanonwebtest.synergilife.dnv.com
+navigator.dnv.com
+nexansslastest.synergilife.dnv.com
+nextgenquoting.dnv.com
+ngfm-sso.dnv.com
+nikkelverk.synergilife.dnv.com
+nikkelverkslas.synergilife.dnv.com
+nikkelverkslastest.synergilife.dnv.com
+nikkelverktest.synergilife.dnv.com
+nisource.dimp.synergipipeline.dnv.com
+odfjellslas.synergilife.dnv.com
+onekfx.dnv.com
+partner-test.dnv.com
+partner-training.dnv.com
+petrosschedulertest.synergilife.dnv.com
+pip.nonprod004.kubeit.dnv.com
+pip.prod004.kubeit.dnv.com
+portal.dnv.com
+projects.dnv.com
+rass.dnv.com
+rc-16-56-energydemo-anonymous-gateway.syndev.dnv.com
+rc-16-58-test-anonymous-web.syndev.dnv.com
+ready.dnv.com
+renewables.architect.dnv.com
+royalihcslas.synergilife.dnv.com
+sandbox.synergilife.dnv.com
+seadrillslas.synergilife.dnv.com
+sectrk.dnv.com
+sftp.cadent.dnv.com
+she-assurance.dnv.com
+ship-analytics.apac.dnv.com
+ship-mgmtportal.apac.dnv.com
+ship-mia.apac.dnv.com
+ship-miaapi.apac.dnv.com
+ship-miauat.apac.dnv.com
+ship-miauatapi.apac.dnv.com
+ship-software.apac.dnv.com
+ship-sso.apac.dnv.com
+shipmanager-sso.apac.dnv.com
+shipmanager.analytics.apac.dnv.com
+shipmanager.apac.dnv.com
+shipmanager.dnv.com
+sims-staging.dnv.com
+sims.dnv.com
+slanonweb.synergilife.dnv.com
+sm-qhse-sts.dnv.com
+snoc.synergilife.dnv.com
+snoctest.synergilife.dnv.com
+socarintegrationtest.synergilife.dnv.com
+socarslastest.synergilife.dnv.com
+solarfarmer.prd.dnv.com
+src-dev.dnv.com
+src.dnv.com
+staging.navigator.dnv.com
+summit.dnv.com
+supplierportal.dnv.com
+synergistructure-training.dnv.com
+synergistructure.dnv.com
+test.ai.api.dnv.com
+testag.dnv.com
+timeandexpense.dnv.com
+timeandexpensedesktop-stag.dnv.com
+timeandexpensedesktop-test.dnv.com
+timeandexpensedesktop.dnv.com
+totalenergiesslastest.synergilife.dnv.com
+uat.interface.apac.dnv.com
+verit.dnv.com
+vessel-software.apac.dnv.com
+vesselregister.dnv.com
+vista-gateway-internal-api.acp.dnv.com
+webapps.dnv.com
+webtools.dnv.com
+wintershalldeaintegrationtest.synergilife.dnv.com
+www.RASS.dnv.com
+www.Standards.dnv.com
+www.Trust.dnv.com
+www.acesftp.dnv.com
+www.activator.dnv.com
+www.adfs-shipmanager.dnv.com
+www.api-portal.dnv.com
+www.api.dnv.com
+www.apitopo.dnv.com
+www.approvalfinder.dnv.com
+www.bespokesoftwaredistribution.dnv.com
+www.boostmyaudit.dnv.com
+www.cloudqra.bp.dnv.com
+www.dnv.com
+www.interface.apac.dnv.com
+www.miauat-veracity.apac.dnv.com
+www.miauatapi-veracity.apac.dnv.com
+www.sftp.cadent.dnv.com
+www.ship-mia.apac.dnv.com
+www.ship-miaapi.apac.dnv.com
+www.ship-software.apac.dnv.com
+www.shipmanager-sso.apac.dnv.com
+www.shipmanager.analytics.apac.dnv.com
+www.shipmanager.apac.dnv.com
+www.test.ai.api.dnv.com
+www2.dnv.com

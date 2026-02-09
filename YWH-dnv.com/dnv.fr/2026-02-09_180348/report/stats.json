@@ -1,0 +1,16 @@
+{
+  "program": "YWH-dnv.com",
+  "domain": "dnv.fr",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.fr/2026-02-09_180348",
+  "counts": {
+    "passive_merged": 4,
+    "resolved": 3,
+    "bruteforce": 2,
+    "permutations": 1,
+    "master": 3,
+    "ports": 1001,
+    "web_assets": 0,
+    "urls": 0,
+    "nuclei": 0
+  }
+}

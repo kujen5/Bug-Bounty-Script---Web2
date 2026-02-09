@@ -1,0 +1,55 @@
+==============================================
+  BEAST MODE RECON - SUMMARY REPORT
+==============================================
+
+Program:    YWH-KIWAÏ
+Target:     kiwai-normandie.fr
+Date:       2026-02-09 12:54:20
+Output Dir: /home/kujen/Bug-Bounty-Script---Web2/YWH-KIWAÏ/kiwai-normandie.fr/2026-02-09_124028
+
+----------------------------------------------
+  SUBDOMAIN COUNTS
+----------------------------------------------
+Passive sources:
+  subfinder:           17
+  amass:               5
+  crtsh:               1
+  wayback:             10
+  passive_apis:        11
+
+Merged passive:      23
+Resolved (alive):    12
+Bruteforce:          3
+Permutations:        10
+MASTER TOTAL:        13
+
+----------------------------------------------
+  INFRASTRUCTURE
+----------------------------------------------
+IP ranges (ASN):     0
+Open ports (naabu):  22
+Web assets (httpx):  0
+
+----------------------------------------------
+  CONTENT & VULNS
+----------------------------------------------
+URLs discovered:     0
+JS files:            0
+Nuclei findings:     0
+
+----------------------------------------------
+  PHASE STATUS
+----------------------------------------------
+  Phase 0 : OK
+  Phase 1 : OK
+  Phase 2 : OK
+  Phase 3 : OK
+  Phase 4 : OK
+  Phase 5 : OK
+  Phase 6 : OK
+  Phase 7 : FAIL
+  Phase 8 : FAIL
+  Phase 9 : FAIL
+  Phase 10: OK
+
+==============================================

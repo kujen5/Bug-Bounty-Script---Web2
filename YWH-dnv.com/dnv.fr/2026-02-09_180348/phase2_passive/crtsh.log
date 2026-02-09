@@ -1,0 +1,3 @@
+[crtsh] Error querying crt.sh: 502 Server Error: Bad Gateway for url: https://crt.sh/?q=%25.dnv.fr&output=json
+[crtsh] Found 0 unique subdomains for dnv.fr
+[crtsh] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.fr/2026-02-09_180348/phase2_passive/crtsh.txt

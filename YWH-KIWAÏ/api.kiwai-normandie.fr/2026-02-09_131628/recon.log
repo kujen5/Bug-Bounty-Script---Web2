@@ -1,0 +1,34 @@
+[13:16:28] [INFO] Program: \033[1mYWH-KIWAÏ\033[0m
+[13:16:28] [INFO] Target: \033[1mapi.kiwai-normandie.fr\033[0m
+[13:16:29] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-KIWAÏ/api.kiwai-normandie.fr/2026-02-09_131628
+[13:16:29] [INFO] Threads: 50 | Rate Limit: 300
+[13:16:29] [INFO] Go: go1.24.0
+[13:16:29] [INFO] Phase 0 completed (1s)
+[13:16:29] [PHASE] Phase 1: Root Domain Intelligence
+[13:16:29] [INFO] Running WHOIS lookup...
+[13:16:29] [INFO] Running ASN enumeration...
+[13:16:31] [INFO] ASN subdomains: 0
+[13:16:31] [INFO] IP ranges discovered: 0
+[13:16:31] [INFO] Phase 1 completed (2s)
+[13:16:31] [PHASE] Phase 2: Passive Subdomain Enumeration
+[13:16:31] [INFO] Starting subfinder...
+[13:16:31] [INFO] Starting amass passive...
+[13:16:31] [INFO] Starting crt.sh lookup...
+[13:16:31] [INFO] Starting Wayback Machine lookup...
+[13:16:31] [INFO] Starting passive API queries...
+[13:16:31] [INFO] No GitHub token provided, skipping GitHub dorking.
+[13:16:31] [INFO] Waiting for 5 passive sources to complete...
+[13:17:27] [INFO]   amass: 0 subdomains
+[13:17:27] [INFO]   crtsh: 0 subdomains
+[13:17:27] [INFO]   passive_apis: 1 subdomains
+[13:17:27] [INFO]   subfinder: 1 subdomains
+[13:17:27] [INFO]   wayback: 2 subdomains
+[13:17:27] [INFO] Total unique passive subdomains: \033[1m2\033[0m
+[13:17:27] [INFO] Phase 2 completed (56s)
+[13:17:27] [PHASE] Phase 3: DNS Resolution & Filtering
+[13:17:27] [INFO] Resolving 2 subdomains with puredns...
+[13:17:53] [INFO] Resolved: 0 alive subdomains
+[13:17:53] [INFO] Wildcards: 0
+[13:17:53] [INFO] Phase 3 completed (26s)
+[13:17:53] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[13:17:53] [INFO] Bruteforcing subdomains with puredns...

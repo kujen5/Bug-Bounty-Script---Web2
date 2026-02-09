@@ -1,0 +1,70 @@
+[13:04:24] [INFO] Program: \033[1mYWH-KIWAÏ\033[0m
+[13:04:24] [INFO] Target: \033[1mkiwai-enr.fr\033[0m
+[13:04:24] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-KIWAÏ/kiwai-enr.fr/2026-02-09_130424
+[13:04:24] [INFO] Threads: 50 | Rate Limit: 300
+[13:04:24] [INFO] Go: go1.24.0
+[13:04:24] [INFO] Phase 0 completed (0s)
+[13:04:24] [PHASE] Phase 1: Root Domain Intelligence
+[13:04:25] [INFO] Running WHOIS lookup...
+[13:04:25] [INFO] Running ASN enumeration...
+[13:04:27] [INFO] ASN subdomains: 0
+[13:04:27] [INFO] IP ranges discovered: 0
+[13:04:27] [INFO] Phase 1 completed (3s)
+[13:04:27] [PHASE] Phase 2: Passive Subdomain Enumeration
+[13:04:27] [INFO] Starting subfinder...
+[13:04:27] [INFO] Starting amass passive...
+[13:04:27] [INFO] Starting crt.sh lookup...
+[13:04:27] [INFO] Starting Wayback Machine lookup...
+[13:04:27] [INFO] Starting passive API queries...
+[13:04:27] [INFO] No GitHub token provided, skipping GitHub dorking.
+[13:04:27] [INFO] Waiting for 5 passive sources to complete...
+[13:07:04] [INFO]   amass: 6 subdomains
+[13:07:04] [INFO]   crtsh: 0 subdomains
+[13:07:04] [INFO]   passive_apis: 3 subdomains
+[13:07:04] [INFO]   subfinder: 42 subdomains
+[13:07:04] [INFO]   wayback: 4 subdomains
+[13:07:04] [INFO] Total unique passive subdomains: \033[1m49\033[0m
+[13:07:04] [INFO] Phase 2 completed (157s)
+[13:07:04] [PHASE] Phase 3: DNS Resolution & Filtering
+[13:07:04] [INFO] Resolving 49 subdomains with puredns...
+[13:07:32] [INFO] Resolved: 3 alive subdomains
+[13:07:32] [INFO] Wildcards: 0
+[13:07:32] [INFO] Collecting DNS records with dnsx...
+[13:07:43] [INFO] CNAME records: 0
+[13:07:43] [INFO] Phase 3 completed (39s)
+[13:07:43] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[13:07:43] [INFO] Bruteforcing subdomains with puredns...
+[13:15:04] [INFO] Bruteforce found: 1 subdomains
+[13:15:04] [INFO] Generating permutations with alterx...
+[13:15:05] [INFO] Resolving 2070 permutation candidates...
+[13:16:00] [INFO] Permutations resolved: 3
+[13:16:00] [INFO] Phase 4 completed (497s)
+[13:16:00] [PHASE] Merging Master Subdomain List
+[13:16:00] [INFO] Master subdomain list: \033[1m3\033[0m unique live subdomains
+[13:16:00] [PHASE] Phase 5: Port Scanning
+[13:16:00] [INFO] Scanning ports on 3 hosts with naabu...
+[13:16:25] [INFO] Open ports found: 6 host:port entries
+[13:16:25] [INFO] Hosts with open ports: 3
+[13:16:25] [INFO] Phase 5 completed (25s)
+[13:16:25] [PHASE] Phase 6: Web Probing
+[13:16:25] [INFO] Probing 9 targets with httpx...
+[13:16:28] [INFO] Web assets found: 0
+[13:16:28] [INFO] Phase 6 completed (3s)
+[13:16:28] [PHASE] Phase 7: Content Discovery
+[13:16:28] [WARN] No live URLs for content discovery.
+[13:16:28] [WARN] Phase 7 finished with issues (0s)
+[13:16:28] [PHASE] Phase 8: Vulnerability Scanning
+[13:16:28] [WARN] No live URLs for vulnerability scanning.
+[13:16:28] [WARN] Phase 8 finished with issues (0s)
+[13:16:28] [PHASE] Phase 9: Certstream Monitor (Background)
+[13:16:28] [WARN] websocket-client not installed. Installing...
+[13:16:28] [WARN] Could not install websocket-client. Skipping certstream.
+[13:16:28] [WARN] Phase 9 finished with issues (0s)
+[13:16:28] [PHASE] Phase 10: Reporting & Summary
+[13:16:28] [INFO] Generating consolidated domain report...
+[13:16:28] [INFO] Consolidated report saved: \033[1mkiwai-enr.fr_consolidated_report.txt\033[0m
+[13:16:28] [INFO] Full path: /home/kujen/Bug-Bounty-Script---Web2/YWH-KIWAÏ/kiwai-enr.fr/2026-02-09_130424/kiwai-enr.fr_consolidated_report.txt
+[13:16:28] [INFO] Phase 10 completed (0s)
+[13:16:28] [INFO] All phases complete for kiwai-enr.fr. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-KIWAÏ/kiwai-enr.fr/2026-02-09_130424\033[0m
+[13:16:28] [PHASE] Domain 4/5: api.kiwai-normandie.fr
+[13:16:28] [PHASE] Phase 0: Setup & Dependencies

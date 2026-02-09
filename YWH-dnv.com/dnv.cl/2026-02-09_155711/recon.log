@@ -1,0 +1,70 @@
+[15:57:11] [INFO] Program: \033[1mYWH-dnv.com\033[0m
+[15:57:11] [INFO] Target: \033[1mdnv.cl\033[0m
+[15:57:11] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.cl/2026-02-09_155711
+[15:57:11] [INFO] Threads: 50 | Rate Limit: 300
+[15:57:11] [INFO] Go: go1.24.0
+[15:57:11] [INFO] Phase 0 completed (0s)
+[15:57:11] [PHASE] Phase 1: Root Domain Intelligence
+[15:57:11] [INFO] Running WHOIS lookup...
+[15:57:11] [INFO] Running ASN enumeration...
+[15:57:13] [INFO] ASN subdomains: 0
+[15:57:13] [INFO] IP ranges discovered: 0
+[15:57:13] [INFO] Phase 1 completed (2s)
+[15:57:13] [PHASE] Phase 2: Passive Subdomain Enumeration
+[15:57:13] [INFO] Starting subfinder...
+[15:57:13] [INFO] Starting amass passive...
+[15:57:13] [INFO] Starting crt.sh lookup...
+[15:57:13] [INFO] Starting Wayback Machine lookup...
+[15:57:13] [INFO] Starting passive API queries...
+[15:57:13] [INFO] No GitHub token provided, skipping GitHub dorking.
+[15:57:13] [INFO] Waiting for 5 passive sources to complete...
+[15:58:46] [INFO]   amass: 2 subdomains
+[15:58:46] [INFO]   crtsh: 2 subdomains
+[15:58:46] [INFO]   passive_apis: 2 subdomains
+[15:58:46] [INFO]   subfinder: 1 subdomains
+[15:58:46] [INFO]   wayback: 0 subdomains
+[15:58:46] [INFO] Total unique passive subdomains: \033[1m4\033[0m
+[15:58:46] [INFO] Phase 2 completed (93s)
+[15:58:46] [PHASE] Phase 3: DNS Resolution & Filtering
+[15:58:46] [INFO] Resolving 4 subdomains with puredns...
+[15:59:14] [INFO] Resolved: 2 alive subdomains
+[15:59:14] [INFO] Wildcards: 0
+[15:59:14] [INFO] Collecting DNS records with dnsx...
+[15:59:22] [INFO] CNAME records: 0
+[15:59:22] [INFO] Phase 3 completed (36s)
+[15:59:22] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[15:59:22] [INFO] Bruteforcing subdomains with puredns...
+[16:06:25] [INFO] Bruteforce found: 1 subdomains
+[16:06:25] [INFO] Generating permutations with alterx...
+[16:06:26] [INFO] Resolving 690 permutation candidates...
+[16:06:32] [INFO] Permutations resolved: 1
+[16:06:32] [INFO] Phase 4 completed (430s)
+[16:06:32] [PHASE] Merging Master Subdomain List
+[16:06:32] [INFO] Master subdomain list: \033[1m2\033[0m unique live subdomains
+[16:06:32] [PHASE] Phase 5: Port Scanning
+[16:06:32] [INFO] Scanning ports on 2 hosts with naabu...
+[16:07:15] [INFO] Open ports found: 997 host:port entries
+[16:07:15] [INFO] Hosts with open ports: 2
+[16:07:15] [INFO] Phase 5 completed (43s)
+[16:07:15] [PHASE] Phase 6: Web Probing
+[16:07:15] [INFO] Probing 999 targets with httpx...
+[16:07:16] [INFO] Web assets found: 0
+[16:07:16] [INFO] Phase 6 completed (1s)
+[16:07:16] [PHASE] Phase 7: Content Discovery
+[16:07:16] [WARN] No live URLs for content discovery.
+[16:07:16] [WARN] Phase 7 finished with issues (0s)
+[16:07:16] [PHASE] Phase 8: Vulnerability Scanning
+[16:07:16] [WARN] No live URLs for vulnerability scanning.
+[16:07:16] [WARN] Phase 8 finished with issues (0s)
+[16:07:16] [PHASE] Phase 9: Certstream Monitor (Background)
+[16:07:16] [WARN] websocket-client not installed. Installing...
+[16:07:16] [WARN] Could not install websocket-client. Skipping certstream.
+[16:07:16] [WARN] Phase 9 finished with issues (0s)
+[16:07:16] [PHASE] Phase 10: Reporting & Summary
+[16:07:16] [INFO] Generating consolidated domain report...
+[16:07:16] [INFO] Consolidated report saved: \033[1mdnv.cl_consolidated_report.txt\033[0m
+[16:07:16] [INFO] Full path: /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.cl/2026-02-09_155711/dnv.cl_consolidated_report.txt
+[16:07:16] [INFO] Phase 10 completed (0s)
+[16:07:16] [INFO] All phases complete for dnv.cl. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.cl/2026-02-09_155711\033[0m
+[16:07:16] [PHASE] Domain 7/28: dnv.co.kr
+[16:07:16] [PHASE] Phase 0: Setup & Dependencies

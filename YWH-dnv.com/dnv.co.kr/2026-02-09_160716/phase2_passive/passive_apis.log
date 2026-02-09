@@ -1,0 +1,7 @@
+[passive] Querying 4 passive sources for dnv.co.kr...
+[passive] AlienVault: 0 subdomains
+[passive] URLScan: 1 subdomains
+[passive] HackerTarget: 2 subdomains
+[passive] RapidDNS: 1 subdomains
+[passive] Total unique subdomains from all sources: 2
+[passive] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.co.kr/2026-02-09_160716/phase2_passive/passive_apis.txt

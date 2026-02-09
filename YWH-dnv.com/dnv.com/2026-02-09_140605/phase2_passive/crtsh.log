@@ -1,0 +1,3 @@
+[crtsh] Error querying crt.sh: 503 Server Error: Service Unavailable for url: https://crt.sh/?q=%25.dnv.com&output=json
+[crtsh] Found 0 unique subdomains for dnv.com
+[crtsh] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.com/2026-02-09_140605/phase2_passive/crtsh.txt

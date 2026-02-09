@@ -1,0 +1,62 @@
+[15:11:18] [INFO] Program: \033[1mYWH-dnv.com\033[0m
+[15:11:18] [INFO] Target: \033[1mdnv.com.au\033[0m
+[15:11:18] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.com.au/2026-02-09_151118
+[15:11:18] [INFO] Threads: 50 | Rate Limit: 300
+[15:11:18] [INFO] Go: go1.24.0
+[15:11:19] [INFO] Phase 0 completed (1s)
+[15:11:19] [PHASE] Phase 1: Root Domain Intelligence
+[15:11:19] [INFO] Running WHOIS lookup...
+[15:11:19] [INFO] Running ASN enumeration...
+[15:11:21] [INFO] ASN subdomains: 0
+[15:11:21] [INFO] IP ranges discovered: 0
+[15:11:21] [INFO] Phase 1 completed (2s)
+[15:11:21] [PHASE] Phase 2: Passive Subdomain Enumeration
+[15:11:21] [INFO] Starting subfinder...
+[15:11:21] [INFO] Starting amass passive...
+[15:11:21] [INFO] Starting crt.sh lookup...
+[15:11:21] [INFO] Starting Wayback Machine lookup...
+[15:11:21] [INFO] Starting passive API queries...
+[15:11:21] [INFO] No GitHub token provided, skipping GitHub dorking.
+[15:11:21] [INFO] Waiting for 5 passive sources to complete...
+[15:12:50] [INFO]   amass: 0 subdomains
+[15:12:50] [INFO]   crtsh: 0 subdomains
+[15:12:50] [INFO]   passive_apis: 1 subdomains
+[15:12:50] [INFO]   subfinder: 1 subdomains
+[15:12:50] [INFO]   wayback: 0 subdomains
+[15:12:50] [INFO] Total unique passive subdomains: \033[1m1\033[0m
+[15:12:50] [INFO] Phase 2 completed (89s)
+[15:12:50] [PHASE] Phase 3: DNS Resolution & Filtering
+[15:12:50] [INFO] Resolving 1 subdomains with puredns...
+[15:13:16] [INFO] Resolved: 0 alive subdomains
+[15:13:16] [INFO] Wildcards: 0
+[15:13:16] [INFO] Phase 3 completed (26s)
+[15:13:16] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[15:13:16] [INFO] Bruteforcing subdomains with puredns...
+[15:37:33] [INFO] Bruteforce found: 0 subdomains
+[15:37:33] [INFO] Phase 4 completed (1457s)
+[15:37:33] [PHASE] Merging Master Subdomain List
+[15:37:33] [INFO] Master subdomain list: \033[1m0\033[0m unique live subdomains
+[15:37:33] [PHASE] Phase 5: Port Scanning
+[15:37:33] [WARN] No subdomains to port scan.
+[15:37:33] [WARN] Phase 5 finished with issues (0s)
+[15:37:33] [PHASE] Phase 6: Web Probing
+[15:37:33] [WARN] No subdomains to probe.
+[15:37:33] [WARN] Phase 6 finished with issues (0s)
+[15:37:33] [PHASE] Phase 7: Content Discovery
+[15:37:33] [WARN] No live URLs for content discovery.
+[15:37:33] [WARN] Phase 7 finished with issues (0s)
+[15:37:33] [PHASE] Phase 8: Vulnerability Scanning
+[15:37:33] [WARN] No live URLs for vulnerability scanning.
+[15:37:33] [WARN] Phase 8 finished with issues (0s)
+[15:37:33] [PHASE] Phase 9: Certstream Monitor (Background)
+[15:37:33] [WARN] websocket-client not installed. Installing...
+[15:37:34] [WARN] Could not install websocket-client. Skipping certstream.
+[15:37:34] [WARN] Phase 9 finished with issues (1s)
+[15:37:34] [PHASE] Phase 10: Reporting & Summary
+[15:37:34] [INFO] Generating consolidated domain report...
+[15:37:34] [INFO] Consolidated report saved: \033[1mdnv.com.au_consolidated_report.txt\033[0m
+[15:37:34] [INFO] Full path: /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.com.au/2026-02-09_151118/dnv.com.au_consolidated_report.txt
+[15:37:34] [INFO] Phase 10 completed (0s)
+[15:37:34] [INFO] All phases complete for dnv.com.au. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.com.au/2026-02-09_151118\033[0m
+[15:37:34] [PHASE] Domain 4/28: dnv.be
+[15:37:34] [PHASE] Phase 0: Setup & Dependencies

@@ -1,0 +1,6 @@
+[92mkiwai-enr.fr[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mns11.gcetech.net[0m[94m (FQDN)[0m
+[92mkiwai-enr.fr[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mns10.gcetech.net[0m[94m (FQDN)[0m
+[92mkiwai-enr.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx3.mail.ovh.net[0m[94m (FQDN)[0m
+[92mkiwai-enr.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx2.mail.ovh.net[0m[94m (FQDN)[0m
+[92mkiwai-enr.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx0.mail.ovh.net[0m[94m (FQDN)[0m
+[92mkiwai-enr.fr[0m[94m (FQDN)[0m [97m-->[0m [95mmx_record[0m [97m-->[0m [92mmx1.mail.ovh.net[0m[94m (FQDN)[0m
