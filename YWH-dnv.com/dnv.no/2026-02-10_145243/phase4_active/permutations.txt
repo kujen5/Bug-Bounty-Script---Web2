@@ -1,0 +1,3 @@
+vpn-hou1.dnv.no
+vpn-hou2.dnv.no
+www.dnv.no

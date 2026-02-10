@@ -1,0 +1,8 @@
+https://dnv.nl
+https://dnv.nl:443
+http://www.dnv.nl:8080
+http://dnv.nl:80
+https://www.dnv.nl:8443
+https://www.dnv.nl:443
+https://www.dnv.nl
+http://www.dnv.nl:80

@@ -1,0 +1,5 @@
+api.dnv.com
+www.dnv.com
+data.dnv.com
+partner.dnv.com
+info.dnv.com

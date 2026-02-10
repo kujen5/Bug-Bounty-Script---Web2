@@ -1,0 +1,5 @@
+http://www.dnv.sg:8080
+https://www.dnv.sg:8443
+https://www.dnv.sg
+http://www.dnv.sg:80
+https://www.dnv.sg:443

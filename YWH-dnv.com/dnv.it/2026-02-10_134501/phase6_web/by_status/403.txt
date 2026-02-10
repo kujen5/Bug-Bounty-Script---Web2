@@ -1,0 +1,2 @@
+http://www.dnv.it:8080
+https://www.dnv.it:8443

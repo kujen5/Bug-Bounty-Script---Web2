@@ -1,0 +1,207 @@
+
+[+] Fetching: https://africa.dnv.com/Util/Find/epi-util/find.js
+
+[+] Fetching: https://africa.dnv.com/dist/client/assets/Navigation.component-DhardSb4.js
+
+[+] Fetching: https://africa.dnv.com/dist/client/assets/SiteSearchSidebar.component-DvG9M0sO.js
+
+[+] Fetching: https://africa.dnv.com/dist/client/assets/banner-hero-carousel.component-DAKkR5I-.js
+
+[+] Fetching: https://africa.dnv.com/dist/client/assets/default-layout.component-vgNc0FB1.js
+
+[+] Fetching: https://africa.dnv.com/dist/client/assets/entry-client-ViyFXRUE.js
+  [URL] https://reactjs.org/docs/error-decoder.html?invariant=
+
+[+] Fetching: https://africa.dnv.com/dist/client/assets/header.component-Da6aTzn1.js
+
+[+] Fetching: https://africa.dnv.com/dist/client/assets/modal.component-GOGay4eg.js
+  [URL] https://cloud.brandmaster.com${e}
+
+[+] Fetching: https://africa.dnv.com/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://ai.dnv.com/assistant/iframe/dist/dnvai-component.es.js
+
+[+] Fetching: https://data.dnv.com/osp/resources/ajax/jsonp.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://data.dnv.com/osp/resources/jquery.js
+
+[+] Fetching: https://data.dnv.com/osp/resources/marked.min.js
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/app.js
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/app.js?id=01d54778bc7b6b8cd5a454d55cc76a38
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/app.js?id=18c9e89341fd7f34290c71c388eba758
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/app.js?id=67311920419037528f13ac315b856414
+  [URL] https://calendar.google.com/calendar/render?action=TEMPLATE
+  [URL] https://outlook.live.com/calendar/0/deeplink/compose?
+  [FILE] /application/themes/thirty_three/assets/dist/json/dnv_offices.json
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/app.js?id=941008baa2f59139240727f5d54e34cd
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/app.js?id=9618992eb6b701c6e66da15cdabcfce8
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/app.js?id=9bc5a32375e15091112602922e7cc9f9
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/app.js?id=9ccb1a182005cf0a7e92837ef130337a
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/app.js?id=c798121aacfe64df9032c328f5f2e2f3
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/app.js?id=cb104e7492103cb2c2481e0102a2d5b1
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/app.js?id=ec1d076219b15af385d9f32894f3e605
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/app.js?id=faa66f041ba099e57d08e250efc30645
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchApp.js
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchApp.js?id=1c4fcbba70cad0a3a5d132a6bf1fd12a
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchApp.js?id=5728ca1b12590d9a8d8e8482113c5e99
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchApp.js?id=65f0af3ace7fec26f238db6b2c2ce80a
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchApp.js?id=8f715117b33fb2decf69755885287aed
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchApp.js?id=ad6b25cc634012399dd1eae3c7032ee7
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchApp.js?id=d0abf898b75d312797ce2f8024c02165
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchApp.js?id=e14a36267df45556d6e6b54d3be94ffa
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchApp.js?id=f4641baaee474cd98f56f3d3edb0c17f
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchFilteredApp.js
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchFilteredApp.js?id=27b10c73be6e87bc1fbffe3f3ea4686b
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchFilteredApp.js?id=9b96616e37b94952e98fe1eafd4ff0ec
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchFilteredApp.js?id=a613a74d32dbaeb18a6f80952fa54b1d
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchFilteredApp.js?id=aa74e817025f801c76561d41a3c47e54
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchFilteredApp.js?id=bd5591a4b586df5cd6f3d87d1b1c795e
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchFilteredApp.js?id=c09e6834189141b1c4455275745282d9
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchFilteredApp.js?id=dcddb4d951a8eb9f80d51dcfe5c6c4a0
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchFilteredApp.js?id=e11f401b65d1239efa56231788a951ed
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchStandaloneApp.js
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchStandaloneApp.js?id=05cb2be40513078f97d7936c9877397e
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchStandaloneApp.js?id=630e7c3548aeb32673652fa5de1c6611
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchStandaloneApp.js?id=7b732b3f8792ef41e7b39f4f99e7721d
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchStandaloneApp.js?id=8ad0018b52ceec9783280dc21d152734
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchStandaloneApp.js?id=b257888999e6924c91f46cacffc7ff63
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchStandaloneApp.js?id=e4b31abdc572b42bcefac1da62a63613
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchStandaloneApp.js?id=e82fe036ac23ca7fe4bd141f6257c425
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/jobSearchStandaloneApp.js?id=f1b8e1a31bb5934dd9478a6efac9290a
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/manifest.js
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/manifest.js?id=25f07d6829f6fc25cb802e58e0cf09a9
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/manifest.js?id=2816d97ca4e2400ff1d190920cf72b63
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/manifest.js?id=430bc8f13a9d08bbb1c03baa449b9f50
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/manifest.js?id=740b3edd65e5ccdb0fac22d809d7407e
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/manifest.js?id=c90c49e93878cdd29d7658cae44bd85f
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/manifest.js?id=d0d10ffbb7b45127631fd19bfd5bdc3f
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/reciteme.js?id=4be67a4529ae31c56d34c7c03ffe29a1
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/reciteme.js?id=769c7e93b8807568fa7d35765d5f56cc
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/reciteme.js?id=d08650b5a58ff352d5ae8b1f76e59668
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/vendor.js
+  [URL] https://cdn.plyr.io/3.6.12/plyr.css
+  [URL] https://cdn.plyr.io/3.6.12/plyr.js
+  [URL] http://www.magenta.gr/
+  [URL] http://www.ellak.gr/fonts/MgOpen/license.html
+  [URL] https://cdn.jsdelivr.net/npm/search-insights@
+  [URL] https://www.algolia.com/doc/api-reference/widgets/
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/vendor.js?id=26384ee85a2129a25bfa54f66ccaea3a
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/vendor.js?id=3c0ddcef57d4d86922cfafeef94a2731
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/vendor.js?id=81264f5eefc7e2487f70a8424503d360
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/vendor.js?id=81b4a5aa7ef3fb411f4629e7d89b38d4
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/vendor.js?id=a59ba63f61d3ef4dcd3c08484e7a61d7
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/vendor.js?id=b567a13b6fc009fc3057cc2fc80a8906
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/vendor.js?id=c030d0a8a8912099236b7e6a0ea79358
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/vendor.js?id=c036b6f62908fd649e7d2c6d1ad34a50
+
+[+] Fetching: https://jobs.dnv.com/application/themes/thirty_three/assets/dist/js/vendor.js?id=c96ce5de86bb659d4d5defd3c5f0d73e
+
+[+] Fetching: https://jobs.dnv.com/articles/cdn.cookielaw.org/scripttemplates/otSDKStub.js
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/cdn.cookielaw.org/scripttemplates/otSDKStub.js
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/dist/search-insights.min.js
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/gtm.js
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/job-search/accelerator/no-career-track/oslo-norway/cyber-trainee-2026/cdn.cookielaw.org/scripttemplates/otSDKStub.js
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/job-search/energy-systems/consultant/bangalore-india/energy-storage-consultant/cdn.cookielaw.org/scripttemplates/otSDKStub.js
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/job-search/energy-systems/consultant/rotterdam-netherlands-groningen-netherlands-arnhem-netherlands/process-safety-consultant/cdn.cookielaw.org/scripttemplates/otSDKStub.js
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/job-search/energy-systems/engineer/columbus-oh-united-states/engineer-polymers-and-polymer-composites/cdn.cookielaw.org/scripttemplates/otSDKStub.js
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/job-search/energy-systems/engineer/hamburg-germany-oldenburg-germany/senior-engineer-onshore-wind-germany/cdn.cookielaw.org/scripttemplates/otSDKStub.js
+  [!] Error: HTTPSConnectionPool(host='jobs.dnv.com', port=443): Read timed out. (read timeout=15)
+
+[+] Fetching: https://jobs.dnv.com/job-search/energy-systems/it-and-software/mexico-city-mexico-city-mexico/it-systems-administrator/cdn.cookielaw.org/scripttemplates/otSDKStub.js

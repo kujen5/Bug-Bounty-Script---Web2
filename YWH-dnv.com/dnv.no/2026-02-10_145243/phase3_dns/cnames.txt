@@ -1,0 +1,3 @@
+vpn-mngt.dnv.no [[35mCNAME[0m] [[32manyconnect-mngt.trafficmanager.net[0m] 
+vpn-mngt.dnv.no [[35mCNAME[0m] [[32mvpn-dub.dnv.no[0m] 
+vpn-mngt.dnv.no [[35mCNAME[0m] [[32mvpn-kob.dnv.no[0m] 

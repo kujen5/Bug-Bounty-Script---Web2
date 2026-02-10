@@ -1,0 +1,3 @@
+http://api.dnv.com:80
+https://api.dnv.com
+https://api.dnv.com:443

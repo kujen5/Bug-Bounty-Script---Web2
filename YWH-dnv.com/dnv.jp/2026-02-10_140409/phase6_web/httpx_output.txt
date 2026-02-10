@@ -1,0 +1,8 @@
+https://dnv.jp | 200 | dnv.jp - When trust matters - DNV | 217.114.94.2 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management,React
+https://dnv.jp:443 | 200 | dnv.jp - When trust matters - DNV | 217.114.94.2 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management,React
+http://dnv.jp:80 | 200 | dnv.jp - When trust matters - DNV | 217.114.94.2 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management,React
+http://www.dnv.jp:8080 | 403 | Attention Required! | Cloudflare | 172.64.149.156 | cloudflare | Cloudflare,HTTP/3
+https://www.dnv.jp:8443 | 403 | Attention Required! | Cloudflare | 172.64.149.156 | cloudflare | Cloudflare,HTTP/3
+https://www.dnv.jp:443 | 200 | dnv.jp - When trust matters - DNV | 172.64.149.156 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management,React
+https://www.dnv.jp | 200 | dnv.jp - When trust matters - DNV | 172.64.149.156 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management,React
+http://www.dnv.jp:80 | 200 | dnv.jp - When trust matters - DNV | 172.64.149.156 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management,React

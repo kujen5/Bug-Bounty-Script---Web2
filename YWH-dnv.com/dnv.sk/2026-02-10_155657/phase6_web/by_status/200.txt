@@ -1,0 +1,3 @@
+https://www.dnv.sk
+https://www.dnv.sk:443
+http://www.dnv.sk:80

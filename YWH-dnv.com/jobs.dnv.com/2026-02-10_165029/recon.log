@@ -1,0 +1,63 @@
+[16:50:29] [INFO] Program: \033[1mYWH-dnv.com\033[0m
+[16:50:29] [INFO] Target: \033[1mjobs.dnv.com\033[0m
+[16:50:29] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/jobs.dnv.com/2026-02-10_165029
+[16:50:29] [INFO] Threads: 50 | Rate Limit: 300
+[16:50:29] [INFO] Go: go1.24.0
+[16:50:30] [INFO] Phase 0 completed (1s)
+[16:50:30] [PHASE] Phase 1: Root Domain Intelligence
+[16:50:30] [INFO] Running WHOIS lookup...
+[16:50:30] [INFO] Running ASN enumeration...
+[16:50:31] [INFO] ASN subdomains: 0
+[16:50:31] [INFO] IP ranges discovered: 0
+[16:50:31] [INFO] Phase 1 completed (1s)
+[16:50:31] [PHASE] Phase 2: Passive Subdomain Enumeration
+[16:50:31] [INFO] Starting subfinder...
+[16:50:31] [INFO] Starting amass passive...
+[16:50:31] [INFO] Starting crt.sh lookup...
+[16:50:31] [INFO] Starting Wayback Machine lookup...
+[16:50:31] [INFO] Starting passive API queries...
+[16:50:31] [INFO] No GitHub token provided, skipping GitHub dorking.
+[16:50:31] [INFO] Waiting for 5 passive sources to complete...
+[16:51:25] [INFO]   amass: 3 subdomains
+[16:51:25] [INFO]   crtsh: 2 subdomains
+[16:51:25] [INFO]   passive_apis: 1 subdomains
+[16:51:25] [INFO]   subfinder: 1 subdomains
+[16:51:25] [INFO]   wayback: 1 subdomains
+[16:51:25] [INFO] Total unique passive subdomains: \033[1m3\033[0m
+[16:51:25] [INFO] Phase 2 completed (54s)
+[16:51:25] [PHASE] Phase 3: DNS Resolution & Filtering
+[16:51:25] [INFO] Resolving 3 subdomains with puredns...
+[16:51:27] [INFO] Resolved: 2 alive subdomains
+[16:51:27] [INFO] Wildcards: 0
+[16:51:27] [INFO] Collecting DNS records with dnsx...
+[16:51:33] [INFO] CNAME records: 4
+[16:51:33] [INFO] Phase 3 completed (8s)
+[16:51:33] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[16:51:33] [INFO] Bruteforcing subdomains with puredns...
+[16:58:14] [INFO] Bruteforce found: 0 subdomains
+[16:58:14] [INFO] Generating permutations with alterx...
+[16:58:15] [INFO] Resolving 1281 permutation candidates...
+[16:58:22] [INFO] Permutations resolved: 5
+[16:58:22] [INFO] Phase 4 completed (409s)
+[16:58:22] [PHASE] Merging Master Subdomain List
+[16:58:22] [INFO] Master subdomain list: \033[1m7\033[0m unique live subdomains
+[16:58:22] [PHASE] Phase 5: Port Scanning
+[16:58:22] [INFO] Scanning ports on 7 hosts with naabu...
+[16:59:56] [INFO] Open ports found: 17 host:port entries
+[16:59:56] [INFO] Hosts with open ports: 7
+[16:59:56] [INFO] Phase 5 completed (94s)
+[16:59:56] [PHASE] Phase 6: Web Probing
+[16:59:56] [INFO] Probing 24 targets with httpx...
+[17:00:17] [INFO] Web assets found: 19
+[17:00:18] [INFO]   200 OK: 9
+[17:00:18] [INFO]   403 Forbidden: 4
+[17:00:18] [INFO]   Other status codes also categorized in by_status/
+[17:00:18] [INFO] Phase 6 completed (22s)
+[17:00:18] [PHASE] Phase 7: Content Discovery
+[17:00:18] [INFO] Starting katana crawl...
+[17:00:18] [INFO] Starting gau historical URL fetch...
+[17:02:21] [INFO] Katana URLs: 3299
+[17:02:21] [INFO] GAU URLs: 1032
+[17:02:21] [INFO] Total unique URLs: 4300
+[17:02:21] [INFO] JavaScript files: 707
+[17:02:21] [INFO] Analyzing 707 JavaScript files for endpoints, secrets, and URLs...

@@ -1,0 +1,17 @@
+info.dnv.com:443
+info.dnv.com:80
+www.dnv.com:443
+www.dnv.com:8443
+www.dnv.com:8080
+www.dnv.com:80
+data.dnv.com:22
+data.dnv.com:443
+data.dnv.com:80
+jobs.dnv.com:443
+jobs.dnv.com:80
+api.dnv.com:80
+api.dnv.com:443
+chatbot.jobs.dnv.com:80
+chatbot.jobs.dnv.com:443
+partner.dnv.com:443
+partner.dnv.com:80

@@ -1,0 +1,3 @@
+[crtsh] Error querying crt.sh: HTTPSConnectionPool(host='crt.sh', port=443): Max retries exceeded with url: /?q=%25.dnv.pl&output=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x74d97ff0c610>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[crtsh] Found 0 unique subdomains for dnv.pl
+[crtsh] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.pl/2026-02-10_151029/phase2_passive/crtsh.txt

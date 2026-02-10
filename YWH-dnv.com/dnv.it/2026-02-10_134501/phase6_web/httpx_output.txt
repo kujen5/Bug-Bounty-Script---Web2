@@ -1,0 +1,8 @@
+http://ftp.dnv.it | 503 | 217.114.94.2 | cloudflare | Cloudflare,HTTP/3
+http://ftp.dnv.it:443 | 400 | 400 The plain HTTP request was sent to HTTPS port | 217.114.94.2 | cloudflare | Cloudflare
+http://ftp.dnv.it:80 | 503 | 217.114.94.2 | cloudflare | Cloudflare,HTTP/3
+http://www.dnv.it:8080 | 403 | Attention Required! | Cloudflare | 104.18.42.12 | cloudflare | Cloudflare,HTTP/3
+https://www.dnv.it:8443 | 403 | Attention Required! | Cloudflare | 104.18.42.12 | cloudflare | Cloudflare,HTTP/3
+https://www.dnv.it:443 | 200 | DNV.it - When trust matters - DNV | 104.18.42.12 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
+https://www.dnv.it | 200 | DNV.it - When trust matters - DNV | 104.18.42.12 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
+http://www.dnv.it:80 | 200 | DNV.it - When trust matters - DNV | 104.18.42.12 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management

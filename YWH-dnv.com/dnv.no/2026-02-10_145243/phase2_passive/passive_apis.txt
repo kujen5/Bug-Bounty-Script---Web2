@@ -1,0 +1,9 @@
+ip-https-arh2.dnv.no
+ip-https-hhb.dnv.no
+ip-https-hou2.dnv.no
+ip-https-sha2.dnv.no
+ip-https-sng.dnv.no
+research.dnv.no
+teredo-osl2.dnv.no
+vpn-hou.dnv.no
+www.dnv.no

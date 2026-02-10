@@ -1,0 +1,64 @@
+[16:15:25] [INFO] Program: \033[1mYWH-dnv.com\033[0m
+[16:15:25] [INFO] Target: \033[1mdnv.social\033[0m
+[16:15:25] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.social/2026-02-10_161525
+[16:15:25] [INFO] Threads: 50 | Rate Limit: 300
+[16:15:25] [INFO] Go: go1.24.0
+[16:15:26] [INFO] Phase 0 completed (1s)
+[16:15:26] [PHASE] Phase 1: Root Domain Intelligence
+[16:15:26] [INFO] Running WHOIS lookup...
+[16:15:26] [INFO] Running ASN enumeration...
+[16:15:28] [INFO] ASN subdomains: 0
+[16:15:28] [INFO] IP ranges discovered: 0
+[16:15:28] [INFO] Phase 1 completed (2s)
+[16:15:28] [PHASE] Phase 2: Passive Subdomain Enumeration
+[16:15:28] [INFO] Starting subfinder...
+[16:15:28] [INFO] Starting amass passive...
+[16:15:28] [INFO] Starting crt.sh lookup...
+[16:15:28] [INFO] Starting Wayback Machine lookup...
+[16:15:28] [INFO] Starting passive API queries...
+[16:15:28] [INFO] No GitHub token provided, skipping GitHub dorking.
+[16:15:28] [INFO] Waiting for 5 passive sources to complete...
+[16:16:30] [INFO]   amass: 1 subdomains
+[16:16:30] [INFO]   crtsh: 0 subdomains
+[16:16:30] [INFO]   passive_apis: 0 subdomains
+[16:16:30] [INFO]   subfinder: 0 subdomains
+[16:16:30] [INFO]   wayback: 0 subdomains
+[16:16:30] [INFO] Total unique passive subdomains: \033[1m1\033[0m
+[16:16:30] [INFO] Phase 2 completed (62s)
+[16:16:30] [PHASE] Phase 3: DNS Resolution & Filtering
+[16:16:30] [INFO] Resolving 1 subdomains with puredns...
+[16:16:56] [INFO] Resolved: 0 alive subdomains
+[16:16:56] [INFO] Wildcards: 0
+[16:16:56] [INFO] Phase 3 completed (26s)
+[16:16:56] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[16:16:56] [INFO] Bruteforcing subdomains with puredns...
+[16:23:47] [INFO] Bruteforce found: 0 subdomains
+[16:23:47] [INFO] Phase 4 completed (411s)
+[16:23:47] [PHASE] Merging Master Subdomain List
+[16:23:47] [INFO] Master subdomain list: \033[1m0\033[0m unique live subdomains
+[16:23:47] [PHASE] Phase 5: Port Scanning
+[16:23:47] [WARN] No subdomains to port scan.
+[16:23:47] [WARN] Phase 5 finished with issues (0s)
+[16:23:47] [PHASE] Phase 6: Web Probing
+[16:23:47] [WARN] No subdomains to probe.
+[16:23:47] [WARN] Phase 6 finished with issues (0s)
+[16:23:47] [PHASE] Phase 7: Content Discovery
+[16:23:47] [WARN] No live URLs for content discovery.
+[16:23:47] [WARN] Phase 7 finished with issues (0s)
+[16:23:47] [PHASE] Phase 8: Vulnerability Scanning
+[16:23:47] [WARN] No live URLs for vulnerability scanning.
+[16:23:47] [WARN] Phase 8 finished with issues (0s)
+[16:23:47] [PHASE] Phase 9: Certstream Monitor (Background)
+[16:23:48] [INFO] Starting certstream monitor in background (60s sample)...
+[16:23:48] [INFO] Certstream PID: 67997 (output: /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.social/2026-02-10_161525/phase2_passive/certstream.txt)
+[16:23:48] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains dnv.social -o certs.txt
+[16:23:48] [INFO] Phase 9 completed (1s)
+[16:23:48] [PHASE] Phase 10: Reporting & Summary
+[16:23:48] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[16:24:48] [INFO] Generating consolidated domain report...
+[16:24:48] [INFO] Consolidated report saved: \033[1mdnv.social_consolidated_report.txt\033[0m
+[16:24:48] [INFO] Full path: /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.social/2026-02-10_161525/dnv.social_consolidated_report.txt
+[16:24:48] [INFO] Phase 10 completed (60s)
+[16:24:48] [INFO] All phases complete for dnv.social. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.social/2026-02-10_161525\033[0m
+[16:24:48] [PHASE] Domain 12/12: dnv.us
+[16:24:48] [PHASE] Phase 0: Setup & Dependencies

@@ -1,0 +1,14 @@
+dnv.no
+eribootest.dnv.no
+oob-vpn.dnv.no
+raft.dnv.no
+samltest.dnv.no
+sw.dnv.no
+vpn-arh.dnv.no
+vpn-seo-test.dnv.no
+vpn-sha-test.dnv.no
+vpn-sha-test2.dnv.no
+vpn-sha2.dnv.no
+vpn-test.dnv.no
+www.dnv.no
+www.raft.dnv.no

@@ -1,0 +1,335 @@
+
+[+] Fetching: https://www.dnv.my/Util/Find/epi-util/find.js
+
+[+] Fetching: https://www.dnv.my/dist/client/assets/DynamicList.component-BIty0Kxo.js
+
+[+] Fetching: https://www.dnv.my/dist/client/assets/Feedbox.component-DHYJA_ce.js
+
+[+] Fetching: https://www.dnv.my/dist/client/assets/Navigation.component-DhardSb4.js
+
+[+] Fetching: https://www.dnv.my/dist/client/assets/SiteSearchSidebar.component-DvG9M0sO.js
+
+[+] Fetching: https://www.dnv.my/dist/client/assets/banner-hero-carousel.component-DAKkR5I-.js
+
+[+] Fetching: https://www.dnv.my/dist/client/assets/default-layout.component-vgNc0FB1.js
+
+[+] Fetching: https://www.dnv.my/dist/client/assets/entry-client-ViyFXRUE.js
+  [URL] https://reactjs.org/docs/error-decoder.html?invariant=
+
+[+] Fetching: https://www.dnv.my/dist/client/assets/header.component-Da6aTzn1.js
+
+[+] Fetching: https://www.dnv.my/dist/client/assets/modal.component-GOGay4eg.js
+  [URL] https://cloud.brandmaster.com${e}
+
+[+] Fetching: https://www.dnv.my/dist/client/assets/pop-up.component-j4EgFl_w.js
+
+[+] Fetching: https://www.dnv.my/episerver/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my/services/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my/siteassets/images/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my/utils/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/Util/Find/epi-util/find.js
+
+[+] Fetching: https://www.dnv.my:443/about/business-assurance/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/about/business-assurance/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/about/digital-solutions/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/about/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/about/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/about/in-brief/our-history/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/about/news-media/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/about/news-media/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/about/sustainability/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/about/sustainability/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/article/can-we-secure-the-cyber-physical-domain--124188/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/article/hackers-are-exploiting-remote-desktop-protocol-rdp--134501/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/article/the-three-pillar-approach-to-cyber-security-data-and-information-protection-165683/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/article/the-three-pillar-approach-to-cyber-security-processes-are-crucial-162890/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/article/the-three-pillar-approach-to-cyber-security-starts-with-people-134252/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/article/top-five-pitfalls-during-a-fleet-management-system-implementation-110990/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/assurance/automotive-aerospace/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/assurance/automotive-aerospace/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/assurance/automotive/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/assurance/food-and-beverage/brc-foodsafety/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/assurance/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/assurance/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/careers/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/contact/find-our-offices/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/contact/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/contact/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/cybersecurity/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/cybersecurity/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/digital-trust/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/digital-trust/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/$%7Be%7D/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/AutocompleteSuggestions-DUOFPO2A.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/ClientOnly-BFiLr_9G.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/ContentBlock.component-BXdTzfch.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/Drawer-i61PXmrw.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/DynamicList.component-BIty0Kxo.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/Feedbox.component-DHYJA_ce.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/LocationsMapBlock.component-BcO8IU2P.js
+  [URL] https://maps.googleapis.com/maps/api/js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/Navigation.component-DhardSb4.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/SearchField-DnGLIt9i.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/Shortcuts-pzetP8jD.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/SiteSearch-DNkvNbyN.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/SiteSearchBlock.component-BzLQIr5F.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/SiteSearchSidebar.component-DvG9M0sO.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/SkeletonLoader-JZMtgziy.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/Teaser-D1FUDSR0.js
+  [URL] https://players.brightcove.net
+  [URL] https://players.brightcove.net/
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/banner-hero-carousel.component-DAKkR5I-.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/branded-video-player.component-BHiSOQx3.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/campaign-carousel.component-B-7hhzdr.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/contact-collection.component-xO_1OCZN.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/default-layout.component-vgNc0FB1.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/entry-client-ViyFXRUE.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/ga-event-handler-BUdd0mAU.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/header.component-Da6aTzn1.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/headers-mBEieZg3.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/image-BVD3kdH8.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/index--NAOCfyj.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/index-HuDtPJl6.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/jsx-runtime-Deodav6J.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/modal-helpers-dznjdugL.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/modal.component-GOGay4eg.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/navigation-Cfcs0BZ8.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/new-service-page.component-GM7Ox1pz.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/pop-up.component-j4EgFl_w.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/search-ribbon.component-BoAG7T5X.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/search-service.component-CAeOUA2K.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/service-page-header.component-BtDT2YVf.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/share-bar.component-Bgmbyu_1.js
+  [URL] https://www.linkedin.com/sharing/share-offsite/?url=
+  [URL] https://www.facebook.com/sharer.php?u=
+  [URL] http://service.weibo.com/share/share.php?url=
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/social-De3cDhil.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/sticky-vertical-nav.component-0flJfWVD.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/sub-services-section.component-DS4nOQum.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/tab-navigation.component-CRdmUK89.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/table-scrollbox.component-C_Y6VMOM.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/useBreakpoint-DbxyIEII.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/useClickOutside-rVSnnGux.js
+
+[+] Fetching: https://www.dnv.my:443/dist/client/assets/videoHandler-ChxDbOh7.js
+
+[+] Fetching: https://www.dnv.my:443/energy-transition/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/energy-transition/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/episerver/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/events/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/events/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/food-beverage/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/food-beverage/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/healthcare/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/healthcare/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/maritime/index/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/other-industries/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/other-industries/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/privacy/change-cookie-settings/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/privacy/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/research/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/safety-risk/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/safety-risk/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/services/cpr-ce-construction-products-regulation-4987/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/services/electrotechnical-equipment-8354/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/services/emc-ce-electromagnetic-compatibility-directive-5959/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/services/ex-equipment-8327/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/services/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/services/iso-14001-environmental-management-system-3360/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/services/iso-45001-ohsas-18001-occupational-health-safety-113791/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/services/iso-9001-quality-management-3283/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/services/iso-iec-27001-information-security-management-system-3327/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/services/sustainability-report-assurance-11176/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/system/copyright/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/system/search/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/terms/g/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/terms/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/utils/gtm.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.dnv.my:443/v2/track/gtm.js
+  [-] Skipped (empty or non-200)

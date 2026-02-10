@@ -1,0 +1,8 @@
+https://dnv.my
+https://dnv.my:443
+http://dnv.my:80
+http://www.dnv.my:8080
+https://www.dnv.my:8443
+https://www.dnv.my
+https://www.dnv.my:443
+http://www.dnv.my:80

@@ -1,0 +1,9 @@
+https://www.dnv.com:443
+https://www.dnv.com
+http://www.dnv.com:80
+http://data.dnv.com:80
+http://info.dnv.com:80
+https://data.dnv.com
+https://data.dnv.com:443
+https://info.dnv.com
+https://info.dnv.com:443

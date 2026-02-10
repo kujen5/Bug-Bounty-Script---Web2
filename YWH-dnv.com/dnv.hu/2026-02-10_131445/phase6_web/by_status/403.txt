@@ -1,0 +1,2 @@
+http://www.dnv.hu:8080
+https://www.dnv.hu:8443

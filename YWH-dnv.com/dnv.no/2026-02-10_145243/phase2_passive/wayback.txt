@@ -1,0 +1,8 @@
+dnv.no
+exchange.dnv.no
+raft.dnv.no
+research.dnv.no
+vpn-arh.dnv.no
+vpn-sha2.dnv.no
+www.dnv.no
+www2.dnv.no

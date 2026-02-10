@@ -1,0 +1,8 @@
+http://ftp.dnv.it
+http://ftp.dnv.it:443
+http://ftp.dnv.it:80
+http://www.dnv.it:8080
+https://www.dnv.it:8443
+https://www.dnv.it:443
+https://www.dnv.it
+http://www.dnv.it:80

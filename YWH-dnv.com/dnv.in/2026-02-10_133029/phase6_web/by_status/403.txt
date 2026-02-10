@@ -1,0 +1,2 @@
+http://www.dnv.in:8080
+https://www.dnv.in:8443

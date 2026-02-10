@@ -1,0 +1,164 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                    CONSOLIDATED RECONNAISSANCE REPORT                     ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════════════════
+  BASIC INFORMATION
+═══════════════════════════════════════════════════════════════════════════
+Program:          YWH-dnv.com
+Target Domain:    dnv.no
+Scan Date:        2026-02-10 15:10:29
+Output Directory: /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.no/2026-02-10_145243
+
+═══════════════════════════════════════════════════════════════════════════
+  DISCOVERY SUMMARY
+═══════════════════════════════════════════════════════════════════════════
+Total Subdomains:     16
+Live Web Assets:      1
+Open Ports:           1020
+URLs Discovered:      1
+JS Files Analyzed:    0
+Vulnerabilities:      0
+
+═══════════════════════════════════════════════════════════════════════════
+  ASN INFORMATION
+═══════════════════════════════════════════════════════════════════════════
+ASN Number:       N/A
+ASN Name:         N/A
+ASN Description:  N/A
+IP Ranges:        0 CIDR blocks
+
+═══════════════════════════════════════════════════════════════════════════
+  ALL DISCOVERED SUBDOMAINS (16)
+═══════════════════════════════════════════════════════════════════════════
+dnv.no
+exchange.dnv.no
+raft.dnv.no
+sw.dnv.no
+vpn-arh.dnv.no
+vpn-gda.dnv.no
+vpn-hou.dnv.no
+vpn-hou1.dnv.no
+vpn-hou2.dnv.no
+vpn-mil.dnv.no
+vpn-mngt.dnv.no
+vpn-pnq.dnv.no
+vpn-seo.dnv.no
+vpn-sha2.dnv.no
+vpn-test.dnv.no
+www.dnv.no
+
+═══════════════════════════════════════════════════════════════════════════
+  LIVE WEB URLS (1)
+═══════════════════════════════════════════════════════════════════════════
+https://dnv.no
+
+═══════════════════════════════════════════════════════════════════════════
+  STATUS CODE BREAKDOWN
+═══════════════════════════════════════════════════════════════════════════
+  Status 200 : 1 URLs
+
+═══════════════════════════════════════════════════════════════════════════
+  OPEN PORTS (Top 20)
+═══════════════════════════════════════════════════════════════════════════
+vpn-sha2.dnv.no:8443
+vpn-sha2.dnv.no:8080
+vpn-sha2.dnv.no:443
+vpn-sha2.dnv.no:80
+sw.dnv.no:80
+sw.dnv.no:443
+vpn-mngt.dnv.no:443
+vpn-arh.dnv.no:443
+dnv.no:3809
+dnv.no:28201
+dnv.no:8873
+dnv.no:3000
+dnv.no:7001
+dnv.no:5269
+dnv.no:3011
+dnv.no:4126
+dnv.no:10003
+dnv.no:7402
+dnv.no:5989
+dnv.no:6666
+... and 1000 more open ports
+(See phase5_ports/naabu_scan.txt for full list)
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - API ENDPOINTS
+═══════════════════════════════════════════════════════════════════════════
+No endpoints found in JavaScript files
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - URLS
+═══════════════════════════════════════════════════════════════════════════
+No URLs found in JavaScript files
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - SECRETS & API KEYS (*** HIGH PRIORITY ***)
+═══════════════════════════════════════════════════════════════════════════
+✓ No secrets found in JavaScript files
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - EMAIL ADDRESSES
+═══════════════════════════════════════════════════════════════════════════
+No email addresses found
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - INTERESTING FILES
+═══════════════════════════════════════════════════════════════════════════
+No interesting file paths found
+
+═══════════════════════════════════════════════════════════════════════════
+  CNAME RECORDS (Potential Subdomain Takeover)
+═══════════════════════════════════════════════════════════════════════════
+Total CNAMEs: 3
+
+vpn-mngt.dnv.no [[35mCNAME[0m] [[32manyconnect-mngt.trafficmanager.net[0m] 
+vpn-mngt.dnv.no [[35mCNAME[0m] [[32mvpn-dub.dnv.no[0m] 
+vpn-mngt.dnv.no [[35mCNAME[0m] [[32mvpn-kob.dnv.no[0m] 
+
+═══════════════════════════════════════════════════════════════════════════
+  CRITICAL VULNERABILITIES (*** IMMEDIATE ACTION REQUIRED ***)
+═══════════════════════════════════════════════════════════════════════════
+✓ No critical vulnerabilities found
+
+═══════════════════════════════════════════════════════════════════════════
+  HIGH SEVERITY VULNERABILITIES
+═══════════════════════════════════════════════════════════════════════════
+✓ No high severity vulnerabilities found
+
+═══════════════════════════════════════════════════════════════════════════
+  VULNERABILITY SUMMARY (All Severities)
+═══════════════════════════════════════════════════════════════════════════
+
+See phase8_vulns/ for detailed vulnerability reports
+
+═══════════════════════════════════════════════════════════════════════════
+  RECOMMENDED NEXT STEPS
+═══════════════════════════════════════════════════════════════════════════
+1. Review and validate all CRITICAL and HIGH severity vulnerabilities
+2. Check for exposed secrets in phase7_content/js_secrets.txt
+3. Test CNAME records for subdomain takeover vulnerabilities
+4. Manually verify interesting API endpoints from JavaScript analysis
+5. Review open ports for unnecessary services
+6. Test discovered admin/debug/internal endpoints
+7. Analyze URLs for potential injection points
+8. Check for outdated software versions in httpx output
+
+═══════════════════════════════════════════════════════════════════════════
+  DETAILED OUTPUT LOCATIONS
+═══════════════════════════════════════════════════════════════════════════
+Master Subdomains:    master_subdomains.txt
+Live URLs:            phase6_web/live_urls.txt
+Open Ports:           phase5_ports/naabu_scan.txt
+JS Endpoints:         phase7_content/js_endpoints.txt
+JS Secrets:           phase7_content/js_secrets.txt
+Critical Vulns:       phase8_vulns/nuclei_critical.json
+High Vulns:           phase8_vulns/nuclei_high.json
+Full Summary:         report/summary.txt
+Statistics (JSON):    report/stats.json
+
+╔══════════════════════════════════════════════════════════════════════════╗
+║                         END OF CONSOLIDATED REPORT                        ║
+╚══════════════════════════════════════════════════════════════════════════╝

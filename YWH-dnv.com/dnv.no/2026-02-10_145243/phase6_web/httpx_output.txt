@@ -1,0 +1,1 @@
+https://dnv.no | 200 | DNV.no - When trust matters - DNV | 217.114.94.2 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management

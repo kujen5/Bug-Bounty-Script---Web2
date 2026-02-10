@@ -1,0 +1,14 @@
+dnv.no
+raft.dnv.no
+sw.dnv.no
+vpn-arh.dnv.no
+vpn-gda.dnv.no
+vpn-hou.dnv.no
+vpn-hou1.dnv.no
+vpn-hou2.dnv.no
+vpn-mil.dnv.no
+vpn-mngt.dnv.no
+vpn-pnq.dnv.no
+vpn-seo.dnv.no
+vpn-sha2.dnv.no
+www.dnv.no

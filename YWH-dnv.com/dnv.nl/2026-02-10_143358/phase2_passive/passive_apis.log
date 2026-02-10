@@ -1,0 +1,7 @@
+[passive] Querying 4 passive sources for dnv.nl...
+[passive] AlienVault: 0 subdomains
+[passive] HackerTarget: 2 subdomains
+[passive] RapidDNS: 1 subdomains
+[passive] URLScan: 1 subdomains
+[passive] Total unique subdomains from all sources: 2
+[passive] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.nl/2026-02-10_143358/phase2_passive/passive_apis.txt

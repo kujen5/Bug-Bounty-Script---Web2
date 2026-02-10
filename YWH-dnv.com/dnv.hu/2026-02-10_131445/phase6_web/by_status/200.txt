@@ -1,0 +1,6 @@
+https://dnv.hu
+https://dnv.hu:443
+http://dnv.hu:80
+https://www.dnv.hu:443
+https://www.dnv.hu
+http://www.dnv.hu:80

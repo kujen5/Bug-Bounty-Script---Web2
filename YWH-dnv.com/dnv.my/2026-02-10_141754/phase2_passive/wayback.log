@@ -1,0 +1,5 @@
+[wayback] Querying Wayback Machine for *.dnv.my...
+[wayback] Error querying Wayback Machine: 503 Server Error: Service Unavailable for url: https://web.archive.org/cdx/search/cdx?url=%2A.dnv.my%2F%2A&output=text&fl=original&collapse=urlkey&limit=50000
+[wayback] Got 0 URLs from Wayback Machine
+[wayback] Extracted 0 unique subdomains
+[wayback] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-dnv.com/dnv.my/2026-02-10_141754/phase2_passive/wayback.txt

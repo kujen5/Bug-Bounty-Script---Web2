@@ -1,0 +1,4 @@
+[asn] dnv.hu -> 217.114.94.2
+[asn] ASN info: [{'ip': '"217.114.94.2"', 'asn': '"30811"', 'org': '"217.114.94.0/24"'}]
+[asn] Prefix lookup error for "30811": HTTPSConnectionPool(host='api.bgpview.io', port=443): Max retries exceeded with url: /asn/%2230811%22/prefixes (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7b1bf3278610>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[asn] "30811" announces 0 prefixes

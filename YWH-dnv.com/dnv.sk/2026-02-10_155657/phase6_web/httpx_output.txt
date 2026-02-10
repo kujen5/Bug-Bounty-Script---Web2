@@ -1,0 +1,5 @@
+http://www.dnv.sk:8080 | 403 | Attention Required! | Cloudflare | 104.18.39.14 | cloudflare | Cloudflare,HTTP/3
+https://www.dnv.sk:8443 | 403 | Attention Required! | Cloudflare | 104.18.39.14 | cloudflare | Cloudflare,HTTP/3
+https://www.dnv.sk | 200 | DNV.sk - Safer Smarter Greener - DNV | 104.18.39.14 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management,React
+https://www.dnv.sk:443 | 200 | DNV.sk - Safer Smarter Greener - DNV | 104.18.39.14 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management,React
+http://www.dnv.sk:80 | 200 | DNV.sk - Safer Smarter Greener - DNV | 104.18.39.14 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management,React

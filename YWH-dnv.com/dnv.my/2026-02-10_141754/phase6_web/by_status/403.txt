@@ -1,0 +1,2 @@
+http://www.dnv.my:8080
+https://www.dnv.my:8443

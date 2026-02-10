@@ -1,0 +1,4 @@
+sw.dnv.no
+vpn-test.dnv.no
+exchange.dnv.no
+www.dnv.no

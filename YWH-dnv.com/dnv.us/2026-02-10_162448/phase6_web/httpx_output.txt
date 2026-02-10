@@ -1,0 +1,8 @@
+https://dnv.us | 200 | DNV.us - When trust matters - DNV | 217.114.94.2 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
+https://dnv.us:443 | 200 | DNV.us - When trust matters - DNV | 217.114.94.2 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
+http://dnv.us:80 | 200 | DNV.us - When trust matters - DNV | 217.114.94.2 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
+http://www.dnv.us:8080 | 403 | Attention Required! | Cloudflare | 104.18.32.212 | cloudflare | Cloudflare,HTTP/3
+https://www.dnv.us:8443 | 403 | Attention Required! | Cloudflare | 104.18.32.212 | cloudflare | Cloudflare,HTTP/3
+https://www.dnv.us:443 | 200 | DNV.us - When trust matters - DNV | 104.18.32.212 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
+https://www.dnv.us | 200 | DNV.us - When trust matters - DNV | 104.18.32.212 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
+http://www.dnv.us:80 | 200 | DNV.us - When trust matters - DNV | 104.18.32.212 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management

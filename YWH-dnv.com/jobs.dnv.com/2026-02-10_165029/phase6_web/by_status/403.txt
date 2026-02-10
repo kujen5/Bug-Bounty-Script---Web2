@@ -1,0 +1,4 @@
+http://www.dnv.com:8080
+https://www.dnv.com:8443
+http://chatbot.jobs.dnv.com
+http://chatbot.jobs.dnv.com:80

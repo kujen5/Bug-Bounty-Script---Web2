@@ -1,0 +1,19 @@
+http://www.dnv.com:8080 | 403 | Attention Required! | Cloudflare | 172.64.150.165 | cloudflare | Cloudflare,HTTP/3
+https://www.dnv.com:8443 | 403 | Attention Required! | Cloudflare | 172.64.150.165 | cloudflare | Cloudflare,HTTP/3
+http://api.dnv.com:80 | 404 | 98.64.52.36 | HSTS
+https://www.dnv.com:443 | 200 | DNV.com - When trust matters - DNV | 172.64.150.165 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
+https://www.dnv.com | 200 | DNV.com - When trust matters - DNV | 172.64.150.165 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
+http://chatbot.jobs.dnv.com | 403 | ERROR: The request could not be satisfied | 18.173.34.82 | CloudFront | Amazon CloudFront,Amazon Web Services
+http://chatbot.jobs.dnv.com:80 | 403 | ERROR: The request could not be satisfied | 18.173.34.82 | CloudFront | Amazon CloudFront,Amazon Web Services
+http://www.dnv.com:80 | 200 | DNV.com - When trust matters - DNV | 172.64.150.165 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
+http://data.dnv.com:80 | 200 | data.dnv.com | 51.124.73.17 | HSTS
+http://info.dnv.com:80 | 200 | 20.50.64.21 | Microsoft-IIS/10.0 | HSTS,IIS:10.0,Windows Server
+https://api.dnv.com | 404 | 98.64.52.36 | HSTS
+https://api.dnv.com:443 | 404 | 98.64.52.36 | HSTS
+https://data.dnv.com | 200 | data.dnv.com | 51.124.73.17 | HSTS
+https://data.dnv.com:443 | 200 | data.dnv.com | 51.124.73.17 | HSTS
+https://info.dnv.com | 200 | 20.50.64.21 | Microsoft-IIS/10.0 | HSTS,IIS:10.0,Windows Server
+https://info.dnv.com:443 | 200 | 20.50.64.21 | Microsoft-IIS/10.0 | HSTS,IIS:10.0,Windows Server
+http://partner.dnv.com:80 | 302 | 302 Found | 52.233.128.61 | HSTS
+https://partner.dnv.com:443 | 302 | 302 Moved Temporarily | 52.233.128.61 | HSTS,Oracle Dynamic Monitoring Service,Oracle WebLogic Server
+https://partner.dnv.com | 302 | 302 Moved Temporarily | 52.233.128.61 | HSTS,Oracle Dynamic Monitoring Service,Oracle WebLogic Server

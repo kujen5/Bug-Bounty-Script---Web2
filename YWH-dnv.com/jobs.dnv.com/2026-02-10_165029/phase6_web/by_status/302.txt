@@ -1,0 +1,3 @@
+http://partner.dnv.com:80
+https://partner.dnv.com:443
+https://partner.dnv.com

@@ -1,0 +1,5 @@
+http://www.dnv.sg:8080 | 403 | Attention Required! | Cloudflare | 104.18.38.49 | cloudflare | Cloudflare,HTTP/3
+https://www.dnv.sg:8443 | 403 | Attention Required! | Cloudflare | 104.18.38.49 | cloudflare | Cloudflare,HTTP/3
+https://www.dnv.sg | 200 | DNV.sg - When trust matters - DNV | 104.18.38.49 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
+http://www.dnv.sg:80 | 200 | DNV.sg - When trust matters - DNV | 104.18.38.49 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
+https://www.dnv.sg:443 | 200 | DNV.sg - When trust matters - DNV | 104.18.38.49 | cloudflare | Azure,Azure Edge Network,Azure Monitor,Cloudflare,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Microsoft ASP.NET,OneTrust,Optimizely Content Management
