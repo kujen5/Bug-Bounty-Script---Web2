@@ -1,0 +1,6 @@
+salesapp-medlife.net:443
+salesapp-medlife.net:80
+www.salesapp-medlife.net:443
+www.salesapp-medlife.net:80
+sales.salesapp-medlife.net:443
+sales.salesapp-medlife.net:80

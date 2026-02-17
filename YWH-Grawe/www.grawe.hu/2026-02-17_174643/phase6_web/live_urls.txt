@@ -1,0 +1,3 @@
+http://www.grawe.hu:80
+https://www.grawe.hu:443
+https://www.grawe.hu

@@ -1,0 +1,86 @@
+[20:53:31] [INFO] Program: \033[1mYWH-Grawe\033[0m
+[20:53:31] [INFO] Target: \033[1meurolink.com.mk\033[0m
+[20:53:31] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/eurolink.com.mk/2026-02-17_205331
+[20:53:31] [INFO] Threads: 50 | Rate Limit: 300
+[20:53:31] [INFO] Go: go1.24.0
+[20:53:31] [INFO] Phase 0 completed (1s)
+[20:53:31] [PHASE] Phase 1: Root Domain Intelligence
+[20:53:31] [INFO] Running WHOIS lookup...
+[20:53:31] [INFO] Running ASN enumeration...
+[20:53:32] [INFO] ASN subdomains: 0
+[20:53:32] [INFO] IP ranges discovered: 0
+[20:53:32] [INFO] Phase 1 completed (1s)
+[20:53:32] [PHASE] Phase 2: Passive Subdomain Enumeration
+[20:53:32] [INFO] Starting subfinder...
+[20:53:33] [INFO] Starting amass passive...
+[20:53:33] [INFO] Starting crt.sh lookup...
+[20:53:33] [INFO] Starting Wayback Machine lookup...
+[20:53:33] [INFO] Starting passive API queries...
+[20:53:33] [INFO] No GitHub token provided, skipping GitHub dorking.
+[20:53:33] [INFO] Waiting for 5 passive sources to complete...
+[20:54:16] [INFO]   amass: 22 subdomains
+[20:54:16] [INFO]   crtsh: 0 subdomains
+[20:54:16] [INFO]   passive_apis: 10 subdomains
+[20:54:16] [INFO]   subfinder: 34 subdomains
+[20:54:16] [INFO]   wayback: 14 subdomains
+[20:54:16] [INFO] Total unique passive subdomains: \033[1m35\033[0m
+[20:54:16] [INFO] Phase 2 completed (44s)
+[20:54:16] [PHASE] Phase 3: DNS Resolution & Filtering
+[20:54:16] [INFO] Resolving 35 subdomains with puredns...
+[20:54:20] [INFO] Resolved: 18 alive subdomains
+[20:54:20] [INFO] Wildcards: 0
+[20:54:20] [INFO] Collecting DNS records with dnsx...
+[20:54:34] [INFO] CNAME records: 2
+[20:54:34] [INFO] Phase 3 completed (18s)
+[20:54:34] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[20:54:34] [INFO] Bruteforcing subdomains with puredns...
+[21:01:16] [INFO] Bruteforce found: 20 subdomains
+[21:01:16] [INFO] Generating permutations with alterx...
+[21:01:17] [INFO] Resolving 15199 permutation candidates...
+[21:02:10] [INFO] Permutations resolved: 12
+[21:02:10] [INFO] Phase 4 completed (456s)
+[21:02:10] [PHASE] Merging Master Subdomain List
+[21:02:10] [INFO] Master subdomain list: \033[1m27\033[0m unique live subdomains
+[21:02:10] [PHASE] Phase 5: Port Scanning
+[21:02:10] [INFO] Scanning ports on 27 hosts with naabu...
+[21:04:14] [INFO] Open ports found: 90 host:port entries
+[21:04:14] [INFO] Hosts with open ports: 25
+[21:04:14] [INFO] Phase 5 completed (124s)
+[21:04:14] [PHASE] Phase 6: Web Probing
+[21:04:14] [INFO] Probing 117 targets with httpx...
+[21:04:39] [INFO] Web assets found: 54
+[21:04:40] [INFO]   200 OK: 44
+[21:04:40] [INFO]   403 Forbidden: 0
+[21:04:40] [INFO]   Other status codes also categorized in by_status/
+[21:04:40] [INFO] Phase 6 completed (26s)
+[21:04:40] [PHASE] Phase 7: Content Discovery
+[21:04:40] [INFO] Starting katana crawl...
+[21:04:40] [INFO] Starting gau historical URL fetch...
+[21:09:14] [INFO] Katana URLs: 2837
+[21:09:14] [INFO] GAU URLs: 3108
+[21:09:14] [INFO] Total unique URLs: 5079
+[21:09:14] [INFO] JavaScript files: 307
+[21:09:14] [INFO] Analyzing 307 JavaScript files for endpoints, secrets, and URLs...
+[21:15:05] [INFO]   Endpoints: 0
+[21:15:05] [INFO]   URLs: 0
+[21:15:05] [INFO]   Secrets: 0
+[21:15:05] [INFO]   Emails: 0
+[21:15:05] [INFO]   Files: 0
+[21:15:05] [INFO] Phase 7 completed (625s)
+[21:15:05] [PHASE] Phase 8: Vulnerability Scanning
+[21:15:05] [INFO] Running nuclei on 54 live URLs...
+[21:15:05] [INFO] Total findings: 0
+[21:15:05] [INFO] Phase 8 completed (0s)
+[21:15:05] [PHASE] Phase 9: Certstream Monitor (Background)
+[21:15:05] [INFO] Starting certstream monitor in background (60s sample)...
+[21:15:05] [INFO] Certstream PID: 40925 (output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/eurolink.com.mk/2026-02-17_205331/phase2_passive/certstream.txt)
+[21:15:05] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains eurolink.com.mk -o certs.txt
+[21:15:05] [INFO] Phase 9 completed (0s)
+[21:15:05] [PHASE] Phase 10: Reporting & Summary
+[21:15:05] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[21:16:06] [INFO] Generating consolidated domain report...
+[21:16:06] [INFO] Consolidated report saved: \033[1meurolink.com.mk_consolidated_report.txt\033[0m
+[21:16:06] [INFO] Full path: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/eurolink.com.mk/2026-02-17_205331/eurolink.com.mk_consolidated_report.txt
+[21:16:06] [INFO] Phase 10 completed (61s)
+[21:16:06] [INFO] All phases complete for eurolink.com.mk. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/eurolink.com.mk/2026-02-17_205331\033[0m
+[21:16:06] [INFO] All domains processed. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/\033[0m

@@ -1,0 +1,62 @@
+[20:26:49] [INFO] Program: \033[1mYWH-Grawe\033[0m
+[20:26:49] [INFO] Target: \033[1msales.medlife.net/api\033[0m
+[20:26:49] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/sales.medlife.net/api/2026-02-17_202649
+[20:26:49] [INFO] Threads: 50 | Rate Limit: 300
+[20:26:50] [INFO] Go: go1.24.0
+[20:26:50] [INFO] Phase 0 completed (1s)
+[20:26:50] [PHASE] Phase 1: Root Domain Intelligence
+[20:26:50] [INFO] Running WHOIS lookup...
+[20:26:50] [INFO] Running ASN enumeration...
+[20:26:50] [INFO] ASN subdomains: 0
+[20:26:50] [INFO] IP ranges discovered: 0
+[20:26:50] [INFO] Phase 1 completed (0s)
+[20:26:50] [PHASE] Phase 2: Passive Subdomain Enumeration
+[20:26:50] [INFO] Starting subfinder...
+[20:26:50] [INFO] Starting amass passive...
+[20:26:50] [INFO] Starting crt.sh lookup...
+[20:26:50] [INFO] Starting Wayback Machine lookup...
+[20:26:50] [INFO] Starting passive API queries...
+[20:26:50] [INFO] No GitHub token provided, skipping GitHub dorking.
+[20:26:50] [INFO] Waiting for 5 passive sources to complete...
+[20:27:37] [INFO]   amass: 0 subdomains
+[20:27:37] [INFO]   crtsh: 0 subdomains
+[20:27:37] [INFO]   passive_apis: 0 subdomains
+[20:27:37] [INFO]   subfinder: 0 subdomains
+[20:27:37] [INFO]   wayback: 0 subdomains
+[20:27:37] [INFO] Total unique passive subdomains: \033[1m0\033[0m
+[20:27:37] [INFO] Phase 2 completed (47s)
+[20:27:37] [PHASE] Phase 3: DNS Resolution & Filtering
+[20:27:37] [WARN] No passive subdomains to resolve.
+[20:27:37] [WARN] Phase 3 finished with issues (0s)
+[20:27:37] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[20:27:37] [INFO] Bruteforcing subdomains with puredns...
+[20:34:42] [INFO] Bruteforce found: 0 subdomains
+[20:34:42] [INFO] Phase 4 completed (425s)
+[20:34:42] [PHASE] Merging Master Subdomain List
+[20:34:42] [INFO] Master subdomain list: \033[1m0\033[0m unique live subdomains
+[20:34:42] [PHASE] Phase 5: Port Scanning
+[20:34:42] [WARN] No subdomains to port scan.
+[20:34:42] [WARN] Phase 5 finished with issues (0s)
+[20:34:42] [PHASE] Phase 6: Web Probing
+[20:34:42] [WARN] No subdomains to probe.
+[20:34:42] [WARN] Phase 6 finished with issues (0s)
+[20:34:42] [PHASE] Phase 7: Content Discovery
+[20:34:42] [WARN] No live URLs for content discovery.
+[20:34:42] [WARN] Phase 7 finished with issues (0s)
+[20:34:42] [PHASE] Phase 8: Vulnerability Scanning
+[20:34:42] [WARN] No live URLs for vulnerability scanning.
+[20:34:42] [WARN] Phase 8 finished with issues (0s)
+[20:34:42] [PHASE] Phase 9: Certstream Monitor (Background)
+[20:34:42] [INFO] Starting certstream monitor in background (60s sample)...
+[20:34:42] [INFO] Certstream PID: 37497 (output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/sales.medlife.net/api/2026-02-17_202649/phase2_passive/certstream.txt)
+[20:34:42] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains sales.medlife.net/api -o certs.txt
+[20:34:42] [INFO] Phase 9 completed (0s)
+[20:34:42] [PHASE] Phase 10: Reporting & Summary
+[20:34:42] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[20:35:42] [INFO] Generating consolidated domain report...
+[20:35:42] [INFO] Consolidated report saved: \033[1msales.medlife.net/api_consolidated_report.txt\033[0m
+[20:35:42] [INFO] Full path: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/sales.medlife.net/api/2026-02-17_202649/sales.medlife.net/api_consolidated_report.txt
+[20:35:42] [INFO] Phase 10 completed (60s)
+[20:35:42] [INFO] All phases complete for sales.medlife.net/api. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/sales.medlife.net/api/2026-02-17_202649\033[0m
+[20:35:42] [PHASE] Domain 22/24: salesapp.grawe.hu/
+[20:35:42] [PHASE] Phase 0: Setup & Dependencies

@@ -1,0 +1,9 @@
+https://api.dextf.com:443
+http://api.dextf.com:80
+http://cdn.dextf.com:80
+https://api.dextf.com
+https://cdn.dextf.com
+https://cdn.dextf.com:443
+http://governance.dextf.com:80
+https://governance.dextf.com
+https://governance.dextf.com:443

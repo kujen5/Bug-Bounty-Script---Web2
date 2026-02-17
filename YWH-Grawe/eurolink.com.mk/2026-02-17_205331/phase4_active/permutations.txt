@@ -1,0 +1,12 @@
+dev.health.eurolink.com.mk
+api.eurolink.com.mk
+www.sync.eurolink.com.mk
+pay.eurolink.com.mk
+shop.eurolink.com.mk
+www.crm.eurolink.com.mk
+dev.api.eurolink.com.mk
+mail.eurolink.com.mk
+testapp.eurolink.com.mk
+www.test.eurolink.com.mk
+www.eurolink.com.mk
+test.eurolink.com.mk

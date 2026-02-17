@@ -1,0 +1,36 @@
+https://api.dextf.com:443 | 403 | 18.173.34.85 | Amazon CloudFront,Amazon Web Services
+http://api.dextf.com:80 | 403 | 18.173.34.85 | Amazon CloudFront,Amazon Web Services
+http://cdn.dextf.com:80 | 403 | 18.173.23.2 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services
+http://dextf.com:80 | 200 | Memento | 18.173.23.82 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://api.dextf.com | 403 | 18.173.34.85 | Amazon CloudFront,Amazon Web Services
+https://cdn.dextf.com | 403 | 18.173.23.2 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services
+https://cdn.dextf.com:443 | 403 | 18.173.23.2 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services
+https://dextf.com:443 | 200 | Memento | 18.173.23.82 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://dextf.com | 200 | Memento | 18.173.23.82 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://www.dextf.com:443 | 200 | Memento | 18.173.23.82 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://www.dextf.com | 200 | Memento | 18.173.23.82 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+http://governance.dextf.com:80 | 403 | BunnyCDN Node BHR1-1250 | 18.173.23.64 | BunnyCDN-BHR1-1250 | Bunny
+http://v1-dapp.dextf.com:80 | 200 | DEXTF V1 | 18.173.23.16 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,C3.js,Cloudflare,Google Analytics,HSTS,Semantic UI,cdnjs,jQuery:3.3.1
+https://governance.dextf.com | 403 | BunnyCDN Node BHR1-1250 | 18.173.23.64 | BunnyCDN-BHR1-1250 | Bunny
+https://governance.dextf.com:443 | 403 | BunnyCDN Node BHR1-1250 | 18.173.23.64 | BunnyCDN-BHR1-1250 | Bunny
+https://v1-dapp.dextf.com | 200 | DEXTF V1 | 18.173.23.16 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,C3.js,Cloudflare,Google Analytics,HSTS,Semantic UI,cdnjs,jQuery:3.3.1
+https://v1-dapp.dextf.com:443 | 200 | DEXTF V1 | 18.173.23.16 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,C3.js,Cloudflare,Google Analytics,HSTS,Semantic UI,cdnjs,jQuery:3.3.1
+http://docs.dextf.com:80 | 200 | Welcome | Memento DFM | Documentation | 18.173.23.126 | cloudflare | Cloudflare,GitBook,HSTS,HTTP/3,Vercel
+https://docs.dextf.com:443 | 200 | Welcome | Memento DFM | Documentation | 18.173.23.126 | cloudflare | Cloudflare,GitBook,HSTS,HTTP/3,Vercel
+http://dapp.dextf.com:80 | 200 | Memento DFM | 18.173.23.87 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,Google Analytics,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+http://v2-dapp.dextf.com:80 | 200 | Memento DFM | 18.173.23.87 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,Google Analytics,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+http://bridge.dextf.com:80 | 200 | DEXTF Bridge | 18.173.34.110 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://v2-dapp.dextf.com | 200 | Memento DFM | 18.173.23.87 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,Google Analytics,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://v2-dapp.dextf.com:443 | 200 | Memento DFM | 18.173.23.87 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,Google Analytics,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://dapp.dextf.com:443 | 200 | Memento DFM | 18.173.23.87 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,Google Analytics,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://dapp.dextf.com | 200 | Memento DFM | 18.173.23.87 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,Google Analytics,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://bridge.dextf.com:443 | 200 | DEXTF Bridge | 18.173.34.110 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://bridge.dextf.com | 200 | DEXTF Bridge | 18.173.34.110 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+http://staking.dextf.com:80 | 200 | DEXTF Staking | 18.173.34.45 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://staking.dextf.com:443 | 200 | DEXTF Staking | 18.173.34.45 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://staking.dextf.com | 200 | DEXTF Staking | 18.173.34.45 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://damu.dextf.com | 200 | DAMU | 18.173.23.67 | Apache | Apache HTTP Server,Elementor:3.35.4,Google PageSpeed:1.13.35.2,MySQL,PHP:7.4.15,Twenty Twenty,WordPress,jQuery,jQuery Migrate
+http://damu.dextf.com:80 | 200 | DAMU | 18.173.23.67 | Apache | Apache HTTP Server,Elementor:3.35.4,Google PageSpeed:1.13.35.2,MySQL,PHP:7.4.15,Twenty Twenty,WordPress,jQuery,jQuery Migrate
+https://damu.dextf.com:443 | 200 | DAMU | 18.173.23.67 | Apache | Apache HTTP Server,Elementor:3.35.4,Google PageSpeed:1.13.35.2,MySQL,PHP:7.4.15,Twenty Twenty,WordPress,jQuery,jQuery Migrate
+http://www.dextf.com:80 | 200 | Memento | 18.173.23.82 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://docs.dextf.com | 200 | Welcome | Memento DFM | Documentation | 18.173.23.126 | cloudflare | Cloudflare,GitBook,HSTS,HTTP/3,Vercel

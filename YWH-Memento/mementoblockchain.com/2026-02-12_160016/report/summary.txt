@@ -1,0 +1,55 @@
+==============================================
+  BEAST MODE RECON - SUMMARY REPORT
+==============================================
+
+Program:    YWH-Memento
+Target:     mementoblockchain.com
+Date:       2026-02-12 16:28:13
+Output Dir: /home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/mementoblockchain.com/2026-02-12_160016
+
+----------------------------------------------
+  SUBDOMAIN COUNTS
+----------------------------------------------
+Passive sources:
+  subfinder:           17
+  amass:               18
+  crtsh:               15
+  wayback:             12
+  passive_apis:        16
+
+Merged passive:      18
+Resolved (alive):    0
+Bruteforce:          7
+Permutations:        4
+MASTER TOTAL:        9
+
+----------------------------------------------
+  INFRASTRUCTURE
+----------------------------------------------
+IP ranges (ASN):     0
+Open ports (naabu):  22
+Web assets (httpx):  31
+
+----------------------------------------------
+  CONTENT & VULNS
+----------------------------------------------
+URLs discovered:     847
+JS files:            455
+Nuclei findings:     0
+
+----------------------------------------------
+  PHASE STATUS
+----------------------------------------------
+  Phase 0 : OK
+  Phase 1 : OK
+  Phase 2 : OK
+  Phase 3 : OK
+  Phase 4 : OK
+  Phase 5 : OK
+  Phase 6 : OK
+  Phase 7 : OK
+  Phase 8 : OK
+  Phase 9 : OK
+  Phase 10: OK
+
+==============================================

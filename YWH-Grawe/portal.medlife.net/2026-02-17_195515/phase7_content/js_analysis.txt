@@ -1,0 +1,38 @@
+
+[+] Fetching: https://portal.medlife.net/Zone.js
+  [URL] https://fonts.googleapis.com
+  [URL] https://fonts.gstatic.com
+
+[+] Fetching: https://portal.medlife.net/main.440e9d83f4a53f2d5068.js
+  [ENDPOINT] /login
+  [ENDPOINT] /logout
+  [URL] https://ngrx.io/guide/store/configuration/runtime-checks
+  [URL] https://www.medlife.net/company/
+  [URL] https://www.medlife.net/products/
+  [URL] https://www.medlife.net/service/
+
+[+] Fetching: https://portal.medlife.net/polyfills-es5.09f3473451a1f045c3e0.js
+
+[+] Fetching: https://portal.medlife.net/polyfills.0380d584e985423da2e5.js
+
+[+] Fetching: https://portal.medlife.net/runtime.e2a01853fcbbb3cde539.js
+
+[+] Fetching: https://portal.medlife.net/runtime.e874b6c6ce2f6a88c747.js
+
+[+] Fetching: https://portal.medlife.net/zone.js
+
+[+] Fetching: https://www.medlife.net:443/_assets/6dbb7bd8c213faea46896aa8e654c07c/JavaScript/Frontend/Captcha.js
+
+[+] Fetching: https://www.medlife.net:443/_assets/6dbb7bd8c213faea46896aa8e654c07c/JavaScript/Frontend/Captcha.js?1765894497
+
+[+] Fetching: https://www.portal.medlife.net/main.c026eed39eef5efd55b4.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.portal.medlife.net/polyfills-es5.09f3473451a1f045c3e0.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.portal.medlife.net/polyfills.0380d584e985423da2e5.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.portal.medlife.net/runtime.81d9c51505d7a3ac856b.js
+  [-] Skipped (empty or non-200)

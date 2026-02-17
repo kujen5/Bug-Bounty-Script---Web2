@@ -1,0 +1,10 @@
+api.dextf.com
+dextf.com
+governance.dextf.com
+www.dextf.com
+cdn.dextf.com
+staking.dextf.com
+dapp.dextf.com
+bridge.dextf.com
+damu.dextf.com
+docs.dextf.com

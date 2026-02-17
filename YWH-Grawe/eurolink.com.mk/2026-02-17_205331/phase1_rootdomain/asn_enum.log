@@ -1,0 +1,4 @@
+[asn] eurolink.com.mk -> 95.156.8.108
+[asn] ASN info: [{'ip': '"95.156.8.108"', 'asn': '"6821"', 'org': '"95.156.0.0/19"'}]
+[asn] Prefix lookup error for "6821": HTTPSConnectionPool(host='api.bgpview.io', port=443): Max retries exceeded with url: /asn/%226821%22/prefixes (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ae194d04490>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[asn] "6821" announces 0 prefixes

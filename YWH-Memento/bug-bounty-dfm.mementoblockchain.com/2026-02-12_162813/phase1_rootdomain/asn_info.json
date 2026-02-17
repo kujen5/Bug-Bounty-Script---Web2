@@ -1,0 +1,12 @@
+{
+  "domain": "bug-bounty-dfm.mementoblockchain.com",
+  "ip": "18.173.23.123",
+  "asns": [
+    {
+      "ip": "\"18.173.23.123\"",
+      "asn": "\"16509\"",
+      "org": "\"18.173.16.0/21\""
+    }
+  ],
+  "prefixes": []
+}

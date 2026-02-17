@@ -1,0 +1,8 @@
+docs.dextf.com:443
+docs.dextf.com:80
+api.dextf.com:443
+api.dextf.com:80
+www.dextf.com:80
+www.dextf.com:443
+cdn.dextf.com:443
+cdn.dextf.com:80

@@ -1,0 +1,16 @@
+{
+  "program": "YWH-Memento",
+  "domain": "mementoblockchain.com",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/mementoblockchain.com/2026-02-12_160016",
+  "counts": {
+    "passive_merged": 18,
+    "resolved": 0,
+    "bruteforce": 7,
+    "permutations": 4,
+    "master": 9,
+    "ports": 22,
+    "web_assets": 31,
+    "urls": 847,
+    "nuclei": 0
+  }
+}

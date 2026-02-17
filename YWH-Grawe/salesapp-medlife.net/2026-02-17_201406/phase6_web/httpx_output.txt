@@ -1,0 +1,9 @@
+http://sales.salesapp-medlife.net:80 | 503 | 193.28.204.112
+https://sales.salesapp-medlife.net | 503 | 193.28.204.112
+https://sales.salesapp-medlife.net:443 | 503 | 193.28.204.112
+http://salesapp-medlife.net:80 | 200 | Sales App | 193.28.204.112 | HSTS
+https://salesapp-medlife.net | 200 | Sales App | 193.28.204.112 | HSTS
+https://salesapp-medlife.net:443 | 200 | Sales App | 193.28.204.112 | HSTS
+http://www.salesapp-medlife.net:80 | 200 | Sales App | 193.28.204.112 | HSTS
+https://www.salesapp-medlife.net | 200 | Sales App | 193.28.204.112 | HSTS
+https://www.salesapp-medlife.net:443 | 200 | Sales App | 193.28.204.112 | HSTS

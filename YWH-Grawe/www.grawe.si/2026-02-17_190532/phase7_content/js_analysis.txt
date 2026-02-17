@@ -1,0 +1,149 @@
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/compile_min.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/effects.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/fabtabulous.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/functions.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/iframe.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/jquery.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/js_browser_selector.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/jsbjqs.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/lightbox.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/moofx.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/projectFunctions.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/prototype.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/scriptaculous.js?load=effects
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/swfobject.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si/css_js/window.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si_2009/css_js/scriptaculous.js?load=effects
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/grawe_si_2009/css_js/swfobject.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si/static_files/yaml/js/accordian.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.grawe.si:80/global_files/js_functions.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://secure.grawe.si/eStoritve/Scripts/VideoID/P0LoadingSign1.03.js
+
+[+] Fetching: https://www.grawe.si/_assets/2f9f1781442d461eab73b573487122ef/JavaScript/frontend/date-picker.js?1751966232=
+
+[+] Fetching: https://www.grawe.si/_assets/6dbb7bd8c213faea46896aa8e654c07c/JavaScript/Frontend/Captcha.js?1741959157=
+
+[+] Fetching: https://www.grawe.si/typo3/sysext/form/Resources/Public/JavaScript/Frontend/DatePicker.js
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/typo3temp/assets/css/f5c81c8b73a532d54e1471eb29c93227.css?1769078035
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/typo3conf/ext/grawe/Resources/Build/Public/JS/vendorStyles.c0832ddd03a0bcb0ee62.js
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/typo3conf/ext/grawe/Resources/Build/Public/JS/aboveTheFold.a0b58c9c653a64ee5f55.js
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/typo3conf/ext/grawe/Resources/Build/Public/JS/mainStyles.977d5bb952a54079bd75.js
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/typo3conf/ext/grawe/Resources/Build/Public/Css/vendorStyles/vendorStyles.1776114df8c59f80b470.css
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/typo3conf/ext/grawe/Resources/Build/Public/Css/mainStyles/mainStyles.9c025c103b86d5fbb4cc.css
+  [URL] https://www.grawe.si/
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/typo3conf/ext/grawe/Resources/Public/Images/grawe-logo.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/car1.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/steering_wheel.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/family.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/chain.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/screw_wench.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/calculator.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/house.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/boat.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/apartment_building.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/customer_consultant.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/parcel.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/forest_fire.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/patch.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/calendar.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/money.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/growth.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/_processed_/8/0/csm_avto_-_fant_shutterstock_1736228918_obrnjen__b2cf5f3b4c.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/_processed_/0/2/csm_dom_kuhanje_shutterstock_588502532_033337681f.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/_processed_/5/0/csm_moski_in_denar_iStock-951524746_ef03da03f8.jpg
+  [URL] https://www.grawe.si/kariera/prostadelovnamesta/koordinatorja-za-poslovno-sodelovanje-z-zavarovalnimi-agencijami-mz/
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/_processed_/2/6/csm_Gibshand_b2dd9fc9a2.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/alert1.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/4_squares.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/download.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/man.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/contract.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/postcard.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/_processed_/e/3/csm_tourist-making-photo-nature_9dcb66dd97.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/_processed_/d/8/csm_kolektivna_nezgoda_ca77aae42e.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/lock.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/earth.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/star.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/press.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/book.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/certificate_2.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/heart.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/leaf.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/_processed_/0/1/csm_CyberSpieler_blog_ac2684f964.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/_processed_/2/f/csm_Feuerversicherung_c9182d6959.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/smartphone.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/location_pin.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/grawe_si/Documents/Product_brochures/Life/cropped-Naslovnica__1_.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/grawe_si/Documents/Product_brochures/Life/cropped-Freepick_Naslovnica_Premium.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/grawe_si/Images/Products/Life/business-man-owner-company-office.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/grawe_si/Documents/Product_brochures/Life/cropped-BestYears4U_iStock-516186760.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/grawe_si/Images/Products/Property/dom_kuhanje_shutterstock_588502532.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/grawe_si/Images/Products/Life/moski_in_denar_iStock-951524746.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/grawe_si/Images/Products/Car/avto_-_fant_shutterstock_1736228918_obrnjen_.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/alert1_green.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/grawe_si/Images/Products/Life/Gibshand.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/grawe_si/Images/Products/Life/zivljenje__dlani_shutterstock_1838114758.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/location_pin_green.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/shared/Icons/customer_consultant_green.svg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/grawe_si/Images/Blog/csm_Blog_Teaserbild_70e06c5f25.jpg
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/fileadmin/_processed_/2/b/csm_Logo_GRAWE_2021_RGB_cfb24e3f46.jpg
+  [URL] https://sl-si.facebook.com/grawe.si/
+  [URL] https://www.instagram.com/grawe_zavarovalnica/
+  [URL] https://www.youtube.com/channel/UCeKgDwwumY4IzMjg6DZqjgg
+  [URL] https://www.linkedin.com/company/grawe-zavarovalnica-d.d.
+  [URL] https://twitter.com/graweslovenija
+  [URL] https://berater.grawe.at/si
+  [URL] https://sharepoint.grawe.at/portals/si/SitePages/Domov.aspx
+  [URL] https://dzuqxtpzvt1cb.cloudfront.net/typo3conf/ext/grawe/Resources/Build/Public/JS/main.78f3a1d2eeea76b0f49a.js
+  [URL] https://webcachex-eu.datareporter.eu/loader/v2/cmp-load.js?url=8c50da35-9ea3-44e5-a307-e05159f4b943.vYWFKn4eAaED.onr
+  [EMAIL] grawe@grawe.si
+  [EMAIL] ime.priimek@grawe.si
+
+[+] Fetching: https://www.grawe.si/typo3/sysext/form/Resources/Public/JavaScript/Frontend/DatePicker.js?1683620189
+
+[+] Fetching: https://www.grawe.si:443/_assets/2f9f1781442d461eab73b573487122ef/JavaScript/frontend/date-picker.js
+
+[+] Fetching: https://www.grawe.si:443/_assets/2f9f1781442d461eab73b573487122ef/JavaScript/frontend/date-picker.js?1764675616
+
+[+] Fetching: https://www.grawe.si:443/_assets/6dbb7bd8c213faea46896aa8e654c07c/JavaScript/Frontend/Captcha.js
+
+[+] Fetching: https://www.grawe.si:443/_assets/6dbb7bd8c213faea46896aa8e654c07c/JavaScript/Frontend/Captcha.js?1765894497

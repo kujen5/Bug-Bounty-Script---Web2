@@ -1,0 +1,55 @@
+==============================================
+  BEAST MODE RECON - SUMMARY REPORT
+==============================================
+
+Program:    YWH-Memento
+Target:     dextf.com
+Date:       2026-02-12 17:48:28
+Output Dir: /home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/dextf.com/2026-02-12_170628
+
+----------------------------------------------
+  SUBDOMAIN COUNTS
+----------------------------------------------
+Passive sources:
+  subfinder:           13
+  amass:               15
+  crtsh:               0
+  wayback:             13
+  passive_apis:        10
+
+Merged passive:      16
+Resolved (alive):    10
+Bruteforce:          0
+Permutations:        6
+MASTER TOTAL:        12
+
+----------------------------------------------
+  INFRASTRUCTURE
+----------------------------------------------
+IP ranges (ASN):     0
+Open ports (naabu):  24
+Web assets (httpx):  36
+
+----------------------------------------------
+  CONTENT & VULNS
+----------------------------------------------
+URLs discovered:     2360
+JS files:            1398
+Nuclei findings:     0
+
+----------------------------------------------
+  PHASE STATUS
+----------------------------------------------
+  Phase 0 : OK
+  Phase 1 : OK
+  Phase 2 : OK
+  Phase 3 : OK
+  Phase 4 : OK
+  Phase 5 : OK
+  Phase 6 : OK
+  Phase 7 : OK
+  Phase 8 : OK
+  Phase 9 : OK
+  Phase 10: OK
+
+==============================================

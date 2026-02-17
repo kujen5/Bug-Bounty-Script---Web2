@@ -1,0 +1,3 @@
+http://rpc.mementoblockchain.com:80
+https://rpc.mementoblockchain.com
+https://rpc.mementoblockchain.com:443

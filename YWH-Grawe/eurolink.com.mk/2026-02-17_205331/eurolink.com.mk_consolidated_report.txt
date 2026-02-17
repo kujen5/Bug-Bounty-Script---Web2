@@ -1,0 +1,228 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                    CONSOLIDATED RECONNAISSANCE REPORT                     ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════════════════
+  BASIC INFORMATION
+═══════════════════════════════════════════════════════════════════════════
+Program:          YWH-Grawe
+Target Domain:    eurolink.com.mk
+Scan Date:        2026-02-17 21:16:06
+Output Directory: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/eurolink.com.mk/2026-02-17_205331
+
+═══════════════════════════════════════════════════════════════════════════
+  DISCOVERY SUMMARY
+═══════════════════════════════════════════════════════════════════════════
+Total Subdomains:     27
+Live Web Assets:      54
+Open Ports:           90
+URLs Discovered:      5079
+JS Files Analyzed:    307
+Vulnerabilities:      0
+
+═══════════════════════════════════════════════════════════════════════════
+  ASN INFORMATION
+═══════════════════════════════════════════════════════════════════════════
+ASN Number:       N/A
+ASN Name:         N/A
+ASN Description:  N/A
+IP Ranges:        0 CIDR blocks
+
+═══════════════════════════════════════════════════════════════════════════
+  ALL DISCOVERED SUBDOMAINS (27)
+═══════════════════════════════════════════════════════════════════════════
+akcii.eurolink.com.mk
+api.eurolink.com.mk
+crm.eurolink.com.mk
+dev.api.eurolink.com.mk
+dev.health.eurolink.com.mk
+disk.eurolink.com.mk
+epolisa.eurolink.com.mk
+eurolink.com.mk
+eurolink360.eurolink.com.mk
+filijala.eurolink.com.mk
+health.eurolink.com.mk
+imap.eurolink.com.mk
+mail.eurolink.com.mk
+old.eurolink.com.mk
+pay.eurolink.com.mk
+pop.eurolink.com.mk
+servisi.eurolink.com.mk
+shop.eurolink.com.mk
+smtp.eurolink.com.mk
+sync.eurolink.com.mk
+test.eurolink.com.mk
+testapp.eurolink.com.mk
+webmail.eurolink.com.mk
+www.crm.eurolink.com.mk
+www.eurolink.com.mk
+www.sync.eurolink.com.mk
+www.test.eurolink.com.mk
+
+═══════════════════════════════════════════════════════════════════════════
+  LIVE WEB URLS (54)
+═══════════════════════════════════════════════════════════════════════════
+http://eurolink360.eurolink.com.mk:80
+http://dev.health.eurolink.com.mk:80
+http://dev.api.eurolink.com.mk:80
+http://api.eurolink.com.mk:80
+http://filijala.eurolink.com.mk:80
+http://epolisa.eurolink.com.mk:80
+http://akcii.eurolink.com.mk:80
+https://eurolink360.eurolink.com.mk
+https://eurolink360.eurolink.com.mk:443
+https://dev.api.eurolink.com.mk
+http://health.eurolink.com.mk:80
+https://dev.health.eurolink.com.mk:443
+https://filijala.eurolink.com.mk
+https://api.eurolink.com.mk:443
+https://filijala.eurolink.com.mk:443
+https://api.eurolink.com.mk
+https://dev.api.eurolink.com.mk:443
+https://dev.health.eurolink.com.mk
+https://akcii.eurolink.com.mk
+https://akcii.eurolink.com.mk:443
+https://health.eurolink.com.mk
+https://epolisa.eurolink.com.mk:443
+https://epolisa.eurolink.com.mk
+https://health.eurolink.com.mk:443
+https://disk.eurolink.com.mk:443
+https://disk.eurolink.com.mk
+https://eurolink.com.mk
+http://eurolink.com.mk:80
+http://test.eurolink.com.mk:80
+http://old.eurolink.com.mk
+http://sync.eurolink.com.mk
+http://sync.eurolink.com.mk:80
+https://eurolink.com.mk:443
+http://servisi.eurolink.com.mk:80
+https://pay.eurolink.com.mk
+https://pay.eurolink.com.mk:443
+http://shop.eurolink.com.mk:80
+https://servisi.eurolink.com.mk
+https://servisi.eurolink.com.mk:443
+http://www.test.eurolink.com.mk:80
+https://shop.eurolink.com.mk:443
+https://shop.eurolink.com.mk
+http://www.sync.eurolink.com.mk
+http://old.eurolink.com.mk:80
+http://pay.eurolink.com.mk:80
+http://www.sync.eurolink.com.mk:80
+http://www.eurolink.com.mk:80
+https://www.test.eurolink.com.mk
+https://test.eurolink.com.mk:443
+https://www.eurolink.com.mk:443
+
+... and 4 more URLs
+(See phase6_web/live_urls.txt for full list)
+
+═══════════════════════════════════════════════════════════════════════════
+  STATUS CODE BREAKDOWN
+═══════════════════════════════════════════════════════════════════════════
+  Status 200 : 44 URLs
+  Status 404 : 6 URLs
+  Status 500 : 4 URLs
+
+═══════════════════════════════════════════════════════════════════════════
+  OPEN PORTS (Top 20)
+═══════════════════════════════════════════════════════════════════════════
+mail.eurolink.com.mk:995
+mail.eurolink.com.mk:110
+mail.eurolink.com.mk:587
+mail.eurolink.com.mk:143
+mail.eurolink.com.mk:993
+mail.eurolink.com.mk:25
+webmail.eurolink.com.mk:995
+webmail.eurolink.com.mk:110
+webmail.eurolink.com.mk:587
+webmail.eurolink.com.mk:143
+webmail.eurolink.com.mk:993
+webmail.eurolink.com.mk:25
+pop.eurolink.com.mk:995
+pop.eurolink.com.mk:110
+pop.eurolink.com.mk:587
+pop.eurolink.com.mk:143
+pop.eurolink.com.mk:993
+pop.eurolink.com.mk:25
+smtp.eurolink.com.mk:995
+smtp.eurolink.com.mk:110
+... and 70 more open ports
+(See phase5_ports/naabu_scan.txt for full list)
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - API ENDPOINTS
+═══════════════════════════════════════════════════════════════════════════
+No endpoints found in JavaScript files
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - URLS
+═══════════════════════════════════════════════════════════════════════════
+No URLs found in JavaScript files
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - SECRETS & API KEYS (*** HIGH PRIORITY ***)
+═══════════════════════════════════════════════════════════════════════════
+✓ No secrets found in JavaScript files
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - EMAIL ADDRESSES
+═══════════════════════════════════════════════════════════════════════════
+No email addresses found
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - INTERESTING FILES
+═══════════════════════════════════════════════════════════════════════════
+No interesting file paths found
+
+═══════════════════════════════════════════════════════════════════════════
+  CNAME RECORDS (Potential Subdomain Takeover)
+═══════════════════════════════════════════════════════════════════════════
+Total CNAMEs: 2
+
+www.eurolink.com.mk [[35mCNAME[0m] [[32meurolink.com.mk[0m] 
+www.test.eurolink.com.mk [[35mCNAME[0m] [[32mtest.eurolink.com.mk[0m] 
+
+═══════════════════════════════════════════════════════════════════════════
+  CRITICAL VULNERABILITIES (*** IMMEDIATE ACTION REQUIRED ***)
+═══════════════════════════════════════════════════════════════════════════
+✓ No critical vulnerabilities found
+
+═══════════════════════════════════════════════════════════════════════════
+  HIGH SEVERITY VULNERABILITIES
+═══════════════════════════════════════════════════════════════════════════
+✓ No high severity vulnerabilities found
+
+═══════════════════════════════════════════════════════════════════════════
+  VULNERABILITY SUMMARY (All Severities)
+═══════════════════════════════════════════════════════════════════════════
+
+See phase8_vulns/ for detailed vulnerability reports
+
+═══════════════════════════════════════════════════════════════════════════
+  RECOMMENDED NEXT STEPS
+═══════════════════════════════════════════════════════════════════════════
+1. Review and validate all CRITICAL and HIGH severity vulnerabilities
+2. Check for exposed secrets in phase7_content/js_secrets.txt
+3. Test CNAME records for subdomain takeover vulnerabilities
+4. Manually verify interesting API endpoints from JavaScript analysis
+5. Review open ports for unnecessary services
+6. Test discovered admin/debug/internal endpoints
+7. Analyze URLs for potential injection points
+8. Check for outdated software versions in httpx output
+
+═══════════════════════════════════════════════════════════════════════════
+  DETAILED OUTPUT LOCATIONS
+═══════════════════════════════════════════════════════════════════════════
+Master Subdomains:    master_subdomains.txt
+Live URLs:            phase6_web/live_urls.txt
+Open Ports:           phase5_ports/naabu_scan.txt
+JS Endpoints:         phase7_content/js_endpoints.txt
+JS Secrets:           phase7_content/js_secrets.txt
+Critical Vulns:       phase8_vulns/nuclei_critical.json
+High Vulns:           phase8_vulns/nuclei_high.json
+Full Summary:         report/summary.txt
+Statistics (JSON):    report/stats.json
+
+╔══════════════════════════════════════════════════════════════════════════╗
+║                         END OF CONSOLIDATED REPORT                        ║
+╚══════════════════════════════════════════════════════════════════════════╝

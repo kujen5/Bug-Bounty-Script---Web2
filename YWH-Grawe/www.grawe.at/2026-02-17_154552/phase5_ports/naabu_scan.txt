@@ -1,0 +1,9 @@
+oauth.grawe.at:443
+mail.grawe.at:80
+mail.grawe.at:443
+www.grawe.at:80
+www.grawe.at:443
+mobile.grawe.at:80
+mobile.grawe.at:443
+mobile.grawe.at:264
+login.grawe.at:443

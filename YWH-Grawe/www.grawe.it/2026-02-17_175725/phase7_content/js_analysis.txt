@@ -1,0 +1,109 @@
+
+[+] Fetching: http://grawe.it/wpscripts/jquery.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://grawe.it/wpscripts/jquery.wputils.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://grawe.it/wpscripts/jsMenu.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://grawe.it/wpscripts/jspngfix.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/components.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/components.js?ln=primefaces&v=8.0
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/core.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/core.js?ln=primefaces&v=8.0
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-blind.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-bounce.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-clip.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-drop.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-explode.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-fade.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-fold.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-highlight.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-puff.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-pulsate.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-scale.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-shake.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-size.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-slide.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/effects/effect-transfer.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/jquery-plugins.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/jquery-plugins.js?ln=primefaces&v=8.0
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/jquery.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/jquery.js?ln=primefaces&v=8.0
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/widgets/datepicker.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/widgets/draggable.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/widgets/droppable.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/widgets/mouse.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/widgets/resizable.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/widgets/selectable.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/widgets/slider.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/jquery/widgets/sortable.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/js/calendar.js
+
+[+] Fetching: https://portal.grawe.it/portaleclienti/javax.faces.resource/js/grawe.js
+
+[+] Fetching: https://www.grawe.it/_assets/6dbb7bd8c213faea46896aa8e654c07c/JavaScript/Frontend/Captcha.js
+
+[+] Fetching: https://www.grawe.it/_assets/6dbb7bd8c213faea46896aa8e654c07c/JavaScript/Frontend/Captcha.js?1765894497

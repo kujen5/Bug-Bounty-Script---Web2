@@ -1,0 +1,4 @@
+portal-test.medlife.net
+portal.medlife.net
+www.medlife.net
+www.portal.medlife.net

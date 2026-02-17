@@ -1,0 +1,8 @@
+docs.mementoblockchain.com:8443
+docs.mementoblockchain.com:8080
+docs.mementoblockchain.com:80
+docs.mementoblockchain.com:443
+cdn.mementoblockchain.com:443
+cdn.mementoblockchain.com:80
+bug-bounty-dfm.mementoblockchain.com:443
+bug-bounty-dfm.mementoblockchain.com:80

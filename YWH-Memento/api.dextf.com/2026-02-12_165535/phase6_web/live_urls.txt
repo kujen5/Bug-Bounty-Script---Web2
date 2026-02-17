@@ -1,0 +1,12 @@
+https://cdn.dextf.com
+https://cdn.dextf.com:443
+http://cdn.dextf.com:80
+https://api.dextf.com:443
+http://api.dextf.com:80
+https://api.dextf.com
+http://www.dextf.com:80
+https://www.dextf.com
+https://www.dextf.com:443
+http://docs.dextf.com:80
+https://docs.dextf.com
+https://docs.dextf.com:443

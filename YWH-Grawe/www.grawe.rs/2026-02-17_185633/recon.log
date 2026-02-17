@@ -1,0 +1,64 @@
+[18:56:33] [INFO] Program: \033[1mYWH-Grawe\033[0m
+[18:56:33] [INFO] Target: \033[1mwww.grawe.rs\033[0m
+[18:56:33] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/www.grawe.rs/2026-02-17_185633
+[18:56:33] [INFO] Threads: 50 | Rate Limit: 300
+[18:56:33] [INFO] Go: go1.24.0
+[18:56:33] [INFO] Phase 0 completed (0s)
+[18:56:33] [PHASE] Phase 1: Root Domain Intelligence
+[18:56:33] [INFO] Running WHOIS lookup...
+[18:56:34] [INFO] Running ASN enumeration...
+[18:56:35] [INFO] ASN subdomains: 0
+[18:56:35] [INFO] IP ranges discovered: 0
+[18:56:35] [INFO] Phase 1 completed (2s)
+[18:56:35] [PHASE] Phase 2: Passive Subdomain Enumeration
+[18:56:35] [INFO] Starting subfinder...
+[18:56:35] [INFO] Starting amass passive...
+[18:56:35] [INFO] Starting crt.sh lookup...
+[18:56:35] [INFO] Starting Wayback Machine lookup...
+[18:56:35] [INFO] Starting passive API queries...
+[18:56:35] [INFO] No GitHub token provided, skipping GitHub dorking.
+[18:56:35] [INFO] Waiting for 5 passive sources to complete...
+[18:57:24] [INFO]   amass: 2 subdomains
+[18:57:24] [INFO]   crtsh: 0 subdomains
+[18:57:24] [INFO]   passive_apis: 0 subdomains
+[18:57:24] [INFO]   subfinder: 0 subdomains
+[18:57:24] [INFO]   wayback: 1 subdomains
+[18:57:24] [INFO] Total unique passive subdomains: \033[1m2\033[0m
+[18:57:24] [INFO] Phase 2 completed (49s)
+[18:57:24] [PHASE] Phase 3: DNS Resolution & Filtering
+[18:57:24] [INFO] Resolving 2 subdomains with puredns...
+[18:57:50] [INFO] Resolved: 0 alive subdomains
+[18:57:50] [INFO] Wildcards: 0
+[18:57:50] [INFO] Phase 3 completed (26s)
+[18:57:50] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[18:57:50] [INFO] Bruteforcing subdomains with puredns...
+[19:04:31] [INFO] Bruteforce found: 0 subdomains
+[19:04:31] [INFO] Phase 4 completed (401s)
+[19:04:31] [PHASE] Merging Master Subdomain List
+[19:04:31] [INFO] Master subdomain list: \033[1m0\033[0m unique live subdomains
+[19:04:31] [PHASE] Phase 5: Port Scanning
+[19:04:32] [WARN] No subdomains to port scan.
+[19:04:32] [WARN] Phase 5 finished with issues (1s)
+[19:04:32] [PHASE] Phase 6: Web Probing
+[19:04:32] [WARN] No subdomains to probe.
+[19:04:32] [WARN] Phase 6 finished with issues (0s)
+[19:04:32] [PHASE] Phase 7: Content Discovery
+[19:04:32] [WARN] No live URLs for content discovery.
+[19:04:32] [WARN] Phase 7 finished with issues (0s)
+[19:04:32] [PHASE] Phase 8: Vulnerability Scanning
+[19:04:32] [WARN] No live URLs for vulnerability scanning.
+[19:04:32] [WARN] Phase 8 finished with issues (0s)
+[19:04:32] [PHASE] Phase 9: Certstream Monitor (Background)
+[19:04:32] [INFO] Starting certstream monitor in background (60s sample)...
+[19:04:32] [INFO] Certstream PID: 29112 (output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/www.grawe.rs/2026-02-17_185633/phase2_passive/certstream.txt)
+[19:04:32] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains www.grawe.rs -o certs.txt
+[19:04:32] [INFO] Phase 9 completed (0s)
+[19:04:32] [PHASE] Phase 10: Reporting & Summary
+[19:04:32] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[19:05:32] [INFO] Generating consolidated domain report...
+[19:05:32] [INFO] Consolidated report saved: \033[1mwww.grawe.rs_consolidated_report.txt\033[0m
+[19:05:32] [INFO] Full path: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/www.grawe.rs/2026-02-17_185633/www.grawe.rs_consolidated_report.txt
+[19:05:32] [INFO] Phase 10 completed (60s)
+[19:05:32] [INFO] All phases complete for www.grawe.rs. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/www.grawe.rs/2026-02-17_185633\033[0m
+[19:05:32] [PHASE] Domain 13/24: www.grawe.si
+[19:05:32] [PHASE] Phase 0: Setup & Dependencies

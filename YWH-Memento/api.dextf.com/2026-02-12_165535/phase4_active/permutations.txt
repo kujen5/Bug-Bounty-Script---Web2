@@ -1,0 +1,4 @@
+api.dextf.com
+www.dextf.com
+cdn.dextf.com
+docs.dextf.com

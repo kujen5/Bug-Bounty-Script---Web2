@@ -1,0 +1,12 @@
+http://www.portal.medlife.net:80 | 503 | 193.28.204.112
+http://portal.medlife.net:80 | 200 | MEDLIFE | 193.28.204.112
+http://www.medlife.net:80 | 200 | MEDLIFE Insurance | MEDLIFE INSURANCE LTD. | 193.28.204.126 | HSTS,PHP,TYPO3 CMS
+http://portal-test.medlife.net:80 | 503 | 193.28.204.80
+https://www.portal.medlife.net:443 | 503 | 193.28.204.112
+https://portal.medlife.net:443 | 200 | MEDLIFE | 193.28.204.112
+https://www.portal.medlife.net | 503 | 193.28.204.112
+https://portal.medlife.net | 200 | MEDLIFE | 193.28.204.112
+https://www.medlife.net:443 | 200 | MEDLIFE Insurance | MEDLIFE INSURANCE LTD. | 193.28.204.126 | HSTS,PHP,TYPO3 CMS
+https://portal-test.medlife.net | 503 | 193.28.204.80
+https://www.medlife.net | 200 | MEDLIFE Insurance | MEDLIFE INSURANCE LTD. | 193.28.204.126 | HSTS,PHP,TYPO3 CMS
+https://portal-test.medlife.net:443 | 503 | 193.28.204.80

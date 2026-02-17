@@ -1,0 +1,5 @@
+login.grawe.at
+mail.grawe.at
+mobile.grawe.at
+oauth.grawe.at
+www.grawe.at

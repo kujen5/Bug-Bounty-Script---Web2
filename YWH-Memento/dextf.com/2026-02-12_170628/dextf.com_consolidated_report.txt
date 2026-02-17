@@ -1,0 +1,192 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                    CONSOLIDATED RECONNAISSANCE REPORT                     ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════════════════
+  BASIC INFORMATION
+═══════════════════════════════════════════════════════════════════════════
+Program:          YWH-Memento
+Target Domain:    dextf.com
+Scan Date:        2026-02-12 17:48:28
+Output Directory: /home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/dextf.com/2026-02-12_170628
+
+═══════════════════════════════════════════════════════════════════════════
+  DISCOVERY SUMMARY
+═══════════════════════════════════════════════════════════════════════════
+Total Subdomains:     12
+Live Web Assets:      36
+Open Ports:           24
+URLs Discovered:      2360
+JS Files Analyzed:    1398
+Vulnerabilities:      0
+
+═══════════════════════════════════════════════════════════════════════════
+  ASN INFORMATION
+═══════════════════════════════════════════════════════════════════════════
+ASN Number:       N/A
+ASN Name:         N/A
+ASN Description:  N/A
+IP Ranges:        0 CIDR blocks
+
+═══════════════════════════════════════════════════════════════════════════
+  ALL DISCOVERED SUBDOMAINS (12)
+═══════════════════════════════════════════════════════════════════════════
+api.dextf.com
+bridge.dextf.com
+cdn.dextf.com
+damu.dextf.com
+dapp.dextf.com
+dextf.com
+docs.dextf.com
+governance.dextf.com
+staking.dextf.com
+v1-dapp.dextf.com
+v2-dapp.dextf.com
+www.dextf.com
+
+═══════════════════════════════════════════════════════════════════════════
+  LIVE WEB URLS (36)
+═══════════════════════════════════════════════════════════════════════════
+https://api.dextf.com:443
+http://api.dextf.com:80
+http://cdn.dextf.com:80
+http://dextf.com:80
+https://api.dextf.com
+https://cdn.dextf.com
+https://cdn.dextf.com:443
+https://dextf.com:443
+https://dextf.com
+https://www.dextf.com:443
+https://www.dextf.com
+http://governance.dextf.com:80
+http://v1-dapp.dextf.com:80
+https://governance.dextf.com
+https://governance.dextf.com:443
+https://v1-dapp.dextf.com
+https://v1-dapp.dextf.com:443
+http://docs.dextf.com:80
+https://docs.dextf.com:443
+http://dapp.dextf.com:80
+http://v2-dapp.dextf.com:80
+http://bridge.dextf.com:80
+https://v2-dapp.dextf.com
+https://v2-dapp.dextf.com:443
+https://dapp.dextf.com:443
+https://dapp.dextf.com
+https://bridge.dextf.com:443
+https://bridge.dextf.com
+http://staking.dextf.com:80
+https://staking.dextf.com:443
+https://staking.dextf.com
+https://damu.dextf.com
+http://damu.dextf.com:80
+https://damu.dextf.com:443
+http://www.dextf.com:80
+https://docs.dextf.com
+
+═══════════════════════════════════════════════════════════════════════════
+  STATUS CODE BREAKDOWN
+═══════════════════════════════════════════════════════════════════════════
+  Status 200 : 27 URLs
+  Status 403 : 9 URLs
+
+═══════════════════════════════════════════════════════════════════════════
+  OPEN PORTS (Top 20)
+═══════════════════════════════════════════════════════════════════════════
+v2-dapp.dextf.com:80
+v2-dapp.dextf.com:443
+cdn.dextf.com:443
+cdn.dextf.com:80
+www.dextf.com:443
+www.dextf.com:80
+staking.dextf.com:80
+staking.dextf.com:443
+governance.dextf.com:443
+governance.dextf.com:80
+dextf.com:80
+dextf.com:443
+api.dextf.com:80
+api.dextf.com:443
+docs.dextf.com:80
+docs.dextf.com:443
+v1-dapp.dextf.com:80
+v1-dapp.dextf.com:443
+dapp.dextf.com:443
+dapp.dextf.com:80
+... and 4 more open ports
+(See phase5_ports/naabu_scan.txt for full list)
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - API ENDPOINTS
+═══════════════════════════════════════════════════════════════════════════
+No endpoints found in JavaScript files
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - URLS
+═══════════════════════════════════════════════════════════════════════════
+No URLs found in JavaScript files
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - SECRETS & API KEYS (*** HIGH PRIORITY ***)
+═══════════════════════════════════════════════════════════════════════════
+✓ No secrets found in JavaScript files
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - EMAIL ADDRESSES
+═══════════════════════════════════════════════════════════════════════════
+No email addresses found
+
+═══════════════════════════════════════════════════════════════════════════
+  JAVASCRIPT ANALYSIS - INTERESTING FILES
+═══════════════════════════════════════════════════════════════════════════
+No interesting file paths found
+
+═══════════════════════════════════════════════════════════════════════════
+  CNAME RECORDS (Potential Subdomain Takeover)
+═══════════════════════════════════════════════════════════════════════════
+No CNAME records found
+
+═══════════════════════════════════════════════════════════════════════════
+  CRITICAL VULNERABILITIES (*** IMMEDIATE ACTION REQUIRED ***)
+═══════════════════════════════════════════════════════════════════════════
+✓ No critical vulnerabilities found
+
+═══════════════════════════════════════════════════════════════════════════
+  HIGH SEVERITY VULNERABILITIES
+═══════════════════════════════════════════════════════════════════════════
+✓ No high severity vulnerabilities found
+
+═══════════════════════════════════════════════════════════════════════════
+  VULNERABILITY SUMMARY (All Severities)
+═══════════════════════════════════════════════════════════════════════════
+
+See phase8_vulns/ for detailed vulnerability reports
+
+═══════════════════════════════════════════════════════════════════════════
+  RECOMMENDED NEXT STEPS
+═══════════════════════════════════════════════════════════════════════════
+1. Review and validate all CRITICAL and HIGH severity vulnerabilities
+2. Check for exposed secrets in phase7_content/js_secrets.txt
+3. Test CNAME records for subdomain takeover vulnerabilities
+4. Manually verify interesting API endpoints from JavaScript analysis
+5. Review open ports for unnecessary services
+6. Test discovered admin/debug/internal endpoints
+7. Analyze URLs for potential injection points
+8. Check for outdated software versions in httpx output
+
+═══════════════════════════════════════════════════════════════════════════
+  DETAILED OUTPUT LOCATIONS
+═══════════════════════════════════════════════════════════════════════════
+Master Subdomains:    master_subdomains.txt
+Live URLs:            phase6_web/live_urls.txt
+Open Ports:           phase5_ports/naabu_scan.txt
+JS Endpoints:         phase7_content/js_endpoints.txt
+JS Secrets:           phase7_content/js_secrets.txt
+Critical Vulns:       phase8_vulns/nuclei_critical.json
+High Vulns:           phase8_vulns/nuclei_high.json
+Full Summary:         report/summary.txt
+Statistics (JSON):    report/stats.json
+
+╔══════════════════════════════════════════════════════════════════════════╗
+║                         END OF CONSOLIDATED REPORT                        ║
+╚══════════════════════════════════════════════════════════════════════════╝

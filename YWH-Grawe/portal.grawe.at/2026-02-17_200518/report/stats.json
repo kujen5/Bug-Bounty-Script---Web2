@@ -1,0 +1,16 @@
+{
+  "program": "YWH-Grawe",
+  "domain": "portal.grawe.at",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/portal.grawe.at/2026-02-17_200518",
+  "counts": {
+    "passive_merged": 2,
+    "resolved": 0,
+    "bruteforce": 0,
+    "permutations": 0,
+    "master": 0,
+    "ports": 0,
+    "web_assets": 0,
+    "urls": 0,
+    "nuclei": 0
+  }
+}

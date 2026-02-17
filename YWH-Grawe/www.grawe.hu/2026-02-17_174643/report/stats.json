@@ -1,0 +1,16 @@
+{
+  "program": "YWH-Grawe",
+  "domain": "www.grawe.hu",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/www.grawe.hu/2026-02-17_174643",
+  "counts": {
+    "passive_merged": 2,
+    "resolved": 1,
+    "bruteforce": 0,
+    "permutations": 1,
+    "master": 1,
+    "ports": 2,
+    "web_assets": 3,
+    "urls": 1836,
+    "nuclei": 0
+  }
+}

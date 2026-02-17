@@ -1,0 +1,5 @@
+[wayback] Querying Wayback Machine for *.www.grawe.it...
+[wayback] Timeout querying Wayback Machine for www.grawe.it
+[wayback] Got 0 URLs from Wayback Machine
+[wayback] Extracted 0 unique subdomains
+[wayback] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/www.grawe.it/2026-02-17_175725/phase2_passive/wayback.txt

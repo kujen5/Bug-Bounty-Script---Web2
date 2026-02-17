@@ -1,0 +1,55 @@
+==============================================
+  BEAST MODE RECON - SUMMARY REPORT
+==============================================
+
+Program:    YWH-Grawe
+Target:     eurolink.com.mk
+Date:       2026-02-17 21:16:05
+Output Dir: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/eurolink.com.mk/2026-02-17_205331
+
+----------------------------------------------
+  SUBDOMAIN COUNTS
+----------------------------------------------
+Passive sources:
+  subfinder:           34
+  amass:               22
+  crtsh:               0
+  wayback:             14
+  passive_apis:        10
+
+Merged passive:      35
+Resolved (alive):    18
+Bruteforce:          20
+Permutations:        12
+MASTER TOTAL:        27
+
+----------------------------------------------
+  INFRASTRUCTURE
+----------------------------------------------
+IP ranges (ASN):     0
+Open ports (naabu):  90
+Web assets (httpx):  54
+
+----------------------------------------------
+  CONTENT & VULNS
+----------------------------------------------
+URLs discovered:     5079
+JS files:            307
+Nuclei findings:     0
+
+----------------------------------------------
+  PHASE STATUS
+----------------------------------------------
+  Phase 0 : OK
+  Phase 1 : OK
+  Phase 2 : OK
+  Phase 3 : OK
+  Phase 4 : OK
+  Phase 5 : OK
+  Phase 6 : OK
+  Phase 7 : OK
+  Phase 8 : OK
+  Phase 9 : OK
+  Phase 10: OK
+
+==============================================

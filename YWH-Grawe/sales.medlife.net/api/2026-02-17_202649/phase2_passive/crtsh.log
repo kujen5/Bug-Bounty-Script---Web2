@@ -1,0 +1,3 @@
+[crtsh] Error querying crt.sh: 502 Server Error: Bad Gateway for url: https://crt.sh/?q=%25.sales.medlife.net/api&output=json
+[crtsh] Found 0 unique subdomains for sales.medlife.net/api
+[crtsh] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/sales.medlife.net/api/2026-02-17_202649/phase2_passive/crtsh.txt

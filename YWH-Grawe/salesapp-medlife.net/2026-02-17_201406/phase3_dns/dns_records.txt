@@ -1,0 +1,8 @@
+www.salesapp-medlife.net [[35mA[0m] [[32m193.28.204.112[0m] 
+salesapp-medlife.net [[35mA[0m] [[32m193.28.204.112[0m] 
+salesapp-medlife.net [[35mMX[0m] [[32msmtp3.grawe.at[0m] 
+salesapp-medlife.net [[35mMX[0m] [[32msmtp4.grawe.at[0m] 
+salesapp-medlife.net [[35mNS[0m] [[32mns1.grawe.at[0m] 
+salesapp-medlife.net [[35mNS[0m] [[32mns2.grawe.at[0m] 
+salesapp-medlife.net [[35mTXT[0m] [[32mv=spf1 mx ip4:193.28.204.0/24 include:amazonses.com -all[0m] 
+salesapp-medlife.net [[35mTXT[0m] [[32mms=ms94643708[0m] 

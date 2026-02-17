@@ -1,0 +1,6 @@
+v2-dapp.dextf.com
+v1-dapp.dextf.com
+docs.dextf.com
+api.dextf.com
+www.dextf.com
+cdn.dextf.com

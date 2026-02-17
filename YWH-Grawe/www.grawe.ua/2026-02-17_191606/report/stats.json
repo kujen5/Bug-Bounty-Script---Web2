@@ -1,0 +1,16 @@
+{
+  "program": "YWH-Grawe",
+  "domain": "www.grawe.ua",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/www.grawe.ua/2026-02-17_191606",
+  "counts": {
+    "passive_merged": 2,
+    "resolved": 1,
+    "bruteforce": 0,
+    "permutations": 1,
+    "master": 1,
+    "ports": 4,
+    "web_assets": 4,
+    "urls": 9934,
+    "nuclei": 0
+  }
+}

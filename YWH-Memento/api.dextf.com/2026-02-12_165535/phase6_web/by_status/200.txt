@@ -1,0 +1,6 @@
+http://www.dextf.com:80
+https://www.dextf.com
+https://www.dextf.com:443
+http://docs.dextf.com:80
+https://docs.dextf.com
+https://docs.dextf.com:443

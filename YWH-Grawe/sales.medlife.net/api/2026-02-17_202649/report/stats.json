@@ -1,0 +1,16 @@
+{
+  "program": "YWH-Grawe",
+  "domain": "sales.medlife.net/api",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/sales.medlife.net/api/2026-02-17_202649",
+  "counts": {
+    "passive_merged": 0,
+    "resolved": 0,
+    "bruteforce": 0,
+    "permutations": 0,
+    "master": 0,
+    "ports": 0,
+    "web_assets": 0,
+    "urls": 0,
+    "nuclei": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "program": "YWH-Memento",
+  "domain": "bug-bounty-dfm.mementoblockchain.com",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/bug-bounty-dfm.mementoblockchain.com/2026-02-12_162813",
+  "counts": {
+    "passive_merged": 1,
+    "resolved": 1,
+    "bruteforce": 0,
+    "permutations": 2,
+    "master": 3,
+    "ports": 8,
+    "web_assets": 11,
+    "urls": 1164,
+    "nuclei": 0
+  }
+}

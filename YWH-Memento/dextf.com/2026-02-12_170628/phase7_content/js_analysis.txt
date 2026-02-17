@@ -1,0 +1,3076 @@
+
+[+] Fetching: http://dextf.com/js/app.controller.js
+  [URL] https://mementoblockchain.com/
+  [URL] https://cdn.mementoblockchain.com/fomantic-ui-memento_light/semantic.min.css
+  [URL] https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js
+  [URL] https://cdn.mementoblockchain.com/fomantic-ui-memento_light/semantic.min.js
+
+[+] Fetching: http://dextf.com/js/home.controller.js
+
+[+] Fetching: http://dextf.com/js/ui/now-ui-kit.js?v=1.1.0
+
+[+] Fetching: http://dextf.com/js/ui/plugins/bootstrap-datetimepicker.min.js
+
+[+] Fetching: http://dextf.com/js/ui/plugins/bootstrap-selectpicker.js
+
+[+] Fetching: http://dextf.com/js/ui/plugins/bootstrap-switch.js
+
+[+] Fetching: http://dextf.com/js/ui/plugins/bootstrap-tagsinput.js
+
+[+] Fetching: http://dextf.com/js/ui/plugins/jasny-bootstrap.min.js
+
+[+] Fetching: http://dextf.com/js/ui/plugins/moment.min.js
+
+[+] Fetching: http://dextf.com/js/ui/plugins/nouislider.min.js
+
+[+] Fetching: http://dextf.com/js/ui/plugins/particles.min.js
+
+[+] Fetching: http://dextf.com/scripts/angular-animate/angular-animate.min.js
+
+[+] Fetching: http://dextf.com/scripts/angular-recaptcha/release/angular-recaptcha.min.js
+
+[+] Fetching: http://dextf.com/scripts/angular-route/angular-route.min.js
+
+[+] Fetching: http://dextf.com/scripts/angular/angular.min.js
+
+[+] Fetching: http://dextf.com/scripts/bootstrap/dist/js/bootstrap.min.js
+
+[+] Fetching: http://dextf.com/scripts/jquery/dist/jquery.min.js
+
+[+] Fetching: http://dextf.com/scripts/popper.js/dist/umd/popper.min.js
+
+[+] Fetching: https://api.dextf.com/dcp/gas/internal/process/promises.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://api.dextf.com/dcp/gas/internal/process/task_queues.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://api.dextf.com/var/runtime/index.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://bridge.dextf.com/js/app-legacy.5919a48a.js
+  [URL] https://www.zksync.io/prividium
+  [URL] https://www.axelar.network/
+  [URL] https://chain.link/data-feeds
+  [URL] https://coingecko.com/api
+  [URL] https://mementoblockchain.com
+  [URL] https://bridge.dextf.com/
+  [URL] https://cdn.mementoblockchain.com/fomantic-ui-dextf_dark
+  [URL] https://api.dextf.com/mainnet/ethereum
+  [URL] https://etherscan.io
+  [URL] https://api.dextf.com/mainnet/avalanche
+  [URL] https://subnets.avax.network/c-chain
+  [URL] https://api.dextf.com/mainnet/polygon
+  [URL] https://polygonscan.com
+  [URL] https://api.dextf.com/mainnet/base
+  [URL] https://basescan.org
+  [URL] https://cdn.dextf.com/images/bridge-avatar.png
+  [URL] https://cdn.dextf.com/docs/DEXTF_TC_v0.1.pdf
+  [URL] https://cdn.dextf.com/docs/DEXTF_Dapp_Beta_Disclaimer_v0.2.pdf
+  [URL] https://widget.usersnap.com/global/load/?onload=onUsersnapCXLoad
+  [URL] https://asia-east2-dextf-poc.cloudfunctions.net
+  [URL] https://api.dextf.com
+  [EMAIL] support@mementoblockchain.com
+
+[+] Fetching: https://bridge.dextf.com/js/app.972ed812.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-00621617-legacy.8d7bc4c4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-00621617.8d7bc4c4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-00833fa6-legacy.47745552.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-00833fa6.47745552.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-00c8e463-legacy.fbb1388a.js
+  [URL] https://polygon-rpc.com/
+  [URL] https://rpc-amoy.polygon.technology/
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-00c8e463.fbb1388a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-01e27944-legacy.f28ea23f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-01e27944.f28ea23f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-01edda26-legacy.35071348.js
+  [URL] https://www.ethercluster.com/mordor
+  [URL] https://www.ethercluster.com/etc
+  [URL] https://www.ethercluster.com/kotti
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-01edda26.35071348.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-02a04173-legacy.752a2465.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-02a04173.752a2465.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-048929b0-legacy.8423a316.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-048929b0.8423a316.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-04dd6761-legacy.3cac3148.js
+  [EMAIL] emn178@gmail.com
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-04dd6761.3cac3148.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-05b2d2c0-legacy.93984ca3.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-05b2d2c0.93984ca3.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-06d76ca1-legacy.592b2c4d.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-06d76ca1.592b2c4d.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0873d7c5-legacy.3e78f445.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0873d7c5.3e78f445.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0925edb1-legacy.fc6f9b71.js
+  [URL] https://keys.coinbase.com/connect
+  [URL] https://www.walletlink.org
+  [URL] https://go.cb-w.com/walletlink
+  [URL] https://docs.cloud.coinbase.com/wallet-sdk/docs/errors
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0925edb1.fc6f9b71.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0a197330-legacy.f3592cf4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0a197330.f3592cf4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0a4204b9-legacy.0d95ea10.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0a4204b9.0d95ea10.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0a95b6e8-legacy.31c034ca.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0a95b6e8.31c034ca.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0affc488-legacy.c8836bdb.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0affc488.c8836bdb.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0d04fa09-legacy.70f46aa3.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0d04fa09.70f46aa3.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0eb10225-legacy.5dd3cbb4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0eb10225.5dd3cbb4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0ec921e8-legacy.7a3761b6.js
+  [URL] https://mainnet-api.algonode.cloud
+  [URL] https://mainnet-idx.algonode.cloud
+  [URL] https://testnet-api.algonode.cloud
+  [URL] https://testnet-idx.algonode.cloud
+  [URL] https://wallet.myalgo.com/bridge
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0ec921e8.7a3761b6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0ffa4cff-legacy.00bdf520.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-0ffa4cff.00bdf520.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-107a28ff-legacy.1f668f65.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-107a28ff.1f668f65.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-109ea75c-legacy.d3635492.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-109ea75c.d3635492.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-116ae379-legacy.0decf4d4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-116ae379.0decf4d4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-143ee21d-legacy.7ddd86cb.js
+  [URL] https://cloudflare-eth.com/
+  [URL] https://api.etherscan.io
+  [URL] https://api-ropsten.etherscan.io
+  [URL] https://api-rinkeby.etherscan.io
+  [URL] https://api-kovan.etherscan.io
+  [URL] https://api-goerli.etherscan.io
+  [URL] https://ethereum.api.nodesmith.io/v1/mainnet/jsonrpc
+  [URL] https://ethereum.api.nodesmith.io/v1/ropsten/jsonrpc
+  [URL] https://ethereum.api.nodesmith.io/v1/rinkeby/jsonrpc
+  [URL] https://ethereum.api.nodesmith.io/v1/goerli/jsonrpc
+  [URL] https://ethereum.api.nodesmith.io/v1/kovan/jsonrpc
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-143ee21d.7ddd86cb.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-17ef4218-legacy.36541f48.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-17ef4218.36541f48.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-185b570a-legacy.ac23ac5a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-185b570a.ac23ac5a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-1952e4fd-legacy.cbb3f182.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-1952e4fd.cbb3f182.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-19b09bdb-legacy.840e4da7.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-19b09bdb.840e4da7.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-1e1109bb-legacy.82543327.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-1e1109bb.82543327.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-1f77a5ab-legacy.d69b6aac.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-1f77a5ab.d69b6aac.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-22fbf257-legacy.d168c0a3.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-22fbf257.d168c0a3.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2372f17e-legacy.db984ad4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2372f17e.db984ad4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-238e2382-legacy.1b14941e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-238e2382.1b14941e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-256cb75d-legacy.74ea3b61.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-256cb75d.74ea3b61.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-25b5a48b-legacy.a35c85ac.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-25b5a48b.a35c85ac.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-29765682-legacy.6e61709f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-29765682.6e61709f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-29e09df2-legacy.354fcbad.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-29e09df2.354fcbad.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2a9b667c-legacy.dab81b8f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2a9b667c.dab81b8f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2ccf72cc-legacy.e0496203.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2ccf72cc.e0496203.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2cf44c61-legacy.3ce2db38.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2cf44c61.3ce2db38.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2e755b38-legacy.fac58c1e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2e755b38.fac58c1e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2eafbca2-legacy.3404f750.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2eafbca2.3404f750.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2ef5bd86-legacy.c286632c.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2ef5bd86.c286632c.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2f6dde1d-legacy.f09aead8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-2f6dde1d.f09aead8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-32a67f16-legacy.6fe52169.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-32a67f16.6fe52169.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-3515b95d-legacy.d79106b8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-3515b95d.d79106b8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-355fa19b-legacy.a77a8f27.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-355fa19b.a77a8f27.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-3726e520-legacy.4807c6f6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-3726e520.4807c6f6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-376d3777-legacy.eeb6e55d.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-376d3777.eeb6e55d.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-377fed06-legacy.3524b8ca.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-377fed06.3524b8ca.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-38e09fd1-legacy.8f3dbcec.js
+  [URL] https://verify.walletconnect.com
+  [URL] https://verify.walletconnect.org
+  [URL] https://echo.walletconnect.com
+  [URL] wss://relay.walletconnect.org
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-38e09fd1.8f3dbcec.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-38ee0530-legacy.417dbee4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-38ee0530.417dbee4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-3a93f76d-legacy.18e9bd5e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-3a93f76d.18e9bd5e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-3aa82b29-legacy.b11a0ea5.js
+  [ENDPOINT] /v2/accounts
+  [ENDPOINT] /v2/transactions
+  [ENDPOINT] /v2/assets
+  [ENDPOINT] /v2/applications
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-3aa82b29.b11a0ea5.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-3c28972c-legacy.53cf2614.js
+  [URL] https://rpc.walletconnect.com/v1
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-3c28972c.53cf2614.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-3d0a60f3-legacy.2f399c60.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-3d0a60f3.2f399c60.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-418586f3-legacy.9e4844a8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-418586f3.9e4844a8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-43e0eaf1-legacy.a1614a05.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-43e0eaf1.a1614a05.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-4636e3a4-legacy.3c34f73c.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-4636e3a4.3c34f73c.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-483a86cd-legacy.eeb29c96.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-483a86cd.eeb29c96.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-4a7c74cc-legacy.f2ea4f5a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-4a7c74cc.f2ea4f5a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-4afe998f-legacy.7b53806e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-4afe998f.7b53806e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-4e32ccaf-legacy.580f17ae.js
+  [EMAIL] Rfe@Rm.Rs
+  [EMAIL] 0Bje@Bm.BwayC
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-4e32ccaf.580f17ae.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-4f31487f-legacy.3b763ba6.js
+  [ENDPOINT] /v1/convert/quotes
+  [ENDPOINT] /v1/convert/tokens
+  [ENDPOINT] /v1/fungible/price
+  [ENDPOINT] /v1/convert/allowance
+  [ENDPOINT] /v1/convert/gas-price
+  [ENDPOINT] /v1/convert/build-transaction
+  [ENDPOINT] /v1/convert/build-approve
+  [ENDPOINT] /v1/profile/account
+  [ENDPOINT] /v1/generators/onrampurl
+  [ENDPOINT] /v1/onramp/options
+  [ENDPOINT] /v1/onramp/quote
+  [URL] https://secure.walletconnect.org
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-4f31487f.3b763ba6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-4f6abe54-legacy.e6e76ace.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-4f6abe54.e6e76ace.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-509b93de-legacy.14a64541.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-509b93de.14a64541.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-5834cb7c-legacy.bc6f9123.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-5834cb7c.bc6f9123.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-587f9000-legacy.573e2427.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-587f9000.573e2427.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-58862a28-legacy.f602129a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-58862a28.f602129a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-58db1bcd-legacy.f17fe3f7.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-58db1bcd.f17fe3f7.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-5d08a189-legacy.f20881d1.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-5d08a189.f20881d1.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-5daf1a48-legacy.cb464de4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-5daf1a48.cb464de4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-5e18a657-legacy.5e7fe1e5.js
+  [URL] https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-5e18a657.5e7fe1e5.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-600271ac-legacy.24edbdfa.js
+  [ENDPOINT] /v2/teal/compile
+  [ENDPOINT] /v2/teal/dryrun
+  [ENDPOINT] /v2/transactions/pending
+  [ENDPOINT] /v2/status
+  [ENDPOINT] /v2/transactions/params
+  [ENDPOINT] /v2/ledger/supply
+  [URL] http://r2.algorand.network
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-600271ac.24edbdfa.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-617ea54c-legacy.fb299db0.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-617ea54c.fb299db0.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6293d0f7-legacy.9245831e.js
+  [URL] https://walletconnect.com/faq
+  [URL] https://rpc.walletconnect.org
+  [URL] https://pulse.walletconnect.org
+  [URL] https://api.web3modal.org
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6293d0f7.9245831e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-638c0564-legacy.8a26496b.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-638c0564.8a26496b.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6637bee3-legacy.df47221d.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6637bee3.df47221d.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-679a3dcf-legacy.b2e17e56.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-679a3dcf.b2e17e56.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-679e14b2-legacy.55b800a7.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-679e14b2.55b800a7.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-68158e36-legacy.2ea5df8a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-68158e36.2ea5df8a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-68aa1dcf-legacy.b7a01e70.js
+  [URL] https://gateway.ipfs.io/ipfs/
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-68aa1dcf.b7a01e70.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6a3468fb-legacy.2aad720c.js
+  [URL] https://gasstation.polygon.technology/v2
+  [URL] https://gasstation-testnet.polygon.technology/v2
+  [URL] https://eth.blockscout.com/api/eth-rpc
+  [URL] https://eth-sepolia.blockscout.com/api/eth-rpc
+  [URL] https://eth-holesky.blockscout.com/api/eth-rpc
+  [URL] https://etc.blockscout.com/api/eth-rpc
+  [URL] https://arbitrum.blockscout.com/api/eth-rpc
+  [URL] https://base.blockscout.com/api/eth-rpc
+  [URL] https://base-sepolia.blockscout.com/api/eth-rpc
+  [URL] https://polygon.blockscout.com/api/eth-rpc
+  [URL] https://optimism.blockscout.com/api/eth-rpc
+  [URL] https://optimism-sepolia.blockscout.com/api/eth-rpc
+  [URL] https://gnosis.blockscout.com/api/eth-rpc
+  [URL] https://api-sepolia.etherscan.io
+  [URL] https://api-holesky.etherscan.io
+  [URL] https://api.arbiscan.io
+  [URL] https://api-goerli.arbiscan.io
+  [URL] https://api.basescan.org
+  [URL] https://api-sepolia.basescan.org
+  [URL] https://api.bscscan.com
+  [URL] https://api-testnet.bscscan.com
+  [URL] https://api.polygonscan.com
+  [URL] https://api-amoy.polygonscan.com
+  [URL] https://api-testnet.polygonscan.com
+  [URL] https://api-optimistic.etherscan.io
+  [URL] https://api-goerli-optimistic.etherscan.io
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6a3468fb.2aad720c.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6a5507ac-legacy.dbf90d59.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6a5507ac.dbf90d59.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6c022d9d-legacy.1a075911.js
+  [URL] wss://relay.walletconnect.com
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6c022d9d.1a075911.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6c30fa5f-legacy.55210dd6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6c30fa5f.55210dd6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6c3cb61a-legacy.193f8602.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6c3cb61a.193f8602.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6c8a620f-legacy.ee5eb36f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6c8a620f.ee5eb36f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6cedf22a-legacy.f0b9af6a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6cedf22a.f0b9af6a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6e01698b-legacy.2043ab5a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6e01698b.2043ab5a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6f4be6cf-legacy.2fda5e6c.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6f4be6cf.2fda5e6c.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6f8f9637-legacy.46ab1e36.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-6f8f9637.46ab1e36.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-70cea83a-legacy.1341b271.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-70cea83a.1341b271.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-7497a0c5-legacy.19d58573.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-7497a0c5.19d58573.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-781b5652-legacy.348867ff.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-781b5652.348867ff.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-7a2cfe06-legacy.976a2a44.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-7a2cfe06.976a2a44.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-7e296a6d-legacy.f1c003a8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-7e296a6d.f1c003a8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-7e9f2063-legacy.cca30515.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-7e9f2063.cca30515.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-7faaa9d3-legacy.14063938.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-7faaa9d3.14063938.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8013c527-legacy.4fee3ef3.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8013c527.4fee3ef3.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-841c6932-legacy.6542d206.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-841c6932.6542d206.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-84b63147-legacy.f5bcf585.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-84b63147.f5bcf585.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-85799378-legacy.e9cc8cd8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-85799378.e9cc8cd8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-85cff183-legacy.71db92ac.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-85cff183.71db92ac.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-87849e65-legacy.fc61bd2a.js
+  [URL] https://rpc.walletconnect.com/v1/
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-87849e65.fc61bd2a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8797aca2-legacy.ba68fab5.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8797aca2.ba68fab5.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8820b885-legacy.c8426c5a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8820b885.c8426c5a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8854da51-legacy.1acfbc14.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8854da51.1acfbc14.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8a727060-legacy.5c6f65f2.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8a727060.5c6f65f2.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8c6e2842-legacy.a07b50e5.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8c6e2842.a07b50e5.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8cbd2506-legacy.4f3db3a1.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-8cbd2506.4f3db3a1.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-914042a8-legacy.32ae5ab8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-914042a8.32ae5ab8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9157b3b7-legacy.41766bab.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9157b3b7.41766bab.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-944841ff-legacy.7abbf06a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-944841ff.7abbf06a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-945ce2fe-legacy.fbc75a46.js
+  [EMAIL] feross@feross.org
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-945ce2fe.fbc75a46.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-94971079-legacy.0ed6daa1.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-94971079.0ed6daa1.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-949f6fcd-legacy.84bad24f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-949f6fcd.84bad24f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9524e7fc-legacy.1258a309.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9524e7fc.1258a309.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-97be2d71-legacy.738cf3f7.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-97be2d71.738cf3f7.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-98108d50-legacy.a1dcb502.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-98108d50.a1dcb502.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9a296a66-legacy.1ec62227.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9a296a66.1ec62227.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9a99e92f-legacy.d4496ee8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9a99e92f.d4496ee8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9ce29cd4-legacy.7da30bb7.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9ce29cd4.7da30bb7.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9d9484ad-legacy.2ee26c19.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9d9484ad.2ee26c19.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9f88573d-legacy.9c256591.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9f88573d.9c256591.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9fe91d39-legacy.ca59de98.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-9fe91d39.ca59de98.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-a17d5b41-legacy.20dc12d9.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-a17d5b41.20dc12d9.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-a2d41c74-legacy.ee20a260.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-a2d41c74.ee20a260.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-a537a5a1-legacy.e080b013.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-a537a5a1.e080b013.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-a66b3b39-legacy.751cc68a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-a66b3b39.751cc68a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-a75b5288-legacy.bb09bbd6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-a75b5288.bb09bbd6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-aa5af66b-legacy.c9148612.js
+  [URL] https://walletconnect.com/explorer
+  [URL] https://walletconnect.com/explorer?type=wallet
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-aa5af66b.c9148612.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ab0dcf47-legacy.2f0a3247.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ab0dcf47.2f0a3247.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ad6a2f20-legacy.095745fe.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ad6a2f20.095745fe.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-afbccdd9-legacy.7a0fc87f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-afbccdd9.7a0fc87f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-b1a13103-legacy.fd9da9c1.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-b1a13103.fd9da9c1.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-b1a9f3ae-legacy.a872829d.js
+  [URL] https://www.googletagmanager.com/gtag/js
+  [URL] https://www.googletagmanager.com
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-b1a9f3ae.a872829d.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-b49fab05-legacy.b01557ef.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-b49fab05.b01557ef.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-b5f69d9d-legacy.5ba1951f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-b5f69d9d.5ba1951f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-b7b848aa-legacy.b494863a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-b7b848aa.b494863a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-b9fa02b6-legacy.65496463.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-b9fa02b6.65496463.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-bc050c32-legacy.43fb209a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-bc050c32.43fb209a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-bf6a2a79-legacy.4e535af5.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-bf6a2a79.4e535af5.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-bfbc1407-legacy.ca0ae319.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-bfbc1407.ca0ae319.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-c0d76f48-legacy.8dfba7ed.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-c0d76f48.8dfba7ed.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-c1af66a3-legacy.c857a0f2.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-c1af66a3.c857a0f2.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-c54ef6e5-legacy.8c95cfc1.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-c54ef6e5.8c95cfc1.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-c922a5c3-legacy.7c7dc1f9.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-c922a5c3.7c7dc1f9.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ca445505-legacy.24eced95.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ca445505.24eced95.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ccdbd186-legacy.b12da380.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ccdbd186.b12da380.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-cffb1329-legacy.e5edf0f8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-cffb1329.e5edf0f8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-d3149d7d-legacy.29cc7ce5.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-d3149d7d.29cc7ce5.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-d6ea18a9-legacy.f97bbba9.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-d6ea18a9.f97bbba9.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-d7709b9d-legacy.f85f4b9d.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-d7709b9d.f85f4b9d.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-d798606b-legacy.9cd74f77.js
+  [EMAIL] me@ricmoo.com
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-d798606b.9cd74f77.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-d7b9610e-legacy.bb65e419.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-d7b9610e.bb65e419.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-d9e87d38-legacy.b792287f.js
+  [URL] https://ethereum.org/en/developers/docs/networks/
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-d9e87d38.b792287f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-dab6df5e-legacy.dce25432.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-dab6df5e.dce25432.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-db3fee2b-legacy.01561d09.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-db3fee2b.01561d09.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-dbd9b12d-legacy.00f439a4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-dbd9b12d.00f439a4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-dbeaed77-legacy.f6493d79.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-dbeaed77.f6493d79.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-df694044-legacy.c4f73b56.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-df694044.c4f73b56.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-e06e0c9c-legacy.768d0a2c.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-e06e0c9c.768d0a2c.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-e8807d20-legacy.98a451be.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-e8807d20.98a451be.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-e951e4b3-legacy.35b91eff.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-e951e4b3.35b91eff.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ea83994f-legacy.96c735e4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ea83994f.96c735e4.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-eaad6d0b-legacy.4489e911.js
+  [URL] https://sepolia.era.zksync.dev
+  [URL] https://mainnet.era.zksync.io
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-eaad6d0b.4489e911.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-eaf012a7-legacy.b8d534e5.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-eaf012a7.b8d534e5.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-eb2fbf4c-legacy.f7db601c.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-eb2fbf4c.f7db601c.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ebb92a1c-legacy.ce6190a6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ebb92a1c.ce6190a6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ee3cd513-legacy.b706ff72.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ee3cd513.b706ff72.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f124480d-legacy.f6f4b5c8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f124480d.f6f4b5c8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f1ab60ce-legacy.cb9fafa8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f1ab60ce.cb9fafa8.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f2f1cc17-legacy.cb9ef8a9.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f2f1cc17.cb9ef8a9.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f3c42842-legacy.1cf75bb9.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f3c42842.1cf75bb9.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f594fe3c-legacy.e4009db6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f594fe3c.e4009db6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f7188c2f-legacy.0ac9f54e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f7188c2f.0ac9f54e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f883b440-legacy.cdf02d8a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f883b440.cdf02d8a.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f8ba95ac-legacy.198ec360.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f8ba95ac.198ec360.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f945abb9-legacy.7bd6f93e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-f945abb9.7bd6f93e.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fa70753b-legacy.c38686a7.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fa70753b.c38686a7.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fb51f6fb-legacy.cbe3eae2.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fb51f6fb.cbe3eae2.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fbca1da5-legacy.7eb3eb40.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fbca1da5.7eb3eb40.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fc7f6869-legacy.7f4b9ebf.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fc7f6869.7f4b9ebf.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fd942b7f-legacy.cfe31665.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fd942b7f.cfe31665.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fed7d023-legacy.ca7f0689.js
+  [ENDPOINT] /v1/status
+  [ENDPOINT] /v1/transactions/pending
+  [ENDPOINT] /v1/ledger/supply
+  [ENDPOINT] /v1/transactions/fee
+  [ENDPOINT] /v1/transactions
+  [ENDPOINT] /v1/transactions/params
+  [ENDPOINT] /v1/wallets
+  [ENDPOINT] /v1/wallet
+  [ENDPOINT] /v1/wallet/init
+  [ENDPOINT] /v1/wallet/release
+  [ENDPOINT] /v1/wallet/renew
+  [ENDPOINT] /v1/wallet/rename
+  [ENDPOINT] /v1/wallet/info
+  [ENDPOINT] /v1/master-key/export
+  [ENDPOINT] /v1/key/import
+  [ENDPOINT] /v1/key/export
+  [ENDPOINT] /v1/key
+  [ENDPOINT] /v1/key/list
+  [ENDPOINT] /v1/transaction/sign
+  [ENDPOINT] /v1/multisig/list
+  [ENDPOINT] /v1/multisig/import
+  [ENDPOINT] /v1/multisig/export
+  [ENDPOINT] /v1/multisig/sign
+  [ENDPOINT] /v1/multisig
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fed7d023.ca7f0689.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ff920b86-legacy.0fe674f6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ff920b86.0fe674f6.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ffbeac44-legacy.845236cc.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ffbeac44.845236cc.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ffe9f739-legacy.01203e4f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-ffe9f739.01203e4f.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fff59bb2-legacy.4ee24551.js
+
+[+] Fetching: https://bridge.dextf.com/js/chunk-vendors-fff59bb2.4ee24551.js
+
+[+] Fetching: https://dextf.com/js/app.ec06143b.js
+
+[+] Fetching: https://dextf.com/js/chunk-c06a6c3a.481f9aa0.js
+
+[+] Fetching: https://dextf.com/js/chunk-vendors.34355197.js
+
+[+] Fetching: https://dextf.com/js/chunk-vendors.828d9329.js
+
+[+] Fetching: https://dextf.com/js/main_static_site.js
+
+[+] Fetching: https://staking.dextf.com/js/app-legacy.ea3c9e94.js
+  [URL] https://staking.dextf.com/
+  [URL] https://api.dextf.com/mainnet/era
+  [URL] https://era.zksync.network
+  [URL] https://explorer.zksync.io
+  [URL] https://cdn.dextf.com/images/staking-avatar.png
+
+[+] Fetching: https://staking.dextf.com/js/app.8da31030.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-00621617-legacy.8d7bc4c4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-00621617.8d7bc4c4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-00833fa6-legacy.47745552.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-00833fa6.47745552.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-00c8e463-legacy.fbb1388a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-00c8e463.fbb1388a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-01e27944-legacy.f28ea23f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-01e27944.f28ea23f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-01edda26-legacy.35071348.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-01edda26.35071348.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-02a04173-legacy.752a2465.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-02a04173.752a2465.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-048929b0-legacy.8423a316.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-048929b0.8423a316.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-04dd6761-legacy.3cac3148.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-04dd6761.3cac3148.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-05b2d2c0-legacy.93984ca3.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-05b2d2c0.93984ca3.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-06d76ca1-legacy.592b2c4d.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-06d76ca1.592b2c4d.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0873d7c5-legacy.3e78f445.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0873d7c5.3e78f445.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0925edb1-legacy.fc6f9b71.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0925edb1.fc6f9b71.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0a197330-legacy.f3592cf4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0a197330.f3592cf4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0a4204b9-legacy.0d95ea10.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0a4204b9.0d95ea10.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0a95b6e8-legacy.31c034ca.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0a95b6e8.31c034ca.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0affc488-legacy.c8836bdb.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0affc488.c8836bdb.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0d04fa09-legacy.70f46aa3.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0d04fa09.70f46aa3.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0eb10225-legacy.5dd3cbb4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0eb10225.5dd3cbb4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0ec921e8-legacy.7a3761b6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0ec921e8.7a3761b6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0ffa4cff-legacy.00bdf520.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-0ffa4cff.00bdf520.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-107a28ff-legacy.1f668f65.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-107a28ff.1f668f65.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-109ea75c-legacy.d3635492.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-109ea75c.d3635492.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-116ae379-legacy.0decf4d4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-116ae379.0decf4d4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-143ee21d-legacy.7ddd86cb.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-143ee21d.7ddd86cb.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-17ef4218-legacy.36541f48.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-17ef4218.36541f48.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-185b570a-legacy.ac23ac5a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-185b570a.ac23ac5a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-1952e4fd-legacy.cbb3f182.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-1952e4fd.cbb3f182.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-19b09bdb-legacy.840e4da7.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-19b09bdb.840e4da7.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-1e1109bb-legacy.82543327.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-1e1109bb.82543327.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-1f77a5ab-legacy.d69b6aac.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-1f77a5ab.d69b6aac.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-22fbf257-legacy.d168c0a3.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-22fbf257.d168c0a3.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2372f17e-legacy.db984ad4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2372f17e.db984ad4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-238e2382-legacy.1b14941e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-238e2382.1b14941e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-256cb75d-legacy.74ea3b61.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-256cb75d.74ea3b61.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-25b5a48b-legacy.a35c85ac.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-25b5a48b.a35c85ac.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-29765682-legacy.6e61709f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-29765682.6e61709f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-29e09df2-legacy.354fcbad.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-29e09df2.354fcbad.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2a9b667c-legacy.dab81b8f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2a9b667c.dab81b8f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2ccf72cc-legacy.e0496203.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2ccf72cc.e0496203.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2cf44c61-legacy.3ce2db38.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2cf44c61.3ce2db38.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2e755b38-legacy.fac58c1e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2e755b38.fac58c1e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2eafbca2-legacy.3404f750.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2eafbca2.3404f750.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2ef5bd86-legacy.c286632c.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2ef5bd86.c286632c.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2f6dde1d-legacy.f09aead8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-2f6dde1d.f09aead8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-32a67f16-legacy.6fe52169.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-32a67f16.6fe52169.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-3515b95d-legacy.d79106b8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-3515b95d.d79106b8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-355fa19b-legacy.a77a8f27.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-355fa19b.a77a8f27.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-3726e520-legacy.4807c6f6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-3726e520.4807c6f6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-376d3777-legacy.961d5949.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-376d3777.961d5949.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-377fed06-legacy.3524b8ca.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-377fed06.3524b8ca.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-38e09fd1-legacy.064da796.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-38e09fd1.064da796.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-38ee0530-legacy.417dbee4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-38ee0530.417dbee4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-3a93f76d-legacy.18e9bd5e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-3a93f76d.18e9bd5e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-3aa82b29-legacy.b11a0ea5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-3aa82b29.b11a0ea5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-3c28972c-legacy.53cf2614.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-3c28972c.53cf2614.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-3d0a60f3-legacy.2f399c60.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-3d0a60f3.2f399c60.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-418586f3-legacy.9e4844a8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-418586f3.9e4844a8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-43e0eaf1-legacy.a1614a05.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-43e0eaf1.a1614a05.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-4636e3a4-legacy.3c34f73c.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-4636e3a4.3c34f73c.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-483a86cd-legacy.eeb29c96.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-483a86cd.eeb29c96.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-4a7c74cc-legacy.f2ea4f5a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-4a7c74cc.f2ea4f5a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-4afe998f-legacy.7b53806e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-4afe998f.7b53806e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-4e32ccaf-legacy.580f17ae.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-4e32ccaf.580f17ae.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-4f31487f-legacy.3b763ba6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-4f31487f.3b763ba6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-4f6abe54-legacy.e6e76ace.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-4f6abe54.e6e76ace.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-509b93de-legacy.14a64541.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-509b93de.14a64541.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-5834cb7c-legacy.bc6f9123.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-5834cb7c.bc6f9123.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-587f9000-legacy.573e2427.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-587f9000.573e2427.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-58862a28-legacy.f602129a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-58862a28.f602129a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-58db1bcd-legacy.f17fe3f7.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-58db1bcd.f17fe3f7.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-5d08a189-legacy.f20881d1.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-5d08a189.f20881d1.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-5daf1a48-legacy.cb464de4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-5daf1a48.cb464de4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-5e18a657-legacy.5e7fe1e5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-5e18a657.5e7fe1e5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-600271ac-legacy.24edbdfa.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-600271ac.24edbdfa.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-617ea54c-legacy.fb299db0.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-617ea54c.fb299db0.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6293d0f7-legacy.9245831e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6293d0f7.9245831e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-638c0564-legacy.8a26496b.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-638c0564.8a26496b.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6637bee3-legacy.df47221d.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6637bee3.df47221d.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-679a3dcf-legacy.b2e17e56.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-679a3dcf.b2e17e56.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-679e14b2-legacy.55b800a7.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-679e14b2.55b800a7.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-68158e36-legacy.2ea5df8a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-68158e36.2ea5df8a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-68aa1dcf-legacy.b7a01e70.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-68aa1dcf.b7a01e70.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6a3468fb-legacy.2aad720c.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6a3468fb.2aad720c.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6a5507ac-legacy.dbf90d59.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6a5507ac.dbf90d59.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6c022d9d-legacy.1a075911.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6c022d9d.1a075911.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6c30fa5f-legacy.55210dd6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6c30fa5f.55210dd6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6c3cb61a-legacy.193f8602.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6c3cb61a.193f8602.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6c8a620f-legacy.ee5eb36f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6c8a620f.ee5eb36f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6cedf22a-legacy.91aaf637.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6cedf22a.91aaf637.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6e01698b-legacy.2043ab5a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6e01698b.2043ab5a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6f4be6cf-legacy.2fda5e6c.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6f4be6cf.2fda5e6c.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6f8f9637-legacy.46ab1e36.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-6f8f9637.46ab1e36.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-70cea83a-legacy.1341b271.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-70cea83a.1341b271.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-7497a0c5-legacy.19d58573.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-7497a0c5.19d58573.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-781b5652-legacy.348867ff.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-781b5652.348867ff.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-7a2cfe06-legacy.976a2a44.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-7a2cfe06.976a2a44.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-7e296a6d-legacy.f1c003a8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-7e296a6d.f1c003a8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-7e9f2063-legacy.cca30515.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-7e9f2063.cca30515.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-7faaa9d3-legacy.14063938.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-7faaa9d3.14063938.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8013c527-legacy.4fee3ef3.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8013c527.4fee3ef3.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-841c6932-legacy.6542d206.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-841c6932.6542d206.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-84b63147-legacy.f5bcf585.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-84b63147.f5bcf585.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-85799378-legacy.e9cc8cd8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-85799378.e9cc8cd8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-85cff183-legacy.71db92ac.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-85cff183.71db92ac.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-87849e65-legacy.fc61bd2a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-87849e65.fc61bd2a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8797aca2-legacy.ba68fab5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8797aca2.ba68fab5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8820b885-legacy.c8426c5a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8820b885.c8426c5a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8854da51-legacy.1acfbc14.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8854da51.1acfbc14.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8a727060-legacy.5c6f65f2.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8a727060.5c6f65f2.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8c6e2842-legacy.a07b50e5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8c6e2842.a07b50e5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8cbd2506-legacy.4f3db3a1.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-8cbd2506.4f3db3a1.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-914042a8-legacy.32ae5ab8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-914042a8.32ae5ab8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9157b3b7-legacy.41766bab.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9157b3b7.41766bab.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-944841ff-legacy.7abbf06a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-944841ff.7abbf06a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-945ce2fe-legacy.fbc75a46.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-945ce2fe.fbc75a46.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-94971079-legacy.0ed6daa1.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-94971079.0ed6daa1.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-949f6fcd-legacy.84bad24f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-949f6fcd.84bad24f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9524e7fc-legacy.1258a309.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9524e7fc.1258a309.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-97be2d71-legacy.738cf3f7.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-97be2d71.738cf3f7.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-98108d50-legacy.a1dcb502.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-98108d50.a1dcb502.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9a296a66-legacy.1ec62227.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9a296a66.1ec62227.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9a99e92f-legacy.d4496ee8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9a99e92f.d4496ee8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9ce29cd4-legacy.7da30bb7.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9ce29cd4.7da30bb7.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9d9484ad-legacy.2ee26c19.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9d9484ad.2ee26c19.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9f88573d-legacy.9c256591.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9f88573d.9c256591.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9fe91d39-legacy.ca59de98.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-9fe91d39.ca59de98.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-a17d5b41-legacy.20dc12d9.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-a17d5b41.20dc12d9.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-a2d41c74-legacy.ee20a260.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-a2d41c74.ee20a260.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-a537a5a1-legacy.e080b013.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-a537a5a1.e080b013.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-a66b3b39-legacy.751cc68a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-a66b3b39.751cc68a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-a75b5288-legacy.bb09bbd6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-a75b5288.bb09bbd6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-aa5af66b-legacy.b16a82c6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-aa5af66b.b16a82c6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ab0dcf47-legacy.2f0a3247.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ab0dcf47.2f0a3247.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ad6a2f20-legacy.095745fe.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ad6a2f20.095745fe.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-afbccdd9-legacy.7a0fc87f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-afbccdd9.7a0fc87f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-b1a13103-legacy.fd9da9c1.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-b1a13103.fd9da9c1.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-b1a9f3ae-legacy.a872829d.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-b1a9f3ae.a872829d.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-b49fab05-legacy.b01557ef.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-b49fab05.b01557ef.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-b5f69d9d-legacy.5ba1951f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-b5f69d9d.5ba1951f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-b7b848aa-legacy.b494863a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-b7b848aa.b494863a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-b9fa02b6-legacy.65496463.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-b9fa02b6.65496463.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-bc050c32-legacy.43fb209a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-bc050c32.43fb209a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-bf6a2a79-legacy.4e535af5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-bf6a2a79.4e535af5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-bfbc1407-legacy.ca0ae319.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-bfbc1407.ca0ae319.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-c0d76f48-legacy.8dfba7ed.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-c0d76f48.8dfba7ed.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-c1af66a3-legacy.c857a0f2.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-c1af66a3.c857a0f2.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-c54ef6e5-legacy.8c95cfc1.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-c54ef6e5.8c95cfc1.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-c922a5c3-legacy.7c7dc1f9.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-c922a5c3.7c7dc1f9.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ca445505-legacy.24eced95.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ca445505.24eced95.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ccdbd186-legacy.b12da380.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ccdbd186.b12da380.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-cffb1329-legacy.e5edf0f8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-cffb1329.e5edf0f8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-d3149d7d-legacy.29cc7ce5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-d3149d7d.29cc7ce5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-d6ea18a9-legacy.f97bbba9.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-d6ea18a9.f97bbba9.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-d7709b9d-legacy.f85f4b9d.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-d7709b9d.f85f4b9d.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-d798606b-legacy.9cd74f77.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-d798606b.9cd74f77.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-d7b9610e-legacy.bb65e419.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-d7b9610e.bb65e419.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-d9e87d38-legacy.b792287f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-d9e87d38.b792287f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-dab6df5e-legacy.dce25432.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-dab6df5e.dce25432.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-db3fee2b-legacy.01561d09.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-db3fee2b.01561d09.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-dbd9b12d-legacy.00f439a4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-dbd9b12d.00f439a4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-dbeaed77-legacy.f6493d79.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-dbeaed77.f6493d79.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-df694044-legacy.c4f73b56.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-df694044.c4f73b56.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-e06e0c9c-legacy.768d0a2c.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-e06e0c9c.768d0a2c.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-e8807d20-legacy.98a451be.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-e8807d20.98a451be.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-e951e4b3-legacy.35b91eff.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-e951e4b3.35b91eff.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ea83994f-legacy.96c735e4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ea83994f.96c735e4.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-eaad6d0b-legacy.4489e911.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-eaad6d0b.4489e911.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-eaf012a7-legacy.b8d534e5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-eaf012a7.b8d534e5.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-eb2fbf4c-legacy.f7db601c.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-eb2fbf4c.f7db601c.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ebb92a1c-legacy.ce6190a6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ebb92a1c.ce6190a6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ee3cd513-legacy.b706ff72.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ee3cd513.b706ff72.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f124480d-legacy.f6f4b5c8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f124480d.f6f4b5c8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f1ab60ce-legacy.cb9fafa8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f1ab60ce.cb9fafa8.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f2f1cc17-legacy.cb9ef8a9.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f2f1cc17.cb9ef8a9.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f3c42842-legacy.1cf75bb9.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f3c42842.1cf75bb9.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f594fe3c-legacy.e4009db6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f594fe3c.e4009db6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f7188c2f-legacy.0ac9f54e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f7188c2f.0ac9f54e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f883b440-legacy.cdf02d8a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f883b440.cdf02d8a.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f8ba95ac-legacy.198ec360.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f8ba95ac.198ec360.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f945abb9-legacy.7bd6f93e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-f945abb9.7bd6f93e.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fa70753b-legacy.c38686a7.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fa70753b.c38686a7.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fb51f6fb-legacy.cbe3eae2.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fb51f6fb.cbe3eae2.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fbca1da5-legacy.7eb3eb40.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fbca1da5.7eb3eb40.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fc7f6869-legacy.7f4b9ebf.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fc7f6869.7f4b9ebf.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fd942b7f-legacy.cfe31665.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fd942b7f.cfe31665.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fed7d023-legacy.ca7f0689.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fed7d023.ca7f0689.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ff920b86-legacy.0fe674f6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ff920b86.0fe674f6.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ffbeac44-legacy.845236cc.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ffbeac44.845236cc.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ffe9f739-legacy.01203e4f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-ffe9f739.01203e4f.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fff59bb2-legacy.4ee24551.js
+
+[+] Fetching: https://staking.dextf.com/js/chunk-vendors-fff59bb2.4ee24551.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/basic/greeting.js
+  [URL] https://www.googletagmanager.com/gtag/js?id=G-D4SFMPBN0K
+
+[+] Fetching: https://v1-dapp.dextf.com:443/d3/dist/d3.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/d3/dist/d3.min.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/0x.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Angular.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/BN.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Backbone.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/BigNumber.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Chart.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Color.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Dharma.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/EMSCRIPTEN/src/emscripten-source-map.min.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ENS.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Moment.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Node.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Oboe.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Punycode.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Registry.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ResolverMethodHandler.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/SetProtocol.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Swarm.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Truffe.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/URI.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Underscore.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Vue.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/Web3.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/WebsocketProvider.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/accounts.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/af.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/allevents.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/app~748942c6.b59786c3.js
+  [ENDPOINT] /login
+  [URL] https://min-api.cryptocompare.com/data/price
+  [URL] https://min-api.cryptocompare.com/data/pricemulti
+  [URL] https://min-api.cryptocompare.com/data/pricemultifull
+  [URL] https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2
+  [URL] https://api.coingecko.com/api/v3/simple/token_price/ethereum
+  [URL] https://api.coingecko.com/api/v3/coins
+  [URL] https://mainnet.infura.io/v3/b276e854d53a404aa060453dd9bc7fb9
+  [URL] https://kovan.infura.io
+  [URL] https://ropsten.infura.io
+  [URL] https://data-api.defipulse.com/api/v1/egs/api/ethgasAPI.json
+  [URL] https://ethgasstation.info/api/ethgasAPI.json
+  [URL] https://ethgasstation.info/json/ethgasAPI.json
+  [URL] https://api.dextf.com/dcp/gas/price
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ar-dz.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ar-kw.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ar-ly.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ar-ma.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ar-sa.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ar-tn.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ar.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ascentManager.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/az.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/batch.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/be.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/bg.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/bignumber.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/bm.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/bn-bd.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/bn.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/bo.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/br.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/bs.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/bzz.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ca.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chart.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-0083c3e9.82b7e09e.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-00cf17ad.c860895f.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-035307ba.9b76ea91.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-0460f37c.42f194bc.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-074ed15c.cc8fba1e.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-0a3b33d8.1e1a1edf.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-10417b18.a9fc546a.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-1288ea33.f23d6ff1.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-12cc0784.463a1e4c.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-185916fc.3ed7b614.js
+  [EMAIL] M8ch88l@gmail.com
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-1b087229.b3726bcf.js
+  [ENDPOINT] /token/supply/total
+  [ENDPOINT] /token/airdrop/daily
+  [URL] https://app.sushi.com/pair/0xd3c41c080a73181e108e0526475a690f3616a859
+  [URL] https://app.uniswap.org/#/add/0x5f64ab1544d28732f0a24f4713c2c8ec0da089f0/ETH
+  [URL] https://api.dextf.com/dp
+  [URL] https://kyber.network
+  [URL] https://www.coingecko.com/en/coins/kyber-network-legacy
+  [URL] https://daofi.org/
+  [URL] wss://streamer.cryptocompare.com/v2?api_key=
+  [EMAIL] fabrizio@dextf.com
+  [EMAIL] fabrizio.audisio@dextf.com
+  [EMAIL] nicola.lanteri@dextf.com
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-1c60b311.2eb337a0.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-20e4ca8c.762db698.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-27e45577.c3bf63da.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0a45cb.b4b3a82d.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0aef63.dc7a10bc.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0b6519.ed7e8c38.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0ba158.79fef1fa.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0bcdfa.c9ae3883.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0bdcad.faad74c8.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0be0bb.deac5893.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0c2338.465ff22a.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0c4c09.1abbffeb.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0c7a5b.22fd241a.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0cc7da.10f79adb.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0d3e68.592d7cdb.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0da975.c1b4ed3e.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d0f0412.020f5270.js
+  [URL] https://twitter.com/dextfprotocol
+  [URL] https://t.me/dextfprotocol
+  [URL] https://discord.gg/N49c9gjn
+  [URL] https://medium.com/dextf
+  [URL] https://www.linkedin.com/company/dextf/
+  [URL] https://www.facebook.com/dextf.protocol
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d2073df.dde3ea8c.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d207d83.a5800f30.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d20fcd4.333ed152.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d2100ac.574668f0.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d225861.66d8db40.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-2d22a0e8.86f120d4.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-3a01067f.06a69526.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-3f7ed1ca.806799cf.js
+  [URL] https://docs.dextf.com/documentation/
+  [URL] https://paraswap.io/#/ETH-
+  [URL] https://etherscan.io/
+  [EMAIL] support@dextf.com
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-41920ba0.43154069.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-48b43c56.a2b844d4.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-48d476e3.3c466a5a.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-4abe8e5c.8f9166d6.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-4c6d1e82.22adb975.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-4f420273.f3b7bfe2.js
+  [URL] https://bost.ocks.org/mike
+  [URL] https://github.com/d3/d3.git
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-57f84879.dc3c55a7.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-58c2f7e6.162133c2.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-59d39691.447a21ff.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-59fceb58.c728d447.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-5abc4bd9.e8fd17e2.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-5b6015e8.3fbbad5f.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-5bddb256.3ba4dd1d.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-5dd01b32.5bbd2ba5.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-5f431903.c3b3ae1b.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-5fe0b00e.b022f849.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-67b5ee8a.5ef41677.js
+  [EMAIL] jake@alogicalparadox.com
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-6ae7ddba.ef8819a5.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-75967b42.7b3604cc.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-767f19e0.c8c396e9.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-76ee0ebd.bdaa92bc.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-770c8591.70d47793.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-77287615.8f5b72d0.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-7e89dd16.f2885b0f.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-7f96ee22.bf8eba6a.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-7ffe2fe4.6d8d9eb3.js
+  [EMAIL] milanjanackovic@gmail.com
+  [EMAIL] stefan@hotmail.rs
+  [EMAIL] jeeeyul@gmail.com
+  [EMAIL] miodrag@restartit.me
+  [EMAIL] mail@nicolai.io
+  [EMAIL] robbiecloset@gmail.com
+  [EMAIL] jhruby.web@gmail.com
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-80700724.2d64b2c2.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-862d374e.374225cd.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-8aac322a.e4e1a6f4.js
+  [FILE] ../package.json
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-8b3685c6.7c3c990c.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-9f92f702.6e881e77.js
+  [ENDPOINT] /tokenSchema
+  [URL] https://github.com/indutny/elliptic/issues\
+  [URL] https://github.com/indutny/elliptic\
+  [EMAIL] git@github.com
+  [EMAIL] fedor@indutny.com
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-9ff215b8.733555e3.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-a0cca6c6.4745ae38.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-c66c119c.428f5d9d.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-c8075180.6a91b548.js
+  [EMAIL] thechargingvolcano@gmail.com
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-cffb3244.58cd2376.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-e7c166b0.6f6675cc.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-eddb06f6.4524df0e.js
+  [EMAIL] login-keys@140x140.svg
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-ef417cc6.1ddaa176.js
+  [URL] https://docs.dextf.com
+  [URL] https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x5f64ab1544d28732f0a24f4713c2c8ec0da089f0&use=V2
+  [URL] https://app.sushi.com/token/0x5f64ab1544d28732f0a24f4713c2c8ec0da089f0
+  [URL] https://app.uniswap.org/#/add/v2/0x5f64ab1544d28732f0a24f4713c2c8ec0da089f0/ETH
+  [URL] https://v2.dapp.dextf.com?action=loginV2
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-f76f3fa4.72ee6825.js
+  [EMAIL] fabian@ethdev.com
+  [EMAIL] marek@ethdev.com
+  [EMAIL] aaron@kumavis.me
+  [EMAIL] jeff@ethdev.com
+  [EMAIL] marian@ethdev.com
+  [EMAIL] g@ethdev.com
+  [EMAIL] fabian@frozeman.de
+  [EMAIL] alex@rtfs.hu
+  [EMAIL] jake@qualiancy.com
+  [FILE] /dev.json
+  [FILE] /test.json
+  [FILE] /prod.json
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-vendors~15ae29a2.1885c224.js
+  [URL] https://server.net/
+  [EMAIL] user@example.com
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-vendors~1f20a385.2ca05dd8.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-vendors~253ae210.4a9f6b3a.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-vendors~62ab6885.4a31b0db.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-vendors~7274e1de.c7681a48.js
+  [URL] https://github.com/crypto-browserify/crypto-browserify
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-vendors~abac223f.09ac5cca.js
+  [URL] http://json-schema.org/draft-07/schema#\
+  [URL] https://raw.githubusercontent.com/ajv-validator/ajv/master/lib/refs/data.json#\
+  [URL] https://raw.githubusercontent.com/ajv-validator/ajv/master/lib/refs/data.json#
+  [URL] http://json-schema.org/draft-07/schema
+  [URL] http://json-schema.org/schema
+  [URL] https://github.com/ajv-validator/ajv/blob/master/lib/definition_schema.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-vendors~b4108e1e.79bd750b.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-vendors~cfbf0a2e.1257fd3a.js
+  [URL] https://github.com/ethereum/web3.js/tree/master/packages/web3\
+  [URL] https://github.com/ethereum/web3.js/issues\
+  [URL] http://frozeman.de\
+  [URL] https://github.com/debris\
+  [URL] https://github.com/cubedro\
+  [URL] http://gavwood.com\
+  [URL] https://github.com/obscuren\
+  [URL] http://swarm-gateways.net
+  [URL] https://github.com/theturtle32/WebSocket-Node.git\
+  [URL] https://github.com/theturtle32/WebSocket-Node\
+  [EMAIL] marek@parity.io
+  [EMAIL] fabian@ethereum.org
+  [EMAIL] g@parity.io
+  [EMAIL] jeffrey.wilcke@ethereum.org
+  [EMAIL] samuel@ethereum.org
+  [EMAIL] gav@parity.io
+  [EMAIL] marian@ethereum.org
+  [EMAIL] theturtle32@gmail.com
+  [EMAIL] ibc@aliax.net
+  [EMAIL] brian@worlize.com
+  [FILE] .tar.gz
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-vendors~db300d2f.870e83cf.js
+  [URL] https://github.com/goerli/testnet\
+  [URL] https://eips.ethereum.org/EIPS/eip-1716\
+  [URL] https://github.com/ethereum/ropsten\
+  [URL] https://www.rinkeby.io\
+  [URL] https://eips.ethereum.org/EIPS/eip-609\
+  [URL] https://eips.ethereum.org/EIPS/eip-607\
+  [URL] https://eips.ethereum.org/EIPS/eip-779\
+  [URL] https://eips.ethereum.org/EIPS/eip-2384\
+  [URL] https://eips.ethereum.org/EIPS/eip-608\
+  [URL] https://kovan-testnet.github.io/website/\
+  [URL] https://eips.ethereum.org/EIPS/eip-606\
+  [URL] https://eips.ethereum.org/EIPS/eip-1679\
+  [URL] https://eips.ethereum.org/EIPS/eip-1013\
+  [URL] https://web3.gastracker.io
+  [URL] https://web3.gastracker.io/morden
+  [URL] https://ethstats.net/\
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-vendors~f9ca8911.efbdfa4f.js
+  [EMAIL] gary.court@gmail.com
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/chunk-vendors~fdadd360.a2efc0af.js
+  [URL] https://api.paraswap.io/v2
+  [URL] https://github.com/ethereum/web3.js\
+  [EMAIL] rod@vagg.org
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/coder.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/config.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/contract.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/cs.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/cv.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/cy.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/da.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/db.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/de-at.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/de-ch.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/de.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/dist/d3.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/dist/d3.min.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/dist/d3.node.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/dist/package.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/doT.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/dv.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/el.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/electron/nw.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/en-au.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/en-ca.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/en-gb.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/en-ie.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/en-il.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/en-in.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/en-nz.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/en-sg.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/eo.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/erc20.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/errors.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/es-do.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/es-mx.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/es-us.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/es.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/et.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/eth.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ethers.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/eu.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/event.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/extend.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/fa.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/fi.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/fil.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/filter.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/fix-regexp-well-known-symbol-logic.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/fo.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/formatters.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/fr-ca.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/fr-ch.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/fr.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/function.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/fy.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ga.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/gd.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/getNetworkType.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/givenProvider.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/gl.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/gom-deva.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/gom-latn.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/gu.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/hash.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/he.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/hi.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/hr.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/httpprovider.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/hu.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/hy-am.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/iban.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/id.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/io.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ipcprovider.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/is.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/it-ch.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/it.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ja.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/jsonrpc.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/jst.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/jv.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ka.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/kk.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/km.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/kn.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ko.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ku.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ky.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/lang.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/lb.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/lib/browser.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/lib/elliptic.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/lib/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/lo.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/lt.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/lv.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/me.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/method.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/mi.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/mirror.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/mk.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ml.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/mn.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/moment.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/mr.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ms-my.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ms.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/mt.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/my.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/namereg.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/narwhal.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/nb.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ne.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/nl-be.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/nl.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/nn.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@0x/contract-addresses/lib/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@0x/contract-wrappers/lib/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@0x/order-utils/lib/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/core-js/array/from.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/core-js/array/is-array.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/core-js/get-iterator.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/core-js/is-iterable.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/core-js/symbol.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/helpers/esm/arrayLikeToArray.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithHoles.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArrayLimit.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableRest.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@babel/runtime-corejs2/helpers/esm/unsupportedIterableToArray.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/connectorUtils.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/kyberNetwork/approveKyberIssueQuote.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/kyberNetwork/common.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/kyberNetwork/computeKyberIssueQuote.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/kyberNetwork/computeKyberRedeemQuote.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/kyberNetwork/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/kyberNetwork/kyberIssueStableSet.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/sethConnector.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/stableSetHelpers.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/tokenHelpers.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/tokenStore.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/util/allowanceUtils.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/util/big_number.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/util/common.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/util/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/zeroX/common.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/zeroX/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/zeroX/makerHelpers.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/zeroX/takerHelpers.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/dist/zeroX/zeroXTokenHelpers.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/node_modules/@0x/utils/lib/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@dextf_admin_it/seth/node_modules/@0x/web3-wrapper/lib/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/_version.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/abi-coder.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/coders/abstract-coder.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/coders/address.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/coders/anonymous.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/coders/array.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/coders/boolean.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/coders/bytes.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/coders/fixed-bytes.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/coders/null.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/coders/number.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/coders/string.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/coders/tuple.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/fragments.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/abi/lib.esm/interface.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/address/lib.esm/_version.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/address/lib.esm/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/bignumber/lib.esm/_version.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/bignumber/lib.esm/bignumber.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/bytes/lib.esm/_version.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/bytes/lib.esm/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/constants/lib.esm/bignumbers.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/hash/lib.esm/id.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/keccak256/lib.esm/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/logger/lib.esm/_version.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/logger/lib.esm/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/properties/lib.esm/_version.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/properties/lib.esm/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/rlp/lib.esm/_version.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/rlp/lib.esm/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/signing-key/lib.esm/_version.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/signing-key/lib.esm/elliptic.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/signing-key/lib.esm/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/strings/lib.esm/_version.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/strings/lib.esm/utf8.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/transactions/lib.esm/_version.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@ethersproject/transactions/lib.esm/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/@metamask/detect-provider/dist/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/axios/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/bignumber.js/bignumber.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/bn.js/lib/bn.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/cache-loader/dist/cjs.js?
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/cache-loader/dist/cjs.js??ref--0-0
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/cache-loader/dist/cjs.js??ref--12-0
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/cache-loader/dist/cjs.js?{
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/chart.js/dist/Chart.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/chartjs-plugin-datalabels/dist/chartjs-plugin-datalabels.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/copy-to-clipboard/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.array.find-index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.array.find.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.array.iterator.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.array.sort.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.function.name.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.map.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.number.constructor.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.object.assign.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.object.keys.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.promise.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.regexp.constructor.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.regexp.match.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.regexp.replace.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.regexp.split.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.regexp.to-string.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.string.ends-with.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.string.includes.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.string.iterator.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es6.string.starts-with.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es7.array.includes.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es7.object.entries.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es7.object.get-own-property-descriptors.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es7.object.values.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/es7.promise.finally.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/core-js/modules/web.dom.iterable.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-brush/src/brush.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-brush/src/constant.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-brush/src/event.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-brush/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-brush/src/noevent.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-color/src/color.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-color/src/define.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-dispatch/src/dispatch.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-drag/src/nodrag.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-drag/src/noevent.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-ease/src/bounce.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-ease/src/cubic.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-ease/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/array.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/basis.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/basisClosed.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/color.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/constant.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/date.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/number.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/numberArray.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/object.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/rgb.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/string.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/transform/decompose.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/transform/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/transform/parse.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/value.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-interpolate/src/zoom.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-path/src/path.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-scale/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-scale/src/init.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-scale/src/ordinal.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/array.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/constant.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/creator.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/matcher.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/namespace.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/namespaces.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/pointer.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/select.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/append.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/attr.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/call.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/classed.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/clone.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/data.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/datum.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/dispatch.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/each.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/empty.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/enter.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/exit.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/filter.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/html.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/insert.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/iterator.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/join.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/lower.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/merge.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/node.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/nodes.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/on.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/order.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/property.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/raise.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/remove.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/select.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/selectAll.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/selectChild.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/selectChildren.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/size.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/sort.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/sparse.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/style.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selection/text.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selector.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/selectorAll.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/sourceEvent.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-selection/src/window.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-shape/src/arc.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-shape/src/array.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-shape/src/constant.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-shape/src/descending.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-shape/src/identity.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-shape/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-shape/src/math.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-shape/src/pie.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-timer/src/timeout.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-timer/src/timer.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/active.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/interrupt.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/selection/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/selection/interrupt.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/selection/transition.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/attr.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/attrTween.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/delay.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/duration.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/ease.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/easeVarying.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/end.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/filter.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/interpolate.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/merge.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/on.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/remove.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/schedule.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/select.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/selectAll.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/selection.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/style.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/styleTween.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/text.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/textTween.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/transition.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-transition/src/transition/tween.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-zoom/src/constant.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-zoom/src/event.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-zoom/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-zoom/src/noevent.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-zoom/src/transform.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3-zoom/src/zoom.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3/dist/package.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/d3/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/numeral/numeral.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/regenerator-runtime/runtime.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/set-protocol-utils/dist/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/setprotocol.js/dist/src/api/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/setprotocol.js/dist/src/assertions/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/setprotocol.js/dist/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/setprotocol.js/dist/src/wrappers/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/thread-loader/dist/cjs.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/vue-chartjs/es/BaseCharts.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/vue-chartjs/es/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/vue-chartjs/es/mixins/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/vue-gtag/dist/vue-gtag.esm.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/vue-loader/lib/runtime/componentNormalizer.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/vue-router/dist/vue-router.esm.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/vue/dist/vue.runtime.esm.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/vuex/dist/vuex.esm.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/web3/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/node_modules/zxcvbn/lib/main.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/numeral.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/oboe.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/oc-lnc.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/pa-in.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/param.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/pl.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/platform.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/platforms/web/util/attrs.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/property.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/pt-br.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/pt.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/requestmanager.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ro.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ru.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/runtime.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/sd.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/se.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/set-protocols-util.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/setProtocol.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/setprotocol.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/sha1.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/sha3.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/shh.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/si.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/sk.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/sl.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/soliditySha3.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/sq.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/sr-cyrl.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/sr.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/events.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/main.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/mixins/blockchainMixin.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/mixins/fundMixins.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/mixins/gasEstimationMixin.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/mixins/utilsMixin.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/mixins/windowMixins.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/modules/appConfig.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/modules/ccc-streamer-utilities.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/modules/connectorUtils.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/modules/cryptoPriceHelpers.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/modules/kyberNetwork.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/modules/outputs.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/modules/parseOutputs.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/modules/uniswap.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/router.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/src/vuex/store.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ss.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/subscription.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/sv.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/sw.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/swarm.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/syncing.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ta.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/te.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/test/index.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/testData.js/prodData.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/tet.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/tg.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/th.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/tk.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/tl-ph.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/tlh.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/tr.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/transfer.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/tzl.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/tzm-latn.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/tzm.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ug-cn.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/uk.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/underscore.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/unorm.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/ur.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/utils.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/uuid.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/uz-latn.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/uz.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/vi.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/watches.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/web3.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/x-pseudo.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/yo.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/zh-cn.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/zh-hk.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/zh-mo.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/js/zh-tw.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/modules/testData.js
+
+[+] Fetching: https://v1-dapp.dextf.com:443/test/specs/defaults.spec.js

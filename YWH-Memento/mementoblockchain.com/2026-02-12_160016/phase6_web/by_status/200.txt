@@ -1,0 +1,17 @@
+http://cdn.mementoblockchain.com:80
+https://cdn.mementoblockchain.com
+https://cdn.mementoblockchain.com:443
+http://vdp.mementoblockchain.com:80
+https://vdp.mementoblockchain.com
+https://vdp.mementoblockchain.com:443
+http://dfm-docs.mementoblockchain.com:80
+http://dfm-docs.mementoblockchain.com:8080
+http://docs.mementoblockchain.com:80
+https://dfm-docs.mementoblockchain.com
+https://dfm-docs.mementoblockchain.com:443
+https://docs.mementoblockchain.com:443
+https://docs.mementoblockchain.com
+http://docs.mementoblockchain.com:8080
+http://dfm.mementoblockchain.com:80
+https://dfm.mementoblockchain.com:443
+https://dfm.mementoblockchain.com

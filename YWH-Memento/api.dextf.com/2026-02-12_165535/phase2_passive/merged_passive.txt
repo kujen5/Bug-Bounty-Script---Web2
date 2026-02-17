@@ -1,0 +1,2 @@
+api.dextf.com
+www.api.dextf.com

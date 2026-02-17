@@ -1,0 +1,45 @@
+
+[+] Fetching: http://www.hypo-versicherung.at/global_files/js_functions.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/fabtabulous.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/functions.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/iframe.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/jquery.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/js_browser_selector.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/jsbjqs.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/lightbox.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/moofx.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/projectFunctions.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/prototype.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/scriptaculous.js?load=effects
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/swfobject.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/hypo/css_js/window.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: http://www.hypo-versicherung.at/static_files/yaml/js/accordian.js
+  [-] Skipped (empty or non-200)

@@ -1,0 +1,16 @@
+{
+  "program": "YWH-Memento",
+  "domain": "api.dextf.com",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/api.dextf.com/2026-02-12_165535",
+  "counts": {
+    "passive_merged": 2,
+    "resolved": 1,
+    "bruteforce": 0,
+    "permutations": 4,
+    "master": 4,
+    "ports": 8,
+    "web_assets": 12,
+    "urls": 30,
+    "nuclei": 0
+  }
+}

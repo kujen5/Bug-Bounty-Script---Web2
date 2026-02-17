@@ -1,0 +1,54 @@
+http://eurolink360.eurolink.com.mk:80 | 200 | Page Redirection | 62.162.71.125 | nginx/1.20.1 | Java,Java Servlet:4.0,JavaServer Pages:2.3,Nginx:1.20.1,Red Hat
+http://dev.health.eurolink.com.mk:80 | 200 | EurolinkAdminUi | 82.214.118.41 | nginx/1.18.0 (Ubuntu) | Nginx:1.18.0,Ubuntu
+http://dev.api.eurolink.com.mk:80 | 404 | Error | 82.214.118.41 | nginx/1.18.0 (Ubuntu) | Express,Nginx:1.18.0,Node.js,Ubuntu
+http://api.eurolink.com.mk:80 | 404 | Error | 82.214.118.43 | nginx/1.18.0 (Ubuntu) | Express,Nginx:1.18.0,Node.js,Ubuntu
+http://filijala.eurolink.com.mk:80 | 200 | This is the default server vhost | 35.214.179.99 | nginx | Nginx
+http://epolisa.eurolink.com.mk:80 | 200 | Epolisa | 62.162.71.113 | Apache/2.2.6 (Unix) mod_ssl/2.2.6   PHP/5.1.6 with Hardening-Patch | Apache HTTP Server:2.2.6,Google Hosted Libraries,PHP:5.1.6,UNIX,jQuery:3.5.1,mod_ssl:2.2.6
+http://akcii.eurolink.com.mk:80 | 200 | This is the default server vhost | 35.214.179.99 | nginx | Nginx
+https://eurolink360.eurolink.com.mk | 200 | Page Redirection | 62.162.71.125 | nginx/1.20.1 | Java,Java Servlet:4.0,JavaServer Pages:2.3,Nginx:1.20.1,Red Hat
+https://eurolink360.eurolink.com.mk:443 | 200 | Page Redirection | 62.162.71.125 | nginx/1.20.1 | Java,Java Servlet:4.0,JavaServer Pages:2.3,Nginx:1.20.1,Red Hat
+https://dev.api.eurolink.com.mk | 404 | Error | 82.214.118.41 | nginx/1.18.0 (Ubuntu) | Express,Nginx:1.18.0,Node.js,Ubuntu
+http://health.eurolink.com.mk:80 | 200 | EurolinkAdminUi | 82.214.118.43 | nginx/1.18.0 (Ubuntu) | Nginx:1.18.0,Ubuntu
+https://dev.health.eurolink.com.mk:443 | 200 | EurolinkAdminUi | 82.214.118.41 | nginx/1.18.0 (Ubuntu) | Nginx:1.18.0,Ubuntu
+https://filijala.eurolink.com.mk | 200 | This is the default server vhost | 35.214.179.99 | nginx | Nginx
+https://api.eurolink.com.mk:443 | 404 | Error | 82.214.118.43 | nginx/1.18.0 (Ubuntu) | Express,Nginx:1.18.0,Node.js,Ubuntu
+https://filijala.eurolink.com.mk:443 | 200 | This is the default server vhost | 35.214.179.99 | nginx | Nginx
+https://api.eurolink.com.mk | 404 | Error | 82.214.118.43 | nginx/1.18.0 (Ubuntu) | Express,Nginx:1.18.0,Node.js,Ubuntu
+https://dev.api.eurolink.com.mk:443 | 404 | Error | 82.214.118.41 | nginx/1.18.0 (Ubuntu) | Express,Nginx:1.18.0,Node.js,Ubuntu
+https://dev.health.eurolink.com.mk | 200 | EurolinkAdminUi | 82.214.118.41 | nginx/1.18.0 (Ubuntu) | Nginx:1.18.0,Ubuntu
+https://akcii.eurolink.com.mk | 200 | This is the default server vhost | 35.214.179.99 | nginx | Nginx
+https://akcii.eurolink.com.mk:443 | 200 | This is the default server vhost | 35.214.179.99 | nginx | Nginx
+https://health.eurolink.com.mk | 200 | EurolinkAdminUi | 82.214.118.43 | nginx/1.18.0 (Ubuntu) | Nginx:1.18.0,Ubuntu
+https://epolisa.eurolink.com.mk:443 | 200 | Epolisa | 62.162.71.113 | Apache/2.2.6 (Unix) mod_ssl/2.2.6   PHP/5.1.6 with Hardening-Patch | Apache HTTP Server:2.2.6,Google Hosted Libraries,PHP:5.1.6,UNIX,jQuery:3.5.1,mod_ssl:2.2.6
+https://epolisa.eurolink.com.mk | 200 | Epolisa | 62.162.71.113 | Apache/2.2.6 (Unix) mod_ssl/2.2.6   PHP/5.1.6 with Hardening-Patch | Apache HTTP Server:2.2.6,Google Hosted Libraries,PHP:5.1.6,UNIX,jQuery:3.5.1,mod_ssl:2.2.6
+https://health.eurolink.com.mk:443 | 200 | EurolinkAdminUi | 82.214.118.43 | nginx/1.18.0 (Ubuntu) | Nginx:1.18.0,Ubuntu
+https://disk.eurolink.com.mk:443 | 200 | ownCloud | 62.162.78.1 | nginx | HSTS,Nginx,PHP,ownCloud
+https://disk.eurolink.com.mk | 200 | ownCloud | 62.162.78.1 | nginx | HSTS,Nginx,PHP,ownCloud
+https://eurolink.com.mk | 200 | Еуролинк Осигурување | 95.156.8.108 | nginx | Engintron,Google Tag Manager,MySQL,Nginx,PHP,WordPress:6.0.3,Yoast SEO:19.7.2,jQuery,jQuery Migrate:3.3.2
+http://eurolink.com.mk:80 | 200 | Еуролинк Осигурување | 95.156.8.108 | nginx | Engintron,Google Tag Manager,MySQL,Nginx,PHP,Polylang,WordPress:6.0.3,Yoast SEO:19.7.2,jQuery,jQuery Migrate:3.3.2
+http://test.eurolink.com.mk:80 | 200 | 95.156.8.108 | nginx | Engintron,Nginx
+http://old.eurolink.com.mk | 200 | �������� ����������� | 195.26.152.90 | Microsoft-IIS/10.0 | Bootstrap,Google Maps,Google Tag Manager,IIS:10.0,Microsoft ASP.NET,OWL Carousel,Windows Server,YouTube,bxSlider,jQuery UI:1.10.4,jQuery:1.11.0,prettyPhoto
+http://sync.eurolink.com.mk | 500 | 500 - Internal server error. | 195.26.152.90 | Microsoft-IIS/10.0 | IIS:10.0,Microsoft ASP.NET,Windows Server
+http://sync.eurolink.com.mk:80 | 500 | 500 - Internal server error. | 195.26.152.90 | Microsoft-IIS/10.0 | IIS:10.0,Microsoft ASP.NET,Windows Server
+https://eurolink.com.mk:443 | 200 | Еуролинк Осигурување | 95.156.8.108 | nginx | Engintron,Google Tag Manager,MySQL,Nginx,PHP,Polylang,WordPress:6.0.3,Yoast SEO:19.7.2,jQuery,jQuery Migrate:3.3.2
+http://servisi.eurolink.com.mk:80 | 200 | GlassFish Server 3.1.2 - Server Running | 62.162.71.125 | nginx/1.20.1 | Java,Java Servlet:3.0,JavaServer Pages:2.2,Nginx:1.20.1
+https://pay.eurolink.com.mk | 200 | Најава | 62.162.78.234 | Apache/2.4.18 (Ubuntu) | Apache HTTP Server:2.4.18,Bootstrap,DataTables,PHP,Ubuntu,jQuery:2.1.4
+https://pay.eurolink.com.mk:443 | 200 | Најава | 62.162.78.234 | Apache/2.4.18 (Ubuntu) | Apache HTTP Server:2.4.18,Bootstrap,DataTables,PHP,Ubuntu,jQuery:2.1.4
+http://shop.eurolink.com.mk:80 | 200 | Page Redirection | 62.162.71.125 | nginx/1.20.1 | Java,Java Servlet:4.0,JavaServer Pages:2.3,Nginx:1.20.1,Red Hat
+https://servisi.eurolink.com.mk | 200 | GlassFish Server 3.1.2 - Server Running | 62.162.71.125 | nginx/1.20.1 | Java,Java Servlet:3.0,JavaServer Pages:2.2,Nginx:1.20.1
+https://servisi.eurolink.com.mk:443 | 200 | GlassFish Server 3.1.2 - Server Running | 62.162.71.125 | nginx/1.20.1 | Java,Java Servlet:3.0,JavaServer Pages:2.2,Nginx:1.20.1
+http://www.test.eurolink.com.mk:80 | 200 | 95.156.8.108 | nginx | Engintron,Nginx
+https://shop.eurolink.com.mk:443 | 200 | Page Redirection | 62.162.71.125 | nginx/1.20.1 | Java,Java Servlet:4.0,JavaServer Pages:2.3,Nginx:1.20.1,Red Hat
+https://shop.eurolink.com.mk | 200 | Page Redirection | 62.162.71.125 | nginx/1.20.1 | Java,Java Servlet:4.0,JavaServer Pages:2.3,Nginx:1.20.1,Red Hat
+http://www.sync.eurolink.com.mk | 500 | 500 - Internal server error. | 195.26.152.90 | Microsoft-IIS/10.0 | IIS:10.0,Microsoft ASP.NET,Windows Server
+http://old.eurolink.com.mk:80 | 200 | �������� ����������� | 195.26.152.90 | Microsoft-IIS/10.0 | Bootstrap,Google Maps,Google Tag Manager,IIS:10.0,Microsoft ASP.NET,OWL Carousel,Windows Server,YouTube,bxSlider,jQuery UI:1.10.4,jQuery:1.11.0,prettyPhoto
+http://pay.eurolink.com.mk:80 | 200 | Најава | 62.162.78.234 | Apache/2.4.18 (Ubuntu) | Apache HTTP Server:2.4.18,Bootstrap,DataTables,PHP,Ubuntu,jQuery:2.1.4
+http://www.sync.eurolink.com.mk:80 | 500 | 500 - Internal server error. | 195.26.152.90 | Microsoft-IIS/10.0 | IIS:10.0,Microsoft ASP.NET,Windows Server
+http://www.eurolink.com.mk:80 | 200 | Еуролинк Осигурување | 95.156.8.108 | nginx | Engintron,Google Tag Manager,MySQL,Nginx,PHP,Polylang,WordPress:6.0.3,Yoast SEO:19.7.2,jQuery,jQuery Migrate:3.3.2
+https://www.test.eurolink.com.mk | 200 | Почетна - БОПАК - Машини и амбалажа за пакување | 95.156.8.108 | nginx | Contact Form 7:5.4,Elementor:3.6.7,Engintron,Font Awesome,Lodash,MySQL,Nginx,PHP,Site Kit:1.24.0,Swiper,Underscore.js:1.13.3,WPForms:1.7.7,WordPress:6.0.11,Yoast SEO:19.7.1,jQuery,jQuery Migrate:3.3.2
+https://test.eurolink.com.mk:443 | 200 | Почетна - БОПАК - Машини и амбалажа за пакување | 95.156.8.108 | nginx | Contact Form 7:5.4,Elementor:3.6.7,Engintron,Font Awesome,Lodash,MySQL,Nginx,PHP,Site Kit:1.24.0,Swiper,Underscore.js:1.13.3,WPForms:1.7.7,WordPress:6.0.11,Yoast SEO:19.7.1,jQuery,jQuery Migrate:3.3.2
+https://www.eurolink.com.mk:443 | 200 | Еуролинк Осигурување | 95.156.8.108 | nginx | Engintron,Google Tag Manager,MySQL,Nginx,PHP,Polylang,WordPress:6.0.3,Yoast SEO:19.7.2,jQuery,jQuery Migrate:3.3.2
+https://www.eurolink.com.mk | 200 | Еуролинк Осигурување | 95.156.8.108 | nginx | Engintron,Google Tag Manager,MySQL,Nginx,PHP,Polylang,WordPress:6.0.3,Yoast SEO:19.7.2,jQuery,jQuery Migrate:3.3.2
+https://test.eurolink.com.mk | 200 | Почетна - БОПАК - Машини и амбалажа за пакување | 95.156.8.108 | nginx | Contact Form 7:5.4,Elementor:3.6.7,Engintron,Font Awesome,Lodash,MySQL,Nginx,PHP,Site Kit:1.24.0,Swiper,Underscore.js:1.13.3,WPForms:1.7.7,WordPress:6.0.11,Yoast SEO:19.7.1,jQuery,jQuery Migrate:3.3.2
+https://www.test.eurolink.com.mk:443 | 200 | Почетна - БОПАК - Машини и амбалажа за пакување | 95.156.8.108 | nginx | Contact Form 7:5.4,Elementor:3.6.7,Engintron,Font Awesome,Lodash,MySQL,Nginx,PHP,Site Kit:1.24.0,Swiper,Underscore.js:1.13.3,WPForms:1.7.7,WordPress:6.0.11,Yoast SEO:19.7.1,jQuery,jQuery Migrate:3.3.2
+http://testapp.eurolink.com.mk:8080 | 200 | Page Redirection | 62.162.71.115 | Payara Server  5.2020.6 #badassfish | Java,Java Servlet:4.0,JavaServer Pages:2.3

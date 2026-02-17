@@ -1,0 +1,6 @@
+http://dev.api.eurolink.com.mk:80
+http://api.eurolink.com.mk:80
+https://dev.api.eurolink.com.mk
+https://api.eurolink.com.mk:443
+https://api.eurolink.com.mk
+https://dev.api.eurolink.com.mk:443

@@ -1,0 +1,352 @@
+
+[+] Fetching: https://salesapp-medlife.net/chunk-4NWP2ZCT.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://salesapp-medlife.net/chunk-5TRO7ZYO.js
+
+[+] Fetching: https://salesapp-medlife.net/chunk-AW5TETHV.js
+  [URL] http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul
+
+[+] Fetching: https://salesapp-medlife.net/chunk-BASRYBQN.js
+
+[+] Fetching: https://salesapp-medlife.net/chunk-CXO7ZSKH.js
+
+[+] Fetching: https://salesapp-medlife.net/chunk-J3SOY2AU.js
+
+[+] Fetching: https://salesapp-medlife.net/chunk-MO7OJFL2.js
+
+[+] Fetching: https://salesapp-medlife.net/chunk-OE45ALHA.js
+
+[+] Fetching: https://salesapp-medlife.net/chunk-PK6LZT2D.js
+  [URL] https://ngrx.io/guide/store/configuration/runtime-checks
+  [EMAIL] jo@test.com
+  [EMAIL] first.last@example.org
+  [EMAIL] testdata1@example.com
+  [EMAIL] testdata2@example.com
+  [FILE] assets/countries.json
+
+[+] Fetching: https://salesapp-medlife.net/chunk-QVPID7K2.js
+  [URL] https://angular.dev/best-practices/security#preventing-cross-site-scripting-xss
+
+[+] Fetching: https://salesapp-medlife.net/chunk-Y747WUKA.js
+  [EMAIL] vladimir.ivanov@test.com
+  [EMAIL] max.mustermann@test.com
+  [EMAIL] ivan.ivanov@test.com
+  [EMAIL] test@test.com
+  [EMAIL] istvan.ivanov@test.com
+  [EMAIL] ivan.ivanov@teacher.ru
+
+[+] Fetching: https://salesapp-medlife.net/main-CMXLJUPG.js
+  [URL] https://fonts.gstatic.com
+
+[+] Fetching: https://salesapp-medlife.net/main-VLNKHEL6.js
+
+[+] Fetching: https://salesapp-medlife.net/ngx-env.js
+  [URL] https://auth.medlifeapp.net
+
+[+] Fetching: https://salesapp-medlife.net/polyfills-5CFQRCPP.js
+
+[+] Fetching: https://salesapp-medlife.net/polyfills-FFHMD2TL.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/3p-cookies/chunk-4NWP2ZCT.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/3p-cookies/chunk-5TRO7ZYO.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/3p-cookies/chunk-AW5TETHV.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/3p-cookies/chunk-BASRYBQN.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/3p-cookies/chunk-CXO7ZSKH.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/3p-cookies/chunk-J3SOY2AU.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/3p-cookies/chunk-MO7OJFL2.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/3p-cookies/chunk-OE45ALHA.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/3p-cookies/chunk-PK6LZT2D.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/3p-cookies/chunk-Y747WUKA.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/3p-cookies/main-VLNKHEL6.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/3p-cookies/polyfills-5CFQRCPP.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/chunk-4NWP2ZCT.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/chunk-5TRO7ZYO.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/chunk-AW5TETHV.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/chunk-BASRYBQN.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/chunk-CXO7ZSKH.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/chunk-J3SOY2AU.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/chunk-MO7OJFL2.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/chunk-OE45ALHA.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/chunk-PK6LZT2D.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/chunk-Y747WUKA.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/main-VLNKHEL6.js
+
+[+] Fetching: https://salesapp-medlife.net/protocol/openid-connect/polyfills-5CFQRCPP.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Edge/chunk-4NWP2ZCT.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Edge/chunk-5TRO7ZYO.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Edge/chunk-AW5TETHV.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Edge/chunk-BASRYBQN.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Edge/chunk-CXO7ZSKH.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Edge/chunk-J3SOY2AU.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Edge/chunk-MO7OJFL2.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Edge/chunk-OE45ALHA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Edge/chunk-PK6LZT2D.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Edge/chunk-Y747WUKA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Edge/main-VLNKHEL6.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Edge/polyfills-5CFQRCPP.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Trident/chunk-4NWP2ZCT.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Trident/chunk-5TRO7ZYO.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Trident/chunk-AW5TETHV.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Trident/chunk-BASRYBQN.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Trident/chunk-CXO7ZSKH.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Trident/chunk-J3SOY2AU.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Trident/chunk-MO7OJFL2.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Trident/chunk-OE45ALHA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Trident/chunk-PK6LZT2D.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Trident/chunk-Y747WUKA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Trident/main-VLNKHEL6.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Trident/polyfills-5CFQRCPP.js
+
+[+] Fetching: https://www.salesapp-medlife.net/Zone.js
+
+[+] Fetching: https://www.salesapp-medlife.net/build/chunk-4NWP2ZCT.js
+
+[+] Fetching: https://www.salesapp-medlife.net/build/chunk-5TRO7ZYO.js
+
+[+] Fetching: https://www.salesapp-medlife.net/build/chunk-AW5TETHV.js
+
+[+] Fetching: https://www.salesapp-medlife.net/build/chunk-BASRYBQN.js
+
+[+] Fetching: https://www.salesapp-medlife.net/build/chunk-CXO7ZSKH.js
+
+[+] Fetching: https://www.salesapp-medlife.net/build/chunk-J3SOY2AU.js
+
+[+] Fetching: https://www.salesapp-medlife.net/build/chunk-MO7OJFL2.js
+
+[+] Fetching: https://www.salesapp-medlife.net/build/chunk-OE45ALHA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/build/chunk-PK6LZT2D.js
+
+[+] Fetching: https://www.salesapp-medlife.net/build/chunk-Y747WUKA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/build/main-VLNKHEL6.js
+
+[+] Fetching: https://www.salesapp-medlife.net/build/polyfills-5CFQRCPP.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-2LMGL7DZ.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-4GYZEDIZ.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-4NWP2ZCT.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-5C4J5X2N.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-5L7JMG5Q.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-5TRO7ZYO.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-5UFS3CIO.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-ALIQTIYY.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-AW5TETHV.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-BASRYBQN.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-BMBYILCS.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-CXO7ZSKH.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-DMV72O4O.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-DYWYK445.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-F62NF3NS.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-FBURXZDB.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-FKYMVUSQ.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-FUUX5SXM.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-GSCCRHWE.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-GTTJ4RLB.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-GZ7CMXN3.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-HEJKWID3.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-IN7IZDGA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-J3SOY2AU.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-JGR6CZOB.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-JJURKEUM.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-JVJJD5LZ.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-KESBYHKJ.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-L2HEV66R.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-L4PTCDYX.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-MO7OJFL2.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-MXXOLOYY.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-NRY2DT6U.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-NUXLDO2N.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-NYZOWURK.js
+  [-] Skipped (empty or non-200)
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-OE45ALHA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-OKAWXYTM.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-P74CWUXT.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-PDHYU3A5.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-PIT3FRWA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-PK6LZT2D.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-QVFDB5U7.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-QVPID7K2.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-U27MCOD5.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-VK5QG43K.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-WV77HT75.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-XMYKWRKJ.js
+
+[+] Fetching: https://www.salesapp-medlife.net/chunk-Y747WUKA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/images/chunk-4NWP2ZCT.js
+
+[+] Fetching: https://www.salesapp-medlife.net/images/chunk-5TRO7ZYO.js
+
+[+] Fetching: https://www.salesapp-medlife.net/images/chunk-AW5TETHV.js
+
+[+] Fetching: https://www.salesapp-medlife.net/images/chunk-BASRYBQN.js
+
+[+] Fetching: https://www.salesapp-medlife.net/images/chunk-CXO7ZSKH.js
+
+[+] Fetching: https://www.salesapp-medlife.net/images/chunk-J3SOY2AU.js
+
+[+] Fetching: https://www.salesapp-medlife.net/images/chunk-MO7OJFL2.js
+
+[+] Fetching: https://www.salesapp-medlife.net/images/chunk-OE45ALHA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/images/chunk-PK6LZT2D.js
+
+[+] Fetching: https://www.salesapp-medlife.net/images/chunk-Y747WUKA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/images/main-VLNKHEL6.js
+
+[+] Fetching: https://www.salesapp-medlife.net/images/polyfills-5CFQRCPP.js
+
+[+] Fetching: https://www.salesapp-medlife.net/main-VLNKHEL6.js
+
+[+] Fetching: https://www.salesapp-medlife.net/ngx-env.js
+
+[+] Fetching: https://www.salesapp-medlife.net/polyfills-5CFQRCPP.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/cmaps/chunk-4NWP2ZCT.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/cmaps/chunk-5TRO7ZYO.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/cmaps/chunk-AW5TETHV.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/cmaps/chunk-BASRYBQN.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/cmaps/chunk-CXO7ZSKH.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/cmaps/chunk-J3SOY2AU.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/cmaps/chunk-MO7OJFL2.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/cmaps/chunk-OE45ALHA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/cmaps/chunk-PK6LZT2D.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/cmaps/chunk-Y747WUKA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/cmaps/main-VLNKHEL6.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/cmaps/polyfills-5CFQRCPP.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/standard_fonts/chunk-4NWP2ZCT.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/standard_fonts/chunk-5TRO7ZYO.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/standard_fonts/chunk-AW5TETHV.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/standard_fonts/chunk-BASRYBQN.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/standard_fonts/chunk-CXO7ZSKH.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/standard_fonts/chunk-J3SOY2AU.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/standard_fonts/chunk-MO7OJFL2.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/standard_fonts/chunk-OE45ALHA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/standard_fonts/chunk-PK6LZT2D.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/standard_fonts/chunk-Y747WUKA.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/standard_fonts/main-VLNKHEL6.js
+
+[+] Fetching: https://www.salesapp-medlife.net/web/standard_fonts/polyfills-5CFQRCPP.js
+
+[+] Fetching: https://www.salesapp-medlife.net/zone.js

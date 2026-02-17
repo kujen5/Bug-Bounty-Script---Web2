@@ -1,0 +1,7 @@
+[passive] Querying 4 passive sources for dextf.com...
+[passive] AlienVault: 0 subdomains
+[passive] URLScan: 4 subdomains
+[passive] HackerTarget: 9 subdomains
+[passive] RapidDNS: 4 subdomains
+[passive] Total unique subdomains from all sources: 10
+[passive] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/dextf.com/2026-02-12_170628/phase2_passive/passive_apis.txt

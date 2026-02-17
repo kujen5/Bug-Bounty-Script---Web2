@@ -1,0 +1,16 @@
+{
+  "program": "YWH-Grawe",
+  "domain": "www.medlife.net",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/www.medlife.net/2026-02-17_192742",
+  "counts": {
+    "passive_merged": 2,
+    "resolved": 0,
+    "bruteforce": 0,
+    "permutations": 0,
+    "master": 0,
+    "ports": 0,
+    "web_assets": 0,
+    "urls": 0,
+    "nuclei": 0
+  }
+}

@@ -1,0 +1,15 @@
+http://www.hypo-versicherung.at/global_files/js_functions.js
+http://www.hypo-versicherung.at/static_files/hypo/css_js/fabtabulous.js
+http://www.hypo-versicherung.at/static_files/hypo/css_js/functions.js
+http://www.hypo-versicherung.at/static_files/hypo/css_js/iframe.js
+http://www.hypo-versicherung.at/static_files/hypo/css_js/jquery.js
+http://www.hypo-versicherung.at/static_files/hypo/css_js/js_browser_selector.js
+http://www.hypo-versicherung.at/static_files/hypo/css_js/jsbjqs.js
+http://www.hypo-versicherung.at/static_files/hypo/css_js/lightbox.js
+http://www.hypo-versicherung.at/static_files/hypo/css_js/moofx.js
+http://www.hypo-versicherung.at/static_files/hypo/css_js/projectFunctions.js
+http://www.hypo-versicherung.at/static_files/hypo/css_js/prototype.js
+http://www.hypo-versicherung.at/static_files/hypo/css_js/scriptaculous.js?load=effects
+http://www.hypo-versicherung.at/static_files/hypo/css_js/swfobject.js
+http://www.hypo-versicherung.at/static_files/hypo/css_js/window.js
+http://www.hypo-versicherung.at/static_files/yaml/js/accordian.js

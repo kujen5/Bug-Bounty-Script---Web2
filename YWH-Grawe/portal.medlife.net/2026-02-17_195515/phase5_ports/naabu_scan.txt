@@ -1,0 +1,8 @@
+www.medlife.net:443
+www.medlife.net:80
+portal-test.medlife.net:80
+portal-test.medlife.net:443
+portal.medlife.net:80
+portal.medlife.net:443
+www.portal.medlife.net:80
+www.portal.medlife.net:443

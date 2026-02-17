@@ -1,0 +1,4 @@
+https://www.grawe.ua:443 | 200 | GRAWE Ukraine | Граве Україна | 104.21.38.176 | cloudflare | Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,PHP,TYPO3 CMS
+http://www.grawe.ua:80 | 200 | GRAWE Ukraine | Граве Україна | 104.21.38.176 | cloudflare | Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,PHP,TYPO3 CMS
+https://www.grawe.ua | 200 | GRAWE Ukraine | Граве Україна | 104.21.38.176 | cloudflare | Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,PHP,TYPO3 CMS
+http://www.grawe.ua:8443 | 400 | 400 The plain HTTP request was sent to HTTPS port | 104.21.38.176 | cloudflare | Cloudflare

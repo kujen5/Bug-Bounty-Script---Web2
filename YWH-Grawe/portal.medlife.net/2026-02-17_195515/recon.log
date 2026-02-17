@@ -1,0 +1,87 @@
+[19:55:15] [INFO] Program: \033[1mYWH-Grawe\033[0m
+[19:55:15] [INFO] Target: \033[1mportal.medlife.net\033[0m
+[19:55:15] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/portal.medlife.net/2026-02-17_195515
+[19:55:15] [INFO] Threads: 50 | Rate Limit: 300
+[19:55:15] [INFO] Go: go1.24.0
+[19:55:15] [INFO] Phase 0 completed (0s)
+[19:55:15] [PHASE] Phase 1: Root Domain Intelligence
+[19:55:15] [INFO] Running WHOIS lookup...
+[19:55:15] [INFO] Running ASN enumeration...
+[19:55:16] [INFO] ASN subdomains: 0
+[19:55:16] [INFO] IP ranges discovered: 0
+[19:55:16] [INFO] Phase 1 completed (1s)
+[19:55:16] [PHASE] Phase 2: Passive Subdomain Enumeration
+[19:55:16] [INFO] Starting subfinder...
+[19:55:17] [INFO] Starting amass passive...
+[19:55:17] [INFO] Starting crt.sh lookup...
+[19:55:17] [INFO] Starting Wayback Machine lookup...
+[19:55:17] [INFO] Starting passive API queries...
+[19:55:17] [INFO] No GitHub token provided, skipping GitHub dorking.
+[19:55:17] [INFO] Waiting for 5 passive sources to complete...
+[19:55:55] [INFO]   amass: 2 subdomains
+[19:55:55] [INFO]   crtsh: 0 subdomains
+[19:55:55] [INFO]   passive_apis: 0 subdomains
+[19:55:55] [INFO]   subfinder: 1 subdomains
+[19:55:55] [INFO]   wayback: 2 subdomains
+[19:55:55] [INFO] Total unique passive subdomains: \033[1m2\033[0m
+[19:55:55] [INFO] Phase 2 completed (39s)
+[19:55:55] [PHASE] Phase 3: DNS Resolution & Filtering
+[19:55:55] [INFO] Resolving 2 subdomains with puredns...
+[19:55:58] [INFO] Resolved: 2 alive subdomains
+[19:55:58] [INFO] Wildcards: 0
+[19:55:58] [INFO] Collecting DNS records with dnsx...
+[19:56:07] [INFO] CNAME records: 0
+[19:56:07] [INFO] Phase 3 completed (12s)
+[19:56:07] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[19:56:07] [INFO] Bruteforcing subdomains with puredns...
+[20:02:49] [INFO] Bruteforce found: 1 subdomains
+[20:02:49] [INFO] Generating permutations with alterx...
+[20:02:49] [INFO] Resolving 1275 permutation candidates...
+[20:03:00] [INFO] Permutations resolved: 3
+[20:03:00] [INFO] Phase 4 completed (413s)
+[20:03:00] [PHASE] Merging Master Subdomain List
+[20:03:00] [INFO] Master subdomain list: \033[1m4\033[0m unique live subdomains
+[20:03:00] [PHASE] Phase 5: Port Scanning
+[20:03:00] [INFO] Scanning ports on 4 hosts with naabu...
+[20:03:33] [INFO] Open ports found: 8 host:port entries
+[20:03:33] [INFO] Hosts with open ports: 4
+[20:03:33] [INFO] Phase 5 completed (33s)
+[20:03:33] [PHASE] Phase 6: Web Probing
+[20:03:33] [INFO] Probing 12 targets with httpx...
+[20:03:41] [INFO] Web assets found: 12
+[20:03:41] [INFO]   200 OK: 6
+[20:03:41] [INFO]   403 Forbidden: 0
+[20:03:41] [INFO]   Other status codes also categorized in by_status/
+[20:03:41] [INFO] Phase 6 completed (8s)
+[20:03:41] [PHASE] Phase 7: Content Discovery
+[20:03:41] [INFO] Starting katana crawl...
+[20:03:41] [INFO] Starting gau historical URL fetch...
+[20:04:06] [INFO] Katana URLs: 187
+[20:04:06] [INFO] GAU URLs: 21
+[20:04:06] [INFO] Total unique URLs: 164
+[20:04:06] [INFO] JavaScript files: 13
+[20:04:06] [INFO] Analyzing 13 JavaScript files for endpoints, secrets, and URLs...
+[20:04:18] [INFO]   Endpoints: 0
+[20:04:18] [INFO]   URLs: 0
+[20:04:18] [INFO]   Secrets: 0
+[20:04:18] [INFO]   Emails: 0
+[20:04:18] [INFO]   Files: 0
+[20:04:18] [INFO] Phase 7 completed (37s)
+[20:04:18] [PHASE] Phase 8: Vulnerability Scanning
+[20:04:18] [INFO] Running nuclei on 12 live URLs...
+[20:04:18] [INFO] Total findings: 0
+[20:04:18] [INFO] Phase 8 completed (0s)
+[20:04:18] [PHASE] Phase 9: Certstream Monitor (Background)
+[20:04:18] [INFO] Starting certstream monitor in background (60s sample)...
+[20:04:18] [INFO] Certstream PID: 35111 (output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/portal.medlife.net/2026-02-17_195515/phase2_passive/certstream.txt)
+[20:04:18] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains portal.medlife.net -o certs.txt
+[20:04:18] [INFO] Phase 9 completed (0s)
+[20:04:18] [PHASE] Phase 10: Reporting & Summary
+[20:04:18] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[20:05:18] [INFO] Generating consolidated domain report...
+[20:05:18] [INFO] Consolidated report saved: \033[1mportal.medlife.net_consolidated_report.txt\033[0m
+[20:05:18] [INFO] Full path: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/portal.medlife.net/2026-02-17_195515/portal.medlife.net_consolidated_report.txt
+[20:05:18] [INFO] Phase 10 completed (60s)
+[20:05:18] [INFO] All phases complete for portal.medlife.net. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/portal.medlife.net/2026-02-17_195515\033[0m
+[20:05:18] [PHASE] Domain 19/24: portal.grawe.at
+[20:05:18] [PHASE] Phase 0: Setup & Dependencies

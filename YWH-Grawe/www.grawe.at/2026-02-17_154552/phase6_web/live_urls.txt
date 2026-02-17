@@ -1,0 +1,13 @@
+http://mobile.grawe.at:80
+http://www.grawe.at:80
+https://www.grawe.at:443
+http://mail.grawe.at:80
+https://www.grawe.at
+https://oauth.grawe.at
+https://login.grawe.at:443
+https://login.grawe.at
+https://mobile.grawe.at:443
+https://mobile.grawe.at
+https://mail.grawe.at
+https://oauth.grawe.at:443
+https://mail.grawe.at:443

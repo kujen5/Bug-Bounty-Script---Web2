@@ -1,0 +1,7 @@
+[passive] Querying 4 passive sources for www.grawe.bg...
+[passive] AlienVault: 0 subdomains
+[passive] URLScan: 0 subdomains
+[passive] HackerTarget: 1 subdomains
+[passive] RapidDNS: 0 subdomains
+[passive] Total unique subdomains from all sources: 1
+[passive] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/www.grawe.bg/2026-02-17_172558/phase2_passive/passive_apis.txt

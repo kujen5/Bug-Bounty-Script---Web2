@@ -1,0 +1,86 @@
+[16:28:13] [INFO] Program: \033[1mYWH-Memento\033[0m
+[16:28:13] [INFO] Target: \033[1mbug-bounty-dfm.mementoblockchain.com\033[0m
+[16:28:13] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/bug-bounty-dfm.mementoblockchain.com/2026-02-12_162813
+[16:28:13] [INFO] Threads: 50 | Rate Limit: 300
+[16:28:13] [INFO] Go: go1.24.0
+[16:28:14] [INFO] Phase 0 completed (1s)
+[16:28:14] [PHASE] Phase 1: Root Domain Intelligence
+[16:28:14] [INFO] Running WHOIS lookup...
+[16:28:14] [INFO] Running ASN enumeration...
+[16:28:15] [INFO] ASN subdomains: 0
+[16:28:15] [INFO] IP ranges discovered: 0
+[16:28:16] [INFO] Phase 1 completed (1s)
+[16:28:16] [PHASE] Phase 2: Passive Subdomain Enumeration
+[16:28:16] [INFO] Starting subfinder...
+[16:28:16] [INFO] Starting amass passive...
+[16:28:16] [INFO] Starting crt.sh lookup...
+[16:28:16] [INFO] Starting Wayback Machine lookup...
+[16:28:16] [INFO] Starting passive API queries...
+[16:28:16] [INFO] No GitHub token provided, skipping GitHub dorking.
+[16:28:16] [INFO] Waiting for 5 passive sources to complete...
+[16:29:00] [INFO]   amass: 1 subdomains
+[16:29:00] [INFO]   crtsh: 0 subdomains
+[16:29:00] [INFO]   passive_apis: 1 subdomains
+[16:29:00] [INFO]   subfinder: 0 subdomains
+[16:29:00] [INFO]   wayback: 1 subdomains
+[16:29:00] [INFO] Total unique passive subdomains: \033[1m1\033[0m
+[16:29:00] [INFO] Phase 2 completed (44s)
+[16:29:00] [PHASE] Phase 3: DNS Resolution & Filtering
+[16:29:00] [INFO] Resolving 1 subdomains with puredns...
+[16:29:12] [INFO] Resolved: 1 alive subdomains
+[16:29:12] [INFO] Wildcards: 0
+[16:29:12] [INFO] Collecting DNS records with dnsx...
+[16:29:44] [INFO] Phase 3 completed (44s)
+[16:29:44] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[16:29:44] [INFO] Bruteforcing subdomains with puredns...
+[16:36:28] [INFO] Bruteforce found: 0 subdomains
+[16:36:28] [INFO] Generating permutations with alterx...
+[16:36:29] [INFO] Resolving 696 permutation candidates...
+[16:36:37] [INFO] Permutations resolved: 2
+[16:36:37] [INFO] Phase 4 completed (413s)
+[16:36:37] [PHASE] Merging Master Subdomain List
+[16:36:37] [INFO] Master subdomain list: \033[1m3\033[0m unique live subdomains
+[16:36:37] [PHASE] Phase 5: Port Scanning
+[16:36:37] [INFO] Scanning ports on 3 hosts with naabu...
+[16:37:41] [INFO] Open ports found: 8 host:port entries
+[16:37:41] [INFO] Hosts with open ports: 3
+[16:37:41] [INFO] Phase 5 completed (64s)
+[16:37:41] [PHASE] Phase 6: Web Probing
+[16:37:41] [INFO] Probing 11 targets with httpx...
+[16:37:46] [INFO] Web assets found: 11
+[16:37:46] [INFO]   200 OK: 10
+[16:37:46] [INFO]   403 Forbidden: 0
+[16:37:46] [INFO]   Other status codes also categorized in by_status/
+[16:37:46] [INFO] Phase 6 completed (5s)
+[16:37:47] [PHASE] Phase 7: Content Discovery
+[16:37:47] [INFO] Starting katana crawl...
+[16:37:47] [INFO] Starting gau historical URL fetch...
+[16:38:10] [INFO] Katana URLs: 920
+[16:38:10] [INFO] GAU URLs: 245
+[16:38:10] [INFO] Total unique URLs: 1164
+[16:38:10] [INFO] JavaScript files: 1028
+[16:38:10] [INFO] Analyzing 1028 JavaScript files for endpoints, secrets, and URLs...
+[16:54:34] [INFO]   Endpoints: 0
+[16:54:34] [INFO]   URLs: 0
+[16:54:34] [INFO]   Secrets: 0
+[16:54:34] [INFO]   Emails: 0
+[16:54:34] [INFO]   Files: 0
+[16:54:34] [INFO] Phase 7 completed (1007s)
+[16:54:34] [PHASE] Phase 8: Vulnerability Scanning
+[16:54:34] [INFO] Running nuclei on 11 live URLs...
+[16:54:34] [INFO] Total findings: 0
+[16:54:34] [INFO] Phase 8 completed (0s)
+[16:54:34] [PHASE] Phase 9: Certstream Monitor (Background)
+[16:54:34] [INFO] Starting certstream monitor in background (60s sample)...
+[16:54:34] [INFO] Certstream PID: 3422 (output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/bug-bounty-dfm.mementoblockchain.com/2026-02-12_162813/phase2_passive/certstream.txt)
+[16:54:34] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains bug-bounty-dfm.mementoblockchain.com -o certs.txt
+[16:54:34] [INFO] Phase 9 completed (0s)
+[16:54:34] [PHASE] Phase 10: Reporting & Summary
+[16:54:34] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[16:55:35] [INFO] Generating consolidated domain report...
+[16:55:35] [INFO] Consolidated report saved: \033[1mbug-bounty-dfm.mementoblockchain.com_consolidated_report.txt\033[0m
+[16:55:35] [INFO] Full path: /home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/bug-bounty-dfm.mementoblockchain.com/2026-02-12_162813/bug-bounty-dfm.mementoblockchain.com_consolidated_report.txt
+[16:55:35] [INFO] Phase 10 completed (61s)
+[16:55:35] [INFO] All phases complete for bug-bounty-dfm.mementoblockchain.com. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/bug-bounty-dfm.mementoblockchain.com/2026-02-12_162813\033[0m
+[16:55:35] [PHASE] Domain 3/4: api.dextf.com
+[16:55:35] [PHASE] Phase 0: Setup & Dependencies

@@ -1,0 +1,4 @@
+http://sync.eurolink.com.mk
+http://sync.eurolink.com.mk:80
+http://www.sync.eurolink.com.mk
+http://www.sync.eurolink.com.mk:80

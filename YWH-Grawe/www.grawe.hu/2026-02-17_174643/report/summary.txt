@@ -1,0 +1,55 @@
+==============================================
+  BEAST MODE RECON - SUMMARY REPORT
+==============================================
+
+Program:    YWH-Grawe
+Target:     www.grawe.hu
+Date:       2026-02-17 17:57:25
+Output Dir: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/www.grawe.hu/2026-02-17_174643
+
+----------------------------------------------
+  SUBDOMAIN COUNTS
+----------------------------------------------
+Passive sources:
+  subfinder:           0
+  amass:               2
+  crtsh:               0
+  wayback:             1
+  passive_apis:        0
+
+Merged passive:      2
+Resolved (alive):    1
+Bruteforce:          0
+Permutations:        1
+MASTER TOTAL:        1
+
+----------------------------------------------
+  INFRASTRUCTURE
+----------------------------------------------
+IP ranges (ASN):     0
+Open ports (naabu):  2
+Web assets (httpx):  3
+
+----------------------------------------------
+  CONTENT & VULNS
+----------------------------------------------
+URLs discovered:     1836
+JS files:            21
+Nuclei findings:     0
+
+----------------------------------------------
+  PHASE STATUS
+----------------------------------------------
+  Phase 0 : OK
+  Phase 1 : OK
+  Phase 2 : OK
+  Phase 3 : OK
+  Phase 4 : OK
+  Phase 5 : OK
+  Phase 6 : OK
+  Phase 7 : OK
+  Phase 8 : OK
+  Phase 9 : OK
+  Phase 10: OK
+
+==============================================

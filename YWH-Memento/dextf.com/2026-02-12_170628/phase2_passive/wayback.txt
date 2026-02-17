@@ -1,0 +1,13 @@
+api.dextf.com
+bridge.dextf.com
+cdn.dextf.com
+damu.dextf.com
+dapp.dextf.com
+dextf.com
+docs.dextf.com
+forum.dextf.com
+governance.dextf.com
+staking.dextf.com
+v1-v2-migration.dextf.com
+v1.dapp.dextf.com
+v2.dapp.dextf.com

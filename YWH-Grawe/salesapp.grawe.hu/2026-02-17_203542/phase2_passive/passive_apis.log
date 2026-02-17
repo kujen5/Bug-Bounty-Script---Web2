@@ -1,0 +1,7 @@
+[passive] Querying 4 passive sources for salesapp.grawe.hu/...
+[passive] RapidDNS: 0 subdomains
+[passive] HackerTarget: 0 subdomains
+[passive] URLScan: 0 subdomains
+[passive] AlienVault: 0 subdomains
+[passive] Total unique subdomains from all sources: 0
+[passive] Results written to /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/salesapp.grawe.hu//2026-02-17_203542/phase2_passive/passive_apis.txt

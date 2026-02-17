@@ -1,0 +1,16 @@
+{
+  "program": "YWH-Grawe",
+  "domain": "eurolink.com.mk",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/eurolink.com.mk/2026-02-17_205331",
+  "counts": {
+    "passive_merged": 35,
+    "resolved": 18,
+    "bruteforce": 20,
+    "permutations": 12,
+    "master": 27,
+    "ports": 90,
+    "web_assets": 54,
+    "urls": 5079,
+    "nuclei": 0
+  }
+}

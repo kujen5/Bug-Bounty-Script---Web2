@@ -1,0 +1,13 @@
+http://mobile.grawe.at:80 | 200 | 193.28.204.4 | CPWS | HSTS,jQuery
+http://www.grawe.at:80 | 200 | Grazer Wechselseitige Versicherung - Österreich | GRAWE | 193.28.204.126 | HSTS,PHP,TYPO3 CMS
+https://www.grawe.at:443 | 200 | Grazer Wechselseitige Versicherung - Österreich | GRAWE | 193.28.204.126 | HSTS,PHP,TYPO3 CMS
+http://mail.grawe.at:80 | 200 | 193.28.204.116 | BigIP | F5 BigIP
+https://www.grawe.at | 200 | Grazer Wechselseitige Versicherung - Österreich | GRAWE | 193.28.204.126 | HSTS,PHP,TYPO3 CMS
+https://oauth.grawe.at | 200 | 193.28.204.101 | LB | F5 BigIP
+https://login.grawe.at:443 | 200 | 193.28.204.32 | LB | F5 BigIP
+https://login.grawe.at | 200 | 193.28.204.32 | LB | F5 BigIP
+https://mobile.grawe.at:443 | 200 | 193.28.204.4 | CPWS | HSTS,jQuery
+https://mobile.grawe.at | 200 | 193.28.204.4 | CPWS | HSTS,jQuery
+https://mail.grawe.at | 200 | 193.28.204.116 | BigIP | F5 BigIP
+https://oauth.grawe.at:443 | 200 | 193.28.204.101 | LB | F5 BigIP
+https://mail.grawe.at:443 | 200 | 193.28.204.116 | BigIP | F5 BigIP

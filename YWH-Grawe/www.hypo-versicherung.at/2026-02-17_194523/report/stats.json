@@ -1,0 +1,16 @@
+{
+  "program": "YWH-Grawe",
+  "domain": "www.hypo-versicherung.at",
+  "output_dir": "/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/www.hypo-versicherung.at/2026-02-17_194523",
+  "counts": {
+    "passive_merged": 2,
+    "resolved": 1,
+    "bruteforce": 0,
+    "permutations": 1,
+    "master": 1,
+    "ports": 2,
+    "web_assets": 3,
+    "urls": 1204,
+    "nuclei": 0
+  }
+}

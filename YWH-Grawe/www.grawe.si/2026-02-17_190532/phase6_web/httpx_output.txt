@@ -1,0 +1,6 @@
+http://www.grawe.si:80 | 200 | GRAWE zavarovalnica d. d. | Zavarovalnica na Vaši strani. | GRAWE Zavarovalnica d.d. | 193.28.204.126 | HSTS,PHP,TYPO3 CMS
+https://www.grawe.si:443 | 200 | GRAWE zavarovalnica d. d. | Zavarovalnica na Vaši strani. | GRAWE Zavarovalnica d.d. | 193.28.204.126 | HSTS,PHP,TYPO3 CMS
+https://www.grawe.si | 200 | GRAWE zavarovalnica d. d. | Zavarovalnica na Vaši strani. | GRAWE Zavarovalnica d.d. | 193.28.204.126 | HSTS,PHP,TYPO3 CMS
+http://content.grawe.si:80 | 200 | 35.172.149.98 | HSTS
+https://content.grawe.si:443 | 200 | 35.172.149.98 | HSTS
+https://content.grawe.si | 200 | 35.172.149.98 | HSTS

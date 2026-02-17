@@ -1,0 +1,87 @@
+[20:14:06] [INFO] Program: \033[1mYWH-Grawe\033[0m
+[20:14:06] [INFO] Target: \033[1msalesapp-medlife.net\033[0m
+[20:14:06] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/salesapp-medlife.net/2026-02-17_201406
+[20:14:06] [INFO] Threads: 50 | Rate Limit: 300
+[20:14:06] [INFO] Go: go1.24.0
+[20:14:07] [INFO] Phase 0 completed (1s)
+[20:14:07] [PHASE] Phase 1: Root Domain Intelligence
+[20:14:07] [INFO] Running WHOIS lookup...
+[20:14:07] [INFO] Running ASN enumeration...
+[20:14:08] [INFO] ASN subdomains: 0
+[20:14:08] [INFO] IP ranges discovered: 0
+[20:14:08] [INFO] Phase 1 completed (1s)
+[20:14:08] [PHASE] Phase 2: Passive Subdomain Enumeration
+[20:14:08] [INFO] Starting subfinder...
+[20:14:08] [INFO] Starting amass passive...
+[20:14:08] [INFO] Starting crt.sh lookup...
+[20:14:08] [INFO] Starting Wayback Machine lookup...
+[20:14:08] [INFO] Starting passive API queries...
+[20:14:08] [INFO] No GitHub token provided, skipping GitHub dorking.
+[20:14:08] [INFO] Waiting for 5 passive sources to complete...
+[20:14:46] [INFO]   amass: 2 subdomains
+[20:14:46] [INFO]   crtsh: 0 subdomains
+[20:14:46] [INFO]   passive_apis: 0 subdomains
+[20:14:46] [INFO]   subfinder: 1 subdomains
+[20:14:46] [INFO]   wayback: 1 subdomains
+[20:14:46] [INFO] Total unique passive subdomains: \033[1m2\033[0m
+[20:14:46] [INFO] Phase 2 completed (38s)
+[20:14:46] [PHASE] Phase 3: DNS Resolution & Filtering
+[20:14:46] [INFO] Resolving 2 subdomains with puredns...
+[20:14:52] [INFO] Resolved: 2 alive subdomains
+[20:14:52] [INFO] Wildcards: 0
+[20:14:52] [INFO] Collecting DNS records with dnsx...
+[20:14:57] [INFO] CNAME records: 0
+[20:14:57] [INFO] Phase 3 completed (11s)
+[20:14:57] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[20:14:57] [INFO] Bruteforcing subdomains with puredns...
+[20:21:38] [INFO] Bruteforce found: 2 subdomains
+[20:21:38] [INFO] Generating permutations with alterx...
+[20:21:39] [INFO] Resolving 1275 permutation candidates...
+[20:21:48] [INFO] Permutations resolved: 1
+[20:21:48] [INFO] Phase 4 completed (411s)
+[20:21:48] [PHASE] Merging Master Subdomain List
+[20:21:48] [INFO] Master subdomain list: \033[1m3\033[0m unique live subdomains
+[20:21:48] [PHASE] Phase 5: Port Scanning
+[20:21:48] [INFO] Scanning ports on 3 hosts with naabu...
+[20:22:03] [INFO] Open ports found: 6 host:port entries
+[20:22:03] [INFO] Hosts with open ports: 3
+[20:22:03] [INFO] Phase 5 completed (15s)
+[20:22:03] [PHASE] Phase 6: Web Probing
+[20:22:03] [INFO] Probing 9 targets with httpx...
+[20:22:10] [INFO] Web assets found: 9
+[20:22:10] [INFO]   200 OK: 6
+[20:22:10] [INFO]   403 Forbidden: 0
+[20:22:10] [INFO]   Other status codes also categorized in by_status/
+[20:22:10] [INFO] Phase 6 completed (7s)
+[20:22:10] [PHASE] Phase 7: Content Discovery
+[20:22:10] [INFO] Starting katana crawl...
+[20:22:10] [INFO] Starting gau historical URL fetch...
+[20:22:55] [INFO] Katana URLs: 211
+[20:22:55] [INFO] GAU URLs: 24
+[20:22:55] [INFO] Total unique URLs: 232
+[20:22:55] [INFO] JavaScript files: 165
+[20:22:56] [INFO] Analyzing 165 JavaScript files for endpoints, secrets, and URLs...
+[20:25:49] [INFO]   Endpoints: 0
+[20:25:49] [INFO]   URLs: 0
+[20:25:49] [INFO]   Secrets: 0
+[20:25:49] [INFO]   Emails: 0
+[20:25:49] [INFO]   Files: 0
+[20:25:49] [INFO] Phase 7 completed (219s)
+[20:25:49] [PHASE] Phase 8: Vulnerability Scanning
+[20:25:49] [INFO] Running nuclei on 9 live URLs...
+[20:25:49] [INFO] Total findings: 0
+[20:25:49] [INFO] Phase 8 completed (0s)
+[20:25:49] [PHASE] Phase 9: Certstream Monitor (Background)
+[20:25:49] [INFO] Starting certstream monitor in background (60s sample)...
+[20:25:49] [INFO] Certstream PID: 36849 (output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/salesapp-medlife.net/2026-02-17_201406/phase2_passive/certstream.txt)
+[20:25:49] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains salesapp-medlife.net -o certs.txt
+[20:25:49] [INFO] Phase 9 completed (0s)
+[20:25:49] [PHASE] Phase 10: Reporting & Summary
+[20:25:49] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[20:26:49] [INFO] Generating consolidated domain report...
+[20:26:49] [INFO] Consolidated report saved: \033[1msalesapp-medlife.net_consolidated_report.txt\033[0m
+[20:26:49] [INFO] Full path: /home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/salesapp-medlife.net/2026-02-17_201406/salesapp-medlife.net_consolidated_report.txt
+[20:26:49] [INFO] Phase 10 completed (60s)
+[20:26:49] [INFO] All phases complete for salesapp-medlife.net. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-Grawe/salesapp-medlife.net/2026-02-17_201406\033[0m
+[20:26:49] [PHASE] Domain 21/24: sales.medlife.net/api
+[20:26:49] [PHASE] Phase 0: Setup & Dependencies

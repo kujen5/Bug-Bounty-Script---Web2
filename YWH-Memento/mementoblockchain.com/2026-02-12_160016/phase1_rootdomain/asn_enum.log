@@ -1,0 +1,4 @@
+[asn] mementoblockchain.com -> 18.173.23.97
+[asn] ASN info: [{'ip': '"18.173.23.97"', 'asn': '"16509"', 'org': '"18.173.16.0/21"'}]
+[asn] Prefix lookup error for "16509": HTTPSConnectionPool(host='api.bgpview.io', port=443): Max retries exceeded with url: /asn/%2216509%22/prefixes (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x73886c3d8670>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[asn] "16509" announces 0 prefixes

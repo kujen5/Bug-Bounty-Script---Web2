@@ -1,0 +1,12 @@
+https://cdn.dextf.com | 403 | 18.173.23.83 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services
+https://cdn.dextf.com:443 | 403 | 18.173.23.83 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services
+http://cdn.dextf.com:80 | 403 | 18.173.23.83 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services
+https://api.dextf.com:443 | 403 | 18.173.34.30 | Amazon CloudFront,Amazon Web Services
+http://api.dextf.com:80 | 403 | 18.173.34.85 | Amazon CloudFront,Amazon Web Services
+https://api.dextf.com | 403 | 18.173.34.85 | Amazon CloudFront,Amazon Web Services
+http://www.dextf.com:80 | 200 | Memento | 18.173.23.75 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://www.dextf.com | 200 | Memento | 18.173.23.75 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+https://www.dextf.com:443 | 200 | Memento | 18.173.23.75 | AmazonS3 | Amazon CloudFront,Amazon S3,Amazon Web Services,Cloudflare,HSTS,HTTP/3,Semantic UI,cdnjs,jQuery:3.6.4
+http://docs.dextf.com:80 | 200 | Welcome | Memento DFM | Documentation | 18.173.23.111 | cloudflare | Cloudflare,GitBook,HSTS,HTTP/3,Vercel
+https://docs.dextf.com | 200 | Welcome | Memento DFM | Documentation | 18.173.23.111 | cloudflare | Cloudflare,GitBook,HSTS,HTTP/3,Vercel
+https://docs.dextf.com:443 | 200 | Welcome | Memento DFM | Documentation | 18.173.23.111 | cloudflare | Cloudflare,GitBook,HSTS,HTTP/3,Vercel

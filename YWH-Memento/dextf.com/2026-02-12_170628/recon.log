@@ -1,0 +1,86 @@
+[17:06:28] [INFO] Program: \033[1mYWH-Memento\033[0m
+[17:06:28] [INFO] Target: \033[1mdextf.com\033[0m
+[17:06:28] [INFO] Output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/dextf.com/2026-02-12_170628
+[17:06:28] [INFO] Threads: 50 | Rate Limit: 300
+[17:06:28] [INFO] Go: go1.24.0
+[17:06:28] [INFO] Phase 0 completed (0s)
+[17:06:28] [PHASE] Phase 1: Root Domain Intelligence
+[17:06:28] [INFO] Running WHOIS lookup...
+[17:06:28] [INFO] Running ASN enumeration...
+[17:06:30] [INFO] ASN subdomains: 0
+[17:06:30] [INFO] IP ranges discovered: 0
+[17:06:30] [INFO] Phase 1 completed (2s)
+[17:06:30] [PHASE] Phase 2: Passive Subdomain Enumeration
+[17:06:30] [INFO] Starting subfinder...
+[17:06:30] [INFO] Starting amass passive...
+[17:06:30] [INFO] Starting crt.sh lookup...
+[17:06:30] [INFO] Starting Wayback Machine lookup...
+[17:06:30] [INFO] Starting passive API queries...
+[17:06:30] [INFO] No GitHub token provided, skipping GitHub dorking.
+[17:06:30] [INFO] Waiting for 5 passive sources to complete...
+[17:07:34] [INFO]   amass: 15 subdomains
+[17:07:34] [INFO]   crtsh: 0 subdomains
+[17:07:34] [INFO]   passive_apis: 10 subdomains
+[17:07:34] [INFO]   subfinder: 13 subdomains
+[17:07:34] [INFO]   wayback: 13 subdomains
+[17:07:34] [INFO] Total unique passive subdomains: \033[1m16\033[0m
+[17:07:34] [INFO] Phase 2 completed (64s)
+[17:07:34] [PHASE] Phase 3: DNS Resolution & Filtering
+[17:07:34] [INFO] Resolving 16 subdomains with puredns...
+[17:07:40] [INFO] Resolved: 10 alive subdomains
+[17:07:40] [INFO] Wildcards: 0
+[17:07:40] [INFO] Collecting DNS records with dnsx...
+[17:08:06] [INFO] CNAME records: 0
+[17:08:06] [INFO] Phase 3 completed (32s)
+[17:08:06] [PHASE] Phase 4: Active Discovery (Bruteforce + Permutations)
+[17:08:06] [INFO] Bruteforcing subdomains with puredns...
+[17:18:30] [INFO] Bruteforce found: 0 subdomains
+[17:18:30] [INFO] Generating permutations with alterx...
+[17:18:30] [INFO] Resolving 5332 permutation candidates...
+[17:19:03] [INFO] Permutations resolved: 6
+[17:19:03] [INFO] Phase 4 completed (657s)
+[17:19:03] [PHASE] Merging Master Subdomain List
+[17:19:03] [INFO] Master subdomain list: \033[1m12\033[0m unique live subdomains
+[17:19:03] [PHASE] Phase 5: Port Scanning
+[17:19:03] [INFO] Scanning ports on 12 hosts with naabu...
+[17:22:48] [INFO] Open ports found: 24 host:port entries
+[17:22:48] [INFO] Hosts with open ports: 12
+[17:22:48] [INFO] Phase 5 completed (225s)
+[17:22:48] [PHASE] Phase 6: Web Probing
+[17:22:48] [INFO] Probing 36 targets with httpx...
+[17:23:01] [INFO] Web assets found: 36
+[17:23:01] [INFO]   200 OK: 27
+[17:23:01] [INFO]   403 Forbidden: 9
+[17:23:01] [INFO]   Other status codes also categorized in by_status/
+[17:23:01] [INFO] Phase 6 completed (13s)
+[17:23:01] [PHASE] Phase 7: Content Discovery
+[17:23:01] [INFO] Starting katana crawl...
+[17:23:01] [INFO] Starting gau historical URL fetch...
+[17:23:47] [INFO] Katana URLs: 2307
+[17:23:47] [INFO] GAU URLs: 75
+[17:23:47] [INFO] Total unique URLs: 2360
+[17:23:47] [INFO] JavaScript files: 1398
+[17:23:47] [INFO] Analyzing 1398 JavaScript files for endpoints, secrets, and URLs...
+[17:47:27] [INFO]   Endpoints: 0
+[17:47:27] [INFO]   URLs: 0
+[17:47:27] [INFO]   Secrets: 0
+[17:47:27] [INFO]   Emails: 0
+[17:47:27] [INFO]   Files: 0
+[17:47:27] [INFO] Phase 7 completed (1466s)
+[17:47:27] [PHASE] Phase 8: Vulnerability Scanning
+[17:47:27] [INFO] Running nuclei on 36 live URLs...
+[17:47:27] [INFO] Total findings: 0
+[17:47:27] [INFO] Phase 8 completed (0s)
+[17:47:27] [PHASE] Phase 9: Certstream Monitor (Background)
+[17:47:27] [INFO] Starting certstream monitor in background (60s sample)...
+[17:47:27] [INFO] Certstream PID: 5150 (output: /home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/dextf.com/2026-02-12_170628/phase2_passive/certstream.txt)
+[17:47:27] [INFO] To run indefinitely later: python3 /home/kujen/Bug-Bounty-Script---Web2/helpers/certstream_monitor.py --domains dextf.com -o certs.txt
+[17:47:27] [INFO] Phase 9 completed (0s)
+[17:47:27] [PHASE] Phase 10: Reporting & Summary
+[17:47:27] [INFO] Waiting for certstream monitor to finish (max 90s)...
+[17:48:28] [INFO] Generating consolidated domain report...
+[17:48:28] [INFO] Consolidated report saved: \033[1mdextf.com_consolidated_report.txt\033[0m
+[17:48:28] [INFO] Full path: /home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/dextf.com/2026-02-12_170628/dextf.com_consolidated_report.txt
+[17:48:28] [INFO] Phase 10 completed (61s)
+[17:48:28] [INFO] All phases complete for dextf.com. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/dextf.com/2026-02-12_170628\033[0m
+[17:48:28] [INFO] All domains processed. Results in: \033[1m/home/kujen/Bug-Bounty-Script---Web2/YWH-Memento/\033[0m
