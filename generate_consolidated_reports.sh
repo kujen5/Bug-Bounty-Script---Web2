@@ -50,18 +50,25 @@ generate_report() {
             echo "═══════════════════════════════════════════════════════════════════════════"
             echo "  ASN INFORMATION"
             echo "═══════════════════════════════════════════════════════════════════════════"
-            python3 -c "
+            python3 - "${OUTDIR}/phase1_rootdomain/asn_info.json" <<'PYEOF' 2>/dev/null || echo "ASN information not available"
 import json, sys
 try:
-    with open('${OUTDIR}/phase1_rootdomain/asn_info.json') as f:
+    with open(sys.argv[1]) as f:
         data = json.load(f)
-    print('ASN Number:       {}'.format(data.get('asn', 'N/A')))
-    print('ASN Name:         {}'.format(data.get('name', 'N/A')))
-    print('ASN Description:  {}'.format(data.get('description', 'N/A')))
-    print('IP Ranges:        {} CIDR blocks'.format(len(data.get('prefixes', []))))
-except:
-    print('ASN information not available')
-" 2>/dev/null || echo "ASN information not available"
+    asns     = data.get('asns', [])
+    prefixes = data.get('prefixes', [])
+    print('Domain IP:        {}'.format(data.get('ip', 'N/A')))
+    if asns:
+        for entry in asns:
+            print('ASN Number:       {}'.format(entry.get('asn', 'N/A')))
+            print('ASN Org:          {}'.format(entry.get('org', 'N/A')))
+    else:
+        print('ASN Number:       N/A')
+        print('ASN Org:          N/A')
+    print('IP Ranges:        {} CIDR blocks'.format(len(prefixes)))
+except Exception as e:
+    print('ASN information not available ({})'.format(e))
+PYEOF
             echo ""
         fi
 

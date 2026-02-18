@@ -16,7 +16,7 @@ set -o pipefail
 # ============================================================================
 # GLOBALS & DEFAULTS
 # ============================================================================
-VERSION="2.0.0"
+VERSION="2.1.0"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 HELPERS_DIR="${SCRIPT_DIR}/helpers"
 
@@ -36,6 +36,10 @@ LOGFILE=""
 
 WORDLIST="${SCRIPT_DIR}/subdomains-top1million-110000.txt"
 RESOLVERS="${SCRIPT_DIR}/resolvers.txt"
+DIRLIST="${SCRIPT_DIR}/raft-medium-directories-lowercase.txt"
+
+# PID of background certstream process (cleaned up on exit)
+CERTSTREAM_PID=""
 
 # Colors
 RED='\033[0;31m'
@@ -49,6 +53,25 @@ NC='\033[0m'
 # Track phase timing
 declare -A PHASE_START
 declare -A PHASE_STATUS
+
+# ============================================================================
+# CLEANUP TRAP
+# ============================================================================
+
+cleanup_exit() {
+    if [[ -n "$CERTSTREAM_PID" ]] && kill -0 "$CERTSTREAM_PID" 2>/dev/null; then
+        log WARN "Killing certstream monitor (PID ${CERTSTREAM_PID})..."
+        kill "$CERTSTREAM_PID" 2>/dev/null || true
+        sleep 1
+        kill -9 "$CERTSTREAM_PID" 2>/dev/null || true
+    fi
+    # Remove stale PID file if OUTDIR is set
+    if [[ -n "$OUTDIR" ]]; then
+        rm -f "${OUTDIR}/certstream.pid"
+    fi
+}
+
+trap cleanup_exit EXIT INT TERM
 
 # ============================================================================
 # UTILITY FUNCTIONS
@@ -413,12 +436,34 @@ phase0_setup() {
         pip3 install -q beautifulsoup4
     fi
 
-    # --- Nuclei templates ---
+    # --- Nuclei templates (refresh if missing or older than 7 days) ---
     if require_cmd nuclei; then
-        if [[ ! -d "$HOME/nuclei-templates" ]]; then
-            log INFO "Updating nuclei templates..."
-            nuclei -update-templates -silent 2>/dev/null
+        local templates_dir="$HOME/nuclei-templates"
+        local needs_update=false
+        if [[ ! -d "$templates_dir" ]]; then
+            needs_update=true
+        else
+            # Check mtime of the templates directory itself
+            local age_days
+            age_days=$(( ( $(date +%s) - $(stat -c %Y "$templates_dir" 2>/dev/null || echo 0) ) / 86400 ))
+            if [[ "$age_days" -ge 7 ]]; then
+                log INFO "Nuclei templates are ${age_days} days old. Refreshing..."
+                needs_update=true
+            fi
         fi
+        if [[ "$needs_update" == true ]]; then
+            log INFO "Updating nuclei templates..."
+            nuclei -update-templates -silent 2>/dev/null || log WARN "Nuclei template update failed."
+        else
+            log INFO "Nuclei templates up-to-date (${age_days:-0} days old)."
+        fi
+    fi
+
+    # --- Directory bruteforce wordlist ---
+    if [[ ! -f "$DIRLIST" ]]; then
+        log INFO "Downloading directory bruteforce wordlist..."
+        wget -q "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/raft-medium-directories-lowercase.txt" \
+            -O "$DIRLIST" || log WARN "Could not download DIRLIST; ffuf step will be skipped."
     fi
 
     phase_end 0 "OK"
@@ -821,58 +866,36 @@ phase6_web() {
         rm -f "$combined"
     fi
 
-    # Derive text output and live URLs from JSON
-    if [[ -s "${dir}/httpx_output.json" ]]; then
-        python3 -c "
-import json, sys
-for line in open('${dir}/httpx_output.json'):
-    try:
-        obj = json.loads(line)
-        url = obj.get('url', '')
-        status = obj.get('status_code', '')
-        title = obj.get('title', '')
-        ip = obj.get('host', '')
-        tech = ','.join(obj.get('tech', []) or [])
-        server = obj.get('webserver', '')
-        parts = [url, str(status), title, ip, server, tech]
-        print(' | '.join(p for p in parts if p))
-    except:
-        pass
-" > "${dir}/httpx_output.txt" 2>/dev/null || true
-
-        python3 -c "
-import json
-for line in open('${dir}/httpx_output.json'):
-    try:
-        obj = json.loads(line)
-        url = obj.get('url', '')
-        if url:
-            print(url)
-    except:
-        pass
-" > "${dir}/live_urls.txt" 2>/dev/null || true
+    # Check for empty output and log the httpx error log for debugging
+    if [[ ! -s "${dir}/httpx_output.json" ]]; then
+        log WARN "httpx produced no JSON output. Check ${dir}/httpx.log for details:"
+        if [[ -s "${dir}/httpx.log" ]]; then
+            head -20 "${dir}/httpx.log" | while IFS= read -r line; do
+                log WARN "  [httpx] ${line}"
+            done
+        fi
+        phase_end 6 "FAIL"
+        return 1
     fi
 
-    log INFO "Web assets found: $(count_lines "${dir}/httpx_output.txt")"
+    # Parse JSON output via helper: derives text summary, live_urls.txt,
+    # and per-status-code files in by_status/
+    python3 "${HELPERS_DIR}/httpx_parse.py" "${dir}/httpx_output.json" \
+        --text-out   "${dir}/httpx_output.txt" \
+        --urls-out   "${dir}/live_urls.txt" \
+        --status-dir "${dir}/by_status" \
+        2>"${dir}/httpx_parse.log" || true
 
-    # Categorize by status code
-    if [[ -s "${dir}/httpx_output.json" ]]; then
-        for code in 200 301 302 403 404 500; do
-            python3 -c "
-import json
-for line in open('${dir}/httpx_output.json'):
-    try:
-        obj = json.loads(line)
-        if obj.get('status_code') == ${code}:
-            print(obj.get('url', ''))
-    except:
-        pass
-" > "${dir}/by_status/${code}.txt" 2>/dev/null || true
-        done
+    local web_count
+    web_count=$(count_lines "${dir}/httpx_output.txt")
+    log INFO "Web assets found: ${web_count}"
 
-        log INFO "  200 OK: $(count_lines "${dir}/by_status/200.txt")"
+    if [[ "$web_count" -gt 0 ]]; then
+        log INFO "  200 OK:        $(count_lines "${dir}/by_status/200.txt")"
+        log INFO "  301 Redirect:  $(count_lines "${dir}/by_status/301.txt")"
+        log INFO "  302 Redirect:  $(count_lines "${dir}/by_status/302.txt")"
         log INFO "  403 Forbidden: $(count_lines "${dir}/by_status/403.txt")"
-        log INFO "  Other status codes also categorized in by_status/"
+        log INFO "  500 Error:     $(count_lines "${dir}/by_status/500.txt")"
     fi
 
     phase_end 6 "OK"
@@ -938,7 +961,77 @@ phase7_content() {
     log INFO "Katana URLs: $(count_lines "${dir}/katana_urls.txt")"
     log INFO "GAU URLs: $(count_lines "${dir}/gau_urls.txt")"
 
-    # Merge all discovered URLs
+    # 3. FFUF directory bruteforce on live 200/403 targets
+    local live_200="${OUTDIR}/phase6_web/by_status/200.txt"
+    local live_403="${OUTDIR}/phase6_web/by_status/403.txt"
+    if require_cmd ffuf && [[ -f "$DIRLIST" && -s "$DIRLIST" ]]; then
+        # Collect unique base URLs (scheme://host) from 200 and 403 responses
+        local ffuf_targets
+        ffuf_targets=$(mktemp)
+        python3 - "$live_200" "$live_403" <<'PYEOF' 2>/dev/null | head -20 > "$ffuf_targets"
+import sys
+from urllib.parse import urlparse
+seen = set()
+for path in sys.argv[1:]:
+    try:
+        with open(path) as fh:
+            for line in fh:
+                url = line.strip()
+                if not url:
+                    continue
+                p = urlparse(url)
+                if p.scheme and p.netloc:
+                    base = f"{p.scheme}://{p.netloc}"
+                    if base not in seen:
+                        seen.add(base)
+                        print(base)
+    except OSError:
+        pass
+PYEOF
+
+        local ffuf_target_count
+        ffuf_target_count=$(count_lines "$ffuf_targets")
+
+        if [[ "$ffuf_target_count" -gt 0 ]]; then
+            mkdir -p "${dir}/ffuf"
+            log INFO "Running ffuf on ${ffuf_target_count} base URLs (directory bruteforce)..."
+
+            while IFS= read -r base_url; do
+                local safe_name
+                safe_name=$(echo "$base_url" | sed 's|https\?://||; s|[/:]|_|g')
+                ffuf -u "${base_url}/FUZZ" \
+                    -w "$DIRLIST" \
+                    -mc 200,301,302,403,500 \
+                    -t 30 \
+                    -rate 100 \
+                    -of json \
+                    -o "${dir}/ffuf/${safe_name}.json" \
+                    -s \
+                    2>/dev/null || true
+            done < "$ffuf_targets"
+
+            # Parse all ffuf JSON files into a single results file
+            if ls "${dir}/ffuf/"*.json &>/dev/null; then
+                python3 "${HELPERS_DIR}/ffuf_parse.py" "${dir}/ffuf" \
+                    --output "${dir}/ffuf_results.txt" \
+                    2>/dev/null || true
+                log INFO "FFUF directory findings: $(count_lines "${dir}/ffuf_results.txt")"
+            else
+                log WARN "FFUF produced no output files."
+            fi
+        else
+            log INFO "No 200/403 targets found for ffuf; skipping directory bruteforce."
+        fi
+        rm -f "$ffuf_targets"
+    else
+        if ! require_cmd ffuf; then
+            log WARN "ffuf not found; skipping directory bruteforce."
+        else
+            log WARN "DIRLIST not found (${DIRLIST}); skipping directory bruteforce."
+        fi
+    fi
+
+    # Merge all discovered URLs (katana + gau)
     merge_files "${dir}/all_urls.txt" \
         "${dir}/katana_urls.txt" \
         "${dir}/gau_urls.txt"
@@ -1031,44 +1124,23 @@ phase8_vulns() {
         -o "${dir}/nuclei_all.json" \
         2>"${dir}/nuclei.log" || true
 
-    # Derive text summary from JSON
+    # Parse JSON output: derive text summary + per-severity JSON files
     if [[ -s "${dir}/nuclei_all.json" ]]; then
-        python3 -c "
-import json
-for line in open('${dir}/nuclei_all.json'):
-    try:
-        obj = json.loads(line)
-        tid = obj.get('template-id', '')
-        sev = obj.get('info', {}).get('severity', '')
-        matched = obj.get('matched-at', '')
-        print(f'[{sev}] [{tid}] {matched}')
-    except:
-        pass
-" > "${dir}/nuclei_all.txt" 2>/dev/null || true
+        python3 "${HELPERS_DIR}/nuclei_parse.py" "${dir}/nuclei_all.json" \
+            --text-out    "${dir}/nuclei_all.txt" \
+            --severity-dir "${dir}" \
+            2>"${dir}/nuclei_parse.log" || true
     fi
 
     log INFO "Total findings: $(count_lines "${dir}/nuclei_all.txt")"
 
-    # Split by severity
-    if [[ -s "${dir}/nuclei_all.json" ]]; then
-        for severity in info low medium high critical; do
-            python3 -c "
-import json, sys
-for line in open('${dir}/nuclei_all.json'):
-    try:
-        obj = json.loads(line)
-        if obj.get('info', {}).get('severity', '').lower() == '${severity}':
-            print(line.strip())
-    except:
-        pass
-" > "${dir}/nuclei_${severity}.json" 2>/dev/null || true
-            local sev_count
-            sev_count=$(count_lines "${dir}/nuclei_${severity}.json")
-            if [[ "$sev_count" -gt 0 ]]; then
-                log INFO "  ${severity^^}: ${sev_count} findings"
-            fi
-        done
-    fi
+    for severity in critical high medium low info; do
+        local sev_count
+        sev_count=$(count_lines "${dir}/nuclei_${severity}.json")
+        if [[ "$sev_count" -gt 0 ]]; then
+            log INFO "  ${severity^^}: ${sev_count} findings"
+        fi
+    done
 
     phase_end 8 "OK"
 }
@@ -1106,12 +1178,13 @@ phase9_certstream() {
         --duration 60 \
         2>"${OUTDIR}/certstream.log" &
     local cs_pid=$!
+    CERTSTREAM_PID="$cs_pid"          # global so cleanup_exit can kill it
     echo "$cs_pid" > "$certstream_pid_file"
     log INFO "Certstream PID: ${cs_pid} (output: ${certstream_out})"
     log INFO "To run indefinitely later: python3 ${HELPERS_DIR}/certstream_monitor.py --domains ${DOMAIN} -o certs.txt"
 
-    # Don't wait - let it run in background during other phases
-    # It will auto-stop after --duration seconds
+    # Don't wait - let it run in background during other phases.
+    # It auto-stops after --duration seconds; cleanup_exit handles early termination.
 
     phase_end 9 "OK"
 }
@@ -1125,33 +1198,27 @@ phase10_reporting() {
     local report_dir="${OUTDIR}/report"
     local master="${OUTDIR}/master_subdomains.txt"
 
-    # If certstream is still running, wait for it
+    # Wait for certstream (started in phase 9) to finish before reporting
     local certstream_pid_file="${OUTDIR}/certstream.pid"
-    if [[ -f "$certstream_pid_file" ]]; then
-        local cs_pid
-        cs_pid=$(cat "$certstream_pid_file")
-        if kill -0 "$cs_pid" 2>/dev/null; then
-            log INFO "Waiting for certstream monitor to finish (max 90s)..."
-            local waited=0
-            while kill -0 "$cs_pid" 2>/dev/null && [[ $waited -lt 90 ]]; do
-                sleep 1
-                waited=$((waited + 1))
-            done
-            if kill -0 "$cs_pid" 2>/dev/null; then
-                log WARN "Certstream monitor still running after 90s, killing it."
-                kill "$cs_pid" 2>/dev/null || true
-                sleep 2
-                kill -9 "$cs_pid" 2>/dev/null || true
-            fi
+    if [[ -n "$CERTSTREAM_PID" ]] && kill -0 "$CERTSTREAM_PID" 2>/dev/null; then
+        log INFO "Waiting for certstream monitor to finish (max 90s)..."
+        local waited=0
+        while kill -0 "$CERTSTREAM_PID" 2>/dev/null && [[ $waited -lt 90 ]]; do
+            sleep 1
+            waited=$((waited + 1))
+        done
+        if kill -0 "$CERTSTREAM_PID" 2>/dev/null; then
+            log WARN "Certstream still running after 90s; letting cleanup_exit handle it."
         fi
-        rm -f "$certstream_pid_file"
+        CERTSTREAM_PID=""
+    fi
+    rm -f "$certstream_pid_file"
 
-        # Merge certstream findings into master
-        local cs_out="${OUTDIR}/phase2_passive/certstream.txt"
-        if [[ -s "$cs_out" && -s "$master" ]]; then
-            cat "$cs_out" >> "$master"
-            sort -u "$master" -o "$master"
-        fi
+    # Merge certstream findings into master
+    local cs_out="${OUTDIR}/phase2_passive/certstream.txt"
+    if [[ -s "$cs_out" && -s "$master" ]]; then
+        cat "$cs_out" >> "$master"
+        sort -u "$master" -o "$master"
     fi
 
     # Mark Phase 10 status before generating the summary table
@@ -1198,6 +1265,7 @@ phase10_reporting() {
         echo "----------------------------------------------"
         echo "URLs discovered:     $(count_lines "${OUTDIR}/phase7_content/all_urls.txt" 2>/dev/null)"
         echo "JS files:            $(count_lines "${OUTDIR}/phase7_content/js_files.txt" 2>/dev/null)"
+        echo "FFUF dir findings:   $(count_lines "${OUTDIR}/phase7_content/ffuf_results.txt" 2>/dev/null)"
         echo "Nuclei findings:     $(count_lines "${OUTDIR}/phase8_vulns/nuclei_all.txt" 2>/dev/null)"
         for sev in critical high medium low info; do
             local sev_file="${OUTDIR}/phase8_vulns/nuclei_${sev}.json"
@@ -1220,39 +1288,13 @@ phase10_reporting() {
     # Display summary
     cat "$summary"
 
-    # Also save a JSON stats file
-    python3 -c "
-import json, os, sys
-
-stats = {
-    'program': '${PROGRAM}',
-    'domain': '${DOMAIN}',
-    'output_dir': '${OUTDIR}',
-    'counts': {}
-}
-
-files_to_count = {
-    'passive_merged': '${OUTDIR}/phase2_passive/merged_passive.txt',
-    'resolved': '${OUTDIR}/phase3_dns/resolved.txt',
-    'bruteforce': '${OUTDIR}/phase4_active/bruteforce.txt',
-    'permutations': '${OUTDIR}/phase4_active/permutations.txt',
-    'master': '${OUTDIR}/master_subdomains.txt',
-    'ports': '${OUTDIR}/phase5_ports/naabu_scan.txt',
-    'web_assets': '${OUTDIR}/phase6_web/httpx_output.txt',
-    'urls': '${OUTDIR}/phase7_content/all_urls.txt',
-    'nuclei': '${OUTDIR}/phase8_vulns/nuclei_all.txt',
-}
-
-for key, path in files_to_count.items():
-    try:
-        with open(path) as f:
-            stats['counts'][key] = sum(1 for _ in f)
-    except:
-        stats['counts'][key] = 0
-
-with open('${report_dir}/stats.json', 'w') as f:
-    json.dump(stats, f, indent=2)
-" 2>/dev/null || true
+    # Save a JSON stats file via helper
+    python3 "${HELPERS_DIR}/stats_gen.py" \
+        --program "${PROGRAM}" \
+        --domain  "${DOMAIN}" \
+        --outdir  "${OUTDIR}" \
+        --output  "${report_dir}/stats.json" \
+        2>/dev/null || true
 
     # Generate consolidated domain report
     generate_consolidated_report
@@ -1290,6 +1332,7 @@ generate_consolidated_report() {
         echo "Open Ports:           $(count_lines "${OUTDIR}/phase5_ports/naabu_scan.txt" 2>/dev/null)"
         echo "URLs Discovered:      $(count_lines "${OUTDIR}/phase7_content/all_urls.txt" 2>/dev/null)"
         echo "JS Files Analyzed:    $(count_lines "${OUTDIR}/phase7_content/js_files.txt" 2>/dev/null)"
+        echo "FFUF Dir Findings:    $(count_lines "${OUTDIR}/phase7_content/ffuf_results.txt" 2>/dev/null)"
         echo "Vulnerabilities:      $(count_lines "${OUTDIR}/phase8_vulns/nuclei_all.txt" 2>/dev/null)"
         echo ""
 
@@ -1298,18 +1341,25 @@ generate_consolidated_report() {
             echo "═══════════════════════════════════════════════════════════════════════════"
             echo "  ASN INFORMATION"
             echo "═══════════════════════════════════════════════════════════════════════════"
-            python3 -c "
+            python3 - "${OUTDIR}/phase1_rootdomain/asn_info.json" <<'PYEOF' 2>/dev/null || echo "ASN information not available"
 import json, sys
 try:
-    with open('${OUTDIR}/phase1_rootdomain/asn_info.json') as f:
+    with open(sys.argv[1]) as f:
         data = json.load(f)
-    print('ASN Number:       {}'.format(data.get('asn', 'N/A')))
-    print('ASN Name:         {}'.format(data.get('name', 'N/A')))
-    print('ASN Description:  {}'.format(data.get('description', 'N/A')))
-    print('IP Ranges:        {} CIDR blocks'.format(len(data.get('prefixes', []))))
-except:
-    print('ASN information not available')
-" 2>/dev/null || echo "ASN information not available"
+    asns     = data.get('asns', [])
+    prefixes = data.get('prefixes', [])
+    print('Domain IP:        {}'.format(data.get('ip', 'N/A')))
+    if asns:
+        for entry in asns:
+            print('ASN Number:       {}'.format(entry.get('asn', 'N/A')))
+            print('ASN Org:          {}'.format(entry.get('org', 'N/A')))
+    else:
+        print('ASN Number:       N/A')
+        print('ASN Org:          N/A')
+    print('IP Ranges:        {} CIDR blocks'.format(len(prefixes)))
+except Exception as e:
+    print('ASN information not available ({})'.format(e))
+PYEOF
             echo ""
         fi
 
@@ -1489,29 +1539,30 @@ except:
         echo "═══════════════════════════════════════════════════════════════════════════"
         echo "  CRITICAL VULNERABILITIES (*** IMMEDIATE ACTION REQUIRED ***)"
         echo "═══════════════════════════════════════════════════════════════════════════"
-        if [[ -f "${OUTDIR}/phase8_vulns/nuclei_critical.json" && -s "${OUTDIR}/phase8_vulns/nuclei_critical.json" ]]; then
-            echo "⚠️  CRITICAL FINDINGS: $(count_lines "${OUTDIR}/phase8_vulns/nuclei_critical.json")"
+        local crit_file="${OUTDIR}/phase8_vulns/nuclei_critical.json"
+        if [[ -f "$crit_file" && -s "$crit_file" ]]; then
+            echo "CRITICAL FINDINGS: $(count_lines "$crit_file")"
             echo ""
-            python3 -c "
-import json
+            python3 - "$crit_file" <<'PYEOF' 2>/dev/null
+import json, sys
 try:
-    with open('${OUTDIR}/phase8_vulns/nuclei_critical.json') as f:
+    with open(sys.argv[1]) as f:
         for line in f:
             try:
                 obj = json.loads(line)
-                tid = obj.get('template-id', 'unknown')
-                name = obj.get('info', {}).get('name', 'Unknown')
+                tid     = obj.get('template-id', 'unknown')
+                name    = obj.get('info', {}).get('name', 'Unknown')
                 matched = obj.get('matched-at', 'N/A')
                 print(f'[{tid}] {name}')
-                print(f'  → {matched}')
+                print(f'  -> {matched}')
                 print()
-            except:
+            except Exception:
                 pass
-except:
+except Exception:
     print('No critical vulnerabilities')
-" 2>/dev/null
+PYEOF
         else
-            echo "✓ No critical vulnerabilities found"
+            echo "No critical vulnerabilities found"
         fi
         echo ""
 
@@ -1519,29 +1570,30 @@ except:
         echo "═══════════════════════════════════════════════════════════════════════════"
         echo "  HIGH SEVERITY VULNERABILITIES"
         echo "═══════════════════════════════════════════════════════════════════════════"
-        if [[ -f "${OUTDIR}/phase8_vulns/nuclei_high.json" && -s "${OUTDIR}/phase8_vulns/nuclei_high.json" ]]; then
-            echo "⚠️  HIGH SEVERITY FINDINGS: $(count_lines "${OUTDIR}/phase8_vulns/nuclei_high.json")"
+        local high_file="${OUTDIR}/phase8_vulns/nuclei_high.json"
+        if [[ -f "$high_file" && -s "$high_file" ]]; then
+            echo "HIGH SEVERITY FINDINGS: $(count_lines "$high_file")"
             echo ""
-            python3 -c "
-import json
+            python3 - "$high_file" <<'PYEOF' 2>/dev/null
+import json, sys
 try:
-    with open('${OUTDIR}/phase8_vulns/nuclei_high.json') as f:
+    with open(sys.argv[1]) as f:
         for line in f:
             try:
                 obj = json.loads(line)
-                tid = obj.get('template-id', 'unknown')
-                name = obj.get('info', {}).get('name', 'Unknown')
+                tid     = obj.get('template-id', 'unknown')
+                name    = obj.get('info', {}).get('name', 'Unknown')
                 matched = obj.get('matched-at', 'N/A')
                 print(f'[{tid}] {name}')
-                print(f'  → {matched}')
+                print(f'  -> {matched}')
                 print()
-            except:
+            except Exception:
                 pass
-except:
+except Exception:
     print('No high severity vulnerabilities')
-" 2>/dev/null
+PYEOF
         else
-            echo "✓ No high severity vulnerabilities found"
+            echo "No high severity vulnerabilities found"
         fi
         echo ""
 
@@ -1568,9 +1620,10 @@ except:
         echo "3. Test CNAME records for subdomain takeover vulnerabilities"
         echo "4. Manually verify interesting API endpoints from JavaScript analysis"
         echo "5. Review open ports for unnecessary services"
-        echo "6. Test discovered admin/debug/internal endpoints"
-        echo "7. Analyze URLs for potential injection points"
-        echo "8. Check for outdated software versions in httpx output"
+        echo "6. Investigate FFUF directory findings in phase7_content/ffuf_results.txt"
+        echo "7. Test discovered admin/debug/internal endpoints"
+        echo "8. Analyze URLs for potential injection points"
+        echo "9. Check for outdated software versions in httpx output"
         echo ""
 
         # File Locations
@@ -1582,6 +1635,7 @@ except:
         echo "Open Ports:           phase5_ports/naabu_scan.txt"
         echo "JS Endpoints:         phase7_content/js_endpoints.txt"
         echo "JS Secrets:           phase7_content/js_secrets.txt"
+        echo "FFUF Dir Results:     phase7_content/ffuf_results.txt"
         echo "Critical Vulns:       phase8_vulns/nuclei_critical.json"
         echo "High Vulns:           phase8_vulns/nuclei_high.json"
         echo "Full Summary:         report/summary.txt"
